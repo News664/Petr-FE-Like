@@ -21,7 +21,7 @@
  *   FOREST: def+1 avo+10 | GATE: def+2
  */
 
-import { TileType, Unit, Team, UnitState } from './Unit';
+import { TileType, Unit } from './Unit';
 
 export interface TileData {
   type:        TileType;
