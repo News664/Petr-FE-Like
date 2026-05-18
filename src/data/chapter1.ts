@@ -3,7 +3,7 @@
  * Chapter 1 static data for Petr-FE-Like.
  *
  * Contents:
- *   CHAPTER1_MAP_GRID   — 14×20 tile-type grid (row-major, TileType values)
+ *   CHAPTER1_MAP_GRID   — 20×14 tile-type grid (row-major, TileType values)
  *   unitPlacements      — starting (x, y) for each named unit
  *   auraSources         — pre-placed aura statues on the map
  *   escapeTiles         — tiles that trigger chapter clear when Eirika steps on them
@@ -15,21 +15,27 @@
  *   0 = GRASS, 1 = ROAD, 2 = BUILDING, 3 = FOREST, 4 = GATE, 5 = WELL, 6 = ESCAPE
  *
  * Map layout (20 cols × 14 rows, row 0 = north):
- *   Row 0:  GRASS×7, ESCAPE×3 (cols 7-9), GRASS×10
- *   Row 3:  BUILDING at (1,2), (4,3) clusters; see grid below
- *   Row 4:  WELLs at cols 6-7; BUILDING clusters continue
- *   Row 5:  WELL at col 6; BUILDING cluster at cols 10-11
- *   Row 6-7: GATE at cols 8-11
+ *   Row 0:  GRASS×7, ESCAPE at cols 7-10, GRASS×9
+ *   Row 3:  BUILDING at cols 2-3 and 13-14
+ *   Row 4:  BUILDING at cols 2-3 and 13-14; WELL at cols 5-6
+ *   Row 5:  WALL row — BUILDING at cols 2-7 and 10-19; open at cols 0,1,8,9
+ *           (The west passage at cols 0-1 is open; gate gap at cols 8-9)
  *
  * Unit placements (x = col, y = row):
- *   Eirika (9,12), Tana (7,12), Vanessa (8,7), Syrene (10,7)
+ *   Eirika (9,12), Tana (7,12), Vanessa (8,6), Syrene (9,6)
  *   EnemySoldier1 (7,1), EnemySoldier2 (11,1), Gorgon1 (9,0)
- *   Maya (6,4), FleeingWest (2,8), FleeingEast (16,8)
+ *   Maya (5,4) — north of wall, near well
+ *   FleeingWest (2,3) — north of wall, west
+ *   FleeingEast (15,3) — north of wall, east
  *
  * Pre-placed aura:
- *   Town Guard statue — pos (17,5), TIER_B, radius 4
+ *   Aura statue — pos (17,3), TIER_B, radius 4
  *
- * Chapter clear: Eirika steps on any ESCAPE tile.
+ * Spawn waves:
+ *   Turn 3: EnemySoldier at (5,0), EnemySoldier at (14,0), Gorgon at (10,0)
+ *   Turn 5: StrongGorgon at (9,0), DarkMage at (8,0), TheHand at (9,13)
+ *
+ * Chapter clear: Eirika steps on any ESCAPE tile (row 0, cols 7-10).
  * Chapter fail:  Eirika's state becomes PETRIFIED_CAPTURED.
  */
 
@@ -41,22 +47,22 @@ import type { AuraSource } from '../game/Aura';
 // ---------------------------------------------------------------------------
 
 export const CHAPTER1_MAP_GRID: number[][] = [
-  // Row 0:  cols 7,8,9 = ESCAPE; rest GRASS
-  [0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  // Row 0:  cols 7,8,9,10 = ESCAPE; rest GRASS
+  [0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   // Row 1
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   // Row 2
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  // Row 3:  BUILDING at cols 1-2 and 13-14
-  [0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0],
-  // Row 4:  BUILDING at cols 1-2 and 13-14; WELL at cols 6-7
-  [0, 2, 2, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0],
-  // Row 5:  WELL at col 6; BUILDING at cols 10-11
-  [0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
-  // Row 6:  GATE at cols 8-11
-  [0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0],
-  // Row 7:  GATE at cols 8-11
-  [0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0],
+  // Row 3:  BUILDING at cols 2-3 and 13-14
+  [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0],
+  // Row 4:  BUILDING at cols 2-3 and 13-14; WELL at cols 5-6
+  [0, 0, 2, 2, 0, 5, 5, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0],
+  // Row 5:  WALL row — open at cols 0,1 (west passage) and 8,9 (gate gap); BUILDING elsewhere
+  [0, 0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+  // Row 6
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  // Row 7
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   // Row 8
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   // Row 9
@@ -85,16 +91,16 @@ export const UNIT_PLACEMENTS: UnitPlacement[] = [
   // Player units
   { unitId: 'eirika',  x:  9, y: 12 },
   { unitId: 'tana',    x:  7, y: 12 },
-  { unitId: 'vanessa', x:  8, y:  7 },
-  { unitId: 'syrene',  x: 10, y:  7 },
+  { unitId: 'vanessa', x:  8, y:  6 },
+  { unitId: 'syrene',  x:  9, y:  6 },
   // Enemies (present from turn 1)
   { unitId: 'soldier_1', x:  7, y: 1 },
   { unitId: 'soldier_2', x: 11, y: 1 },
   { unitId: 'gorgon_1',  x:  9, y: 0 },
-  // NPCs
-  { unitId: 'maya',         x:  6, y:  4 },
-  { unitId: 'fleeing_west', x:  2, y:  8 },
-  { unitId: 'fleeing_east', x: 16, y:  8 },
+  // NPCs — north of wall
+  { unitId: 'maya',         x:  5, y:  4 },
+  { unitId: 'fleeing_west', x:  2, y:  3 },
+  { unitId: 'fleeing_east', x: 15, y:  3 },
 ];
 
 // ---------------------------------------------------------------------------
@@ -103,7 +109,7 @@ export const UNIT_PLACEMENTS: UnitPlacement[] = [
 
 export const INITIAL_AURA_SOURCES: AuraSource[] = [
   {
-    position: { x: 17, y: 5 },
+    position: { x: 17, y: 3 },
     tier:     AuraTier.TIER_B,
     unitName: 'Town Guard',
     radius:   4,
@@ -120,9 +126,10 @@ export interface EscapeTile {
 }
 
 export const ESCAPE_TILES: EscapeTile[] = [
-  { x: 7, y: 0 },
-  { x: 8, y: 0 },
-  { x: 9, y: 0 },
+  { x:  7, y: 0 },
+  { x:  8, y: 0 },
+  { x:  9, y: 0 },
+  { x: 10, y: 0 },
 ];
 
 // ---------------------------------------------------------------------------
@@ -131,7 +138,7 @@ export const ESCAPE_TILES: EscapeTile[] = [
 
 export interface SpawnEntry {
   unitId: string;  // used as factory hint; scene will call the right factory
-  kind:   'soldier' | 'gorgon' | 'strong_gorgon' | 'dark_mage';
+  kind:   'soldier' | 'gorgon' | 'strong_gorgon' | 'dark_mage' | 'the_hand';
   x:      number;
   y:      number;
 }
@@ -155,6 +162,7 @@ export const ENEMY_SPAWN_WAVES: SpawnWave[] = [
     entries: [
       { unitId: 'strong_gorgon_1', kind: 'strong_gorgon', x:  9, y: 0 },
       { unitId: 'dark_mage_1',     kind: 'dark_mage',     x:  8, y: 0 },
+      { unitId: 'the_hand',        kind: 'the_hand',      x:  9, y: 13 },
     ],
   },
 ];
@@ -169,9 +177,10 @@ export interface ScriptedEventMarker {
 }
 
 export const SCRIPTED_EVENT_MARKERS: ScriptedEventMarker[] = [
-  { turn: 2, description: 'Maya degrading timer starts (3 turns)' },
-  { turn: 3, description: 'FleeingWest and FleeingEast degrading timers start (2 turns each)' },
-  { turn: 4, description: 'Gorgon AI priority shifts toward Vanessa/Syrene at the gate' },
+  { turn: 2, description: 'Maya callout dialogue fires; degrading timer starts (3 turns)' },
+  { turn: 3, description: 'FleeingWest and FleeingEast callout dialogue; degrading timers start (2 turns each)' },
+  { turn: 4, description: 'Gorgon AI priority shifts toward Vanessa/Syrene at the wall' },
+  { turn: 5, description: 'The Hand spawns at (9,13); StrongGorgon and DarkMage reinforce north' },
 ];
 
 // ---------------------------------------------------------------------------

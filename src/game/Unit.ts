@@ -8,15 +8,21 @@
  *   Team        — faction allegiance (PLAYER, ENEMY, NPC)
  *   WeaponType  — weapon category; GAZE targets STO_RES instead of HP
  *   AuraTier    — strength of petrified-unit aura (S > A > B)
- *   UnitClass   — job class used for AI and ruleset branching
+ *   UnitClass   — job class used for AI and ruleset branching;
+ *                 includes PURSUER for The Hand
  *
  * Key interfaces:
  *   WeaponData  — single weapon definition with combat stats
  *   UnitStats   — full stat block including stoRes (stone resistance)
+ *   ItemData    — consumable item (e.g. Vulnerary); uses/maxUses/healAmount
  *
  * Unit class:
  *   Represents one combatant. Tracks position, equipped weapon, turn state.
  *   stoRes reaching 0 triggers petrification via petrify().
+ *   items[]         — consumable items carried by this unit
+ *   isNamedCharacter — true for named player characters (Eirika, Tana, Vanessa, Syrene)
+ *   isPursuer        — true for The Hand; uses special AI and capture logic
+ *   isCollecting     — true when The Hand is spending a turn "collecting" a petrified character
  */
 
 export enum TileType {
@@ -65,6 +71,7 @@ export enum UnitClass {
   MAGE            = 'MAGE',
   GORGON          = 'GORGON',
   NPC_CIVILIAN    = 'NPC_CIVILIAN',
+  PURSUER         = 'PURSUER',
 }
 
 export interface WeaponData {
@@ -91,6 +98,14 @@ export interface UnitStats {
   maxStoRes:  number;
 }
 
+/** Consumable item a unit can carry (e.g. Vulnerary). */
+export interface ItemData {
+  name:       string;
+  uses:       number;
+  maxUses:    number;
+  healAmount: number; // HP restored when used
+}
+
 export class Unit {
   id:                  string;
   name:                string;
@@ -106,6 +121,10 @@ export class Unit {
   position:            { x: number; y: number };
   hasMoved:            boolean;
   hasActed:            boolean;
+  items:               ItemData[];
+  isNamedCharacter:    boolean;
+  isPursuer:           boolean;
+  isCollecting:        boolean;
 
   constructor(
     id:        string,
@@ -132,6 +151,10 @@ export class Unit {
     this.position            = { x: 0, y: 0 };
     this.hasMoved            = false;
     this.hasActed            = false;
+    this.items               = [];
+    this.isNamedCharacter    = false;
+    this.isPursuer           = false;
+    this.isCollecting        = false;
   }
 
   getEquippedWeapon(): WeaponData | null {
