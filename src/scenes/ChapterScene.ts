@@ -9,11 +9,13 @@
  *   - Petrified units rendered as grey with "STONE" label
  *   - Pre-placed aura statue rendered as dark grey with skull
  *   - Bottom UI panel: hovered/selected unit stats, End Turn button, phase/turn display
- *   - Input state machine (IDLE → UNIT_SELECTED → UNIT_MOVED → COMBAT)
+ *   - Input state machine with ACTION_MENU, ITEM_SELECT, and COMBAT_PREVIEW overlays
  *   - Turn loop: player phase → enemy AI phase → back to player
  *   - Event trigger system: scripted events, degrading NPC timers
  *   - Aura application each turn
  *   - Win/lose detection
+ *   - The Hand pursuer: uses getPursuerAction, petrifies adjacent units, CG placeholder
+ *   - Battle preview overlay: DOM div above UI panel showing combat stats before confirm
  *
  * Game constants:
  *   TILE_SIZE = 48   MAP_COLS = 20   MAP_ROWS = 14
@@ -27,17 +29,27 @@
  *   IDLE
  *     → click player unit → UNIT_SELECTED
  *   UNIT_SELECTED
- *     → click move tile   → MOVING → UNIT_MOVED
- *     → click attack tile → COMBAT_PREVIEW → (confirm) → COMBAT → IDLE
+ *     → click move tile   → MOVING → ACTION_MENU (unit in MOVED state)
  *     → click same unit   → IDLE (deselect)
- *   UNIT_MOVED
- *     → click enemy       → COMBAT_PREVIEW → (confirm) → COMBAT → IDLE
- *     → End Turn btn      → mark unit DONE → IDLE
+ *   ACTION_MENU (unit in MOVED state, can cancel back to original position)
+ *     → Attack btn        → attack range shown; click enemy → COMBAT_PREVIEW
+ *     → Item btn          → ITEM_SELECT → use item → DONE → IDLE
+ *     → Wait btn          → DONE → IDLE
+ *     → Escape / click elsewhere → cancel move, unit returns to original pos → IDLE
+ *   COMBAT_PREVIEW
+ *     → Confirm btn       → COMBAT → execute, DONE → IDLE
+ *     → Cancel btn        → return to ACTION_MENU
  *   COMBAT → resolve, apply, check petrify/death → IDLE
+ *   ENEMY_PHASE → AI resolves all enemies → back to IDLE (player phase)
+ *   GAME_OVER → no input
  *
  * All game state lives in: map (GameMap), turnManager, auraManager, eventTrigger, aiController.
  * Unit instances are in allUnits: Map<string, Unit>.
  * Graphics containers are in unitContainers: Map<string, Phaser.GameObjects.Container>.
+ *
+ * DOM overlays:
+ *   #action-menu    — shown when unit is in MOVED state; buttons for Attack/Item/Wait
+ *   #battle-preview — shown in COMBAT_PREVIEW; displays damage/hit stats with Confirm/Cancel
  */
 
 import Phaser from 'phaser';
@@ -46,19 +58,20 @@ import { AuraManager } from '../game/Aura';
 import { TurnManager, TurnPhase } from '../game/TurnManager';
 import { AIController } from '../game/AI';
 import { EventTrigger, EventType } from '../game/EventTrigger';
-import { resolveCombat } from '../game/Combat';
+import { resolveCombat, calcDamage, calcHit } from '../game/Combat';
 import {
   Unit,
   TileType,
   Team,
   UnitState,
   UnitClass,
-  WeaponType,
+  AuraTier,
 } from '../game/Unit';
 import type { AuraSource } from '../game/Aura';
 import {
   createEirika, createTana, createVanessa, createSyrene,
   createEnemySoldier, createGorgon, createStrongGorgon, createDarkMage,
+  createTheHand,
   createMaya, createFleeingGirlWest, createFleeingGirlEast,
 } from '../data/characters';
 import {
@@ -73,7 +86,12 @@ import {
   mayaPetrifiedDialogue,
   gateHoldDialogue,
   vanessaPetrifiedDialogue,
+  syrenePetrifiedDialogue,
+  tanaPetrifiedDialogue,
+  handincomingDialogue,
   closingDialogue,
+  mayaCalloutDialogue,
+  fleeingNPCDialogue,
 } from '../data/dialogue';
 import type { DialogueLine } from '../data/dialogue';
 
@@ -114,7 +132,9 @@ enum InputState {
   IDLE            = 'IDLE',
   UNIT_SELECTED   = 'UNIT_SELECTED',
   MOVING          = 'MOVING',
-  UNIT_MOVED      = 'UNIT_MOVED',
+  ACTION_MENU     = 'ACTION_MENU',
+  ITEM_SELECT     = 'ITEM_SELECT',
+  ATTACK_TARGETING = 'ATTACK_TARGETING',
   COMBAT_PREVIEW  = 'COMBAT_PREVIEW',
   COMBAT          = 'COMBAT',
   ENEMY_PHASE     = 'ENEMY_PHASE',
@@ -149,14 +169,24 @@ export class ChapterScene extends Phaser.Scene {
   private combatFlash!:  Phaser.GameObjects.Text;
 
   // Input state machine
-  private inputState:   InputState = InputState.IDLE;
-  private selectedUnit: Unit | null = null;
-  private hoveredUnit:  Unit | null = null;
-  private moveRange:    Set<string> = new Set();
-  private attackRange:  Set<string> = new Set();
+  private inputState:    InputState = InputState.IDLE;
+  private selectedUnit:  Unit | null = null;
+  private hoveredUnit:   Unit | null = null;
+  private moveRange:     Set<string> = new Set();
+  private attackRange:   Set<string> = new Set();
+
+  // Pre-move position for cancel (CHANGE 3: cancel move returns unit here)
+  private preMovePos: { x: number; y: number } | null = null;
 
   // Gorgon AI special behaviour flag (turn 4+)
   private gorgonTargetGatePriority: boolean = false;
+
+  // Track whether The Hand intro dialogue has fired
+  private handIntroFired: boolean = false;
+
+  // DOM overlay references
+  private actionMenuEl!:    HTMLElement;
+  private battlePreviewEl!: HTMLElement;
 
   constructor() {
     super({ key: 'ChapterScene' });
@@ -174,6 +204,10 @@ export class ChapterScene extends Phaser.Scene {
     this.auraManager     = new AuraManager();
     this.eventTrigger    = new EventTrigger();
     this.aiController    = new AIController();
+
+    // Grab DOM overlays
+    this.actionMenuEl    = document.getElementById('action-menu')!;
+    this.battlePreviewEl = document.getElementById('battle-preview')!;
 
     this.buildMap();
     this.spawnInitialUnits();
@@ -417,10 +451,11 @@ export class ChapterScene extends Phaser.Scene {
 
   private spawnEnemy(unitId: string, kind: string, x: number, y: number): void {
     const kindFactories: Record<string, () => Unit> = {
-      soldier:      () => createEnemySoldier(this.nextEnemyIndex('soldier')),
-      gorgon:       () => createGorgon(this.nextEnemyIndex('gorgon')),
+      soldier:       () => createEnemySoldier(this.nextEnemyIndex('soldier')),
+      gorgon:        () => createGorgon(this.nextEnemyIndex('gorgon')),
       strong_gorgon: () => createStrongGorgon(this.nextEnemyIndex('strong_gorgon')),
-      dark_mage:    () => createDarkMage(this.nextEnemyIndex('dark_mage')),
+      dark_mage:     () => createDarkMage(this.nextEnemyIndex('dark_mage')),
+      the_hand:      () => createTheHand(),
     };
 
     const factory = kindFactories[kind];
@@ -436,6 +471,12 @@ export class ChapterScene extends Phaser.Scene {
     this.allUnits.set(unit.id, unit);
     this.gameMap.placeUnit(unit, x, y);
     this.spawnUnitGraphic(unit);
+
+    // The Hand intro dialogue (fires once)
+    if (kind === 'the_hand' && !this.handIntroFired) {
+      this.handIntroFired = true;
+      this.showDialogue(handincomingDialogue, () => {});
+    }
   }
 
   private enemyIndexCounters: Record<string, number> = {};
@@ -462,10 +503,13 @@ export class ChapterScene extends Phaser.Scene {
       );
     }
 
-    // --- Turn 2: Maya degrading timer ---
+    // --- Turn 2: Maya hint dialogue + degrading timer ---
     this.eventTrigger.addTrigger(
       { type: EventType.TURN_START, turn: 2 },
       () => {
+        // NPC hint dialogue (CHANGE 6)
+        this.showDialogue(mayaCalloutDialogue, () => {});
+
         this.eventTrigger.addTimer({
           npcId:          'maya',
           turnsRemaining: 3,
@@ -491,10 +535,13 @@ export class ChapterScene extends Phaser.Scene {
       },
     );
 
-    // --- Turn 3: Fleeing NPC timers ---
+    // --- Turn 3: Fleeing NPC hint dialogue + timers ---
     this.eventTrigger.addTrigger(
       { type: EventType.TURN_START, turn: 3 },
       () => {
+        // NPC hint dialogue (CHANGE 6)
+        this.showDialogue(fleeingNPCDialogue, () => {});
+
         this.eventTrigger.addTimer({
           npcId:          'fleeing_west',
           turnsRemaining: 2,
@@ -576,6 +623,10 @@ export class ChapterScene extends Phaser.Scene {
       }
     }
 
+    // CHANGE 8: Aura tutorial — if Syrene is within 5 tiles of Vanessa's statue,
+    // show yellow warning text above Syrene the first time this happens after Vanessa is petrified.
+    this.checkAuraTutorialWarning();
+
     this.updatePhaseDisplay();
     this.refreshAllUnitGraphics();
     this.drawOverlays();
@@ -586,6 +637,8 @@ export class ChapterScene extends Phaser.Scene {
   }
 
   private endPlayerPhase(): void {
+    this.hideActionMenu();
+    this.hideBattlePreview();
     this.turnManager.endPlayerPhase();
     this.eventTrigger.tickTimers();
     this.selectedUnit = null;
@@ -618,6 +671,13 @@ export class ChapterScene extends Phaser.Scene {
         enemy.state === UnitState.PETRIFIED_SAFE ||
         enemy.state === UnitState.PETRIFIED_CAPTURED
       ) {
+        continue;
+      }
+
+      // The Hand uses its special pursuer AI
+      if (enemy.isPursuer) {
+        await this.runHandTurn(enemy);
+        await this.delay(400);
         continue;
       }
 
@@ -664,6 +724,137 @@ export class ChapterScene extends Phaser.Scene {
     this.startPlayerPhase();
   }
 
+  /**
+   * Runs The Hand's turn using getPursuerAction.
+   * Handles NPC/player petrification, dialogues, CG placeholder, aura adding.
+   */
+  private async runHandTurn(hand: Unit): Promise<void> {
+    const allUnitsList = Array.from(this.allUnits.values());
+    const action = this.aiController.getPursuerAction(hand, this.gameMap, allUnitsList);
+
+    // Move
+    if (action.moveTo.x !== hand.position.x || action.moveTo.y !== hand.position.y) {
+      await this.animateUnitMove(hand, action.moveTo.x, action.moveTo.y);
+    }
+
+    // Process petrification targets
+    for (const target of action.petrifyTargets) {
+      if (
+        target.state === UnitState.DEAD ||
+        target.state === UnitState.PETRIFIED_SAFE ||
+        target.state === UnitState.PETRIFIED_CAPTURED
+      ) {
+        continue;
+      }
+
+      if (target.team === Team.NPC) {
+        // NPCs: instant petrify, no capture dialogue
+        target.petrify(true);
+        this.updateUnitGraphic(target);
+        this.showFlashText(`${target.name} has been petrified.`);
+        // Add aura source for NPC
+        this.auraManager.addSource({
+          position: { x: target.position.x, y: target.position.y },
+          tier:     target.auraTier,
+          unitName: target.name,
+          radius:   this.getAuraRadius(target.auraTier),
+        });
+      } else if (target.team === Team.PLAYER && target.isNamedCharacter) {
+        // Named player character: show petrification dialogue, CG placeholder, then petrify
+        await this.petrifyNamedCharacter(target);
+      } else if (target.team === Team.PLAYER && !target.isNamedCharacter) {
+        // Non-named player: instant petrify
+        target.petrify(true);
+        this.updateUnitGraphic(target);
+        this.auraManager.addSource({
+          position: { x: target.position.x, y: target.position.y },
+          tier:     target.auraTier,
+          unitName: target.name,
+          radius:   this.getAuraRadius(target.auraTier),
+        });
+      }
+    }
+
+    this.refreshAllUnitGraphics();
+    this.drawOverlays();
+    this.checkWinLose();
+  }
+
+  /**
+   * Handles a named character being petrified by The Hand:
+   * 1. Show character-specific petrification dialogue.
+   * 2. Show CG placeholder.
+   * 3. Petrify the unit (captured=true).
+   * 4. Add their aura source.
+   * 5. Special cases for Vanessa (CHANGE 5, 8) and Syrene.
+   */
+  private async petrifyNamedCharacter(unit: Unit): Promise<void> {
+    return new Promise<void>(resolve => {
+      // Choose dialogue
+      let script: DialogueLine[];
+      if (unit.id === 'vanessa') {
+        script = vanessaPetrifiedDialogue;
+      } else if (unit.id === 'syrene') {
+        script = syrenePetrifiedDialogue;
+      } else if (unit.id === 'tana') {
+        script = tanaPetrifiedDialogue;
+      } else {
+        // Fallback: generic narrator line
+        script = [{ speaker: 'Narrator', text: `${unit.name} has been petrified.`, portrait: '' }];
+      }
+
+      this.showDialogue(script, () => {
+        // Show CG placeholder after dialogue
+        this.showCGPlaceholder(unit.name, () => {
+          // Actually petrify
+          unit.petrify(true);
+          this.updateUnitGraphic(unit);
+          this.eventTrigger.checkTriggers(EventType.UNIT_PETRIFIED, { unitId: unit.id });
+
+          // Add aura source
+          this.auraManager.addSource({
+            position: { x: unit.position.x, y: unit.position.y },
+            tier:     unit.auraTier,
+            unitName: unit.name,
+            radius:   this.getAuraRadius(unit.auraTier),
+          });
+
+          // CHANGE 5: If Vanessa was just petrified, check if Syrene is within 5 tiles
+          if (unit.id === 'vanessa') {
+            const syrene = this.allUnits.get('syrene');
+            if (syrene) {
+              const dist =
+                Math.abs(syrene.position.x - unit.position.x) +
+                Math.abs(syrene.position.y - unit.position.y);
+              if (dist <= 5) {
+                const syreneDialog: DialogueLine[] = [
+                  {
+                    speaker: 'Syrene',
+                    text:    'Vanessa... The aura — I can feel it weakening me!',
+                    portrait: 'syrene',
+                  },
+                ];
+                this.showDialogue(syreneDialog, () => {
+                  this.drawOverlays();
+                  resolve();
+                });
+                return;
+              }
+            }
+          }
+
+          // Eirika captured → game over
+          if (unit.id === 'eirika') {
+            this.triggerGameOver('Eirika has been captured!');
+          }
+
+          this.drawOverlays();
+          resolve();
+        });
+      });
+    });
+  }
+
   /** Check if any petrified player unit has an adjacent enemy → capture. */
   private checkPetrifiedCapture(): void {
     const dirs = [{ dx: 0, dy: -1 }, { dx: 0, dy: 1 }, { dx: -1, dy: 0 }, { dx: 1, dy: 0 }];
@@ -693,20 +884,58 @@ export class ChapterScene extends Phaser.Scene {
             return;
           }
 
-          // Show relevant dialogue
-          if (unit.id === 'vanessa') {
-            this.showDialogue(vanessaPetrifiedDialogue, () => {});
-          }
-
           break;
         }
       }
     }
   }
 
-  private getAuraRadius(tier: import('../game/Unit').AuraTier): number {
+  private getAuraRadius(tier: AuraTier): number {
     const map: Record<number, number> = { 3: 6, 2: 5, 1: 4 };
     return map[tier] ?? 4;
+  }
+
+  // ==========================================================================
+  // CHANGE 8: Aura tutorial warning
+  // ==========================================================================
+
+  private auraTutorialShown: boolean = false;
+
+  private checkAuraTutorialWarning(): void {
+    if (this.auraTutorialShown) return;
+    const vanessa = this.allUnits.get('vanessa');
+    if (!vanessa || vanessa.state === UnitState.ACTIVE) return; // not yet petrified
+
+    const syrene = this.allUnits.get('syrene');
+    if (!syrene || syrene.state !== UnitState.ACTIVE) return;
+
+    const dist =
+      Math.abs(syrene.position.x - vanessa.position.x) +
+      Math.abs(syrene.position.y - vanessa.position.y);
+    if (dist > 5) return;
+
+    this.auraTutorialShown = true;
+
+    // Show yellow floating text above Syrene
+    const px = syrene.position.x * TILE_SIZE + TILE_SIZE / 2;
+    const py = syrene.position.y * TILE_SIZE - 8;
+    const label = this.add.text(px, py, 'STO-RES -1/turn', {
+      fontSize:        '11px',
+      color:           '#ffee00',
+      fontFamily:      'monospace',
+      fontStyle:       'bold',
+      stroke:          '#000000',
+      strokeThickness: 3,
+    }).setOrigin(0.5, 1);
+
+    this.tweens.add({
+      targets:  label,
+      y:        py - 30,
+      alpha:    0,
+      duration: 3000,
+      ease:     'Linear',
+      onComplete: () => { label.destroy(); },
+    });
   }
 
   // ==========================================================================
@@ -821,6 +1050,8 @@ export class ChapterScene extends Phaser.Scene {
 
   private triggerChapterClear(): void {
     this.inputState = InputState.GAME_OVER;
+    this.hideActionMenu();
+    this.hideBattlePreview();
     this.moveRange.clear();
     this.attackRange.clear();
     this.drawOverlays();
@@ -832,6 +1063,8 @@ export class ChapterScene extends Phaser.Scene {
 
   private triggerGameOver(reason: string): void {
     this.inputState = InputState.GAME_OVER;
+    this.hideActionMenu();
+    this.hideBattlePreview();
     this.moveRange.clear();
     this.attackRange.clear();
     this.drawOverlays();
@@ -852,6 +1085,67 @@ export class ChapterScene extends Phaser.Scene {
       align:      'center',
       wordWrap:   { width: 600 },
     }).setOrigin(0.5, 0.5);
+  }
+
+  // ==========================================================================
+  // CHANGE 7: CG placeholder
+  // ==========================================================================
+
+  /**
+   * Shows a full-screen black overlay with a grey placeholder rectangle
+   * representing the CG artwork for a petrified named character.
+   * Dismisses on click or spacebar, then calls onDismiss.
+   */
+  showCGPlaceholder(characterName: string, onDismiss: () => void): void {
+    // Full black overlay
+    const overlay = this.add.rectangle(
+      0, 0,
+      this.scale.width, this.scale.height,
+      0x000000, 1,
+    ).setOrigin(0, 0).setDepth(100).setInteractive();
+
+    // Grey CG placeholder rectangle centred on screen
+    const cx = this.scale.width / 2;
+    const cy = this.scale.height / 2;
+    const cgBox = this.add.rectangle(cx, cy - 20, 400, 300, 0x333333)
+      .setOrigin(0.5, 0.5).setDepth(101);
+
+    // Main text
+    const titleText = this.add.text(cx, cy - 20, `${characterName} — Petrification CG`, {
+      fontSize:   '18px',
+      color:      '#ffffff',
+      fontFamily: 'monospace',
+      align:      'center',
+    }).setOrigin(0.5, 0.5).setDepth(102);
+
+    // Sub-text
+    const subText = this.add.text(cx, cy + 20, '(CG artwork pending)', {
+      fontSize:   '13px',
+      color:      '#888888',
+      fontFamily: 'monospace',
+      align:      'center',
+    }).setOrigin(0.5, 0.5).setDepth(102);
+
+    // Dismiss hint
+    const hintText = this.add.text(cx, cy + 120, '[Click or Space to continue]', {
+      fontSize:   '11px',
+      color:      '#555566',
+      fontFamily: 'monospace',
+      align:      'center',
+    }).setOrigin(0.5, 0.5).setDepth(102);
+
+    const dismiss = (): void => {
+      overlay.destroy();
+      cgBox.destroy();
+      titleText.destroy();
+      subText.destroy();
+      hintText.destroy();
+      this.input.keyboard?.off('keydown-SPACE', dismiss);
+      onDismiss();
+    };
+
+    overlay.on('pointerdown', dismiss);
+    this.input.keyboard?.once('keydown-SPACE', dismiss);
   }
 
   // ==========================================================================
@@ -956,6 +1250,299 @@ export class ChapterScene extends Phaser.Scene {
   }
 
   // ==========================================================================
+  // CHANGE 3: Action menu (DOM overlay)
+  // ==========================================================================
+
+  /**
+   * Shows the action menu near the unit (post-move).
+   * Buttons: Attack (if targets exist), Item (if usable items), Wait.
+   */
+  private showActionMenu(unit: Unit): void {
+    this.inputState = InputState.ACTION_MENU;
+
+    // Position near the unit, offset right and slightly above, clamped to canvas
+    const canvasEl = this.game.canvas;
+    const canvasRect = canvasEl.getBoundingClientRect();
+    const parentRect = canvasEl.parentElement!.getBoundingClientRect();
+
+    const tilePixelX = unit.position.x * TILE_SIZE + TILE_SIZE;
+    const tilePixelY = unit.position.y * TILE_SIZE;
+
+    // Clamp so menu doesn't go off the right edge
+    const menuWidth  = 120;
+    const clampedX   = Math.min(tilePixelX, MAP_COLS * TILE_SIZE - menuWidth);
+    const clampedY   = Math.max(0, Math.min(tilePixelY, MAP_HEIGHT - 120));
+
+    // Offset by canvas position relative to parent
+    const offsetX = canvasRect.left - parentRect.left;
+    const offsetY = canvasRect.top  - parentRect.top;
+
+    this.actionMenuEl.style.left = `${clampedX + offsetX}px`;
+    this.actionMenuEl.style.top  = `${clampedY + offsetY}px`;
+
+    // Build button HTML
+    const attackRange = this.gameMap.getAttackRange(unit);
+    const hasTargets = this.getValidAttackTargets(unit, attackRange).length > 0;
+    const hasItems   = unit.items.some(i => i.uses > 0);
+
+    let html = '';
+
+    if (hasTargets) {
+      html += `<button id="amenu-attack">Attack</button>`;
+    }
+    if (hasItems) {
+      html += `<button id="amenu-item">Item</button>`;
+    }
+    html += `<button id="amenu-wait">Wait</button>`;
+
+    this.actionMenuEl.innerHTML = html;
+    this.actionMenuEl.style.display = 'block';
+
+    // Bind handlers
+    if (hasTargets) {
+      document.getElementById('amenu-attack')!.addEventListener('click', () => {
+        this.onActionMenuAttack(unit);
+      }, { once: true });
+    }
+    if (hasItems) {
+      document.getElementById('amenu-item')!.addEventListener('click', () => {
+        this.onActionMenuItem(unit);
+      }, { once: true });
+    }
+    document.getElementById('amenu-wait')!.addEventListener('click', () => {
+      this.onActionMenuWait(unit);
+    }, { once: true });
+  }
+
+  private hideActionMenu(): void {
+    this.actionMenuEl.style.display = 'none';
+    this.actionMenuEl.innerHTML = '';
+  }
+
+  /** Returns enemy units in range from the unit's current position. The Hand is excluded. */
+  private getValidAttackTargets(unit: Unit, attackRange?: Set<string>): Unit[] {
+    const range = attackRange ?? this.gameMap.getAttackRange(unit);
+    const targets: Unit[] = [];
+    for (const key of range) {
+      const [tx, ty] = key.split(',').map(Number);
+      const occ = this.gameMap.getUnit(tx, ty);
+      if (
+        occ &&
+        occ.team === Team.ENEMY &&
+        occ.state !== UnitState.DEAD &&
+        occ.state !== UnitState.PETRIFIED_SAFE &&
+        occ.state !== UnitState.PETRIFIED_CAPTURED &&
+        !occ.isPursuer   // CHANGE 5: The Hand cannot be targeted
+      ) {
+        targets.push(occ);
+      }
+    }
+    return targets;
+  }
+
+  private onActionMenuAttack(unit: Unit): void {
+    this.hideActionMenu();
+    // Show attack range, enter targeting mode
+    this.attackRange = this.gameMap.getAttackRange(unit);
+    this.inputState  = InputState.ATTACK_TARGETING;
+    this.drawOverlays();
+  }
+
+  private onActionMenuItem(unit: Unit): void {
+    this.hideActionMenu();
+    this.inputState = InputState.ITEM_SELECT;
+    this.showItemSelectMenu(unit);
+  }
+
+  private onActionMenuWait(unit: Unit): void {
+    this.hideActionMenu();
+    unit.state    = UnitState.DONE;
+    unit.hasActed = true;
+    this.selectedUnit = null;
+    this.moveRange.clear();
+    this.attackRange.clear();
+    this.inputState = InputState.IDLE;
+    this.updateUnitGraphic(unit);
+    this.drawOverlays();
+  }
+
+  // ==========================================================================
+  // CHANGE 3: Item select (simple inline approach using flash text + auto-use)
+  // ==========================================================================
+
+  /**
+   * Shows an item selection menu near the unit.
+   * For MVP: lists items with uses > 0, clicking one uses it, ends the unit's turn.
+   */
+  private showItemSelectMenu(unit: Unit): void {
+    const usableItems = unit.items.filter(i => i.uses > 0);
+    if (usableItems.length === 0) {
+      this.deselectUnit();
+      return;
+    }
+
+    // Build menu HTML in the action-menu div
+    let html = '';
+    usableItems.forEach((item, idx) => {
+      html += `<button id="item-btn-${idx}">${item.name} (${item.uses}/${item.maxUses})</button>`;
+    });
+    html += `<button id="item-btn-cancel">Cancel</button>`;
+
+    this.actionMenuEl.innerHTML = html;
+    this.actionMenuEl.style.display = 'block';
+
+    // Position near the unit
+    const canvasEl  = this.game.canvas;
+    const canvasRect = canvasEl.getBoundingClientRect();
+    const parentRect = canvasEl.parentElement!.getBoundingClientRect();
+    const offsetX    = canvasRect.left - parentRect.left;
+    const offsetY    = canvasRect.top  - parentRect.top;
+    const tilePixelX = unit.position.x * TILE_SIZE + TILE_SIZE;
+    const tilePixelY = unit.position.y * TILE_SIZE;
+    this.actionMenuEl.style.left = `${tilePixelX + offsetX}px`;
+    this.actionMenuEl.style.top  = `${tilePixelY + offsetY}px`;
+
+    usableItems.forEach((_item, idx) => {
+      document.getElementById(`item-btn-${idx}`)!.addEventListener('click', () => {
+        this.hideActionMenu();
+        this.useItem(unit, idx);
+      }, { once: true });
+    });
+    document.getElementById('item-btn-cancel')!.addEventListener('click', () => {
+      this.hideActionMenu();
+      // Return to action menu
+      this.showActionMenu(unit);
+    }, { once: true });
+  }
+
+  /** Uses the item at the given index in unit.items (filtered to usable items). */
+  private useItem(unit: Unit, usableIndex: number): void {
+    const usableItems = unit.items.filter(i => i.uses > 0);
+    const item = usableItems[usableIndex];
+    if (!item) return;
+
+    // Restore HP
+    const healed = Math.min(item.healAmount, unit.stats.maxHp - unit.stats.hp);
+    unit.stats.hp = Math.min(unit.stats.maxHp, unit.stats.hp + item.healAmount);
+    item.uses--;
+
+    this.showFlashText(`${unit.name} uses ${item.name}! +${healed} HP`);
+
+    // End unit's turn
+    unit.state    = UnitState.DONE;
+    unit.hasActed = true;
+    this.selectedUnit = null;
+    this.moveRange.clear();
+    this.attackRange.clear();
+    this.inputState = InputState.IDLE;
+    this.updateUnitGraphic(unit);
+    this.drawOverlays();
+  }
+
+  // ==========================================================================
+  // CHANGE 4: Battle preview overlay
+  // ==========================================================================
+
+  /**
+   * Populates and shows the #battle-preview DOM overlay.
+   * Uses calcDamage/calcHit to display expected outcome.
+   * Shows "—" for defender stats if they cannot counter.
+   */
+  private showBattlePreview(attacker: Unit, defender: Unit): void {
+    const atkWeapon = attacker.getEquippedWeapon();
+    const defWeapon = defender.getEquippedWeapon();
+
+    const atkDmg = atkWeapon ? calcDamage(attacker, defender, this.gameMap) : 0;
+    const atkHit = atkWeapon ? calcHit(attacker, defender, this.gameMap) : 0;
+
+    // Check if defender can counter
+    let canCounter = false;
+    if (defWeapon) {
+      const dx   = Math.abs(attacker.position.x - defender.position.x);
+      const dy   = Math.abs(attacker.position.y - defender.position.y);
+      const dist = dx + dy;
+      canCounter = dist >= defWeapon.minRange && dist <= defWeapon.maxRange;
+    }
+
+    const defDmgStr = canCounter ? String(calcDamage(defender, attacker, this.gameMap)) : '—';
+    const defHitStr = canCounter ? `${calcHit(defender, attacker, this.gameMap)}%` : '—';
+
+    const atkWeaponName = atkWeapon?.name ?? '—';
+    const defWeaponName = defWeapon?.name ?? '—';
+
+    this.battlePreviewEl.innerHTML = `
+      <div class="bp-row">
+        <div class="bp-side">
+          <span class="bp-name">${attacker.name}</span>
+          &nbsp;<span class="bp-stat">${atkWeaponName}</span><br>
+          DMG: <span class="bp-stat">${atkDmg}</span>
+          &nbsp;&nbsp;HIT: <span class="bp-stat">${atkHit}%</span>
+        </div>
+        <div class="bp-vs">vs</div>
+        <div class="bp-side">
+          <span class="bp-name">${defender.name}</span>
+          &nbsp;<span class="bp-stat">${defWeaponName}</span><br>
+          DMG: <span class="bp-stat">${defDmgStr}</span>
+          &nbsp;&nbsp;HIT: <span class="bp-stat">${defHitStr}</span>
+        </div>
+      </div>
+      <div class="bp-buttons">
+        <button id="bp-confirm">Confirm</button>
+        <button id="bp-cancel">Cancel</button>
+      </div>
+    `;
+
+    this.battlePreviewEl.style.display = 'block';
+
+    document.getElementById('bp-confirm')!.addEventListener('click', () => {
+      this.hideBattlePreview();
+      this.confirmCombat(attacker, defender);
+    }, { once: true });
+
+    document.getElementById('bp-cancel')!.addEventListener('click', () => {
+      this.hideBattlePreview();
+      this.cancelCombatPreview();
+    }, { once: true });
+  }
+
+  private hideBattlePreview(): void {
+    this.battlePreviewEl.style.display = 'none';
+    this.battlePreviewEl.innerHTML = '';
+  }
+
+  private confirmCombat(attacker: Unit, defender: Unit): void {
+    this.inputState = InputState.COMBAT;
+    this.executeCombat(attacker, defender);
+
+    // Mark attacker as done
+    if (attacker.team === Team.PLAYER) {
+      attacker.state    = UnitState.DONE;
+      attacker.hasActed = true;
+    }
+
+    
+    this.selectedUnit = null;
+    this.moveRange.clear();
+    this.attackRange.clear();
+    this.inputState = InputState.IDLE;
+    this.drawOverlays();
+  }
+
+  /** Cancel from COMBAT_PREVIEW → returns to ACTION_MENU. */
+  private cancelCombatPreview(): void {
+    
+    this.attackRange.clear();
+    this.moveRange.clear();
+    this.drawOverlays();
+    // Re-show action menu for the selected unit
+    if (this.selectedUnit) {
+      this.showActionMenu(this.selectedUnit);
+    } else {
+      this.inputState = InputState.IDLE;
+    }
+  }
+
+  // ==========================================================================
   // Input
   // ==========================================================================
 
@@ -966,6 +1553,19 @@ export class ChapterScene extends Phaser.Scene {
 
     this.input.on('pointermove', (pointer: Phaser.Input.Pointer) => {
       this.handlePointerMove(pointer);
+    });
+
+    // Escape key: cancel move if unit is in ACTION_MENU state
+    this.input.keyboard?.on('keydown-ESC', () => {
+      if (this.inputState === InputState.ACTION_MENU || this.inputState === InputState.ATTACK_TARGETING) {
+        this.cancelMove();
+      } else if (this.inputState === InputState.COMBAT_PREVIEW) {
+        this.hideBattlePreview();
+        this.cancelCombatPreview();
+      } else if (this.inputState === InputState.ITEM_SELECT) {
+        this.hideActionMenu();
+        if (this.selectedUnit) this.showActionMenu(this.selectedUnit);
+      }
     });
   }
 
@@ -998,7 +1598,6 @@ export class ChapterScene extends Phaser.Scene {
     if (!this.gameMap.isInBounds(col, row)) return;
 
     const clickedUnit = this.gameMap.getUnit(col, row);
-    const clickKey    = `${col},${row}`;
 
     switch (this.inputState) {
       case InputState.IDLE:
@@ -1006,11 +1605,16 @@ export class ChapterScene extends Phaser.Scene {
         break;
 
       case InputState.UNIT_SELECTED:
-        this.handleSelectedClick(col, row, clickKey, clickedUnit);
+        this.handleSelectedClick(col, row, clickedUnit);
         break;
 
-      case InputState.UNIT_MOVED:
-        this.handleMovedClick(col, row, clickedUnit);
+      case InputState.ACTION_MENU:
+        // Click elsewhere (not on action menu DOM) → cancel move
+        this.cancelMove();
+        break;
+
+      case InputState.ATTACK_TARGETING:
+        this.handleAttackTargetingClick(col, row, clickedUnit);
         break;
 
       default:
@@ -1040,22 +1644,13 @@ export class ChapterScene extends Phaser.Scene {
   private handleSelectedClick(
     col:         number,
     row:         number,
-    clickKey:    string,
     clickedUnit: Unit | null,
   ): void {
+    const clickKey = `${col},${row}`;
+
     // Deselect: click same unit
     if (clickedUnit && clickedUnit.id === this.selectedUnit?.id) {
       this.deselectUnit();
-      return;
-    }
-
-    // Click an attack tile with an enemy
-    if (
-      clickedUnit &&
-      clickedUnit.team === Team.ENEMY &&
-      this.attackRange.has(clickKey)
-    ) {
-      this.showCombatPreview(this.selectedUnit!, clickedUnit);
       return;
     }
 
@@ -1079,33 +1674,47 @@ export class ChapterScene extends Phaser.Scene {
     this.deselectUnit();
   }
 
-  private handleMovedClick(
-    _col:        number,
-    _row:        number,
+  /**
+   * Handle click during ATTACK_TARGETING: if enemy in range clicked → show battle preview.
+   * If clicked elsewhere → return to action menu.
+   */
+  private handleAttackTargetingClick(
+    col:         number,
+    row:         number,
     clickedUnit: Unit | null,
   ): void {
+    const clickKey = `${col},${row}`;
     if (
       clickedUnit &&
-      clickedUnit.team === Team.ENEMY
+      clickedUnit.team === Team.ENEMY &&
+      !clickedUnit.isPursuer &&
+      this.attackRange.has(clickKey) &&
+      clickedUnit.state !== UnitState.DEAD &&
+      clickedUnit.state !== UnitState.PETRIFIED_SAFE &&
+      clickedUnit.state !== UnitState.PETRIFIED_CAPTURED
     ) {
-      const weapon = this.selectedUnit?.getEquippedWeapon();
-      if (!weapon || !this.selectedUnit) return;
-
-      const dx   = Math.abs(this.selectedUnit.position.x - clickedUnit.position.x);
-      const dy   = Math.abs(this.selectedUnit.position.y - clickedUnit.position.y);
-      const dist = dx + dy;
-
-      if (dist >= weapon.minRange && dist <= weapon.maxRange) {
-        this.showCombatPreview(this.selectedUnit, clickedUnit);
+      
+      this.inputState = InputState.COMBAT_PREVIEW;
+      this.attackRange.clear();
+      this.drawOverlays();
+      this.showBattlePreview(this.selectedUnit!, clickedUnit);
+    } else {
+      // Clicked non-target: return to action menu
+      this.attackRange.clear();
+      this.drawOverlays();
+      if (this.selectedUnit) {
+        this.showActionMenu(this.selectedUnit);
+      } else {
+        this.inputState = InputState.IDLE;
       }
     }
   }
 
   private selectUnit(unit: Unit): void {
     this.selectedUnit = unit;
-    this.moveRange   = this.gameMap.getMovementRange(unit);
-    this.attackRange = this.gameMap.getAttackRange(unit, this.moveRange);
-    this.inputState  = InputState.UNIT_SELECTED;
+    this.moveRange    = this.gameMap.getMovementRange(unit);
+    this.attackRange  = this.gameMap.getAttackRange(unit, this.moveRange);
+    this.inputState   = InputState.UNIT_SELECTED;
     this.updateUnitInfoPanel(unit);
     this.drawOverlays();
   }
@@ -1114,7 +1723,33 @@ export class ChapterScene extends Phaser.Scene {
     this.selectedUnit = null;
     this.moveRange.clear();
     this.attackRange.clear();
-    this.inputState = InputState.IDLE;
+    this.preMovePos   = null;
+    this.inputState   = InputState.IDLE;
+    this.updateUnitInfoPanel(null);
+    this.drawOverlays();
+  }
+
+  /**
+   * Cancel a move: return the unit to its pre-move position.
+   * Called when player presses Escape or clicks outside the action menu.
+   */
+  private cancelMove(): void {
+    this.hideActionMenu();
+    this.hideBattlePreview();
+
+    if (this.selectedUnit && this.preMovePos) {
+      const unit = this.selectedUnit;
+      this.gameMap.moveUnit(unit, this.preMovePos.x, this.preMovePos.y);
+      unit.state   = UnitState.ACTIVE;
+      unit.hasMoved = false;
+      this.updateUnitGraphic(unit);
+    }
+
+    this.selectedUnit = null;
+    this.moveRange.clear();
+    this.attackRange.clear();
+    this.preMovePos   = null;
+    this.inputState   = InputState.IDLE;
     this.updateUnitInfoPanel(null);
     this.drawOverlays();
   }
@@ -1122,6 +1757,9 @@ export class ChapterScene extends Phaser.Scene {
   private moveSelectedUnit(col: number, row: number): void {
     const unit = this.selectedUnit;
     if (!unit) return;
+
+    // Save pre-move position for potential cancel
+    this.preMovePos = { x: unit.position.x, y: unit.position.y };
 
     this.inputState = InputState.MOVING;
 
@@ -1132,15 +1770,16 @@ export class ChapterScene extends Phaser.Scene {
       // Check NPC adjacency for timer success
       this.checkAdjacentNPCs(unit);
 
-      // Check escape
+      // Check escape — if Eirika hits escape, chapter clear
       this.checkEscape(unit);
+      if (this.inputState === InputState.GAME_OVER) return;
 
-      // Recompute attack range from new position
+      // Clear movement range; show action menu
       this.moveRange.clear();
-      this.attackRange = this.gameMap.getAttackRange(unit);
-      this.inputState  = InputState.UNIT_MOVED;
+      this.attackRange.clear();
       this.drawOverlays();
       this.updateUnitInfoPanel(unit);
+      this.showActionMenu(unit);
     });
   }
 
@@ -1154,47 +1793,6 @@ export class ChapterScene extends Phaser.Scene {
         this.eventTrigger.checkTimerSuccess(occupant.id);
       }
     }
-  }
-
-  // ==========================================================================
-  // Combat preview
-  // ==========================================================================
-
-  private showCombatPreview(attacker: Unit, defender: Unit): void {
-    // In MVP: show a brief text and ask to confirm with another click
-    // We'll auto-confirm after showing the flash for simplicity
-    this.inputState = InputState.COMBAT_PREVIEW;
-
-    const atkWeapon = attacker.getEquippedWeapon();
-    const weaponType = atkWeapon?.type;
-    const isGaze = weaponType === WeaponType.GAZE;
-
-    const dmgLabel = isGaze ? 'STO dmg' : 'dmg';
-    this.showFlashText(
-      `Attack: ${attacker.name} → ${defender.name}  [click again to confirm]`,
-    );
-
-    // Allow second click to confirm
-    this.input.once('pointerdown', (pointer: Phaser.Input.Pointer) => {
-      if (pointer.y >= MAP_HEIGHT) return;
-      if (this.inputState !== InputState.COMBAT_PREVIEW) return;
-
-      void dmgLabel;
-      this.inputState = InputState.COMBAT;
-      this.executeCombat(attacker, defender);
-
-      // Mark attacker as done
-      if (attacker.team === Team.PLAYER) {
-        attacker.state    = UnitState.DONE;
-        attacker.hasActed = true;
-      }
-
-      this.selectedUnit = null;
-      this.moveRange.clear();
-      this.attackRange.clear();
-      this.inputState = InputState.IDLE;
-      this.drawOverlays();
-    });
   }
 
   // ==========================================================================
