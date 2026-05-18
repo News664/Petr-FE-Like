@@ -6,7 +6,7 @@
  *
  * Unit roster:
  *   Player units — Eirika (LORD), Tana, Vanessa, Syrene (PEGASUS_KNIGHTs)
- *   Enemy units  — EnemySoldier, Gorgon, StrongGorgon, DarkMage
+ *   Enemy units  — EnemySoldier, Gorgon, WeakGorgon, StrongGorgon, DarkMage
  *   Special      — TheHand (PURSUER, effectively unkillable, isPursuer=true)
  *   NPCs         — Maya (well NPC), FleeingGirlWest, FleeingGirlEast
  *                  BreachGuard1, BreachGuard2 (inside stronghold, petrified on turn 5)
@@ -34,8 +34,19 @@
  *   Vanessa: spd 10 (+2), lck 7 (+3), def 7 (+1)
  *   Syrene:  spd 11 (+2), lck 8 (+3), def 8 (+1)
  *
+ * STO-RES rebalancing (CHANGE L):
+ *   Stone Gaze damage formula: max(1, gaze.might - floor(unit.res / 2))
+ *   Gorgon Stone Gaze might 5; tuned so regular Gorgon petrifies in 2–3 hits:
+ *   Eirika:        maxStoRes 10 (RES 3 → 4 dmg/hit → 3 hits)
+ *   Tana:          maxStoRes  8 (RES 4 → 3 dmg/hit → 3 hits)
+ *   Vanessa:       maxStoRes  8 (RES 5 → 3 dmg/hit → 3 hits)
+ *   Syrene:        maxStoRes  6 (RES 6 → 2 dmg/hit → 3 hits)
+ *   Maya NPC:      maxStoRes  4 (no RES → 1–2 hits)
+ *   Fleeing NPCs:  maxStoRes  4
+ *
  * Note: NPC units have no weapons and cannot initiate or receive combat.
  *       Gorgon has two weapons; equippedSlot 0 = Stone Gaze (GAZE), slot 1 = Shadowshot (DARK).
+ *       WeakGorgon: id 'weak_gorgon', hp 4/maxHp 18 (heavily damaged), level 1.
  *       AuraTier values: TIER_S=3, TIER_A=2, TIER_B=1.
  *       Enemy units have stoRes 0 — they are immune to being petrified.
  *       Named player characters have isNamedCharacter=true (Eirika, Tana, Vanessa, Syrene).
@@ -119,7 +130,7 @@ export function createEirika(): Unit {
   const stats: UnitStats = {
     hp: 18, maxHp: 18,
     str: 5, mag: 1, skl: 7, spd: 8, lck: 5, def: 4, res: 3,
-    stoRes: 20, maxStoRes: 20,
+    stoRes: 10, maxStoRes: 10,  // CHANGE L: rebalanced (4 dmg/hit → 3 hits)
   };
   const growthRates: GrowthRates = {
     hp: 70, str: 45, mag: 30, skl: 55, spd: 60, lck: 60, def: 35, res: 30,
@@ -138,7 +149,7 @@ export function createTana(): Unit {
   const stats: UnitStats = {
     hp: 17, maxHp: 17,
     str: 6, mag: 1, skl: 6, spd: 9, lck: 6, def: 5, res: 4,
-    stoRes: 18, maxStoRes: 18,
+    stoRes: 8, maxStoRes: 8,  // CHANGE L: rebalanced (3 dmg/hit → 3 hits)
   };
   const growthRates: GrowthRates = {
     hp: 65, str: 55, mag: 20, skl: 50, spd: 65, lck: 50, def: 40, res: 35,
@@ -158,7 +169,7 @@ export function createVanessa(): Unit {
   const stats: UnitStats = {
     hp: 20, maxHp: 20,
     str: 7, mag: 1, skl: 7, spd: 10, lck: 7, def: 7, res: 5,
-    stoRes: 18, maxStoRes: 18,
+    stoRes: 8, maxStoRes: 8,  // CHANGE L: rebalanced (3 dmg/hit → 3 hits)
   };
   const growthRates: GrowthRates = {
     hp: 60, str: 50, mag: 15, skl: 55, spd: 60, lck: 45, def: 45, res: 30,
@@ -178,7 +189,7 @@ export function createSyrene(): Unit {
   const stats: UnitStats = {
     hp: 23, maxHp: 23,
     str: 8, mag: 2, skl: 9, spd: 11, lck: 8, def: 8, res: 6,
-    stoRes: 16, maxStoRes: 16,
+    stoRes: 6, maxStoRes: 6,  // CHANGE L: rebalanced (2 dmg/hit → 3 hits)
   };
   const growthRates: GrowthRates = {
     hp: 55, str: 45, mag: 20, skl: 60, spd: 55, lck: 40, def: 50, res: 35,
@@ -254,6 +265,30 @@ export function createStrongGorgon(index: number): Unit {
   );
 }
 
+/**
+ * CHANGE L: Weak Gorgon — tutorial enemy placed at (4,11) in the stronghold SW.
+ * Already heavily damaged (hp 4 / maxHp 18, level 1). Same weapons as Gorgon.
+ * Uses normal enemy AI (move toward nearest player, attack).
+ */
+export function createWeakGorgon(): Unit {
+  const stats: UnitStats = {
+    hp: 4, maxHp: 18,
+    str: 0, mag: 8, skl: 8, spd: 6, lck: 4, def: 4, res: 8,
+    stoRes: 0, maxStoRes: 0,
+  };
+  return new Unit(
+    'weak_gorgon',
+    'Gorgon',
+    Team.ENEMY,
+    UnitClass.GORGON,
+    stats,
+    [weaponSlot(STONE_GAZE), weaponSlot(SHADOWSHOT)],
+    1,
+    false,
+    AuraTier.TIER_B,
+  );
+}
+
 export function createDarkMage(index: number): Unit {
   const stats: UnitStats = {
     hp: 20, maxHp: 20,
@@ -314,7 +349,7 @@ export function createMaya(): Unit {
   const stats: UnitStats = {
     hp: 10, maxHp: 10,
     str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
-    stoRes: 8, maxStoRes: 8,
+    stoRes: 4, maxStoRes: 4,  // CHANGE L: rebalanced (no RES → 1–2 hits)
   };
   return new Unit('maya', 'Maya', Team.NPC, UnitClass.NPC_CIVILIAN, stats, [], 4, false, AuraTier.TIER_B);
 }
@@ -323,7 +358,7 @@ export function createFleeingGirlWest(): Unit {
   const stats: UnitStats = {
     hp: 10, maxHp: 10,
     str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
-    stoRes: 8, maxStoRes: 8,
+    stoRes: 4, maxStoRes: 4,  // CHANGE L: rebalanced (no RES → 1–2 hits)
   };
   return new Unit('fleeing_west', 'Girl (W)', Team.NPC, UnitClass.NPC_CIVILIAN, stats, [], 4, false, AuraTier.TIER_B);
 }
@@ -332,7 +367,7 @@ export function createFleeingGirlEast(): Unit {
   const stats: UnitStats = {
     hp: 10, maxHp: 10,
     str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
-    stoRes: 8, maxStoRes: 8,
+    stoRes: 4, maxStoRes: 4,  // CHANGE L: rebalanced (no RES → 1–2 hits)
   };
   return new Unit('fleeing_east', 'Girl (E)', Team.NPC, UnitClass.NPC_CIVILIAN, stats, [], 4, false, AuraTier.TIER_B);
 }

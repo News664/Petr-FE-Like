@@ -10,12 +10,16 @@
  *   - Petrified units rendered as grey with "STONE" label
  *   - Pre-placed aura statue rendered as dark grey with skull
  *   - CHANGE E: Decorative statues rendered as dark grey rectangles with "◆" label
- *   - CHANGE G: Bottom UI panel shows two rows of stats (Name/Class/Lv/HP/STO + combat stats)
  *   - CHANGE H: Clicking a petrified unit or decorative statue shows a popup panel
  *   - CHANGE I: Clicking selected unit in MOVED state opens action menu (not deselect)
  *   - CHANGE J: Level-up flash text and stat panel after combat EXP awards
  *   - CHANGE K: The Hand spawn on turn 5 triggers breach guard petrification scripted sequence
- *   - Input state machine with ACTION_MENU, ITEM_SELECT, BREAK_WALL, and COMBAT_PREVIEW overlays
+ *   - CHANGE L: auraManager.sources click detection for pre-placed aura statues;
+ *               WeakGorgon tutorial unit + opening inner-hall cutscene;
+ *               HP=0 on player units → petrifyFromCombat (with defeat dialogue) instead of death
+ *   - CHANGE M: Trade UI — swap/transfer items between adjacent player units
+ *   - CHANGE N: Right-side floating status panel (top-right, 232×200px) replaces bottom unit info
+ *   - Input state machine with ACTION_MENU, ITEM_SELECT, TRADE, BREAK_WALL, COMBAT_PREVIEW overlays
  *   - Turn loop: player phase → enemy AI phase → back to player
  *   - Event trigger system: scripted events, degrading NPC timers
  *   - Aura application each turn
@@ -27,6 +31,13 @@
  *   TILE_SIZE = 48   MAP_COLS = 20   MAP_ROWS = 14
  *   MAP_HEIGHT = 672   UI_HEIGHT = 96   GAME_HEIGHT = 768
  *
+ * Floating status panel (CHANGE N):
+ *   Position: x=720, y=8 (top-right)
+ *   Size: 232×200px, dark bg (0x1a1a2e, alpha 0.85), gold border
+ *   Visible when unit selected or hovered; hidden otherwise
+ *   Content: Name/Class/Lv, HP/STO bars, STR/SKL/SPD/DEF/RES, EXP, equipped weapon
+ *   11px monospace font
+ *
  * Coordinate conventions:
  *   Tile (x=col, y=row), origin top-left.
  *   Pixel = (col * 48, row * 48) for map area.
@@ -34,14 +45,15 @@
  * Input state machine:
  *   IDLE
  *     → click player unit → UNIT_SELECTED
- *     → click petrified/statue → show popup (CHANGE H)
+ *     → click petrified/statue/aura-statue → show popup (CHANGE H / CHANGE L)
  *   UNIT_SELECTED
  *     → click move tile   → MOVING → ACTION_MENU (unit in MOVED state)
  *     → click same unit   → IDLE (deselect)
  *   ACTION_MENU (unit in MOVED state, can cancel back to original position)
  *     → Attack btn        → attack range shown; click enemy → COMBAT_PREVIEW
  *     → Item btn          → ITEM_SELECT → use item → DONE → IDLE
- *     → Break Wall btn    → BREAK_WALL → breaks adjacent BREAKABLE_WALL → DONE → IDLE (CHANGE D)
+ *     → Trade btn         → TRADE → swap items with adjacent ally → DONE → IDLE (CHANGE M)
+ *     → Break Wall btn    → breaks adjacent BREAKABLE_WALL → DONE → IDLE (CHANGE D)
  *     → Wait btn          → DONE → IDLE
  *     → Escape / click elsewhere → cancel move, unit returns to original pos → IDLE
  *   COMBAT_PREVIEW
@@ -56,7 +68,7 @@
  * Graphics containers are in unitContainers: Map<string, Phaser.GameObjects.Container>.
  *
  * DOM overlays:
- *   #action-menu    — shown when unit is in MOVED state; buttons for Attack/Item/Wait/Break Wall
+ *   #action-menu    — shown when unit is in MOVED state; Attack/Item/Trade/Wait/Break Wall
  *   #battle-preview — shown in COMBAT_PREVIEW; displays damage/hit stats with Confirm/Cancel
  */
 
@@ -79,7 +91,7 @@ import type { AuraSource } from '../game/Aura';
 import type { LevelUpResult, ConsumableItem } from '../game/Unit';
 import {
   createEirika, createTana, createVanessa, createSyrene,
-  createEnemySoldier, createGorgon, createStrongGorgon, createDarkMage,
+  createEnemySoldier, createGorgon, createWeakGorgon, createStrongGorgon, createDarkMage,
   createTheHand,
   createMaya, createFleeingGirlWest, createFleeingGirlEast,
   createBreachGuard,
@@ -96,6 +108,7 @@ import {
 import type { DecorativeStatue } from '../data/chapter1';
 import {
   openingDialogue,
+  weakGorgonOpeningDialogue,
   mayaPetrifiedDialogue,
   gateHoldDialogue,
   vanessaPetrifiedDialogue,
@@ -105,6 +118,10 @@ import {
   closingDialogue,
   mayaCalloutDialogue,
   fleeingNPCDialogue,
+  eirikaCombatPetrifiedDialogue,
+  tanaCombatPetrifiedDialogue,
+  vanessaCombatPetrifiedDialogue,
+  syreneCombatPetrifiedDialogue,
 } from '../data/dialogue';
 import type { DialogueLine } from '../data/dialogue';
 
@@ -148,6 +165,7 @@ enum InputState {
   MOVING           = 'MOVING',
   ACTION_MENU      = 'ACTION_MENU',
   ITEM_SELECT      = 'ITEM_SELECT',
+  TRADE            = 'TRADE',
   BREAK_WALL       = 'BREAK_WALL',
   ATTACK_TARGETING = 'ATTACK_TARGETING',
   COMBAT_PREVIEW   = 'COMBAT_PREVIEW',
@@ -182,12 +200,15 @@ export class ChapterScene extends Phaser.Scene {
   private decorativeStatueData: DecorativeStatue[] = [];
 
   // UI elements
-  private uiText!:       Phaser.GameObjects.Text;
-  private uiText2!:      Phaser.GameObjects.Text;  // CHANGE G: second row
+  // CHANGE N: uiText/uiText2 replaced by floating statusPanel (top-right)
   private endTurnBtn!:   Phaser.GameObjects.Rectangle;
   private phaseText!:    Phaser.GameObjects.Text;
   private turnText!:     Phaser.GameObjects.Text;
   private combatFlash!:  Phaser.GameObjects.Text;
+
+  // CHANGE N: Right-side floating status panel
+  private statusPanel!:      Phaser.GameObjects.Container;
+  private statusPanelText!:  Phaser.GameObjects.Text;
 
   // Input state machine
   private inputState:    InputState = InputState.IDLE;
@@ -258,10 +279,15 @@ export class ChapterScene extends Phaser.Scene {
       }
     });
 
-    // Show opening dialogue, then start turn 1
+    // Show opening dialogue, then inner-hall cutscene (weak Gorgon), then start turn 1
+    // CHANGE L: weakGorgonOpeningDialogue fires at chapter start before turn 1
     this.showDialogue(openingDialogue, () => {
       this.showDialogue(gateHoldDialogue, () => {
-        this.startPlayerPhase();
+        this.showDialogue(weakGorgonOpeningDialogue, () => {
+          // Animate the SW guard decorative statue appearing (grey flash)
+          this.flashDecorativeStatue(3, 12);
+          this.startPlayerPhase();
+        });
       });
     });
   }
@@ -499,6 +525,29 @@ export class ChapterScene extends Phaser.Scene {
     }
   }
 
+  /**
+   * CHANGE L: Animate a decorative statue appearing with a grey flash overlay.
+   * Finds the statue container at (col, row) and tweens a white-to-grey alpha flash.
+   */
+  private flashDecorativeStatue(col: number, row: number): void {
+    const idx = this.decorativeStatueData.findIndex(s => s.x === col && s.y === row);
+    if (idx < 0) return;
+    const container = this.statueContainers[idx];
+    if (!container) return;
+
+    const px = col * TILE_SIZE + TILE_SIZE / 2;
+    const py = row * TILE_SIZE + TILE_SIZE / 2;
+    const flash = this.add.rectangle(px, py, TILE_SIZE, TILE_SIZE, 0xffffff, 0.85)
+      .setDepth(60);
+    this.tweens.add({
+      targets:  flash,
+      alpha:    0,
+      duration: 600,
+      ease:     'Linear',
+      onComplete: () => { flash.destroy(); },
+    });
+  }
+
   // ==========================================================================
   // Unit spawning and placement
   // ==========================================================================
@@ -517,6 +566,8 @@ export class ChapterScene extends Phaser.Scene {
       fleeing_east:    createFleeingGirlEast,
       guard_breach_1:  () => createBreachGuard(1),
       guard_breach_2:  () => createBreachGuard(2),
+      // CHANGE L: Tutorial weak Gorgon in SW interior
+      weak_gorgon:     createWeakGorgon,
     };
 
     for (const placement of UNIT_PLACEMENTS) {
@@ -540,6 +591,7 @@ export class ChapterScene extends Phaser.Scene {
     const kindFactories: Record<string, () => Unit> = {
       soldier:       () => createEnemySoldier(this.nextEnemyIndex('soldier')),
       gorgon:        () => createGorgon(this.nextEnemyIndex('gorgon')),
+      weak_gorgon:   () => createWeakGorgon(),
       strong_gorgon: () => createStrongGorgon(this.nextEnemyIndex('strong_gorgon')),
       dark_mage:     () => createDarkMage(this.nextEnemyIndex('dark_mage')),
       the_hand:      () => createTheHand(),
@@ -1132,12 +1184,21 @@ export class ChapterScene extends Phaser.Scene {
       this.petrifyUnit(defender, false);
     }
 
-    // Check deaths
+    // Check deaths / combat petrification (CHANGE L/CHANGE M):
+    // Player units at HP=0 are petrified rather than killed.
     if (defender.stats.hp <= 0) {
-      this.killUnit(defender);
+      if (defender.team === Team.PLAYER) {
+        this.petrifyFromCombat(defender);
+      } else {
+        this.killUnit(defender);
+      }
     }
     if (attacker.stats.hp <= 0) {
-      this.killUnit(attacker);
+      if (attacker.team === Team.PLAYER) {
+        this.petrifyFromCombat(attacker);
+      } else {
+        this.killUnit(attacker);
+      }
     }
 
     this.refreshAllUnitGraphics();
@@ -1247,11 +1308,53 @@ export class ChapterScene extends Phaser.Scene {
     }
   }
 
+  /**
+   * CHANGE L (CHANGE M): Called when a player unit reaches HP=0 in combat.
+   * Instead of dying, the unit is petrified (initially PETRIFIED_SAFE).
+   * Shows the unit's defeat dialogue, then a CG placeholder, then petrifies.
+   * If an enemy is adjacent at the start of the next enemy phase, it becomes PETRIFIED_CAPTURED.
+   */
+  private petrifyFromCombat(unit: Unit): void {
+    // Map unit id → combat petrification dialogue
+    const scriptMap: Record<string, DialogueLine[]> = {
+      eirika:  eirikaCombatPetrifiedDialogue,
+      tana:    tanaCombatPetrifiedDialogue,
+      vanessa: vanessaCombatPetrifiedDialogue,
+      syrene:  syreneCombatPetrifiedDialogue,
+    };
+    const script = scriptMap[unit.id] ?? [
+      { speaker: 'Narrator', text: `${unit.name} has been petrified.`, portrait: '' },
+    ];
+
+    unit.stats.hp = 0;
+
+    this.showDialogue(script, () => {
+      this.showCGPlaceholder(unit.name, () => {
+        // Petrify as SAFE initially — enemy phase may upgrade to CAPTURED
+        unit.petrify(false);
+        this.updateUnitGraphic(unit);
+        this.eventTrigger.checkTriggers(EventType.UNIT_PETRIFIED, { unitId: unit.id });
+
+        if (unit.id === 'eirika') {
+          this.triggerGameOver('Eirika has been petrified!');
+        }
+
+        this.drawOverlays();
+        this.checkWinLose();
+      });
+    });
+  }
+
   private killUnit(unit: Unit): void {
     unit.state = UnitState.DEAD;
     this.gameMap.removeUnit(unit);
     this.destroyUnitGraphic(unit.id);
     this.allUnits.delete(unit.id);
+
+    // CHANGE L: Weak Gorgon tutorial defeat acknowledgement
+    if (unit.id === 'weak_gorgon') {
+      this.showFlashText('The Gorgon has been defeated. The passage is clear.');
+    }
   }
 
   // ==========================================================================
@@ -1510,29 +1613,67 @@ export class ChapterScene extends Phaser.Scene {
     );
   }
 
+  /**
+   * CHANGE L (CHANGE 1): Show popup for a pre-placed aura statue stored in auraManager.sources.
+   * Displays tier, radius, and effect description. Same popup style as petrified unit popup.
+   */
+  private showAuraStatuePopup(source: AuraSource): void {
+    const tierNames: Record<AuraTier, string> = {
+      [AuraTier.TIER_S]: 'S',
+      [AuraTier.TIER_A]: 'A',
+      [AuraTier.TIER_B]: 'B',
+    };
+    const tierName = tierNames[source.tier];
+    const decay = this.getAuraDecay(source.tier);
+    const auraInfo =
+      `Aura Tier ${tierName} (${source.radius} tile radius):\n` +
+      `• Player stats debuffed within radius\n` +
+      `• STO-RES decay: +${decay}/turn in radius`;
+
+    this.showUnitPopup(
+      `${source.unitName} — Captured Statue`,
+      'Captured',
+      auraInfo,
+      'No stat records found.',
+    );
+  }
+
   // ==========================================================================
   // UI
   // ==========================================================================
 
   private buildUI(): void {
-    // Background panel
+    // Background panel (bottom bar — phase/turn/end-turn only; unit info moved to floating panel)
     this.add.rectangle(0, UI_Y, this.scale.width, UI_HEIGHT, 0x111122)
       .setOrigin(0, 0);
 
-    // CHANGE G: Row 1 unit info (name/class/level/HP/STO)
-    this.uiText = this.add.text(8, UI_Y + 5, '', {
-      fontSize:    '13px',
-      color:       '#ccccff',
+    // CHANGE N: old unit info rows replaced by floating statusPanel (see below)
+
+    // CHANGE N: Right-side floating status panel (top-right, 232×200px)
+    const PANEL_X = 720;
+    const PANEL_Y = 8;
+    const PANEL_W = 232;
+    const PANEL_H = 200;
+
+    this.statusPanel = this.add.container(PANEL_X + PANEL_W / 2, PANEL_Y + PANEL_H / 2)
+      .setDepth(20)
+      .setVisible(false);
+
+    const panelBg = this.add.rectangle(0, 0, PANEL_W, PANEL_H, 0x1a1a2e, 0.85)
+      .setOrigin(0.5, 0.5);
+    const panelBorder = this.add.rectangle(0, 0, PANEL_W, PANEL_H, 0x000000, 0)
+      .setOrigin(0.5, 0.5)
+      .setStrokeStyle(2, 0xccaa44, 1);
+
+    this.statusPanelText = this.add.text(-PANEL_W / 2 + 6, -PANEL_H / 2 + 6, '', {
+      fontSize:    '11px',
+      color:       '#ccddee',
       fontFamily:  'monospace',
       lineSpacing: 2,
+      wordWrap:    { width: PANEL_W - 12 },
     }).setOrigin(0, 0);
 
-    // CHANGE G: Row 2 combat stats (STR/SKL/SPD/DEF/RES/EXP) in smaller font
-    this.uiText2 = this.add.text(8, UI_Y + 26, '', {
-      fontSize:   '11px',
-      color:      '#aabbdd',
-      fontFamily: 'monospace',
-    }).setOrigin(0, 0);
+    this.statusPanel.add([panelBg, panelBorder, this.statusPanelText]);
 
     // Phase and turn display (centre)
     this.phaseText = this.add.text(this.scale.width / 2, UI_Y + 8, '', {
@@ -1599,39 +1740,43 @@ export class ChapterScene extends Phaser.Scene {
     this.turnText.setText(`Turn ${this.turnManager.currentTurn}`);
   }
 
-  /** CHANGE G: Two-row unit info panel. */
+  /**
+   * CHANGE N: Update the floating right-side status panel.
+   * Hides the panel when no unit is provided; shows it otherwise.
+   * Layout:
+   *   [Name]          Lv [X]
+   *   [Class]
+   *   HP:  xx / xx   STO: xx / xx
+   *   STR: xx  SKL: xx  SPD: xx
+   *   DEF: xx  RES: xx
+   *   EXP: xx / 100
+   *   Equipped: [weapon name]
+   */
   private updateUnitInfoPanel(unit: Unit | null): void {
     if (!unit) {
-      this.uiText.setText('');
-      this.uiText2.setText('');
+      this.statusPanel.setVisible(false);
       return;
     }
 
     const weapon    = unit.getEquippedWeapon();
-    const weaponStr = weapon ? `${weapon.name}` : '—';
-    const stateStr  = unit.state !== UnitState.ACTIVE ? ` [${unit.state}]` : '';
+    const weaponStr = weapon ? weapon.name : '—';
     const classStr  = unit.unitClass.replace('_', ' ');
+    const stoLine   = unit.stats.maxStoRes > 0
+      ? `   STO: ${unit.stats.stoRes}/${unit.stats.maxStoRes}`
+      : '';
 
-    // Row 1: Name | Class | Lv X | HP: x/y | STO: x/y
-    const row1Parts: string[] = [
-      `${unit.name}`,
+    const lines: string[] = [
+      `${unit.name}          Lv ${unit.level}`,
       classStr,
-      `Lv ${unit.level}`,
-      `HP: ${unit.stats.hp}/${unit.stats.maxHp}`,
+      `HP:  ${unit.stats.hp} / ${unit.stats.maxHp}${stoLine}`,
+      `STR: ${unit.stats.str}  SKL: ${unit.stats.skl}  SPD: ${unit.stats.spd}`,
+      `DEF: ${unit.stats.def}  RES: ${unit.stats.res}`,
+      `EXP: ${unit.exp} / 100`,
+      `Equipped: ${weaponStr}`,
     ];
-    if (unit.stats.maxStoRes > 0) {
-      row1Parts.push(`STO: ${unit.stats.stoRes}/${unit.stats.maxStoRes}`);
-    }
-    if (stateStr) row1Parts.push(stateStr.trim());
-    row1Parts.push(`Wpn: ${weaponStr}`);
 
-    // Row 2: STR/SKL/SPD/DEF/RES/EXP
-    const row2 =
-      `STR: ${unit.stats.str}  SKL: ${unit.stats.skl}  SPD: ${unit.stats.spd}  ` +
-      `DEF: ${unit.stats.def}  RES: ${unit.stats.res}  EXP: ${unit.exp}/100`;
-
-    this.uiText.setText(row1Parts.join('  |  '));
-    this.uiText2.setText(row2);
+    this.statusPanelText.setText(lines.join('\n'));
+    this.statusPanel.setVisible(true);
   }
 
   // ==========================================================================
@@ -1663,14 +1808,19 @@ export class ChapterScene extends Phaser.Scene {
     this.actionMenuEl.style.left = `${clampedX + offsetX}px`;
     this.actionMenuEl.style.top  = `${clampedY + offsetY}px`;
 
-    const attackRange  = this.gameMap.getAttackRange(unit);
-    const hasTargets   = this.getValidAttackTargets(unit, attackRange).length > 0;
-    const hasUsable    = unit.inventory.some(i => i.kind === 'consumable' && i.uses > 0);
-    const breakWallPos = this.findAdjacentBreakableWall(unit);
+    const attackRange    = this.gameMap.getAttackRange(unit);
+    const hasTargets     = this.getValidAttackTargets(unit, attackRange).length > 0;
+    const hasUsable      = unit.inventory.some(i => i.kind === 'consumable' && i.uses > 0);
+    const breakWallPos   = this.findAdjacentBreakableWall(unit);
+    // CHANGE M: Trade button available if this unit has items and an adjacent ally exists
+    const hasItems       = unit.inventory.length > 0;
+    const adjacentAllies = this.findAdjacentPlayerUnits(unit);
+    const canTrade       = hasItems && adjacentAllies.length > 0;
 
     let html = '';
     if (hasTargets)  html += `<button id="amenu-attack">Attack</button>`;
     if (hasUsable)   html += `<button id="amenu-item">Item</button>`;
+    if (canTrade)    html += `<button id="amenu-trade">Trade</button>`;
     if (breakWallPos) html += `<button id="amenu-break">Break Wall</button>`;
     html += `<button id="amenu-wait">Wait</button>`;
 
@@ -1685,6 +1835,11 @@ export class ChapterScene extends Phaser.Scene {
     if (hasUsable) {
       document.getElementById('amenu-item')!.addEventListener('click', () => {
         this.onActionMenuItem(unit);
+      }, { once: true });
+    }
+    if (canTrade) {
+      document.getElementById('amenu-trade')!.addEventListener('click', () => {
+        this.onActionMenuTrade(unit, adjacentAllies);
       }, { once: true });
     }
     if (breakWallPos) {
@@ -1709,6 +1864,248 @@ export class ChapterScene extends Phaser.Scene {
       }
     }
     return null;
+  }
+
+  /** CHANGE M: Returns all ACTIVE player units adjacent to the given unit. */
+  private findAdjacentPlayerUnits(unit: Unit): Unit[] {
+    const dirs = [{ dx: 0, dy: -1 }, { dx: 0, dy: 1 }, { dx: -1, dy: 0 }, { dx: 1, dy: 0 }];
+    const result: Unit[] = [];
+    for (const dir of dirs) {
+      const nx  = unit.position.x + dir.dx;
+      const ny  = unit.position.y + dir.dy;
+      const occ = this.gameMap.getUnit(nx, ny);
+      if (occ && occ.team === Team.PLAYER && occ.id !== unit.id) result.push(occ);
+    }
+    return result;
+  }
+
+  /**
+   * CHANGE M: Trade action — if multiple allies adjacent, show ally picker first.
+   * Otherwise, open the trade UI directly.
+   */
+  private onActionMenuTrade(unit: Unit, allies: Unit[]): void {
+    this.hideActionMenu();
+    if (allies.length === 1) {
+      this.openTradeUI(unit, allies[0]);
+    } else {
+      // Show ally picker
+      let html = '';
+      allies.forEach((ally, i) => {
+        html += `<button id="trade-ally-${i}">${ally.name}</button>`;
+      });
+      html += `<button id="trade-ally-cancel">Cancel</button>`;
+      this.actionMenuEl.innerHTML = html;
+      this.actionMenuEl.style.display = 'block';
+      allies.forEach((ally, i) => {
+        document.getElementById(`trade-ally-${i}`)!.addEventListener('click', () => {
+          this.hideActionMenu();
+          this.openTradeUI(unit, ally);
+        }, { once: true });
+      });
+      document.getElementById('trade-ally-cancel')!.addEventListener('click', () => {
+        this.hideActionMenu();
+        this.showActionMenu(unit);
+      }, { once: true });
+    }
+  }
+
+  /**
+   * CHANGE M: Trade UI — Phaser container popup with two-column inventory display.
+   *
+   * Left column:  current unit's inventory (5 slots)
+   * Right column: target ally's inventory (5 slots)
+   * Click an item to "hold" it, click a destination slot to place/swap.
+   * Confirm Trade → finalise, mark unit DONE.
+   * Cancel → revert, return to action menu.
+   *
+   * Inventory snapshots are deep-cloned at open time; Confirm applies them.
+   */
+  private tradePopup: Phaser.GameObjects.Container | null = null;
+
+  private openTradeUI(unitA: Unit, unitB: Unit): void {
+    this.inputState = InputState.TRADE;
+
+    // Deep-clone inventories for rollback
+    const snapA = unitA.inventory.map(i => ({ ...i }));
+    const snapB = unitB.inventory.map(i => ({ ...i }));
+
+    // Working copies (live during trade session)
+    let invA = unitA.inventory.map(i => ({ ...i }));
+    let invB = unitB.inventory.map(i => ({ ...i }));
+    let heldItem: (typeof invA[number]) | null = null;
+    let heldFrom: 'A' | 'B' | null = null;
+    let heldIdx: number = -1;
+
+    const SLOTS = 5;
+    const PW = 200;  // panel width per column
+    const PH = 280;
+    const cx = this.scale.width / 2;
+    const cy = this.scale.height / 2;
+
+    const buildPopup = (): void => {
+      if (this.tradePopup) { this.tradePopup.destroy(); this.tradePopup = null; }
+
+      const container = this.add.container(cx, cy).setDepth(95);
+      this.tradePopup  = container;
+
+      const totalW = PW * 2 + 40;
+      const bg     = this.add.rectangle(0, 0, totalW, PH + 60, 0x111133, 0.96)
+        .setOrigin(0.5, 0.5);
+      const border = this.add.rectangle(0, 0, totalW, PH + 60, 0x000000, 0)
+        .setOrigin(0.5, 0.5).setStrokeStyle(2, 0xccaa44, 1);
+
+      container.add([bg, border]);
+
+      const titleTxt = this.add.text(0, -(PH / 2 + 22), `Trade: ${unitA.name}  ↔  ${unitB.name}`, {
+        fontSize: '13px', color: '#eeeeff', fontFamily: 'monospace', fontStyle: 'bold',
+      }).setOrigin(0.5, 0.5);
+      container.add(titleTxt);
+
+      // Status line for held item
+      const statusTxt = this.add.text(0, -(PH / 2 + 6), heldItem
+        ? `Holding: ${(heldItem as any).name ?? (heldItem as any).data?.name ?? '?'} — click a slot to place`
+        : 'Click an item to pick up', {
+        fontSize: '10px', color: '#aabbcc', fontFamily: 'monospace',
+      }).setOrigin(0.5, 0.5);
+      container.add(statusTxt);
+
+      const drawColumn = (
+        inv:    (typeof invA),
+        side:   'A' | 'B',
+        offX:   number,
+        label:  string,
+      ): void => {
+        const lblTxt = this.add.text(offX, -PH / 2 + 14, label, {
+          fontSize: '11px', color: '#ffcc66', fontFamily: 'monospace', fontStyle: 'bold',
+        }).setOrigin(0.5, 0.5);
+        container.add(lblTxt);
+
+        for (let idx = 0; idx < SLOTS; idx++) {
+          const slotY = -PH / 2 + 34 + idx * 42;
+          const item  = inv[idx] as (typeof invA[number]) | undefined;
+
+          const isHeld = (heldFrom === side && heldIdx === idx);
+          const bgCol  = isHeld ? 0x445566 : (item ? 0x223344 : 0x1a1a2e);
+
+          const slotBg = this.add.rectangle(offX, slotY, PW - 10, 36, bgCol, 0.95)
+            .setOrigin(0.5, 0.5).setInteractive({ cursor: 'pointer' });
+          container.add(slotBg);
+
+          if (item) {
+            const itemName =
+              (item as any).data?.name ??
+              (item as any).name ??
+              '?';
+            const uses = (item as any).uses != null
+              ? ` (${(item as any).uses}/${(item as any).maxUses})`
+              : '';
+            const itemTxt = this.add.text(offX - (PW / 2 - 10), slotY, `${itemName}${uses}`, {
+              fontSize: '10px', color: isHeld ? '#ffee88' : '#ccddee', fontFamily: 'monospace',
+            }).setOrigin(0, 0.5);
+            container.add(itemTxt);
+          } else {
+            const emptyTxt = this.add.text(offX, slotY, '— empty —', {
+              fontSize: '9px', color: '#445566', fontFamily: 'monospace',
+            }).setOrigin(0.5, 0.5);
+            container.add(emptyTxt);
+          }
+
+          slotBg.on('pointerdown', () => {
+            if (heldItem === null) {
+              // Pick up item from this slot
+              if (item) {
+                heldItem = { ...item } as typeof invA[number];
+                heldFrom = side;
+                heldIdx  = idx;
+                buildPopup();
+              }
+            } else {
+              // Place held item into this slot
+              const targetInv = side === 'A' ? invA : invB;
+              const srcInv    = heldFrom === 'A' ? invA : invB;
+
+              const displaced = targetInv[idx]
+                ? { ...(targetInv[idx] as typeof invA[number]) }
+                : undefined;
+
+              targetInv[idx] = heldItem! as typeof invA[number];
+
+              if (displaced) {
+                srcInv[heldIdx] = displaced;
+              } else {
+                srcInv.splice(heldIdx, 1);
+              }
+
+              // Trim to SLOTS and pad with placeholders if needed
+              while (invA.length > SLOTS) invA.pop();
+              while (invB.length > SLOTS) invB.pop();
+
+              heldItem = null;
+              heldFrom = null;
+              heldIdx  = -1;
+              buildPopup();
+            }
+          });
+          slotBg.on('pointerover',  () => { slotBg.setFillStyle(bgCol === 0x1a1a2e ? 0x2a2a3e : bgCol + 0x111111); });
+          slotBg.on('pointerout',   () => { slotBg.setFillStyle(bgCol); });
+        }
+      };
+
+      drawColumn(invA, 'A', -(PW / 2 + 10), unitA.name);
+      drawColumn(invB, 'B',  (PW / 2 + 10), unitB.name);
+
+      // Confirm button
+      const confirmBg = this.add.rectangle(-(PW / 2 + 10), PH / 2 + 18, 80, 28, 0x335533)
+        .setOrigin(0.5, 0.5).setInteractive({ cursor: 'pointer' });
+      const confirmTxt = this.add.text(-(PW / 2 + 10), PH / 2 + 18, 'Confirm', {
+        fontSize: '12px', color: '#88ff88', fontFamily: 'monospace',
+      }).setOrigin(0.5, 0.5);
+      container.add([confirmBg, confirmTxt]);
+
+      confirmBg.on('pointerover',  () => { confirmBg.setFillStyle(0x446644); });
+      confirmBg.on('pointerout',   () => { confirmBg.setFillStyle(0x335533); });
+      confirmBg.on('pointerdown', () => {
+        // Apply inventories
+        unitA.inventory.length = 0;
+        invA.forEach(i => unitA.inventory.push(i));
+        unitB.inventory.length = 0;
+        invB.forEach(i => unitB.inventory.push(i));
+
+        if (this.tradePopup) { this.tradePopup.destroy(); this.tradePopup = null; }
+        unitA.state    = UnitState.DONE;
+        unitA.hasActed = true;
+        this.selectedUnit = null;
+        this.moveRange.clear();
+        this.attackRange.clear();
+        this.inputState = InputState.IDLE;
+        this.updateUnitGraphic(unitA);
+        this.drawOverlays();
+      });
+
+      // Cancel button
+      const cancelBg = this.add.rectangle((PW / 2 + 10), PH / 2 + 18, 80, 28, 0x553333)
+        .setOrigin(0.5, 0.5).setInteractive({ cursor: 'pointer' });
+      const cancelTxt = this.add.text((PW / 2 + 10), PH / 2 + 18, 'Cancel', {
+        fontSize: '12px', color: '#ff8888', fontFamily: 'monospace',
+      }).setOrigin(0.5, 0.5);
+      container.add([cancelBg, cancelTxt]);
+
+      cancelBg.on('pointerover',  () => { cancelBg.setFillStyle(0x664444); });
+      cancelBg.on('pointerout',   () => { cancelBg.setFillStyle(0x553333); });
+      cancelBg.on('pointerdown', () => {
+        // Revert — restore original inventories
+        unitA.inventory.length = 0;
+        snapA.forEach(i => unitA.inventory.push(i));
+        unitB.inventory.length = 0;
+        snapB.forEach(i => unitB.inventory.push(i));
+
+        if (this.tradePopup) { this.tradePopup.destroy(); this.tradePopup = null; }
+        this.inputState = InputState.ACTION_MENU;
+        this.showActionMenu(unitA);
+      });
+    };
+
+    buildPopup();
   }
 
   private hideActionMenu(): void {
@@ -2000,7 +2397,14 @@ export class ChapterScene extends Phaser.Scene {
   }
 
   private handlePointerMove(pointer: Phaser.Input.Pointer): void {
-    if (pointer.y >= MAP_HEIGHT) return;
+    if (pointer.y >= MAP_HEIGHT) {
+      // Pointer moved off the map — hide panel unless something selected
+      if (this.hoveredUnit) {
+        this.hoveredUnit = null;
+        this.updateUnitInfoPanel(this.selectedUnit);
+      }
+      return;
+    }
 
     const col = Math.floor(pointer.x / TILE_SIZE);
     const row = Math.floor(pointer.y / TILE_SIZE);
@@ -2010,6 +2414,7 @@ export class ChapterScene extends Phaser.Scene {
     const unit = this.gameMap.getUnit(col, row);
     if (unit !== this.hoveredUnit) {
       this.hoveredUnit = unit;
+      // CHANGE N: show hovered unit in panel; fall back to selected unit
       this.updateUnitInfoPanel(unit ?? this.selectedUnit);
     }
   }
@@ -2047,6 +2452,15 @@ export class ChapterScene extends Phaser.Scene {
     const decorStatue = this.decorativeStatueData.find(s => s.x === col && s.y === row);
     if (decorStatue) {
       this.showDecorativeStatuePopup(decorStatue);
+      return;
+    }
+
+    // CHANGE L (CHANGE 1): Check if a pre-placed aura statue was clicked
+    const auraStatue = this.auraManager.sources.find(
+      s => s.position.x === col && s.position.y === row,
+    );
+    if (auraStatue) {
+      this.showAuraStatuePopup(auraStatue);
       return;
     }
 

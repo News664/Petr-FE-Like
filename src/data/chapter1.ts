@@ -17,7 +17,8 @@
  *   5 = WELL,  6 = ESCAPE, 7 = BREAKABLE_WALL
  *
  * Map layout (20 cols × 14 rows, row 0 = north):
- *   Row 0:  all ESCAPE (cols 0–19)
+ *   Row 0:  ESCAPE at cols 0–3, BUILDING at col 4 (blocks west row-0 enemy chase),
+ *           GRASS at cols 5–19
  *   Row 1–2: GRASS
  *   Row 3:  GRASS; BUILDING at cols 2-3 and 13-14
  *   Row 4:  BUILDING at cols 2-3 and 13-14; WELL at cols 5-6
@@ -27,6 +28,7 @@
  *   Row 7:  inner wall — BUILDING at cols 2-7 and 10-16; GRASS at 8-9 (gate), 17-19 (open right)
  *   Row 8-12: stronghold interior — BUILDING west wall col 2, east wall col 16;
  *            BREAKABLE_WALL at (2,10) (west inner wall, opens west passage)
+ *   Row 12: col 2 is GRASS (SW passage open), east wall col 16
  *   Row 13: south wall — BUILDING at cols 2-16
  *
  * Unit placements (x = col, y = row) — CHANGE E redesign:
@@ -37,12 +39,14 @@
  *   FleeingWest (2,3) — north area, west
  *   FleeingEast (15,3) — north area, east
  *   BreachGuard1 (8,12), BreachGuard2 (10,12) — CHANGE K: inside stronghold south
+ *   WeakGorgon (4,11) — CHANGE L: tutorial weak Gorgon in SW interior
  *
  * Pre-placed aura:
  *   Aura statue — pos (17,3), TIER_B, radius 4
  *
- * Decorative statues (CHANGE E):
+ * Decorative statues:
  *   Positions (5,10) and (12,10) inside stronghold — purely visual, no Unit
+ *   Position (3,12) — pre-petrified SW guard (CHANGE L)
  *
  * Spawn waves (CHANGE F — Gorgon1 moved to turn 2):
  *   Turn 2: Gorgon1 at (9,1)
@@ -54,13 +58,16 @@
  *   FleeingEast onSuccess: give rescuing unit AMBER_SHARD
  *   FleeingWest onSuccess: give rescuing unit VULNERARY (or drop)
  *
- * Chapter clear: Eirika steps on any ESCAPE tile (row 0).
+ * Chapter clear: Eirika steps on any ESCAPE tile (x 0–3, row 0).
  * Chapter fail:  Eirika's state becomes PETRIFIED_CAPTURED.
  *
  * CHANGE D: BREAKABLE_WALL (7) at (2,10) in the west stronghold wall.
  * CHANGE E: Full map redesign with stronghold walls and new unit positions.
  * CHANGE F: Gorgon1 delayed to turn 2 spawn wave.
  * CHANGE K: BreachGuard1/2 added to initial placements.
+ * CHANGE L: Row 0 escape limited to cols 0–3 with blocking BUILDING at col 4;
+ *           Row 12 col 2 opened to GRASS (SW passage); WeakGorgon at (4,11);
+ *           decorative statue Guard at (3,12).
  */
 
 import { TileType, AuraTier } from '../game/Unit';
@@ -71,8 +78,8 @@ import type { AuraSource } from '../game/Aura';
 // ---------------------------------------------------------------------------
 
 export const CHAPTER1_MAP_GRID: number[][] = [
-  // Row 0: all ESCAPE
-  [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+  // Row 0: ESCAPE cols 0–3, BUILDING col 4 (blocks west chase), GRASS cols 5–19
+  [6, 6, 6, 6, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   // Row 1: GRASS
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   // Row 2: GRASS
@@ -95,8 +102,8 @@ export const CHAPTER1_MAP_GRID: number[][] = [
   [0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
   // Row 11: west wall col 2, east wall col 16
   [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
-  // Row 12: west wall col 2, east wall col 16
-  [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
+  // Row 12: SW passage open (col 2 = GRASS), east wall col 16; BUILDING at col 16
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
   // Row 13: south wall (cols 2-16)
   [0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0],
 ];
@@ -127,6 +134,8 @@ export const UNIT_PLACEMENTS: UnitPlacement[] = [
   // CHANGE K: Breach guards inside stronghold near south wall
   { unitId: 'guard_breach_1', x:  8, y: 12 },
   { unitId: 'guard_breach_2', x: 10, y: 12 },
+  // CHANGE L: Weak Gorgon — tutorial enemy in SW interior
+  { unitId: 'weak_gorgon', x: 4, y: 11 },
 ];
 
 // ---------------------------------------------------------------------------
@@ -155,6 +164,8 @@ export interface DecorativeStatue {
 export const DECORATIVE_STATUES: DecorativeStatue[] = [
   { x:  5, y: 10, label: 'Unknown Guard' },
   { x: 12, y: 10, label: 'Unknown Guard' },
+  // CHANGE L: Pre-petrified SW guard (already stone before chapter starts)
+  { x:  3, y: 12, label: 'Guard' },
 ];
 
 // ---------------------------------------------------------------------------
@@ -166,12 +177,9 @@ export interface EscapeTile {
   y: number;
 }
 
+// CHANGE L: Escape tiles restricted to cols 0–3 (matching ESCAPE tile types in row 0)
 export const ESCAPE_TILES: EscapeTile[] = [
-  { x:  0, y: 0 }, { x:  1, y: 0 }, { x:  2, y: 0 }, { x:  3, y: 0 },
-  { x:  4, y: 0 }, { x:  5, y: 0 }, { x:  6, y: 0 }, { x:  7, y: 0 },
-  { x:  8, y: 0 }, { x:  9, y: 0 }, { x: 10, y: 0 }, { x: 11, y: 0 },
-  { x: 12, y: 0 }, { x: 13, y: 0 }, { x: 14, y: 0 }, { x: 15, y: 0 },
-  { x: 16, y: 0 }, { x: 17, y: 0 }, { x: 18, y: 0 }, { x: 19, y: 0 },
+  { x: 0, y: 0 }, { x: 1, y: 0 }, { x: 2, y: 0 }, { x: 3, y: 0 },
 ];
 
 // ---------------------------------------------------------------------------
@@ -180,7 +188,7 @@ export const ESCAPE_TILES: EscapeTile[] = [
 
 export interface SpawnEntry {
   unitId: string;  // used as factory hint; scene will call the right factory
-  kind:   'soldier' | 'gorgon' | 'strong_gorgon' | 'dark_mage' | 'the_hand';
+  kind:   'soldier' | 'gorgon' | 'weak_gorgon' | 'strong_gorgon' | 'dark_mage' | 'the_hand';
   x:      number;
   y:      number;
 }
