@@ -7,7 +7,8 @@
  *   text     — dialogue text
  *   portrait — key string used to colour the portrait placeholder
  *              ('eirika' | 'tana' | 'vanessa' | 'syrene' | 'narrator'
- *               | 'maya' | 'npc' | 'hand' | 'enemy')
+ *               | 'maya' | 'npc' | 'npc_west' | 'npc_east' | 'hand' | 'enemy')
+ *              npc_west = NW fleeing girl (younger, panicked); npc_east = NE fleeing girl (exhausted, resigned)
  *
  * DialogueScript: DialogueLine[]
  *
@@ -18,7 +19,7 @@
  *   openingDialogue               — 4 lines; Eirika/Tana react to petrified gate guards
  *   weakGorgonOpeningDialogue     — 4 lines; inner-hall cutscene before turn 1
  *   mayaCalloutDialogue           — 2 lines; fires on turn 2 start
- *   fleeingNPCDialogue            — 2 lines; fires on turn 3 start
+ *   fleeingNPCDialogue            — 2 lines; fires on turn 3 start (portrait: npc_west for '???' speaker)
  *   gateHoldDialogue              — 4 lines; Vanessa/Syrene decide to hold the gate
  *   handincomingDialogue          — 6 lines; The Hand first appears
  *   breachGuardDialogue           — 3 lines; The Hand petrifies breach guards (no "..." — simultaneous)
@@ -29,8 +30,8 @@
  *   amberShardFoundDialogue       — 2 lines; Amber Shard pick-up
  *
  * FIX 7: NPC-specific petrification dialogues (timer onFail):
- *   fleeingWestPetrifiedDialogue  — 4 lines; the fleeing girl (west) petrified
- *   fleeingEastPetrifiedDialogue  — 4 lines; the fleeing girl (east) petrified
+ *   fleeingWestPetrifiedDialogue  — 4 lines; NW girl (npc_west portrait, panicked/younger)
+ *   fleeingEastPetrifiedDialogue  — 4 lines; NE girl (npc_east portrait, resigned/exhausted)
  *   (mayaPetrifiedDialogue already had a specific dialogue and is unchanged)
  *
  * Combat petrification dialogues (HP=0, CHANGE M — all now include "..." line):
@@ -45,6 +46,10 @@
  *   closingDialogue_tanaLost      — Tana petrified, Eirika escaped
  *   closingDialogue_allLost       — all named units lost, only Eirika escaped
  *   closingDialogue               — alias of closingDialogue_someLost (backward compat)
+ *
+ * CHANGE Q: New closing dialogue variants for specific Vanessa/Syrene loss states:
+ *   closingDialogue_vanessaLost   — Vanessa petrified, Syrene survived; Syrene speaks first
+ *   closingDialogue_syreneLost    — Syrene petrified, Vanessa survived; Eirika/Tana speak
  *
  * Compatibility re-exports (names used by ChapterScene before this rewrite):
  *   vanessaPetrifiedDialogue  → alias of vanessaHandPetrifiedDialogue
@@ -95,8 +100,8 @@ export const mayaCalloutDialogue: DialogueLine[] = [
 
 /** Fires on turn 3 start: fleeing NPC warns about The Hand. */
 export const fleeingNPCDialogue: DialogueLine[] = [
-  { speaker: '???', text: "It got Mira — right in front of me — she just stopped moving and I couldn't—", portrait: 'npc' },
-  { speaker: '???', text: "Run! Don't let it look at you!", portrait: 'npc' },
+  { speaker: '???', text: "It got Mira — right in front of me — she just stopped moving and I couldn't—", portrait: 'npc_west' },
+  { speaker: '???', text: "Run! Don't let it look at you!", portrait: 'npc_west' },
 ];
 
 // ---------------------------------------------------------------------------
@@ -187,16 +192,16 @@ export const mayaPetrifiedDialogue: DialogueLine[] = [
 // ---------------------------------------------------------------------------
 
 export const fleeingWestPetrifiedDialogue: DialogueLine[] = [
-  { speaker: '???',      text: "No — no, not yet — my legs won't—!", portrait: 'npc' },
+  { speaker: '???',      text: "No — no no no — my legs won't — please, I don't want to — PLEASE—!", portrait: 'npc_west' },
   { speaker: 'Enemy',    text: "One knee still bent from the stride, arms pitched forward, hair caught streaming behind her — the posture of arrested momentum. Still poses are easy to come by. A figure caught mid-flight, weight already committed to the next step? Considerably rarer. I'll set her in the courtyard where visitors must walk around her to reach the fountain.", portrait: 'enemy' },
-  { speaker: '???',      text: "...", portrait: 'npc' },
+  { speaker: '???',      text: "...", portrait: 'npc_west' },
   { speaker: 'Narrator', text: "The fleeing girl has been petrified.", portrait: '' },
 ];
 
 export const fleeingEastPetrifiedDialogue: DialogueLine[] = [
-  { speaker: '???',      text: "Please — the gate is right there — I'm almost—!", portrait: 'npc' },
+  { speaker: '???',      text: "...I knew. I've been in it too long. I could feel it working up from my feet.", portrait: 'npc_east' },
   { speaker: 'Enemy',    text: "Arms extended, reaching for something she could almost touch — the eastern gate was perhaps six steps away, and the angle of her gaze still points toward it. You can see where she was going. I find that detail quietly devastating. She'll stand in a hallway entrance, so she is always almost arriving.", portrait: 'enemy' },
-  { speaker: '???',      text: "...", portrait: 'npc' },
+  { speaker: '???',      text: "...", portrait: 'npc_east' },
   { speaker: 'Narrator', text: "The fleeing girl has been petrified.", portrait: '' },
 ];
 
@@ -209,14 +214,15 @@ export const closingDialogue_allSurvived: DialogueLine[] = [
   { speaker: 'Tana',   text: "We made it. Everyone.", portrait: 'tana' },
   { speaker: 'Eirika', text: "Barely. Tana... we can't face that again without something to fight back with.", portrait: 'eirika' },
   { speaker: 'Tana',   text: "Then we find a way. We have to.", portrait: 'tana' },
+  { speaker: 'Eirika', text: "We will. But next time — I fight back. I refuse to run from this twice.", portrait: 'eirika' },
 ];
 
 /** Tana survived, some others lost (default). */
 export const closingDialogue_someLost: DialogueLine[] = [
   { speaker: 'Tana',   text: "We made it out. Eirika... we made it.", portrait: 'tana' },
-  { speaker: 'Eirika', text: "How many did we leave behind?", portrait: 'eirika' },
+  { speaker: 'Eirika', text: "We lost people in there. I heard them. I kept running.", portrait: 'eirika' },
   { speaker: 'Tana',   text: "...", portrait: 'tana' },
-  { speaker: 'Eirika', text: "I need to know exactly how many. Every single one.", portrait: 'eirika' },
+  { speaker: 'Eirika', text: "I need their names. Every one of them. Then I'm going back.", portrait: 'eirika' },
   { speaker: 'Tana',   text: "I'll count.", portrait: 'tana' },
 ];
 
@@ -232,6 +238,29 @@ export const closingDialogue_allLost: DialogueLine[] = [
   { speaker: 'Eirika', text: "They're all gone. Every one of them.", portrait: 'eirika' },
   { speaker: 'Eirika', text: "She said stone is eternal. Then I have time.", portrait: 'eirika' },
   { speaker: 'Eirika', text: "I'll come back. Even if it takes everything I have.", portrait: 'eirika' },
+];
+
+/**
+ * CHANGE Q: Vanessa was petrified, Syrene survived.
+ * Syrene speaks first — she held on but couldn't save Vanessa.
+ */
+export const closingDialogue_vanessaLost: DialogueLine[] = [
+  { speaker: 'Syrene',   text: "She told me not to look. So I held the line and I didn't look. She's still in there.", portrait: 'syrene' },
+  { speaker: 'Eirika',   text: "Syrene...", portrait: 'eirika' },
+  { speaker: 'Syrene',   text: "I'm fine. We're out. That's what she wanted.", portrait: 'syrene' },
+  { speaker: 'Eirika',   text: "We'll come back for her. That's not a promise I'm making lightly.", portrait: 'eirika' },
+  { speaker: 'Narrator', text: "Vanessa remains behind. Syrene does not speak again for a long time.", portrait: '' },
+];
+
+/**
+ * CHANGE Q: Syrene was petrified, Vanessa survived.
+ * Eirika acknowledges the cost; Tana (if present) or narrator closes.
+ */
+export const closingDialogue_syreneLost: DialogueLine[] = [
+  { speaker: 'Eirika',   text: "Syrene was the one who held that gate. She bought us every second we had.", portrait: 'eirika' },
+  { speaker: 'Tana',     text: "She knew what she was doing. She knew.", portrait: 'tana' },
+  { speaker: 'Eirika',   text: "That doesn't make it easier. A commander who gives everything — we owe her more than escape.", portrait: 'eirika' },
+  { speaker: 'Narrator', text: "Syrene remains behind, stone at the gate she refused to abandon.", portrait: '' },
 ];
 
 /** Backward-compat alias — same as closingDialogue_someLost. */

@@ -37,6 +37,11 @@
  *   - BUG 2 FIX: fleeing_east timer set to 1 turn (staggered vs fleeing_west=2) — east NPC is
  *               already inside the aura field and should expire one turn earlier
  *   - BUG 3 FIX: All statue labels unified to 'Statue' (was 'STONE' / 'Stat')
+ *   - CHANGE Q: NPC timer rebalance — fleeing_east timer starts turn 1 (turnsRemaining=2, expires turn 3);
+ *               fleeing_west timer starts turn 3 (turnsRemaining=3, expires turn 6);
+ *               unified statue sprite: all petrified units use 0x444444 rect + ◆ icon + 'Statue' text;
+ *               new closing dialogue variants closingDialogue_vanessaLost / closingDialogue_syreneLost;
+ *               triggerChapterClear() uses expanded variant selection logic
  *   - Input state machine with ACTION_MENU, ITEM_SELECT, TRADE, BREAK_WALL, COMBAT_PREVIEW overlays
  *   - Turn loop: player phase → enemy AI phase → back to player
  *   - Event trigger system: scripted events, degrading NPC timers
@@ -145,6 +150,8 @@ import {
   closingDialogue_someLost,
   closingDialogue_tanaLost,
   closingDialogue_allLost,
+  closingDialogue_vanessaLost,
+  closingDialogue_syreneLost,
 } from '../data/dialogue';
 import type { DialogueLine } from '../data/dialogue';
 
@@ -462,7 +469,7 @@ export class ChapterScene extends Phaser.Scene {
     // Base rectangle
     let color: number;
     if (isStone) {
-      color = unit.state === UnitState.PETRIFIED_SAFE ? 0x888899 : 0x665566;
+      color = 0x444444;
     } else if (unit.state === UnitState.DONE) {
       // Greyed-out when done
       color = 0x556677;
@@ -474,11 +481,17 @@ export class ChapterScene extends Phaser.Scene {
     container.add(rect);
 
     if (isStone) {
-      const stoneLabel = this.add.text(0, -2, 'Statue', {
-        fontSize:   '9px',
+      const stoneIcon = this.add.text(0, -5, '◆', {
+        fontSize:   '14px',
         color:      '#888888',
         fontFamily: 'monospace',
       }).setOrigin(0.5, 0.5);
+      const stoneLabel = this.add.text(0, 10, 'Statue', {
+        fontSize:   '8px',
+        color:      '#888888',
+        fontFamily: 'monospace',
+      }).setOrigin(0.5, 0.5);
+      container.add(stoneIcon);
       container.add(stoneLabel);
     } else {
       // Unit name (abbreviated to 4 chars for space)
@@ -782,25 +795,71 @@ export class ChapterScene extends Phaser.Scene {
       },
     );
 
-    // --- Turn 3: Fleeing NPC hint dialogue + timers ---
+    // --- Turn 1: fleeing_east timer starts immediately (she is already inside the aura) ---
+    this.eventTrigger.addTrigger(
+      { type: EventType.TURN_START, turn: 1 },
+      () => {
+        // Create countdown text above fleeing_east at chapter start (turn 1)
+        const eastUnit = this.allUnits.get('fleeing_east');
+        if (eastUnit) {
+          this.createNpcTimerText('fleeing_east', eastUnit.position.x, eastUnit.position.y, 2);
+        }
+
+        this.eventTrigger.addTimer({
+          npcId:          'fleeing_east',
+          turnsRemaining: 2,
+          onTick: (remaining) => {
+            this.updateNpcTimerText('fleeing_east', remaining);
+          },
+          onSuccess: () => {
+            this.removeNpcTimerText('fleeing_east');
+            const unit = this.allUnits.get('fleeing_east');
+            if (unit) {
+              const rescuer = this.findAdjacentPlayerUnit(unit);
+              this.gameMap.removeUnit(unit);
+              this.destroyUnitGraphic('fleeing_east');
+              this.allUnits.delete('fleeing_east');
+              // CHANGE E: Give rescuing unit Amber Shard
+              if (rescuer) {
+                const added = rescuer.addItem({ ...AMBER_SHARD, uses: AMBER_SHARD.uses });
+                this.showFlashText(added
+                  ? 'A mysterious shard... it seems to strengthen your resolve.'
+                  : 'Girl (E) escapes! (Inventory full — Amber Shard dropped)');
+              } else {
+                this.showFlashText('Girl (E) escapes safely!');
+              }
+            }
+          },
+          onFail: () => {
+            this.removeNpcTimerText('fleeing_east');
+            // FIX 7: Show NPC-specific dialogue before petrifying
+            const unit = this.allUnits.get('fleeing_east');
+            if (unit && unit.state === UnitState.ACTIVE) {
+              this.showDialogue(fleeingEastPetrifiedDialogue, () => {
+                unit.petrify(false);
+                this.updateUnitGraphic(unit);
+              });
+            }
+          },
+        });
+      },
+    );
+
+    // --- Turn 3: Fleeing NPC hint dialogue + fleeing_west timer ---
     this.eventTrigger.addTrigger(
       { type: EventType.TURN_START, turn: 3 },
       () => {
         this.showDialogue(fleeingNPCDialogue, () => {});
 
-        // FIX 5: Create countdown texts above both fleeing NPCs
+        // FIX 5: Create countdown text above fleeing_west
         const westUnit = this.allUnits.get('fleeing_west');
         if (westUnit) {
-          this.createNpcTimerText('fleeing_west', westUnit.position.x, westUnit.position.y, 2);
-        }
-        const eastUnit = this.allUnits.get('fleeing_east');
-        if (eastUnit) {
-          this.createNpcTimerText('fleeing_east', eastUnit.position.x, eastUnit.position.y, 1);
+          this.createNpcTimerText('fleeing_west', westUnit.position.x, westUnit.position.y, 3);
         }
 
         this.eventTrigger.addTimer({
           npcId:          'fleeing_west',
-          turnsRemaining: 2,
+          turnsRemaining: 3,
           // FIX 5: onTick updates countdown text
           onTick: (remaining) => {
             this.updateNpcTimerText('fleeing_west', remaining);
@@ -830,47 +889,6 @@ export class ChapterScene extends Phaser.Scene {
             const unit = this.allUnits.get('fleeing_west');
             if (unit && unit.state === UnitState.ACTIVE) {
               this.showDialogue(fleeingWestPetrifiedDialogue, () => {
-                unit.petrify(false);
-                this.updateUnitGraphic(unit);
-              });
-            }
-          },
-        });
-
-        // BUG 2 FIX: fleeing_east is already inside the aura field, so she expires 1 turn
-        // earlier than fleeing_west (staggered timers to reflect their different positions).
-        this.eventTrigger.addTimer({
-          npcId:          'fleeing_east',
-          turnsRemaining: 1,
-          // FIX 5: onTick updates countdown text
-          onTick: (remaining) => {
-            this.updateNpcTimerText('fleeing_east', remaining);
-          },
-          onSuccess: () => {
-            this.removeNpcTimerText('fleeing_east');
-            const unit = this.allUnits.get('fleeing_east');
-            if (unit) {
-              const rescuer = this.findAdjacentPlayerUnit(unit);
-              this.gameMap.removeUnit(unit);
-              this.destroyUnitGraphic('fleeing_east');
-              this.allUnits.delete('fleeing_east');
-              // CHANGE E: Give rescuing unit Amber Shard
-              if (rescuer) {
-                const added = rescuer.addItem({ ...AMBER_SHARD, uses: AMBER_SHARD.uses });
-                this.showFlashText(added
-                  ? 'A mysterious shard... it seems to strengthen your resolve.'
-                  : 'Girl (E) escapes! (Inventory full — Amber Shard dropped)');
-              } else {
-                this.showFlashText('Girl (E) escapes safely!');
-              }
-            }
-          },
-          onFail: () => {
-            this.removeNpcTimerText('fleeing_east');
-            // FIX 7: Show NPC-specific dialogue before petrifying
-            const unit = this.allUnits.get('fleeing_east');
-            if (unit && unit.state === UnitState.ACTIVE) {
-              this.showDialogue(fleeingEastPetrifiedDialogue, () => {
                 unit.petrify(false);
                 this.updateUnitGraphic(unit);
               });
@@ -1597,10 +1615,13 @@ export class ChapterScene extends Phaser.Scene {
     const noneLost = !tanaLost && !vanessaLost && !syreneLost;
 
     let script: DialogueLine[];
-    if (allLost)        script = closingDialogue_allLost;
-    else if (tanaLost)  script = closingDialogue_tanaLost;
-    else if (noneLost)  script = closingDialogue_allSurvived;
-    else                script = closingDialogue_someLost;
+    if (allLost)                              script = closingDialogue_allLost;
+    else if (tanaLost && vanessaLost)         script = closingDialogue_allLost; // close enough
+    else if (tanaLost)                        script = closingDialogue_tanaLost;
+    else if (vanessaLost && !syreneLost)      script = closingDialogue_vanessaLost;
+    else if (syreneLost && !vanessaLost)      script = closingDialogue_syreneLost;
+    else if (noneLost)                        script = closingDialogue_allSurvived;
+    else                                      script = closingDialogue_someLost;
 
     this.showDialogue(script, () => {
       this.showEndScreen('Chapter 1 Complete', 0x224422);
