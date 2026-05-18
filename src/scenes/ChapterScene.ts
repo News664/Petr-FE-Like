@@ -19,6 +19,9 @@
  *               HP=0 on player units → petrifyFromCombat (with defeat dialogue) instead of death
  *   - CHANGE M: Trade UI — swap/transfer items between adjacent player units
  *   - CHANGE N: Right-side floating status panel (top-right, 232×200px) replaces bottom unit info
+ *   - CHANGE P: scriptedPetrify() — guaranteed live-petrification visual for opening sequence;
+ *               variant stage-clear dialogues based on Tana/Vanessa/Syrene survival;
+ *               showPetrifiedUnitPopup shows RES and STO-RES in two stat lines
  *   - Input state machine with ACTION_MENU, ITEM_SELECT, TRADE, BREAK_WALL, COMBAT_PREVIEW overlays
  *   - Turn loop: player phase → enemy AI phase → back to player
  *   - Event trigger system: scripted events, degrading NPC timers
@@ -115,13 +118,16 @@ import {
   syrenePetrifiedDialogue,
   tanaPetrifiedDialogue,
   handincomingDialogue,
-  closingDialogue,
   mayaCalloutDialogue,
   fleeingNPCDialogue,
   eirikaCombatPetrifiedDialogue,
   tanaCombatPetrifiedDialogue,
   vanessaCombatPetrifiedDialogue,
   syreneCombatPetrifiedDialogue,
+  closingDialogue_allSurvived,
+  closingDialogue_someLost,
+  closingDialogue_tanaLost,
+  closingDialogue_allLost,
 } from '../data/dialogue';
 import type { DialogueLine } from '../data/dialogue';
 
@@ -284,9 +290,8 @@ export class ChapterScene extends Phaser.Scene {
     this.showDialogue(openingDialogue, () => {
       this.showDialogue(gateHoldDialogue, () => {
         this.showDialogue(weakGorgonOpeningDialogue, () => {
-          // Animate the SW guard decorative statue appearing (grey flash)
-          this.flashDecorativeStatue(3, 12);
-          this.startPlayerPhase();
+          // Scripted live petrification of SW guard (100% guaranteed, no RNG)
+          this.scriptedPetrify(3, 12, 'Guard', () => this.startPlayerPhase());
         });
       });
     });
@@ -526,25 +531,66 @@ export class ChapterScene extends Phaser.Scene {
   }
 
   /**
-   * CHANGE L: Animate a decorative statue appearing with a grey flash overlay.
-   * Finds the statue container at (col, row) and tweens a white-to-grey alpha flash.
+   * CHANGE P: Scripted live-petrification of a tile position.
+   * Plays a guaranteed visual (no RNG): white expanding circle → grey, then places a
+   * decorative statue at (col, row) with the given label and registers it as clickable.
+   *
+   * Steps:
+   *   1. Skip if there is already a unit at that tile.
+   *   2. Tween a white Phaser Graphics circle that expands and transitions to grey (300 ms).
+   *   3. Add a grey rectangle + "◆" label container at the tile — same as decorativeStatue rendering.
+   *   4. Register the position in decorativeStatueData so it becomes clickable (CHANGE H).
+   *   5. Call onDone() after the animation completes.
    */
-  private flashDecorativeStatue(col: number, row: number): void {
-    const idx = this.decorativeStatueData.findIndex(s => s.x === col && s.y === row);
-    if (idx < 0) return;
-    const container = this.statueContainers[idx];
-    if (!container) return;
+  private scriptedPetrify(col: number, row: number, label: string, onDone: () => void): void {
+    // 1. Skip if a unit already occupies the tile
+    if (this.gameMap.getUnit(col, row)) {
+      onDone();
+      return;
+    }
 
     const px = col * TILE_SIZE + TILE_SIZE / 2;
     const py = row * TILE_SIZE + TILE_SIZE / 2;
-    const flash = this.add.rectangle(px, py, TILE_SIZE, TILE_SIZE, 0xffffff, 0.85)
-      .setDepth(60);
+
+    // 2. White expanding circle tween → grey (300 ms)
+    const circleGfx = this.add.graphics().setDepth(61);
+    circleGfx.fillStyle(0xffffff, 0.9);
+    circleGfx.fillCircle(px, py, 4);
+
     this.tweens.add({
-      targets:  flash,
-      alpha:    0,
-      duration: 600,
-      ease:     'Linear',
-      onComplete: () => { flash.destroy(); },
+      targets:  circleGfx,
+      alpha:    { from: 0.9, to: 0 },
+      duration: 300,
+      ease:     'Quad.easeOut',
+      onUpdate: (_tween: Phaser.Tweens.Tween, _target: unknown, _key: string, current: number) => {
+        const progress = 1 - current;          // 0 → 1 over the tween
+        const radius   = 4 + progress * 20;    // expands from 4 to 24 px
+        const colour   = progress > 0.5 ? 0xffffff : 0x888888;  // white → grey halfway
+        circleGfx.clear();
+        circleGfx.fillStyle(colour, current);
+        circleGfx.fillCircle(px, py, radius);
+      },
+      onComplete: () => {
+        circleGfx.destroy();
+
+        // 3. Add decorative-statue container
+        const container = this.add.container(px, py);
+        const rect = this.add.rectangle(0, 0, TILE_SIZE - 6, TILE_SIZE - 6, 0x444444);
+        const icon = this.add.text(0, -5, '◆', {
+          fontSize: '14px', color: '#888888', fontFamily: 'monospace',
+        }).setOrigin(0.5, 0.5);
+        const lbl = this.add.text(0, 10, 'Stat', {
+          fontSize: '8px', color: '#777777', fontFamily: 'monospace',
+        }).setOrigin(0.5, 0.5);
+        container.add([rect, icon, lbl]);
+        this.statueContainers.push(container);
+
+        // 4. Register in decorativeStatueData for click detection
+        this.decorativeStatueData.push({ x: col, y: row, label });
+
+        // 5. Invoke continuation
+        onDone();
+      },
     });
   }
 
@@ -1394,8 +1440,25 @@ export class ChapterScene extends Phaser.Scene {
     this.attackRange.clear();
     this.drawOverlays();
 
-    this.showDialogue(closingDialogue, () => {
-      this.showEndScreen('Chapter 1 Complete!', 0x224422);
+    const tana    = this.allUnits.get('tana');
+    const vanessa = this.allUnits.get('vanessa');
+    const syrene  = this.allUnits.get('syrene');
+
+    const tanaLost    = !tana    || tana.state    === UnitState.PETRIFIED_SAFE || tana.state    === UnitState.PETRIFIED_CAPTURED;
+    const vanessaLost = !vanessa || vanessa.state === UnitState.PETRIFIED_SAFE || vanessa.state === UnitState.PETRIFIED_CAPTURED;
+    const syreneLost  = !syrene  || syrene.state  === UnitState.PETRIFIED_SAFE || syrene.state  === UnitState.PETRIFIED_CAPTURED;
+
+    const allLost  = tanaLost && vanessaLost && syreneLost;
+    const noneLost = !tanaLost && !vanessaLost && !syreneLost;
+
+    let script: DialogueLine[];
+    if (allLost)        script = closingDialogue_allLost;
+    else if (tanaLost)  script = closingDialogue_tanaLost;
+    else if (noneLost)  script = closingDialogue_allSurvived;
+    else                script = closingDialogue_someLost;
+
+    this.showDialogue(script, () => {
+      this.showEndScreen('Chapter 1 Complete', 0x224422);
     });
   }
 
@@ -1584,7 +1647,9 @@ export class ChapterScene extends Phaser.Scene {
       auraInfo = 'No active aura (not yet captured or source not placed)';
     }
 
-    const statsStr = `Original stats: STR ${unit.stats.str}  SKL ${unit.stats.skl}  SPD ${unit.stats.spd}  DEF ${unit.stats.def}`;
+    const statsStr1 = `STR ${unit.stats.str}  SKL ${unit.stats.skl}  SPD ${unit.stats.spd}`;
+    const statsStr2 = `DEF ${unit.stats.def}  RES ${unit.stats.res}  STO ${unit.stats.stoRes}/${unit.stats.maxStoRes}`;
+    const statsStr  = `Original stats:\n${statsStr1}\n${statsStr2}`;
 
     this.showUnitPopup(
       `${unit.name} — Petrified`,

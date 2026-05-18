@@ -24,10 +24,10 @@
  *   Row 4:  BUILDING at cols 2-3 and 13-14; WELL at cols 5-6
  *   Row 5:  north outer wall — BUILDING at cols 2-7 and 10-19;
  *           GRASS at cols 0-1 (west pass), 8-9 (gate gap)
- *   Row 6:  GRASS
+ *   Row 6:  BREAKABLE_WALL at col 2 — blocks middle-corridor west passage; GRASS elsewhere
  *   Row 7:  inner wall — BUILDING at cols 2-7 and 10-16; GRASS at 8-9 (gate), 17-19 (open right)
- *   Row 8-12: stronghold interior — BUILDING west wall col 2, east wall col 16;
- *            BREAKABLE_WALL at (2,10) (west inner wall, opens west passage)
+ *   Row 8-12: stronghold interior — BUILDING west wall col 2, east wall col 16
+ *   Row 10: col 2 = BUILDING (solid west wall; breakable wall moved to row 6)
  *   Row 12: col 2 is GRASS (SW passage open), east wall col 16
  *   Row 13: south wall — BUILDING at cols 2-16
  *
@@ -44,9 +44,10 @@
  * Pre-placed aura:
  *   Aura statue — pos (17,3), TIER_B, radius 4
  *
- * Decorative statues:
+ * Decorative statues (pre-placed in DECORATIVE_STATUES):
  *   Positions (5,10) and (12,10) inside stronghold — purely visual, no Unit
- *   Position (3,12) — pre-petrified SW guard (CHANGE L)
+ *   Note: (3,12) SW guard is no longer in DECORATIVE_STATUES; it is now created live
+ *         by scriptedPetrify(3,12,'Guard',...) in ChapterScene opening sequence (CHANGE P)
  *
  * Spawn waves (CHANGE F — Gorgon1 moved to turn 2):
  *   Turn 2: Gorgon1 at (9,1)
@@ -61,7 +62,8 @@
  * Chapter clear: Eirika steps on any ESCAPE tile (x 0–3, row 0).
  * Chapter fail:  Eirika's state becomes PETRIFIED_CAPTURED.
  *
- * CHANGE D: BREAKABLE_WALL (7) at (2,10) in the west stronghold wall.
+ * CHANGE D: BREAKABLE_WALL (7) originally at (2,10); now moved to (2,6) — middle-corridor route.
+ * CHANGE P: (2,10) reverted to BUILDING; (2,6) set to BREAKABLE_WALL; (2,12) remains GRASS.
  * CHANGE E: Full map redesign with stronghold walls and new unit positions.
  * CHANGE F: Gorgon1 delayed to turn 2 spawn wave.
  * CHANGE K: BreachGuard1/2 added to initial placements.
@@ -90,16 +92,16 @@ export const CHAPTER1_MAP_GRID: number[][] = [
   [0, 0, 2, 2, 0, 5, 5, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0],
   // Row 5: north outer wall; gate at 8-9; west pass at 0-1
   [0, 0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-  // Row 6: GRASS
-  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  // Row 6: BREAKABLE_WALL at col 2 (blocks middle-corridor west route); GRASS elsewhere
+  [0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   // Row 7: inner wall; gate at 8-9; right side open at 17-19
   [0, 0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0],
   // Row 8: stronghold west wall col 2, east wall col 16
   [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
   // Row 9: same walls
   [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
-  // Row 10: BREAKABLE_WALL at (2,10); east wall col 16
-  [0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
+  // Row 10: BUILDING at col 2 (solid west wall restored); east wall col 16
+  [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
   // Row 11: west wall col 2, east wall col 16
   [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
   // Row 12: SW passage open (col 2 = GRASS), east wall col 16; BUILDING at col 16
@@ -164,8 +166,8 @@ export interface DecorativeStatue {
 export const DECORATIVE_STATUES: DecorativeStatue[] = [
   { x:  5, y: 10, label: 'Unknown Guard' },
   { x: 12, y: 10, label: 'Unknown Guard' },
-  // CHANGE L: Pre-petrified SW guard (already stone before chapter starts)
-  { x:  3, y: 12, label: 'Guard' },
+  // Note: SW guard at (3,12) is NOT pre-placed here; it is added by scriptedPetrify()
+  //       in ChapterScene.create() opening sequence (CHANGE P).
 ];
 
 // ---------------------------------------------------------------------------

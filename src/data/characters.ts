@@ -44,13 +44,19 @@
  *   Maya NPC:      maxStoRes  4 (no RES → 1–2 hits)
  *   Fleeing NPCs:  maxStoRes  4
  *
- * Note: NPC units have no weapons and cannot initiate or receive combat.
+ * Note: NPC guards carry Iron Lance for verisimilitude but cannot initiate combat.
  *       Gorgon has two weapons; equippedSlot 0 = Stone Gaze (GAZE), slot 1 = Shadowshot (DARK).
  *       WeakGorgon: id 'weak_gorgon', hp 4/maxHp 18 (heavily damaged), level 1.
  *       AuraTier values: TIER_S=3, TIER_A=2, TIER_B=1.
  *       Enemy units have stoRes 0 — they are immune to being petrified.
  *       Named player characters have isNamedCharacter=true (Eirika, Tana, Vanessa, Syrene).
  *       The Hand: isPursuer=true, stats all 999, auraTier TIER_S, class PURSUER.
+ *
+ * Guard stat block (CHANGE P):
+ *   hp 15, str 4, skl 4, spd 4, lck 2, def 5, res 0, stoRes 6, movement 4, weapon Iron Lance
+ *
+ * Civilian stat block (CHANGE P):
+ *   hp 8, spd 3, lck 2, def 1, stoRes 4 (all other stats 0)
  */
 
 import { Unit, Team, UnitClass, AuraTier, WeaponType } from '../game/Unit';
@@ -345,39 +351,32 @@ export function createTheHand(): Unit {
 // NPC factories
 // ---------------------------------------------------------------------------
 
+// CHANGE P: civilian stat block — non-zero stats for verisimilitude
+const CIVILIAN_STATS: UnitStats = {
+  hp: 8, maxHp: 8,
+  str: 0, mag: 0, skl: 0, spd: 3, lck: 2, def: 1, res: 0,
+  stoRes: 4, maxStoRes: 4,
+};
+
 export function createMaya(): Unit {
-  const stats: UnitStats = {
-    hp: 10, maxHp: 10,
-    str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
-    stoRes: 4, maxStoRes: 4,  // CHANGE L: rebalanced (no RES → 1–2 hits)
-  };
-  return new Unit('maya', 'Maya', Team.NPC, UnitClass.NPC_CIVILIAN, stats, [], 4, false, AuraTier.TIER_B);
+  return new Unit('maya', 'Maya', Team.NPC, UnitClass.NPC_CIVILIAN, { ...CIVILIAN_STATS }, [], 4, false, AuraTier.TIER_B);
 }
 
 export function createFleeingGirlWest(): Unit {
-  const stats: UnitStats = {
-    hp: 10, maxHp: 10,
-    str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
-    stoRes: 4, maxStoRes: 4,  // CHANGE L: rebalanced (no RES → 1–2 hits)
-  };
-  return new Unit('fleeing_west', 'Girl (W)', Team.NPC, UnitClass.NPC_CIVILIAN, stats, [], 4, false, AuraTier.TIER_B);
+  return new Unit('fleeing_west', 'Girl (W)', Team.NPC, UnitClass.NPC_CIVILIAN, { ...CIVILIAN_STATS }, [], 4, false, AuraTier.TIER_B);
 }
 
 export function createFleeingGirlEast(): Unit {
-  const stats: UnitStats = {
-    hp: 10, maxHp: 10,
-    str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
-    stoRes: 4, maxStoRes: 4,  // CHANGE L: rebalanced (no RES → 1–2 hits)
-  };
-  return new Unit('fleeing_east', 'Girl (E)', Team.NPC, UnitClass.NPC_CIVILIAN, stats, [], 4, false, AuraTier.TIER_B);
+  return new Unit('fleeing_east', 'Girl (E)', Team.NPC, UnitClass.NPC_CIVILIAN, { ...CIVILIAN_STATS }, [], 4, false, AuraTier.TIER_B);
 }
 
-/** CHANGE K: Breach guards — placed inside the stronghold at (8,12) and (10,12). */
+/** CHANGE K / CHANGE P: Breach guards — placed inside the stronghold at (8,12) and (10,12).
+ *  Proper guard stat block with Iron Lance (weapon carried for verisimilitude; NPC cannot attack). */
 export function createBreachGuard(index: number): Unit {
   const stats: UnitStats = {
-    hp: 12, maxHp: 12,
-    str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
-    stoRes: 10, maxStoRes: 10,
+    hp: 15, maxHp: 15,
+    str: 4, mag: 0, skl: 4, spd: 4, lck: 2, def: 5, res: 0,
+    stoRes: 6, maxStoRes: 6,
   };
   return new Unit(
     `guard_breach_${index}`,
@@ -385,7 +384,7 @@ export function createBreachGuard(index: number): Unit {
     Team.NPC,
     UnitClass.NPC_CIVILIAN,
     stats,
-    [],
+    [weaponSlot(IRON_LANCE)],
     4,
     false,
     AuraTier.TIER_B,
