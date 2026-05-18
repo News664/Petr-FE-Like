@@ -28,6 +28,10 @@
  * CHANGE A: defender alive check now considers both HP depletion and STO_RES depletion
  * (GAZE attacks that fully drain STO_RES prevent the defender from counter-attacking
  * and prevent a second attacker strike if the attacker is also fully drained).
+ *
+ * FIX 1: Second attacker strike (double attack) now also checks whether the defender
+ * is still alive after the first strike. Previously only the attacker's survival was
+ * checked, allowing the double attack to fire on a dead/petrified defender.
  */
 
 import { Unit, WeaponType } from './Unit';
@@ -189,7 +193,13 @@ export function resolveCombat(attacker: Unit, defender: Unit, map: GameMap): Com
   const atkStoDepleted = result.hpDamageToAttacker > 0 && result.hpDamageToAttacker >= attacker.stats.stoRes;
   const atkAliveAfterCounter = !atkHpDepleted && !atkStoDepleted;
 
-  if (atkAliveAfterCounter && calcDoubleAttack(attacker, defender)) {
+  // FIX 1: Also check that the defender is still alive before the second strike.
+  // Previously only atkAliveAfterCounter was checked, so the double attack could
+  // fire on a defender already killed or petrified by the first strike.
+  const defStillAlive = result.hpDamageToDefender < defender.stats.hp &&
+    (result.stoResDamage === 0 || result.stoResDamage < defender.stats.stoRes);
+
+  if (atkAliveAfterCounter && defStillAlive && calcDoubleAttack(attacker, defender)) {
     const hit3 = rollHit(hitChance);
     result.attackerHits.push(hit3);
     if (hit3) {

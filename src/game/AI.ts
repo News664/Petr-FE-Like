@@ -32,6 +32,10 @@
  * CHANGE E: bfsPathIgnoringUnits now treats BREAKABLE_WALL as passable for The Hand
  *           (matching the "isPursuer units ignore BUILDING tiles" special case).
  *
+ * FIX 10: getPursuerAction now prefers any non-Eirika named character as the one-per-turn
+ *         petrification target. Eirika is only chosen if she is the sole named character
+ *         adjacent to The Hand after movement.
+ *
  * Coordinate convention: (x = col, y = row), origin top-left.
  */
 
@@ -202,9 +206,17 @@ export class AIController {
     const petrifyTargets: Unit[] = [...instantTargets];
 
     if (namedPlayers.length > 0) {
-      // Choose the named character with the lowest stoRes
-      namedPlayers.sort((a, b) => a.stats.stoRes - b.stats.stoRes);
-      petrifyTargets.push(namedPlayers[0]);
+      // FIX 10: Prefer any named character other than Eirika; only pick Eirika if
+      // she is the sole named character adjacent (so The Hand won't rush her first).
+      const nonEirikaTargets = namedPlayers.filter(u => u.id !== 'eirika');
+      const sortByLowestStoRes = (arr: Unit[]) =>
+        arr.sort((a, b) => a.stats.stoRes - b.stats.stoRes);
+
+      const chosen = nonEirikaTargets.length > 0
+        ? sortByLowestStoRes(nonEirikaTargets)[0]
+        : namedPlayers[0];
+
+      petrifyTargets.push(chosen);
       hand.isCollecting = true; // She spends next turn collecting
     }
 

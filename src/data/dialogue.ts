@@ -26,6 +26,11 @@
  *   mayaPetrifiedDialogue         — 4 lines; Maya petrified (timer fail / enemy) (incl. "..." line)
  *   amberShardFoundDialogue       — 2 lines; Amber Shard pick-up
  *
+ * FIX 7: NPC-specific petrification dialogues (timer onFail):
+ *   fleeingWestPetrifiedDialogue  — 4 lines; the fleeing girl (west) petrified
+ *   fleeingEastPetrifiedDialogue  — 4 lines; the fleeing girl (east) petrified
+ *   (mayaPetrifiedDialogue already had a specific dialogue and is unchanged)
+ *
  * Combat petrification dialogues (HP=0, CHANGE M — all now include "..." line):
  *   eirikaCombatPetrifiedDialogue  — 4 lines
  *   tanaCombatPetrifiedDialogue    — 4 lines
@@ -175,6 +180,24 @@ export const mayaPetrifiedDialogue: DialogueLine[] = [
   { speaker: 'Enemy',    text: "A commoner, but the expression is genuine terror. Those are rare. She'll sell well.", portrait: 'enemy' },
   { speaker: 'Maya',     text: "...", portrait: 'maya' },
   { speaker: 'Narrator', text: "Maya has been petrified and collected.", portrait: '' },
+];
+
+// ---------------------------------------------------------------------------
+// FIX 7: NPC-specific petrification dialogues (timer onFail)
+// ---------------------------------------------------------------------------
+
+export const fleeingWestPetrifiedDialogue: DialogueLine[] = [
+  { speaker: '???',      text: "I can't— my legs—", portrait: 'npc' },
+  { speaker: 'Enemy',    text: "Fleeing posture. The terror is still visible in the pose — dynamic. Our clients appreciate motion.", portrait: 'enemy' },
+  { speaker: '???',      text: "...", portrait: 'npc' },
+  { speaker: 'Narrator', text: "The fleeing girl has been petrified.", portrait: '' },
+];
+
+export const fleeingEastPetrifiedDialogue: DialogueLine[] = [
+  { speaker: '???',      text: "Please— I was almost—", portrait: 'npc' },
+  { speaker: 'Enemy',    text: "She was running toward something, I think. Or away. Either way, the momentum is preserved perfectly.", portrait: 'enemy' },
+  { speaker: '???',      text: "...", portrait: 'npc' },
+  { speaker: 'Narrator', text: "The fleeing girl has been petrified.", portrait: '' },
 ];
 
 // ---------------------------------------------------------------------------

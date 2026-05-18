@@ -18,6 +18,8 @@
  *   turnsRemaining counts down each call to tickTimers().
  *   onSuccess fires if checkTimerSuccess(npcId) is called before timer expires.
  *   onFail fires when turnsRemaining reaches 0.
+ *   onTick (FIX 5) — optional callback called each tick with the new turnsRemaining
+ *                    value (after decrement, before onFail). Used to update HUD timers.
  *
  * Triggers fire at most once (fired flag prevents re-firing).
  */
@@ -40,6 +42,9 @@ export interface DegradingTimer {
   turnsRemaining: number;
   onSuccess:      () => void;
   onFail:         () => void;
+  /** FIX 5: Optional per-tick callback. Called after each decrement with the new
+   *  turnsRemaining value so callers can update HUD countdown displays. */
+  onTick?:        (remaining: number) => void;
 }
 
 interface RegisteredTrigger {
@@ -98,6 +103,10 @@ export class EventTrigger {
 
     for (const timer of this.timers) {
       timer.turnsRemaining--;
+      // FIX 5: Notify subscriber of remaining time (even if about to expire)
+      if (timer.onTick) {
+        timer.onTick(timer.turnsRemaining);
+      }
       if (timer.turnsRemaining <= 0) {
         expired.push(timer);
       }

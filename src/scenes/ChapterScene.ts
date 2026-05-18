@@ -22,6 +22,16 @@
  *   - CHANGE P: scriptedPetrify() — guaranteed live-petrification visual for opening sequence;
  *               variant stage-clear dialogues based on Tana/Vanessa/Syrene survival;
  *               showPetrifiedUnitPopup shows RES and STO-RES in two stat lines
+ *   - FIX 2: petrifyFromCombat sets unit state/HP/grid immediately before async dialogue;
+ *            awaitingPetrificationDialogue flag guards checkWinLose during Eirika dialogue
+ *   - FIX 3: Clicking selected ACTIVE unit shows action menu (stand-ground option)
+ *   - FIX 4: scriptedPetrify guard moved to (3,10); decorative statues visual-only
+ *   - FIX 5: NPC timer countdown texts floated above sprites via onTick callback
+ *   - FIX 6: Unified showStatuePopup replaces three separate popup methods
+ *   - FIX 7: NPC-specific petrification dialogues for FleeingWest/FleeingEast onFail;
+ *            Eirika game-over deferred behind awaitingPetrificationDialogue guard
+ *   - FIX 8: dialogueActive flag blocks pointer input during dialogue
+ *   - FIX 9: handleIdleClick NPC rescue requires adjacent player unit
  *   - Input state machine with ACTION_MENU, ITEM_SELECT, TRADE, BREAK_WALL, COMBAT_PREVIEW overlays
  *   - Turn loop: player phase → enemy AI phase → back to player
  *   - Event trigger system: scripted events, degrading NPC timers
@@ -113,6 +123,8 @@ import {
   openingDialogue,
   weakGorgonOpeningDialogue,
   mayaPetrifiedDialogue,
+  fleeingWestPetrifiedDialogue,
+  fleeingEastPetrifiedDialogue,
   gateHoldDialogue,
   vanessaPetrifiedDialogue,
   syrenePetrifiedDialogue,
@@ -181,6 +193,20 @@ enum InputState {
 }
 
 // ---------------------------------------------------------------------------
+// FIX 6: Unified data type for statue / petrified-unit popups
+// ---------------------------------------------------------------------------
+
+interface StatuePopupInfo {
+  name:        string;
+  status:      'Captured' | 'Safe' | 'Environmental';
+  stats?:      Unit['stats'];
+  auraTier?:   AuraTier;
+  auraRadius?: number;
+  stoDecay?:   number;
+  statDebuff?: number;
+}
+
+// ---------------------------------------------------------------------------
 // ChapterScene
 // ---------------------------------------------------------------------------
 
@@ -231,6 +257,15 @@ export class ChapterScene extends Phaser.Scene {
 
   // Track whether The Hand intro dialogue has fired
   private handIntroFired: boolean = false;
+
+  // FIX 8: Block pointer input during dialogue
+  private dialogueActive: boolean = false;
+
+  // FIX 7 / FIX 2: Guard checkWinLose while Eirika's petrification dialogue is running
+  private awaitingPetrificationDialogue: boolean = false;
+
+  // FIX 5: NPC timer countdown text objects keyed by npcId
+  private npcTimerTexts: Map<string, Phaser.GameObjects.Text> = new Map();
 
   // DOM overlay references
   private actionMenuEl!:    HTMLElement;
@@ -291,7 +326,8 @@ export class ChapterScene extends Phaser.Scene {
       this.showDialogue(gateHoldDialogue, () => {
         this.showDialogue(weakGorgonOpeningDialogue, () => {
           // Scripted live petrification of SW guard (100% guaranteed, no RNG)
-          this.scriptedPetrify(3, 12, 'Guard', () => this.startPlayerPhase());
+          // FIX 4: moved to (3,10) so guard is not blocking the exit corridor at (2,12)
+          this.scriptedPetrify(3, 10, 'Guard', () => this.startPlayerPhase());
         });
       });
     });
@@ -694,10 +730,21 @@ export class ChapterScene extends Phaser.Scene {
       () => {
         this.showDialogue(mayaCalloutDialogue, () => {});
 
+        // FIX 5: Create countdown text above Maya's sprite
+        const mayaUnit = this.allUnits.get('maya');
+        if (mayaUnit) {
+          this.createNpcTimerText('maya', mayaUnit.position.x, mayaUnit.position.y, 3);
+        }
+
         this.eventTrigger.addTimer({
           npcId:          'maya',
           turnsRemaining: 3,
+          // FIX 5: onTick updates the countdown text
+          onTick: (remaining) => {
+            this.updateNpcTimerText('maya', remaining);
+          },
           onSuccess: () => {
+            this.removeNpcTimerText('maya');
             const maya = this.allUnits.get('maya');
             if (maya) {
               const rescuer = this.findAdjacentPlayerUnit(maya);
@@ -716,6 +763,7 @@ export class ChapterScene extends Phaser.Scene {
             }
           },
           onFail: () => {
+            this.removeNpcTimerText('maya');
             const maya = this.allUnits.get('maya');
             if (maya && maya.state === UnitState.ACTIVE) {
               this.showDialogue(mayaPetrifiedDialogue, () => {});
@@ -733,10 +781,25 @@ export class ChapterScene extends Phaser.Scene {
       () => {
         this.showDialogue(fleeingNPCDialogue, () => {});
 
+        // FIX 5: Create countdown texts above both fleeing NPCs
+        const westUnit = this.allUnits.get('fleeing_west');
+        if (westUnit) {
+          this.createNpcTimerText('fleeing_west', westUnit.position.x, westUnit.position.y, 2);
+        }
+        const eastUnit = this.allUnits.get('fleeing_east');
+        if (eastUnit) {
+          this.createNpcTimerText('fleeing_east', eastUnit.position.x, eastUnit.position.y, 2);
+        }
+
         this.eventTrigger.addTimer({
           npcId:          'fleeing_west',
           turnsRemaining: 2,
+          // FIX 5: onTick updates countdown text
+          onTick: (remaining) => {
+            this.updateNpcTimerText('fleeing_west', remaining);
+          },
           onSuccess: () => {
+            this.removeNpcTimerText('fleeing_west');
             const unit = this.allUnits.get('fleeing_west');
             if (unit) {
               const rescuer = this.findAdjacentPlayerUnit(unit);
@@ -755,11 +818,14 @@ export class ChapterScene extends Phaser.Scene {
             }
           },
           onFail: () => {
+            this.removeNpcTimerText('fleeing_west');
+            // FIX 7: Show NPC-specific dialogue before petrifying
             const unit = this.allUnits.get('fleeing_west');
             if (unit && unit.state === UnitState.ACTIVE) {
-              unit.petrify(false);
-              this.updateUnitGraphic(unit);
-              this.showFlashText('Girl (W) has been petrified!');
+              this.showDialogue(fleeingWestPetrifiedDialogue, () => {
+                unit.petrify(false);
+                this.updateUnitGraphic(unit);
+              });
             }
           },
         });
@@ -767,7 +833,12 @@ export class ChapterScene extends Phaser.Scene {
         this.eventTrigger.addTimer({
           npcId:          'fleeing_east',
           turnsRemaining: 2,
+          // FIX 5: onTick updates countdown text
+          onTick: (remaining) => {
+            this.updateNpcTimerText('fleeing_east', remaining);
+          },
           onSuccess: () => {
+            this.removeNpcTimerText('fleeing_east');
             const unit = this.allUnits.get('fleeing_east');
             if (unit) {
               const rescuer = this.findAdjacentPlayerUnit(unit);
@@ -786,11 +857,14 @@ export class ChapterScene extends Phaser.Scene {
             }
           },
           onFail: () => {
+            this.removeNpcTimerText('fleeing_east');
+            // FIX 7: Show NPC-specific dialogue before petrifying
             const unit = this.allUnits.get('fleeing_east');
             if (unit && unit.state === UnitState.ACTIVE) {
-              unit.petrify(false);
-              this.updateUnitGraphic(unit);
-              this.showFlashText('Girl (E) has been petrified!');
+              this.showDialogue(fleeingEastPetrifiedDialogue, () => {
+                unit.petrify(false);
+                this.updateUnitGraphic(unit);
+              });
             }
           },
         });
@@ -804,6 +878,48 @@ export class ChapterScene extends Phaser.Scene {
         this.gorgonTargetGatePriority = true;
       },
     );
+  }
+
+  // ==========================================================================
+  // FIX 5: NPC timer countdown text helpers
+  // ==========================================================================
+
+  /**
+   * Creates a floating "⏳ X" text above the NPC's tile position and stores it
+   * in npcTimerTexts keyed by npcId.
+   */
+  private createNpcTimerText(npcId: string, col: number, row: number, turns: number): void {
+    const px = col * TILE_SIZE + TILE_SIZE / 2;
+    const py = row * TILE_SIZE - 6;
+
+    const txt = this.add.text(px, py, `⏳ ${turns}`, {
+      fontSize:        '10px',
+      color:           '#ffffff',
+      fontFamily:      'monospace',
+      backgroundColor: '#000000aa',
+      padding:         { x: 2, y: 1 },
+    }).setOrigin(0.5, 1).setDepth(55);
+
+    // Remove old text if a stale entry exists
+    this.removeNpcTimerText(npcId);
+    this.npcTimerTexts.set(npcId, txt);
+  }
+
+  /** Updates an existing timer text to show the new remaining count. */
+  private updateNpcTimerText(npcId: string, remaining: number): void {
+    const txt = this.npcTimerTexts.get(npcId);
+    if (txt) {
+      txt.setText(`⏳ ${remaining}`);
+    }
+  }
+
+  /** Destroys and removes the timer text for an NPC. */
+  private removeNpcTimerText(npcId: string): void {
+    const txt = this.npcTimerTexts.get(npcId);
+    if (txt) {
+      txt.destroy();
+      this.npcTimerTexts.delete(npcId);
+    }
   }
 
   /** Helper: find a PLAYER unit adjacent to an NPC (used for rescue item awards). */
@@ -1359,6 +1475,10 @@ export class ChapterScene extends Phaser.Scene {
    * Instead of dying, the unit is petrified (initially PETRIFIED_SAFE).
    * Shows the unit's defeat dialogue, then a CG placeholder, then petrifies.
    * If an enemy is adjacent at the start of the next enemy phase, it becomes PETRIFIED_CAPTURED.
+   *
+   * FIX 2A: Unit HP, state, and grid presence are set IMMEDIATELY before the async
+   * dialogue chain so the unit cannot act or be acted upon during dialogue.
+   * FIX 2B: awaitingPetrificationDialogue defers checkWinLose while Eirika's dialogue runs.
    */
   private petrifyFromCombat(unit: Unit): void {
     // Map unit id → combat petrification dialogue
@@ -1372,16 +1492,29 @@ export class ChapterScene extends Phaser.Scene {
       { speaker: 'Narrator', text: `${unit.name} has been petrified.`, portrait: '' },
     ];
 
+    // FIX 2A: Immediately set HP=0, state, remove from walkable grid, update visual.
+    // This prevents the unit from being selected or acting during the async dialogue.
     unit.stats.hp = 0;
+    unit.state    = UnitState.PETRIFIED_SAFE;
+    this.gameMap.removeUnit(unit);
+    this.updateUnitGraphic(unit);
+
+    // FIX 2B: For Eirika, raise the guard flag so checkWinLose defers game-over
+    // until after the full dialogue + CG chain completes.
+    if (unit.id === 'eirika') {
+      this.awaitingPetrificationDialogue = true;
+    }
 
     this.showDialogue(script, () => {
       this.showCGPlaceholder(unit.name, () => {
-        // Petrify as SAFE initially — enemy phase may upgrade to CAPTURED
+        // Full petrify call: sets internal flags and fires UNIT_PETRIFIED trigger
         unit.petrify(false);
         this.updateUnitGraphic(unit);
         this.eventTrigger.checkTriggers(EventType.UNIT_PETRIFIED, { unitId: unit.id });
 
         if (unit.id === 'eirika') {
+          // FIX 2B: Clear guard flag then trigger game-over
+          this.awaitingPetrificationDialogue = false;
           this.triggerGameOver('Eirika has been petrified!');
         }
 
@@ -1408,6 +1541,9 @@ export class ChapterScene extends Phaser.Scene {
   // ==========================================================================
 
   private checkWinLose(): void {
+    // FIX 2B / FIX 7: Eirika's petrification dialogue is still playing — defer.
+    if (this.awaitingPetrificationDialogue) return;
+
     const eirika = this.allUnits.get('eirika');
     if (!eirika) {
       this.triggerGameOver('Eirika has fallen!');
@@ -1540,77 +1676,107 @@ export class ChapterScene extends Phaser.Scene {
   }
 
   // ==========================================================================
-  // CHANGE H: Petrified unit / decorative statue popup
+  // CHANGE H / FIX 6: Unified statue popup
   // ==========================================================================
 
   /**
-   * Shows a Phaser container popup with unit petrification info.
-   * Dismisses on Close button click or Escape.
+   * FIX 6: Unified statue / petrified-unit info popup.
+   * Replaces showPetrifiedUnitPopup, showDecorativeStatuePopup, showAuraStatuePopup.
+   *
+   * Layout:
+   *   [NAME] — [STATUS]
+   *   ─────────────────────────────
+   *   STR/SKL/SPD / DEF/RES/STO    ← if stats present
+   *   OR "Stats: Unknown"
+   *   ─────────────────────────────
+   *   Aura (Tier X, X tile radius):   ← if aura present
+   *   • All player stats: −X
+   *   • STO-RES decay: +X/turn
+   *   ─────────────────────────────
+   *   [Close]
    */
-  private showUnitPopup(
-    title:    string,
-    status:   string,
-    auraInfo: string,
-    statsStr: string,
-  ): void {
-    this.closePopup(); // close any existing popup
+  private showStatuePopup(info: StatuePopupInfo): void {
+    this.closePopup();
 
-    const cx  = this.scale.width / 2;
-    const cy  = this.scale.height / 2;
-    const w   = 400;
-    const h   = 200;
+    const cx = this.scale.width / 2;
+    const cy = this.scale.height / 2;
+    const w  = 420;
+    const h  = info.auraTier !== undefined ? 260 : 200;
 
     const container = this.add.container(cx, cy).setDepth(90);
 
-    const bg = this.add.rectangle(0, 0, w, h, 0x111133, 0.95)
-      .setOrigin(0.5, 0.5);
+    const bg     = this.add.rectangle(0, 0, w, h, 0x111133, 0.95).setOrigin(0.5, 0.5);
     const border = this.add.rectangle(0, 0, w, h, 0x000000, 0)
-      .setOrigin(0.5, 0.5)
-      .setStrokeStyle(2, 0x8888cc, 1);
+      .setOrigin(0.5, 0.5).setStrokeStyle(2, 0x8888cc, 1);
 
-    const titleTxt = this.add.text(0, -h / 2 + 18, title, {
-      fontSize:   '15px',
-      color:      '#eeeeff',
-      fontFamily: 'monospace',
-      fontStyle:  'bold',
+    const statusLabel =
+      info.status === 'Captured'     ? 'Captured' :
+      info.status === 'Safe'         ? 'Safe'      :
+                                       'Environmental';
+
+    const titleTxt = this.add.text(0, -h / 2 + 18, `${info.name} — ${statusLabel}`, {
+      fontSize:   '15px', color: '#eeeeff', fontFamily: 'monospace', fontStyle: 'bold',
     }).setOrigin(0.5, 0.5);
 
-    const statusTxt = this.add.text(0, -h / 2 + 40, `Status: ${status}`, {
-      fontSize:   '12px',
-      color:      '#aaaacc',
-      fontFamily: 'monospace',
-    }).setOrigin(0.5, 0.5);
+    let yOffset = -h / 2 + 42;
 
-    const divider = this.add.rectangle(0, -h / 2 + 56, w - 20, 1, 0x555577)
-      .setOrigin(0.5, 0.5);
+    const div1 = this.add.rectangle(0, yOffset, w - 20, 1, 0x555577).setOrigin(0.5, 0.5);
+    yOffset += 16;
 
-    const auraTxt = this.add.text(0, -h / 2 + 80, auraInfo, {
-      fontSize:   '11px',
-      color:      '#cc8888',
-      fontFamily: 'monospace',
-      align:      'center',
-      wordWrap:   { width: w - 30 },
-    }).setOrigin(0.5, 0.5);
+    // Origin note for Environmental
+    let statsStr: string;
+    if (info.status === 'Environmental') {
+      statsStr = 'Origin: Unknown. Petrified before this battle.';
+    } else if (info.stats) {
+      const s = info.stats;
+      statsStr =
+        `STR: ${s.str}  SKL: ${s.skl}  SPD: ${s.spd}\n` +
+        `DEF: ${s.def}  RES: ${s.res}  STO: ${s.stoRes}/${s.maxStoRes}`;
+    } else {
+      statsStr = 'Stats: Unknown';
+    }
 
-    const divider2 = this.add.rectangle(0, -h / 2 + 110, w - 20, 1, 0x555577)
-      .setOrigin(0.5, 0.5);
+    const statsTxt = this.add.text(0, yOffset, statsStr, {
+      fontSize: '11px', color: '#aabbcc', fontFamily: 'monospace', align: 'center',
+    }).setOrigin(0.5, 0);
+    yOffset += statsTxt.height + 12;
 
-    const statsTxt = this.add.text(0, -h / 2 + 130, statsStr, {
-      fontSize:   '11px',
-      color:      '#aabbcc',
-      fontFamily: 'monospace',
-    }).setOrigin(0.5, 0.5);
+    const auraObjects: Phaser.GameObjects.GameObject[] = [];
+    if (info.auraTier !== undefined) {
+      const tierNames: Record<AuraTier, string> = {
+        [AuraTier.TIER_S]: 'S',
+        [AuraTier.TIER_A]: 'A',
+        [AuraTier.TIER_B]: 'B',
+      };
+      const div2 = this.add.rectangle(0, yOffset, w - 20, 1, 0x555577).setOrigin(0.5, 0.5);
+      auraObjects.push(div2);
+      yOffset += 14;
+
+      const auraTitle = this.add.text(
+        0, yOffset,
+        `Aura (Tier ${tierNames[info.auraTier]}, ${info.auraRadius ?? '?'} tile radius):`,
+        { fontSize: '11px', color: '#cc8888', fontFamily: 'monospace' },
+      ).setOrigin(0.5, 0);
+      auraObjects.push(auraTitle);
+      yOffset += auraTitle.height + 4;
+
+      const statDebuffVal = info.statDebuff ?? 1;
+      const auraDetail = this.add.text(
+        0, yOffset,
+        `• All player stats: −${statDebuffVal}\n• STO-RES decay: +${info.stoDecay ?? 0}/turn`,
+        { fontSize: '10px', color: '#bb8888', fontFamily: 'monospace', align: 'center' },
+      ).setOrigin(0.5, 0);
+      auraObjects.push(auraDetail);
+    }
 
     // Close button
     const closeBtnBg = this.add.rectangle(0, h / 2 - 22, 80, 26, 0x334466)
       .setOrigin(0.5, 0.5).setInteractive({ cursor: 'pointer' });
     const closeBtnTxt = this.add.text(0, h / 2 - 22, 'Close', {
-      fontSize:   '12px',
-      color:      '#88aaff',
-      fontFamily: 'monospace',
+      fontSize: '12px', color: '#88aaff', fontFamily: 'monospace',
     }).setOrigin(0.5, 0.5);
 
-    container.add([bg, border, titleTxt, statusTxt, divider, auraTxt, divider2, statsTxt, closeBtnBg, closeBtnTxt]);
+    container.add([bg, border, titleTxt, div1, statsTxt, ...auraObjects, closeBtnBg, closeBtnTxt]);
     this.activePopup = container;
 
     closeBtnBg.on('pointerdown', () => { this.closePopup(); });
@@ -1625,38 +1791,22 @@ export class ChapterScene extends Phaser.Scene {
     }
   }
 
-  /** Build and show popup for a petrified unit. */
+  /** Build and show popup for a petrified unit. FIX 6: delegates to showStatuePopup. */
   private showPetrifiedUnitPopup(unit: Unit): void {
-    const statusStr = unit.state === UnitState.PETRIFIED_CAPTURED ? 'Captured' : 'Safe';
+    const status = unit.state === UnitState.PETRIFIED_CAPTURED ? 'Captured' as const : 'Safe' as const;
     const auraSource = this.auraManager.sources.find(
       s => s.position.x === unit.position.x && s.position.y === unit.position.y,
     );
 
-    let auraInfo: string;
-    if (auraSource) {
-      const tierNames: Record<AuraTier, string> = {
-        [AuraTier.TIER_S]: 'S',
-        [AuraTier.TIER_A]: 'A',
-        [AuraTier.TIER_B]: 'B',
-      };
-      auraInfo =
-        `Aura Tier ${tierNames[auraSource.tier]} (${auraSource.radius} tile radius):\n` +
-        `• All player units: stats debuffed\n` +
-        `• STO-RES decay: +${this.getAuraDecay(unit.auraTier)}/turn`;
-    } else {
-      auraInfo = 'No active aura (not yet captured or source not placed)';
-    }
-
-    const statsStr1 = `STR ${unit.stats.str}  SKL ${unit.stats.skl}  SPD ${unit.stats.spd}`;
-    const statsStr2 = `DEF ${unit.stats.def}  RES ${unit.stats.res}  STO ${unit.stats.stoRes}/${unit.stats.maxStoRes}`;
-    const statsStr  = `Original stats:\n${statsStr1}\n${statsStr2}`;
-
-    this.showUnitPopup(
-      `${unit.name} — Petrified`,
-      statusStr,
-      auraInfo,
-      statsStr,
-    );
+    this.showStatuePopup({
+      name:        unit.name,
+      status,
+      stats:       unit.stats,
+      auraTier:    auraSource ? auraSource.tier : undefined,
+      auraRadius:  auraSource ? auraSource.radius : undefined,
+      stoDecay:    auraSource ? this.getAuraDecay(unit.auraTier) : undefined,
+      statDebuff:  1,
+    });
   }
 
   private getAuraDecay(tier: AuraTier): number {
@@ -1668,39 +1818,28 @@ export class ChapterScene extends Phaser.Scene {
     return map[tier] ?? 0;
   }
 
-  /** Build and show popup for a decorative statue. */
+  /** Build and show popup for a decorative statue. FIX 6: delegates to showStatuePopup. */
   private showDecorativeStatuePopup(statue: DecorativeStatue): void {
-    this.showUnitPopup(
-      `${statue.label} — Petrified`,
-      'Unknown',
-      'No aura information available.',
-      'No stat records found.',
-    );
+    this.showStatuePopup({
+      name:   statue.label,
+      status: 'Environmental',
+    });
   }
 
   /**
    * CHANGE L (CHANGE 1): Show popup for a pre-placed aura statue stored in auraManager.sources.
-   * Displays tier, radius, and effect description. Same popup style as petrified unit popup.
+   * FIX 6: delegates to showStatuePopup.
    */
   private showAuraStatuePopup(source: AuraSource): void {
-    const tierNames: Record<AuraTier, string> = {
-      [AuraTier.TIER_S]: 'S',
-      [AuraTier.TIER_A]: 'A',
-      [AuraTier.TIER_B]: 'B',
-    };
-    const tierName = tierNames[source.tier];
     const decay = this.getAuraDecay(source.tier);
-    const auraInfo =
-      `Aura Tier ${tierName} (${source.radius} tile radius):\n` +
-      `• Player stats debuffed within radius\n` +
-      `• STO-RES decay: +${decay}/turn in radius`;
-
-    this.showUnitPopup(
-      `${source.unitName} — Captured Statue`,
-      'Captured',
-      auraInfo,
-      'No stat records found.',
-    );
+    this.showStatuePopup({
+      name:       source.unitName,
+      status:     'Captured',
+      auraTier:   source.tier,
+      auraRadius: source.radius,
+      stoDecay:   decay,
+      statDebuff: 1,
+    });
   }
 
   // ==========================================================================
@@ -2452,6 +2591,8 @@ export class ChapterScene extends Phaser.Scene {
 
   private registerInput(): void {
     this.input.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
+      // FIX 8: Block all map clicks while a dialogue is active
+      if (this.dialogueActive) return;
       this.handlePointerDown(pointer);
     });
 
@@ -2561,7 +2702,12 @@ export class ChapterScene extends Phaser.Scene {
       this.selectUnit(clickedUnit);
     } else {
       if (clickedUnit && clickedUnit.team === Team.NPC) {
-        this.eventTrigger.checkTimerSuccess(clickedUnit.id);
+        // FIX 9: Rescue only fires when a player unit is adjacent to the NPC.
+        // Without adjacency, just show the NPC info panel.
+        const adjacentPlayer = this.findAdjacentPlayerUnit(clickedUnit);
+        if (adjacentPlayer) {
+          this.eventTrigger.checkTimerSuccess(clickedUnit.id);
+        }
       }
       this.updateUnitInfoPanel(clickedUnit);
     }
@@ -2576,12 +2722,24 @@ export class ChapterScene extends Phaser.Scene {
   ): void {
     const clickKey = `${col},${row}`;
 
-    // CHANGE I: Click same unit — open action menu if MOVED, otherwise do nothing
+    // CHANGE I / FIX 3: Click same unit — open action menu if MOVED or ACTIVE.
+    // For ACTIVE: treat as "stand ground" — set preMovePos to current tile then
+    // temporarily advance state to MOVED so menu logic works normally.
+    // Cancel (Escape) from the menu will restore ACTIVE state via cancelMove().
     if (clickedUnit && clickedUnit.id === this.selectedUnit?.id) {
       if (this.selectedUnit!.state === UnitState.MOVED) {
         this.showActionMenu(this.selectedUnit!);
+      } else if (this.selectedUnit!.state === UnitState.ACTIVE) {
+        // Store current position so Cancel can return the unit to this spot
+        this.preMovePos = {
+          x: this.selectedUnit!.position.x,
+          y: this.selectedUnit!.position.y,
+        };
+        // Temporarily promote to MOVED so showActionMenu behaves identically
+        this.selectedUnit!.state = UnitState.MOVED;
+        this.showActionMenu(this.selectedUnit!);
       }
-      // If still ACTIVE (not yet moved), do nothing (keep selected)
+      // Otherwise do nothing (keep selected)
       return;
     }
 
@@ -2764,8 +2922,19 @@ export class ChapterScene extends Phaser.Scene {
     });
   }
 
+  /**
+   * Launches the DialogueScene overlay.
+   * FIX 8: Sets dialogueActive=true for the duration so pointer input is blocked.
+   */
   private showDialogue(script: DialogueLine[], onComplete: () => void): void {
-    this.scene.launch('DialogueScene', { script, onComplete });
+    this.dialogueActive = true;
+    this.scene.launch('DialogueScene', {
+      script,
+      onComplete: () => {
+        this.dialogueActive = false;
+        onComplete();
+      },
+    });
   }
 
   private delay(ms: number): Promise<void> {
