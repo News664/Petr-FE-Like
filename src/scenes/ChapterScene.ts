@@ -7,7 +7,7 @@
  *   - CHANGE D: Render BREAKABLE_WALL tiles in 0x996633 (distinct from BUILDING 0x555555)
  *   - Render highlight overlays: movement=blue, attack=red, aura=dark-red tint
  *   - Render units as team-coloured containers with name, HP bar, STO-RES bar
- *   - Petrified units rendered as grey with "STONE" label
+ *   - Petrified units rendered as grey with "Statue" label (unified with decorative statues)
  *   - Pre-placed aura statue rendered as dark grey with skull
  *   - CHANGE E: Decorative statues rendered as dark grey rectangles with "◆" label
  *   - CHANGE H: Clicking a petrified unit or decorative statue shows a popup panel
@@ -32,6 +32,11 @@
  *            Eirika game-over deferred behind awaitingPetrificationDialogue guard
  *   - FIX 8: dialogueActive flag blocks pointer input during dialogue
  *   - FIX 9: handleIdleClick NPC rescue requires adjacent player unit
+ *   - BUG 1 FIX: Dialogue queue (dialogueQueue) prevents showDialogue from silently dropping
+ *               a second call when DialogueScene is already running; maya.petrify moved inside callback
+ *   - BUG 2 FIX: fleeing_east timer set to 1 turn (staggered vs fleeing_west=2) — east NPC is
+ *               already inside the aura field and should expire one turn earlier
+ *   - BUG 3 FIX: All statue labels unified to 'Statue' (was 'STONE' / 'Stat')
  *   - Input state machine with ACTION_MENU, ITEM_SELECT, TRADE, BREAK_WALL, COMBAT_PREVIEW overlays
  *   - Turn loop: player phase → enemy AI phase → back to player
  *   - Event trigger system: scripted events, degrading NPC timers
@@ -260,6 +265,8 @@ export class ChapterScene extends Phaser.Scene {
 
   // FIX 8: Block pointer input during dialogue
   private dialogueActive: boolean = false;
+  // BUG 1 FIX: Queue for dialogues that arrive while one is already running
+  private dialogueQueue: Array<{ script: DialogueLine[]; onComplete: () => void }> = [];
 
   // FIX 7 / FIX 2: Guard checkWinLose while Eirika's petrification dialogue is running
   private awaitingPetrificationDialogue: boolean = false;
@@ -467,11 +474,10 @@ export class ChapterScene extends Phaser.Scene {
     container.add(rect);
 
     if (isStone) {
-      const stoneLabel = this.add.text(0, -2, 'STONE', {
+      const stoneLabel = this.add.text(0, -2, 'Statue', {
         fontSize:   '9px',
-        color:      '#ccccee',
+        color:      '#888888',
         fontFamily: 'monospace',
-        fontStyle:  'bold',
       }).setOrigin(0.5, 0.5);
       container.add(stoneLabel);
     } else {
@@ -557,8 +563,8 @@ export class ChapterScene extends Phaser.Scene {
       const icon  = this.add.text(0, -5, '◆', {
         fontSize: '14px', color: '#888888', fontFamily: 'monospace',
       }).setOrigin(0.5, 0.5);
-      const lbl   = this.add.text(0, 10, 'Stat', {
-        fontSize: '8px', color: '#777777', fontFamily: 'monospace',
+      const lbl   = this.add.text(0, 10, 'Statue', {
+        fontSize: '8px', color: '#888888', fontFamily: 'monospace',
       }).setOrigin(0.5, 0.5);
 
       container.add([rect, icon, lbl]);
@@ -615,8 +621,8 @@ export class ChapterScene extends Phaser.Scene {
         const icon = this.add.text(0, -5, '◆', {
           fontSize: '14px', color: '#888888', fontFamily: 'monospace',
         }).setOrigin(0.5, 0.5);
-        const lbl = this.add.text(0, 10, 'Stat', {
-          fontSize: '8px', color: '#777777', fontFamily: 'monospace',
+        const lbl = this.add.text(0, 10, 'Statue', {
+          fontSize: '8px', color: '#888888', fontFamily: 'monospace',
         }).setOrigin(0.5, 0.5);
         container.add([rect, icon, lbl]);
         this.statueContainers.push(container);
@@ -766,9 +772,10 @@ export class ChapterScene extends Phaser.Scene {
             this.removeNpcTimerText('maya');
             const maya = this.allUnits.get('maya');
             if (maya && maya.state === UnitState.ACTIVE) {
-              this.showDialogue(mayaPetrifiedDialogue, () => {});
-              maya.petrify(false);
-              this.updateUnitGraphic(maya);
+              this.showDialogue(mayaPetrifiedDialogue, () => {
+                maya.petrify(false);
+                this.updateUnitGraphic(maya);
+              });
             }
           },
         });
@@ -788,7 +795,7 @@ export class ChapterScene extends Phaser.Scene {
         }
         const eastUnit = this.allUnits.get('fleeing_east');
         if (eastUnit) {
-          this.createNpcTimerText('fleeing_east', eastUnit.position.x, eastUnit.position.y, 2);
+          this.createNpcTimerText('fleeing_east', eastUnit.position.x, eastUnit.position.y, 1);
         }
 
         this.eventTrigger.addTimer({
@@ -830,9 +837,11 @@ export class ChapterScene extends Phaser.Scene {
           },
         });
 
+        // BUG 2 FIX: fleeing_east is already inside the aura field, so she expires 1 turn
+        // earlier than fleeing_west (staggered timers to reflect their different positions).
         this.eventTrigger.addTimer({
           npcId:          'fleeing_east',
-          turnsRemaining: 2,
+          turnsRemaining: 1,
           // FIX 5: onTick updates countdown text
           onTick: (remaining) => {
             this.updateNpcTimerText('fleeing_east', remaining);
@@ -2923,16 +2932,29 @@ export class ChapterScene extends Phaser.Scene {
   }
 
   /**
-   * Launches the DialogueScene overlay.
+   * Queues and launches DialogueScene overlays.
+   * BUG 1 FIX: If a dialogue is already active, enqueue the new one so it runs after.
    * FIX 8: Sets dialogueActive=true for the duration so pointer input is blocked.
    */
   private showDialogue(script: DialogueLine[], onComplete: () => void): void {
+    if (this.dialogueActive) {
+      this.dialogueQueue.push({ script, onComplete });
+      return;
+    }
+    this.launchDialogueNow(script, onComplete);
+  }
+
+  private launchDialogueNow(script: DialogueLine[], onComplete: () => void): void {
     this.dialogueActive = true;
     this.scene.launch('DialogueScene', {
       script,
       onComplete: () => {
         this.dialogueActive = false;
         onComplete();
+        if (this.dialogueQueue.length > 0) {
+          const next = this.dialogueQueue.shift()!;
+          this.launchDialogueNow(next.script, next.onComplete);
+        }
       },
     });
   }

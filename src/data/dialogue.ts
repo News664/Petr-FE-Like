@@ -12,7 +12,9 @@
  * DialogueScript: DialogueLine[]
  *
  * Exported scripts (CHANGE L — full rewrite, tone: player = despair/helplessness,
- *                    enemy = appreciative collector):
+ *                    enemy = appreciative collector;
+ *                    BUG 4 FIX — all petrification dialogues fully rewritten with 4-part structure:
+ *                    last words / collector monologue / "..." / narrator closing):
  *   openingDialogue               — 4 lines; Eirika/Tana react to petrified gate guards
  *   weakGorgonOpeningDialogue     — 4 lines; inner-hall cutscene before turn 1
  *   mayaCalloutDialogue           — 2 lines; fires on turn 2 start
@@ -136,24 +138,22 @@ export const breachGuardDialogue: DialogueLine[] = [
 // ---------------------------------------------------------------------------
 
 export const vanessaHandPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Vanessa',  text: "...Don't look, Syrene.", portrait: 'vanessa' },
-  { speaker: 'The Hand', text: "A pegasus knight at her post. There's something almost noble about it.", portrait: 'hand' },
-  { speaker: 'The Hand', text: "She'll stand at the eastern corridor. The wings will catch the light beautifully.", portrait: 'hand' },
+  { speaker: 'Vanessa',  text: "Syrene — don't look. Just don't look at it.", portrait: 'vanessa' },
+  { speaker: 'The Hand', text: "Shoulders squared, lance vertical, gaze fixed at exactly the angle of someone still standing their post. She held the form even at the end — that kind of discipline is written into the body and doesn't leave. But the head is turned slightly, still watching for her partner. She was protecting someone even in the final instant. She'll stand in the eastern corridor, where every visitor who passes will feel watched.", portrait: 'hand' },
   { speaker: 'Vanessa',  text: "...", portrait: 'vanessa' },
   { speaker: 'Narrator', text: "Vanessa has been petrified.", portrait: '' },
 ];
 
 export const syreneHandPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Syrene',   text: "Vanessa... I held as long as I could.", portrait: 'syrene' },
-  { speaker: 'The Hand', text: "Loyalty to the end. I appreciate that in a subject.", portrait: 'hand' },
-  { speaker: 'The Hand', text: "She'll stand beside her partner. A pair, as they were in life.", portrait: 'hand' },
+  { speaker: 'Syrene',   text: "Vanessa... I held the line as long as I could. I hope it was enough.", portrait: 'syrene' },
+  { speaker: 'The Hand', text: "A veteran who outlasted every expectation. That grip on the lance — she could have dropped it, freed her hands to run, and chose not to. The head is bowed slightly, as if still bearing something invisible. I'll stand her beside Vanessa. A matched pair carries different weight than two singles — visitors understand, without being told, that these two belong together.", portrait: 'hand' },
   { speaker: 'Syrene',   text: "...", portrait: 'syrene' },
   { speaker: 'Narrator', text: "Syrene has been petrified.", portrait: '' },
 ];
 
 export const tanaHandPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Tana',     text: "Eirika — run! Don't stop for me—!", portrait: 'tana' },
-  { speaker: 'The Hand', text: "Mid-flight. The wings, the expression — exquisite. This one goes to the Queen herself.", portrait: 'hand' },
+  { speaker: 'Tana',     text: "Eirika — run, run now, don't stop for me—!", portrait: 'tana' },
+  { speaker: 'The Hand', text: "Wings at full spread mid-flight, lance angled forward, and the eyes fixed not on the threat but on the girl she was calling to. Concern rather than fear — I have taken dozens of pieces this season and I have not seen concern once. The Queen herself has been asking for something extraordinary. This is it. She'll be displayed where the light falls on those wings from above.", portrait: 'hand' },
   { speaker: 'Tana',     text: "...", portrait: 'tana' },
   { speaker: 'Narrator', text: "Tana has been petrified.", portrait: '' },
 ];
@@ -176,8 +176,8 @@ export const syreneCapturedDialogue: DialogueLine[] = [
 // ---------------------------------------------------------------------------
 
 export const mayaPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Maya',     text: "I knew... you weren't going to make it in time...", portrait: 'maya' },
-  { speaker: 'Enemy',    text: "A commoner, but the expression is genuine terror. Those are rare. She'll sell well.", portrait: 'enemy' },
+  { speaker: 'Maya',     text: "I see... There was never going to be enough time, was there.", portrait: 'maya' },
+  { speaker: 'Enemy',    text: "The hands are the finest detail — pressed together, fingers lightly interlaced, as though she had simply accepted what was coming. Most subjects struggle. Acceptance is rare. I'll place her in the garden alcove, half-hidden by the hedgerow, where someone walking alone might come upon her and feel, for a moment, that they've stumbled on a secret.", portrait: 'enemy' },
   { speaker: 'Maya',     text: "...", portrait: 'maya' },
   { speaker: 'Narrator', text: "Maya has been petrified and collected.", portrait: '' },
 ];
@@ -187,15 +187,15 @@ export const mayaPetrifiedDialogue: DialogueLine[] = [
 // ---------------------------------------------------------------------------
 
 export const fleeingWestPetrifiedDialogue: DialogueLine[] = [
-  { speaker: '???',      text: "I can't— my legs—", portrait: 'npc' },
-  { speaker: 'Enemy',    text: "Fleeing posture. The terror is still visible in the pose — dynamic. Our clients appreciate motion.", portrait: 'enemy' },
+  { speaker: '???',      text: "No — no, not yet — my legs won't—!", portrait: 'npc' },
+  { speaker: 'Enemy',    text: "One knee still bent from the stride, arms pitched forward, hair caught streaming behind her — the posture of arrested momentum. Still poses are easy to come by. A figure caught mid-flight, weight already committed to the next step? Considerably rarer. I'll set her in the courtyard where visitors must walk around her to reach the fountain.", portrait: 'enemy' },
   { speaker: '???',      text: "...", portrait: 'npc' },
   { speaker: 'Narrator', text: "The fleeing girl has been petrified.", portrait: '' },
 ];
 
 export const fleeingEastPetrifiedDialogue: DialogueLine[] = [
-  { speaker: '???',      text: "Please— I was almost—", portrait: 'npc' },
-  { speaker: 'Enemy',    text: "She was running toward something, I think. Or away. Either way, the momentum is preserved perfectly.", portrait: 'enemy' },
+  { speaker: '???',      text: "Please — the gate is right there — I'm almost—!", portrait: 'npc' },
+  { speaker: 'Enemy',    text: "Arms extended, reaching for something she could almost touch — the eastern gate was perhaps six steps away, and the angle of her gaze still points toward it. You can see where she was going. I find that detail quietly devastating. She'll stand in a hallway entrance, so she is always almost arriving.", portrait: 'enemy' },
   { speaker: '???',      text: "...", portrait: 'npc' },
   { speaker: 'Narrator', text: "The fleeing girl has been petrified.", portrait: '' },
 ];
@@ -251,29 +251,29 @@ export const amberShardFoundDialogue: DialogueLine[] = [
 // ---------------------------------------------------------------------------
 
 export const eirikaCombatPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Eirika',   text: "I can't... move. It's spreading so fast—", portrait: 'eirika' },
-  { speaker: 'Enemy',    text: "A lord. They always make the finest centerpieces.", portrait: 'enemy' },
+  { speaker: 'Eirika',   text: "How did it spread so fast — I had my guard up, I was still fighting—", portrait: 'eirika' },
+  { speaker: 'Enemy',    text: "The Rapier still half-raised in a guard stance, hair fanned out from the motion of the strike she never completed, and the expression — not fear, but disbelief. The bearing of someone who fully expected to fight back. The royal crest on her dress will be a conversation piece for years. She belongs at the center of a great reception hall, where every visitor sees her first.", portrait: 'enemy' },
   { speaker: 'Eirika',   text: "...", portrait: 'eirika' },
   { speaker: 'Narrator', text: "Eirika has been petrified. The retreat has failed.", portrait: '' },
 ];
 
 export const tanaCombatPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Tana',     text: "Eirika—! I'm sorry, I can't—", portrait: 'tana' },
-  { speaker: 'Enemy',    text: "Mid-flight. The wings almost look real. The Order will want this one.", portrait: 'enemy' },
+  { speaker: 'Tana',     text: "Eirika — I'm sorry — just run, don't stop for me—!", portrait: 'tana' },
+  { speaker: 'Enemy',    text: "Wings caught mid-downstroke, lance angled forward — and she was looking back over her shoulder, not at the threat but at the girl she was calling to. Concern rather than fear, even at the very last moment. A pose that implies connection is extraordinarily difficult to acquire. I'll suspend her from the vaulted ceiling of the long hall, where the light from the high windows catches the wings at different angles through the day.", portrait: 'enemy' },
   { speaker: 'Tana',     text: "...", portrait: 'tana' },
   { speaker: 'Narrator', text: "Tana has been petrified.", portrait: '' },
 ];
 
 export const vanessaCombatPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Vanessa',  text: "Hold... someone has to hold the gate—", portrait: 'vanessa' },
-  { speaker: 'Enemy',    text: "Two pegasus knights at the same post. The entrance hall will suit them well.", portrait: 'enemy' },
+  { speaker: 'Vanessa',  text: "Someone — the gate still needs to be held—!", portrait: 'vanessa' },
+  { speaker: 'Enemy',    text: "At attention even in stone — shoulders squared, lance vertical, gaze fixed forward as though she is still standing watch. One hand is slightly extended, as if she had begun to reach for something and thought better of it. I find that small detail compelling. She'll stand in the eastern corridor where every guest who passes must walk beneath her eye.", portrait: 'enemy' },
   { speaker: 'Vanessa',  text: "...", portrait: 'vanessa' },
   { speaker: 'Narrator', text: "Vanessa has been petrified.", portrait: '' },
 ];
 
 export const syreneCombatPetrifiedDialogue: DialogueLine[] = [
-  { speaker: 'Syrene',   text: "Vanessa... I held as long as I could.", portrait: 'syrene' },
-  { speaker: 'Enemy',    text: "The older one. Experienced posture — there's dignity in it. She'll look fine on a pedestal.", portrait: 'enemy' },
+  { speaker: 'Syrene',   text: "Vanessa... I held the line as long as I could. I hope it was enough.", portrait: 'syrene' },
+  { speaker: 'Enemy',    text: "The grip on the lance shows experience — not white-knuckled panic, the tight hold of someone who has trained for years and simply applied that training to the last possible moment. The slight upturn of the chin suggests she had already made her peace with this outcome. She'll stand at the staircase landing, where visitors must look up to reach her.", portrait: 'enemy' },
   { speaker: 'Syrene',   text: "...", portrait: 'syrene' },
   { speaker: 'Narrator', text: "Syrene has been petrified.", portrait: '' },
 ];
