@@ -9,16 +9,33 @@
  *   Enemy units  — EnemySoldier, Gorgon, StrongGorgon, DarkMage
  *   Special      — TheHand (PURSUER, effectively unkillable, isPursuer=true)
  *   NPCs         — Maya (well NPC), FleeingGirlWest, FleeingGirlEast
+ *                  BreachGuard1, BreachGuard2 (inside stronghold, petrified on turn 5)
  *
- * Weapon data format (WeaponData):
- *   name, type (WeaponType), might, hit, minRange, maxRange, weight
+ * Inventory format (CHANGE C — unified 5-slot inventory):
+ *   Each unit carries InventoryItem[] (max 5). Weapons are WeaponItem { kind:'weapon', data }.
+ *   Consumables are ConsumableItem { kind:'consumable', name, uses, maxUses, effect }.
+ *   equippedSlot is the index of the active weapon in inventory.
  *
- * Item data format (ItemData):
- *   name, uses, maxUses, healAmount
- *   Eirika carries one Vulnerary: { name:'Vulnerary', uses:3, maxUses:3, healAmount:10 }
+ *   Eirika:  [Rapier (weapon), Vulnerary (consumable, heal 10, 3 uses)]
+ *   Others:  [their weapon]
+ *   NPC/enemies with no weapons: []
+ *
+ * Shared consumable exports:
+ *   VULNERARY    — heal 10 HP, 3 uses
+ *   AMBER_SHARD  — stoResBoost 5, 1 use
+ *
+ * Growth rates (CHANGE B):
+ *   Eirika:  hp70 str45 mag30 skl55 spd60 lck60 def35 res30
+ *   Tana:    hp65 str55 mag20 skl50 spd65 lck50 def40 res35
+ *   Vanessa: hp60 str50 mag15 skl55 spd60 lck45 def45 res30
+ *   Syrene:  hp55 str45 mag20 skl60 spd55 lck40 def50 res35
+ *
+ * Stat tuning (CHANGE F):
+ *   Vanessa: spd 10 (+2), lck 7 (+3), def 7 (+1)
+ *   Syrene:  spd 11 (+2), lck 8 (+3), def 8 (+1)
  *
  * Note: NPC units have no weapons and cannot initiate or receive combat.
- *       Gorgon has two weapons; index 0 = Stone Gaze (GAZE), index 1 = Shadowshot (DARK).
+ *       Gorgon has two weapons; equippedSlot 0 = Stone Gaze (GAZE), slot 1 = Shadowshot (DARK).
  *       AuraTier values: TIER_S=3, TIER_A=2, TIER_B=1.
  *       Enemy units have stoRes 0 — they are immune to being petrified.
  *       Named player characters have isNamedCharacter=true (Eirika, Tana, Vanessa, Syrene).
@@ -26,7 +43,7 @@
  */
 
 import { Unit, Team, UnitClass, AuraTier, WeaponType } from '../game/Unit';
-import type { UnitStats, WeaponData } from '../game/Unit';
+import type { UnitStats, WeaponData, WeaponItem, ConsumableItem, GrowthRates } from '../game/Unit';
 
 // ---------------------------------------------------------------------------
 // Shared weapon definitions
@@ -65,6 +82,36 @@ const FLUX: WeaponData = {
 };
 
 // ---------------------------------------------------------------------------
+// CHANGE C: Shared consumable item definitions (exported for use in triggers)
+// ---------------------------------------------------------------------------
+
+export const VULNERARY: ConsumableItem = {
+  kind:    'consumable',
+  name:    'Vulnerary',
+  uses:    3,
+  maxUses: 3,
+  effect:  { type: 'heal', amount: 10 },
+};
+
+export const AMBER_SHARD: ConsumableItem = {
+  kind:    'consumable',
+  name:    'Amber Shard',
+  uses:    1,
+  maxUses: 1,
+  effect:  { type: 'stoResBoost', amount: 5 },
+};
+
+// Helper: wrap a weapon into a WeaponItem inventory slot
+function weaponSlot(data: WeaponData): WeaponItem {
+  return { kind: 'weapon', data };
+}
+
+// Helper: clone a consumable (to avoid shared state between units)
+function cloneConsumable(item: ConsumableItem): ConsumableItem {
+  return { ...item };
+}
+
+// ---------------------------------------------------------------------------
 // Player unit factories
 // ---------------------------------------------------------------------------
 
@@ -74,9 +121,16 @@ export function createEirika(): Unit {
     str: 5, mag: 1, skl: 7, spd: 8, lck: 5, def: 4, res: 3,
     stoRes: 20, maxStoRes: 20,
   };
-  const unit = new Unit('eirika', 'Eirika', Team.PLAYER, UnitClass.LORD, stats, [RAPIER], 5, false, AuraTier.TIER_S);
+  const growthRates: GrowthRates = {
+    hp: 70, str: 45, mag: 30, skl: 55, spd: 60, lck: 60, def: 35, res: 30,
+  };
+  const unit = new Unit(
+    'eirika', 'Eirika', Team.PLAYER, UnitClass.LORD, stats,
+    [weaponSlot(RAPIER), cloneConsumable(VULNERARY)],
+    5, false, AuraTier.TIER_S,
+  );
   unit.isNamedCharacter = true;
-  unit.items = [{ name: 'Vulnerary', uses: 3, maxUses: 3, healAmount: 10 }];
+  unit.growthRates      = growthRates;
   return unit;
 }
 
@@ -86,30 +140,56 @@ export function createTana(): Unit {
     str: 6, mag: 1, skl: 6, spd: 9, lck: 6, def: 5, res: 4,
     stoRes: 18, maxStoRes: 18,
   };
-  const unit = new Unit('tana', 'Tana', Team.PLAYER, UnitClass.PEGASUS_KNIGHT, stats, [IRON_LANCE], 7, true, AuraTier.TIER_A);
+  const growthRates: GrowthRates = {
+    hp: 65, str: 55, mag: 20, skl: 50, spd: 65, lck: 50, def: 40, res: 35,
+  };
+  const unit = new Unit(
+    'tana', 'Tana', Team.PLAYER, UnitClass.PEGASUS_KNIGHT, stats,
+    [weaponSlot(IRON_LANCE)],
+    7, true, AuraTier.TIER_A,
+  );
   unit.isNamedCharacter = true;
+  unit.growthRates      = growthRates;
   return unit;
 }
 
 export function createVanessa(): Unit {
+  // CHANGE F: spd 10 (+2), lck 7 (+3), def 7 (+1)
   const stats: UnitStats = {
     hp: 20, maxHp: 20,
-    str: 7, mag: 1, skl: 7, spd: 8, lck: 4, def: 6, res: 5,
+    str: 7, mag: 1, skl: 7, spd: 10, lck: 7, def: 7, res: 5,
     stoRes: 18, maxStoRes: 18,
   };
-  const unit = new Unit('vanessa', 'Vanessa', Team.PLAYER, UnitClass.PEGASUS_KNIGHT, stats, [IRON_LANCE], 7, true, AuraTier.TIER_A);
+  const growthRates: GrowthRates = {
+    hp: 60, str: 50, mag: 15, skl: 55, spd: 60, lck: 45, def: 45, res: 30,
+  };
+  const unit = new Unit(
+    'vanessa', 'Vanessa', Team.PLAYER, UnitClass.PEGASUS_KNIGHT, stats,
+    [weaponSlot(IRON_LANCE)],
+    7, true, AuraTier.TIER_A,
+  );
   unit.isNamedCharacter = true;
+  unit.growthRates      = growthRates;
   return unit;
 }
 
 export function createSyrene(): Unit {
+  // CHANGE F: spd 11 (+2), lck 8 (+3), def 8 (+1)
   const stats: UnitStats = {
     hp: 23, maxHp: 23,
-    str: 8, mag: 2, skl: 9, spd: 9, lck: 5, def: 7, res: 6,
+    str: 8, mag: 2, skl: 9, spd: 11, lck: 8, def: 8, res: 6,
     stoRes: 16, maxStoRes: 16,
   };
-  const unit = new Unit('syrene', 'Syrene', Team.PLAYER, UnitClass.PEGASUS_KNIGHT, stats, [STEEL_LANCE], 7, true, AuraTier.TIER_B);
+  const growthRates: GrowthRates = {
+    hp: 55, str: 45, mag: 20, skl: 60, spd: 55, lck: 40, def: 50, res: 35,
+  };
+  const unit = new Unit(
+    'syrene', 'Syrene', Team.PLAYER, UnitClass.PEGASUS_KNIGHT, stats,
+    [weaponSlot(STEEL_LANCE)],
+    7, true, AuraTier.TIER_B,
+  );
   unit.isNamedCharacter = true;
+  unit.growthRates      = growthRates;
   return unit;
 }
 
@@ -129,7 +209,7 @@ export function createEnemySoldier(index: number): Unit {
     Team.ENEMY,
     UnitClass.SOLDIER,
     stats,
-    [IRON_LANCE],
+    [weaponSlot(IRON_LANCE)],
     5,
     false,
     AuraTier.TIER_B,
@@ -148,7 +228,7 @@ export function createGorgon(index: number): Unit {
     Team.ENEMY,
     UnitClass.GORGON,
     stats,
-    [STONE_GAZE, SHADOWSHOT],
+    [weaponSlot(STONE_GAZE), weaponSlot(SHADOWSHOT)],
     5,
     false,
     AuraTier.TIER_A,
@@ -167,7 +247,7 @@ export function createStrongGorgon(index: number): Unit {
     Team.ENEMY,
     UnitClass.GORGON,
     stats,
-    [STRONG_STONE_GAZE, STRONG_SHADOWSHOT],
+    [weaponSlot(STRONG_STONE_GAZE), weaponSlot(STRONG_SHADOWSHOT)],
     5,
     false,
     AuraTier.TIER_A,
@@ -186,7 +266,7 @@ export function createDarkMage(index: number): Unit {
     Team.ENEMY,
     UnitClass.MAGE,
     stats,
-    [FLUX],
+    [weaponSlot(FLUX)],
     5,
     false,
     AuraTier.TIER_B,
@@ -255,4 +335,24 @@ export function createFleeingGirlEast(): Unit {
     stoRes: 8, maxStoRes: 8,
   };
   return new Unit('fleeing_east', 'Girl (E)', Team.NPC, UnitClass.NPC_CIVILIAN, stats, [], 4, false, AuraTier.TIER_B);
+}
+
+/** CHANGE K: Breach guards — placed inside the stronghold at (8,12) and (10,12). */
+export function createBreachGuard(index: number): Unit {
+  const stats: UnitStats = {
+    hp: 12, maxHp: 12,
+    str: 0, mag: 0, skl: 0, spd: 0, lck: 0, def: 0, res: 0,
+    stoRes: 10, maxStoRes: 10,
+  };
+  return new Unit(
+    `guard_breach_${index}`,
+    `Guard ${index}`,
+    Team.NPC,
+    UnitClass.NPC_CIVILIAN,
+    stats,
+    [],
+    4,
+    false,
+    AuraTier.TIER_B,
+  );
 }

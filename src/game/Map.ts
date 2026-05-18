@@ -3,42 +3,52 @@
  * Tile grid, unit placement, and movement/attack range calculation for Petr-FE-Like.
  *
  * Key interfaces:
- *   TileData — per-tile properties: type, walkable flag, terrainCost, defBonus, avoBonus
+ *   TileData — per-tile properties: type, walkable flag, terrainCost, defBonus, avoBonus,
+ *              breakableHp (> 0 for BREAKABLE_WALL tiles)
  *
  * Map class responsibilities:
  *   - Owns the 2-D tile grid (tiles[row][col]) and a parallel unit grid (units[row][col])
  *   - placeUnit / moveUnit / removeUnit keep both grids in sync
  *   - getMovementRange: BFS flood-fill respecting terrain cost, unit blocking, and flying
  *   - getAttackRange: expands from a set of positions using equipped weapon range
+ *   - breakTile(x, y): converts a BREAKABLE_WALL tile to GRASS, clearing breakableHp
  *
  * Coordinate convention: (x = col, y = row), origin top-left.
  *
  * Terrain costs:
- *   GRASS=1, ROAD=1, FOREST=2, GATE=1, WELL=1, ESCAPE=1, BUILDING=impassable(99)
+ *   GRASS=1, ROAD=1, FOREST=2, GATE=1, WELL=1, ESCAPE=1,
+ *   BUILDING=impassable(99), BREAKABLE_WALL=impassable(99)
  *   Flying units always pay cost 1 per tile.
  *
  * Tile bonuses:
  *   FOREST: def+1 avo+10 | GATE: def+2
+ *
+ * CHANGE D: BREAKABLE_WALL tile added — walkable:false, cost 99, breakableHp 1.
+ *           breakTile() method converts BREAKABLE_WALL to GRASS.
+ * CHANGE E: isPursuer units ignore BUILDING tiles in pathfinding (handled in
+ *           bfsPathIgnoringUnits in AI.ts; BREAKABLE_WALL is also ignored for pursuers).
  */
 
 import { TileType, Unit } from './Unit';
 
 export interface TileData {
-  type:        TileType;
-  walkable:    boolean;
-  terrainCost: number;
-  defBonus:    number;
-  avoBonus:    number;
+  type:         TileType;
+  walkable:     boolean;
+  terrainCost:  number;
+  defBonus:     number;
+  avoBonus:     number;
+  breakableHp:  number;  // CHANGE D: > 0 for BREAKABLE_WALL tiles; 0 otherwise
 }
 
 const TILE_PROPERTIES: Record<TileType, TileData> = {
-  [TileType.GRASS]:    { type: TileType.GRASS,    walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0  },
-  [TileType.ROAD]:     { type: TileType.ROAD,     walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0  },
-  [TileType.BUILDING]: { type: TileType.BUILDING, walkable: false, terrainCost: 99, defBonus: 0, avoBonus: 0  },
-  [TileType.FOREST]:   { type: TileType.FOREST,   walkable: true,  terrainCost: 2,  defBonus: 1, avoBonus: 10 },
-  [TileType.GATE]:     { type: TileType.GATE,     walkable: true,  terrainCost: 1,  defBonus: 2, avoBonus: 0  },
-  [TileType.WELL]:     { type: TileType.WELL,     walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0  },
-  [TileType.ESCAPE]:   { type: TileType.ESCAPE,   walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0  },
+  [TileType.GRASS]:          { type: TileType.GRASS,          walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0,  breakableHp: 0 },
+  [TileType.ROAD]:           { type: TileType.ROAD,           walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0,  breakableHp: 0 },
+  [TileType.BUILDING]:       { type: TileType.BUILDING,       walkable: false, terrainCost: 99, defBonus: 0, avoBonus: 0,  breakableHp: 0 },
+  [TileType.FOREST]:         { type: TileType.FOREST,         walkable: true,  terrainCost: 2,  defBonus: 1, avoBonus: 10, breakableHp: 0 },
+  [TileType.GATE]:           { type: TileType.GATE,           walkable: true,  terrainCost: 1,  defBonus: 2, avoBonus: 0,  breakableHp: 0 },
+  [TileType.WELL]:           { type: TileType.WELL,           walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0,  breakableHp: 0 },
+  [TileType.ESCAPE]:         { type: TileType.ESCAPE,         walkable: true,  terrainCost: 1,  defBonus: 0, avoBonus: 0,  breakableHp: 0 },
+  [TileType.BREAKABLE_WALL]: { type: TileType.BREAKABLE_WALL, walkable: false, terrainCost: 99, defBonus: 0, avoBonus: 0,  breakableHp: 1 },
 };
 
 export class GameMap {
@@ -107,13 +117,26 @@ export class GameMap {
   }
 
   /**
+   * CHANGE D: Converts a BREAKABLE_WALL tile at (x, y) to GRASS, clearing breakableHp.
+   * Has no effect if the tile is not BREAKABLE_WALL.
+   */
+  breakTile(x: number, y: number): void {
+    if (!this.isInBounds(x, y)) return;
+    const tile = this.tiles[y][x];
+    if (tile.type !== TileType.BREAKABLE_WALL) return;
+    const grassProps = { ...TILE_PROPERTIES[TileType.GRASS] };
+    this.tiles[y][x] = grassProps;
+  }
+
+  /**
    * BFS flood-fill returning all tile positions reachable by this unit.
    * Returns a Set of "x,y" strings.
    * Rules:
    *   - Can't enter tiles with enemies
    *   - Can pass through allies but can't stop on them
    *   - Flying units treat every walkable tile as cost 1
-   *   - BUILDING tiles are always impassable
+   *   - BUILDING tiles are always impassable (BREAKABLE_WALL also impassable until broken)
+   *   - isPursuer units ignore BUILDING and BREAKABLE_WALL for pathfinding (phasing)
    */
   getMovementRange(unit: Unit): Set<string> {
     const reachable = new Set<string>();
@@ -135,9 +158,18 @@ export class GameMap {
         if (!this.isInBounds(nx, ny)) continue;
 
         const tile = this.tiles[ny][nx];
-        if (!tile.walkable) continue;
 
-        const cost      = unit.isFlying ? 1 : tile.terrainCost;
+        // Pursuer units (The Hand) ignore BUILDING and BREAKABLE_WALL
+        if (unit.isPursuer) {
+          if (tile.type !== TileType.BUILDING && tile.type !== TileType.BREAKABLE_WALL) {
+            // passable
+          }
+          // Allow through even BUILDING for pursuers
+        } else {
+          if (!tile.walkable) continue;
+        }
+
+        const cost      = unit.isFlying || unit.isPursuer ? 1 : tile.terrainCost;
         const remaining = current.remaining - cost;
         if (remaining < 0) continue;
 

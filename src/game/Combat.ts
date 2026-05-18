@@ -24,6 +24,10 @@
  *   stoResDamage        — total STO_RES damage dealt to defender (GAZE only)
  *   hpDamageToDefender  — total HP damage dealt to defender
  *   hpDamageToAttacker  — total HP damage dealt to attacker
+ *
+ * CHANGE A: defender alive check now considers both HP depletion and STO_RES depletion
+ * (GAZE attacks that fully drain STO_RES prevent the defender from counter-attacking
+ * and prevent a second attacker strike if the attacker is also fully drained).
  */
 
 import { Unit, WeaponType } from './Unit';
@@ -135,6 +139,11 @@ function canCounter(attacker: Unit, defender: Unit): boolean {
  * Full combat resolution.
  * Attack order: attacker → counter (if able) → attacker again (if double).
  * GAZE attacks deplete STO_RES; other weapons deplete HP.
+ *
+ * CHANGE A: A unit is considered "alive" after a hit only if NEITHER their HP
+ * has been fully depleted NOR their STO_RES fully depleted by a GAZE attack.
+ * This prevents counter-attacks and second strikes when a GAZE hit causes
+ * full STO_RES depletion (petrification trigger).
  */
 export function resolveCombat(attacker: Unit, defender: Unit, map: GameMap): CombatResult {
   const result: CombatResult = {
@@ -161,7 +170,11 @@ export function resolveCombat(attacker: Unit, defender: Unit, map: GameMap): Com
   }
 
   // --- Defender counter (once, if alive and in range) ---
-  const defAliveAfterFirst = result.hpDamageToDefender < defender.stats.hp;
+  // CHANGE A: check both HP depletion and STO-RES depletion
+  const hpDepleted  = result.hpDamageToDefender >= defender.stats.hp;
+  const stoDepleted = result.stoResDamage > 0 && result.stoResDamage >= defender.stats.stoRes;
+  const defAliveAfterFirst = !hpDepleted && !stoDepleted;
+
   if (defAliveAfterFirst && canCounter(attacker, defender)) {
     const ctrHit = calcHit(defender, attacker, map);
     const ctrDmg = calcDamage(defender, attacker, map);
@@ -171,7 +184,11 @@ export function resolveCombat(attacker: Unit, defender: Unit, map: GameMap): Com
   }
 
   // --- Second attacker strike (double) ---
-  const atkAliveAfterCounter = result.hpDamageToAttacker < attacker.stats.hp;
+  // CHANGE A: also check attacker STO-RES depletion for symmetry
+  const atkHpDepleted  = result.hpDamageToAttacker >= attacker.stats.hp;
+  const atkStoDepleted = result.hpDamageToAttacker > 0 && result.hpDamageToAttacker >= attacker.stats.stoRes;
+  const atkAliveAfterCounter = !atkHpDepleted && !atkStoDepleted;
+
   if (atkAliveAfterCounter && calcDoubleAttack(attacker, defender)) {
     const hit3 = rollHit(hitChance);
     result.attackerHits.push(hit3);

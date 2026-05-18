@@ -24,9 +24,13 @@
  *
  * AIController.getPursuerAction() behaviour (The Hand only):
  *   1. If isCollecting flag is set, skip movement (stands still).
- *   2. BFS toward Eirika, ignoring unit blocking; only stopped by BUILDING tiles.
+ *   2. BFS toward Eirika, ignoring unit blocking; stopped only by BUILDING and
+ *      BREAKABLE_WALL tiles (CHANGE E: isPursuer units phase through walls).
  *   3. Move up to unit.movement steps.
  *   4. Collect all adjacent units after movement as petrifyTargets.
+ *
+ * CHANGE E: bfsPathIgnoringUnits now treats BREAKABLE_WALL as passable for The Hand
+ *           (matching the "isPursuer units ignore BUILDING tiles" special case).
  *
  * Coordinate convention: (x = col, y = row), origin top-left.
  */
@@ -239,8 +243,8 @@ export class AIController {
         if (!map.isInBounds(nx, ny)) continue;
 
         const tile = map.getTile(nx, ny);
-        // The Hand is only stopped by BUILDING tiles
-        if (tile && tile.type === TileType.BUILDING) continue;
+        // CHANGE E: The Hand phases through BUILDING and BREAKABLE_WALL tiles
+        if (tile && (tile.type === TileType.BUILDING || tile.type === TileType.BREAKABLE_WALL)) continue;
 
         const key = `${nx},${ny}`;
         if (visited.has(key)) continue;
