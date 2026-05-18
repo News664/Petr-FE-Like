@@ -46,8 +46,8 @@
  *
  * Decorative statues (pre-placed in DECORATIVE_STATUES):
  *   Positions (5,10) and (12,10) inside stronghold — purely visual, no Unit
- *   Note: (3,12) SW guard is no longer in DECORATIVE_STATUES; it is now created live
- *         by scriptedPetrify(3,12,'Guard',...) in ChapterScene opening sequence (CHANGE P)
+ *   Note: (3,10) SW guard is no longer in DECORATIVE_STATUES; it is now created live
+ *         by scriptedPetrify(3,10,'Guard',...) in ChapterScene opening sequence (FIX 4/CHANGE P)
  *
  * Spawn waves (CHANGE F — Gorgon1 moved to turn 2):
  *   Turn 2: Gorgon1 at (9,1)
@@ -69,7 +69,7 @@
  * CHANGE K: BreachGuard1/2 added to initial placements.
  * CHANGE L: Row 0 escape limited to cols 0–3 with blocking BUILDING at col 4;
  *           Row 12 col 2 opened to GRASS (SW passage); WeakGorgon at (4,11);
- *           decorative statue Guard at (3,12).
+ *           decorative statue Guard scripted at (3,12) (now moved to (3,10) by FIX 4).
  */
 
 import { TileType, AuraTier } from '../game/Unit';
