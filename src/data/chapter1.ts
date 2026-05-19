@@ -164,10 +164,9 @@ export interface DecorativeStatue {
 }
 
 export const DECORATIVE_STATUES: DecorativeStatue[] = [
+  { x:  3, y: 10, label: 'Guard' },       // SW guard — visible from chapter start
   { x:  5, y: 10, label: 'Unknown Guard' },
   { x: 12, y: 10, label: 'Unknown Guard' },
-  // Note: SW guard at (3,12) is NOT pre-placed here; it is added by scriptedPetrify()
-  //       in ChapterScene.create() opening sequence (CHANGE P).
 ];
 
 // ---------------------------------------------------------------------------

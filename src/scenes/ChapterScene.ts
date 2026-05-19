@@ -339,9 +339,10 @@ export class ChapterScene extends Phaser.Scene {
     this.showDialogue(openingDialogue, () => {
       this.showDialogue(gateHoldDialogue, () => {
         this.showDialogue(weakGorgonOpeningDialogue, () => {
-          // Scripted live petrification of SW guard (100% guaranteed, no RNG)
-          // FIX 4: moved to (3,10) so guard is not blocking the exit corridor at (2,12)
-          this.scriptedPetrify(3, 10, 'Guard', () => this.startPlayerPhase());
+          // The SW guard statue is pre-placed in DECORATIVE_STATUES and visible from
+          // chapter start. Play a brief white-flash highlight on it to indicate this is
+          // the guard that was just described, then begin the player phase.
+          this.flashExistingStatue(3, 10, () => this.startPlayerPhase());
         });
       });
     });
@@ -594,56 +595,25 @@ export class ChapterScene extends Phaser.Scene {
    *   1. Skip if there is already a unit at that tile.
    *   2. Tween a white Phaser Graphics circle that expands and transitions to grey (300 ms).
    *   3. Add a grey rectangle + "◆" label container at the tile — same as decorativeStatue rendering.
-   *   4. Register the position in decorativeStatueData so it becomes clickable (CHANGE H).
-   *   5. Call onDone() after the animation completes.
+  /**
+   * Plays a brief white glow on an already-existing statue tile (no new container created).
+   * Used to highlight the pre-placed SW guard after the opening dialogue acknowledges it.
    */
-  private scriptedPetrify(col: number, row: number, label: string, onDone: () => void): void {
-    // 1. Skip if a unit already occupies the tile
-    if (this.gameMap.getUnit(col, row)) {
-      onDone();
-      return;
-    }
-
+  private flashExistingStatue(col: number, row: number, onDone: () => void): void {
     const px = col * TILE_SIZE + TILE_SIZE / 2;
     const py = row * TILE_SIZE + TILE_SIZE / 2;
 
-    // 2. White expanding circle tween → grey (300 ms)
-    const circleGfx = this.add.graphics().setDepth(61);
-    circleGfx.fillStyle(0xffffff, 0.9);
-    circleGfx.fillCircle(px, py, 4);
+    const flash = this.add.graphics().setDepth(61);
+    flash.fillStyle(0xffffff, 0.7);
+    flash.fillCircle(px, py, 26);
 
     this.tweens.add({
-      targets:  circleGfx,
-      alpha:    { from: 0.9, to: 0 },
-      duration: 300,
+      targets:  flash,
+      alpha:    0,
+      duration: 500,
       ease:     'Quad.easeOut',
-      onUpdate: (_tween: Phaser.Tweens.Tween, _target: unknown, _key: string, current: number) => {
-        const progress = 1 - current;          // 0 → 1 over the tween
-        const radius   = 4 + progress * 20;    // expands from 4 to 24 px
-        const colour   = progress > 0.5 ? 0xffffff : 0x888888;  // white → grey halfway
-        circleGfx.clear();
-        circleGfx.fillStyle(colour, current);
-        circleGfx.fillCircle(px, py, radius);
-      },
       onComplete: () => {
-        circleGfx.destroy();
-
-        // 3. Add decorative-statue container
-        const container = this.add.container(px, py);
-        const rect = this.add.rectangle(0, 0, TILE_SIZE - 6, TILE_SIZE - 6, 0x444444);
-        const icon = this.add.text(0, -5, '◆', {
-          fontSize: '14px', color: '#888888', fontFamily: 'monospace',
-        }).setOrigin(0.5, 0.5);
-        const lbl = this.add.text(0, 10, 'Statue', {
-          fontSize: '8px', color: '#888888', fontFamily: 'monospace',
-        }).setOrigin(0.5, 0.5);
-        container.add([rect, icon, lbl]);
-        this.statueContainers.push(container);
-
-        // 4. Register in decorativeStatueData for click detection
-        this.decorativeStatueData.push({ x: col, y: row, label });
-
-        // 5. Invoke continuation
+        flash.destroy();
         onDone();
       },
     });
@@ -701,15 +671,43 @@ export class ChapterScene extends Phaser.Scene {
     const factory = kindFactories[kind];
     if (!factory) return;
 
-    // Avoid spawning on occupied tile
-    if (this.gameMap.getUnit(x, y)) return;
+    // Find a free spawn tile. For The Hand (isPursuer), search adjacent tiles so she
+    // always appears even if her designated entry tile is occupied. Other enemies skip.
+    let spawnX = x;
+    let spawnY = y;
+    if (this.gameMap.getUnit(x, y)) {
+      if (kind !== 'the_hand') return;
+      // BFS outward from (x,y) to find nearest free passable tile
+      const visited = new Set<string>([`${x},${y}`]);
+      const queue: Array<{ x: number; y: number }> = [{ x, y }];
+      let found = false;
+      const dirs = [{ dx: 0, dy: -1 }, { dx: 0, dy: 1 }, { dx: -1, dy: 0 }, { dx: 1, dy: 0 }];
+      while (queue.length > 0 && !found) {
+        const cur = queue.shift()!;
+        for (const d of dirs) {
+          const nx = cur.x + d.dx;
+          const ny = cur.y + d.dy;
+          const key = `${nx},${ny}`;
+          if (visited.has(key) || !this.gameMap.isInBounds(nx, ny)) continue;
+          visited.add(key);
+          if (!this.gameMap.getUnit(nx, ny)) {
+            spawnX = nx;
+            spawnY = ny;
+            found = true;
+            break;
+          }
+          queue.push({ x: nx, y: ny });
+        }
+      }
+      if (!found) return; // no free tile anywhere nearby
+    }
 
     const unit = factory();
     // Override id with the placement-specified id for trigger lookup
     (unit as { id: string }).id = unitId;
 
     this.allUnits.set(unit.id, unit);
-    this.gameMap.placeUnit(unit, x, y);
+    this.gameMap.placeUnit(unit, spawnX, spawnY);
     this.spawnUnitGraphic(unit);
 
     // The Hand intro dialogue (fires once)
