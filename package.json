@@ -1,0 +1,17 @@
+{
+  "name": "petr-fe-like",
+  "version": "0.1.0",
+  "description": "GBA Fire Emblem-style browser game — Chapter 1 MVP",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.87.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  }
+}

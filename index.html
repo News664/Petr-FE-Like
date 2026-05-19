@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petr-FE-Like — Chapter 1</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        background: #0d0d1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: hidden;
+      }
+      #game-container {
+        position: relative;
+      }
+      #game-container canvas {
+        display: block;
+      }
+
+      /* -----------------------------------------------------------------------
+       * Action menu overlay — shown after a player unit moves.
+       * Positioned absolutely near the unit; ChapterScene sets left/top via JS.
+       * ----------------------------------------------------------------------- */
+      #action-menu {
+        display: none;
+        position: absolute;
+        z-index: 10;
+        background: #0a0a14;
+        border: 2px solid #c8a84b;
+        border-radius: 4px;
+        padding: 4px 0;
+        min-width: 110px;
+      }
+      #action-menu button {
+        display: block;
+        width: 100%;
+        padding: 8px 16px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-family: monospace;
+        font-size: 14px;
+        text-align: left;
+        cursor: pointer;
+      }
+      #action-menu button:hover {
+        background: #1e1e3a;
+        color: #f0d060;
+      }
+      #action-menu button:disabled {
+        color: #555566;
+        cursor: default;
+      }
+
+      /* -----------------------------------------------------------------------
+       * Battle preview overlay — shown during COMBAT_PREVIEW state.
+       * Fixed to bottom of game canvas, above the UI panel.
+       * ChapterScene populates innerHTML and shows/hides it.
+       * ----------------------------------------------------------------------- */
+      #battle-preview {
+        display: none;
+        position: absolute;
+        bottom: 96px; /* sits above the 96-px UI panel */
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background: #0a0a14;
+        border-top: 2px solid #c8a84b;
+        padding: 10px 16px;
+        color: #ffffff;
+        font-family: monospace;
+        font-size: 13px;
+      }
+      #battle-preview .bp-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 6px;
+      }
+      #battle-preview .bp-side {
+        flex: 1;
+        text-align: center;
+      }
+      #battle-preview .bp-vs {
+        flex: 0 0 60px;
+        text-align: center;
+        color: #c8a84b;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      #battle-preview .bp-name {
+        color: #f0d060;
+        font-weight: bold;
+      }
+      #battle-preview .bp-stat {
+        color: #aaaacc;
+      }
+      #battle-preview .bp-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 4px;
+      }
+      #battle-preview .bp-buttons button {
+        padding: 6px 24px;
+        background: #1e1e3a;
+        border: 1px solid #c8a84b;
+        border-radius: 3px;
+        color: #ffffff;
+        font-family: monospace;
+        font-size: 13px;
+        cursor: pointer;
+      }
+      #battle-preview .bp-buttons button:hover {
+        background: #2e2e5a;
+        color: #f0d060;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container">
+      <!-- Action menu: shown after player unit moves, before acting -->
+      <div id="action-menu"></div>
+      <!-- Battle preview: shown when player selects an attack target -->
+      <div id="battle-preview"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
