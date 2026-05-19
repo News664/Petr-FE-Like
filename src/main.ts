@@ -1,9 +1,15 @@
 /*
  * src/main.ts
- * Entry point for Petr-FE-Like.
+ * Entry point for Inevitable Eternity (Petr-FE-Like).
  * Initialises the Phaser.Game instance with pixel-art rendering and registers
- * all three scenes: BootScene (asset preload/setup), ChapterScene (main gameplay),
- * and DialogueScene (FE-style dialogue overlay).
+ * all scenes in load order.
+ *
+ * Scene order (first listed = first started):
+ *   BootScene          — asset preload stub, transitions to TitleScene
+ *   TitleScene         — "Inevitable Eternity" title screen, amber particles
+ *   ChapterSelectScene — chapter card selector, debug mode support
+ *   ChapterScene       — Chapter 1 main gameplay
+ *   DialogueScene      — FE-style dialogue overlay (launched on top of gameplay)
  *
  * Game dimensions:
  *   Width:  960px  (20 tiles × 48px)
@@ -11,18 +17,20 @@
  */
 
 import Phaser from 'phaser';
-import { BootScene } from './scenes/BootScene';
-import { ChapterScene } from './scenes/ChapterScene';
-import { DialogueScene } from './scenes/DialogueScene';
+import { BootScene }          from './scenes/BootScene';
+import { TitleScene }         from './scenes/TitleScene';
+import { ChapterSelectScene } from './scenes/ChapterSelectScene';
+import { ChapterScene }       from './scenes/ChapterScene';
+import { DialogueScene }      from './scenes/DialogueScene';
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
   width: 960,
   height: 768,
-  backgroundColor: '#1a1a2e',
+  backgroundColor: '#0d0d1a',
   pixelArt: true,
   parent: 'game-container',
-  scene: [BootScene, ChapterScene, DialogueScene],
+  scene: [BootScene, TitleScene, ChapterSelectScene, ChapterScene, DialogueScene],
 };
 
 new Phaser.Game(config);

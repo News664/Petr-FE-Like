@@ -1,10 +1,10 @@
 /*
  * src/scenes/BootScene.ts
- * Asset preload and initialisation scene for Petr-FE-Like.
+ * Asset preload and initialisation scene for Inevitable Eternity.
  *
  * Since all graphics are drawn programmatically (no external image assets),
- * this scene's only job is to be a defined preload stage before ChapterScene.
- * It immediately transitions to ChapterScene on create().
+ * this scene's only job is to be a defined preload stage before TitleScene.
+ * It immediately transitions to TitleScene on create().
  *
  * If real sprite sheets are added in future, load them here in preload().
  */
@@ -21,6 +21,6 @@ export class BootScene extends Phaser.Scene {
   }
 
   create(): void {
-    this.scene.start('ChapterScene');
+    this.scene.start('TitleScene');
   }
 }
