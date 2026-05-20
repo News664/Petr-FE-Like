@@ -19,6 +19,15 @@
 
 ---
 
+## Chapter Design Requirements
+
+- Before designing or implementing any chapter, read `docs/chapter-overview.md` in full for that chapter's entry.
+- Check the chapter's **Flags In/Out**, **Statue Installations**, **Mechanics Introduced**, and **Open Inconsistencies** sections before writing any code or design.
+- If a chapter's entry in `docs/chapter-overview.md` has unresolved ⚠️ inconsistencies, stop and discuss with the user before proceeding.
+- After implementing a chapter, update `docs/chapter-overview.md` if any details changed during implementation.
+
+---
+
 ## Code File Standards
 
 - When creating or updating code files, always write/update a proper **file header** describing:
