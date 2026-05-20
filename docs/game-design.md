@@ -52,19 +52,19 @@ Serra's dialogue in Ch2/3 establishes that no current magic can reverse petrific
 
 Captured statues emit passive stone auras affecting all player units within range.
 
-### Tier S — Lords and closest named companions (radius 6)
-- All player units in range: −3 to all combat stats, STO-RES decays 2/turn
-- Units who leave the aura retain −1 to all stats for the rest of the chapter (lingering despair)
+### Tier S — Lords and closest named companions (radius 7)
+- All player units in range: −6 to all combat stats, −20 hit/avoid, STO-RES decays 4/turn
+- Enemies within a 3-tile sub-radius act twice per enemy phase
 - Each lord has a unique additional effect (see Lord Defeat Entries)
 
-### Tier A — Named recurring characters (radius 5)
-- All player units in range: −2 to all combat stats, STO-RES decays 1/turn
+### Tier A — Named recurring characters (radius 6)
+- All player units in range: −4 to all combat stats, −15 hit/avoid, STO-RES decays 3/turn
 
-### Tier B — Named characters, secondary role (radius 4)
-- All player units in range: −1 to all combat stats, −10 hit/avoid
+### Tier B — Named characters, secondary role (radius 5)
+- All player units in range: −2 to all combat stats, −10 hit/avoid, STO-RES decays 2/turn
 
 ### Stacking
-Multiple auras stack linearly. Two overlapping Tier B sources = −2 stats, −20 hit/avoid. Late-game maps with 4–5 pedestals become genuinely oppressive.
+Multiple auras stack linearly. Two overlapping Tier B sources = −4 stats, −20 hit/avoid, STO-RES decay 4/turn. Three Tier B sources = −6 stats, −30 hit/avoid, decay 6/turn. Late-game maps with 4–5 sources make navigation the primary challenge — a Medium unit (STO-RES 10) in two stacked Tier B auras lasts under 3 turns.
 
 ### Morrha (Special)
 Not morale-based — magically active. Forces STO-RES decay of 3/turn in a 3-tile chokepoint radius. Does not stack with tier interactions; overrides them. Permanent, irreversible.
