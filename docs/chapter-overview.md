@@ -109,9 +109,11 @@ A map-wide environmental hazard introduced in Ch7. Deployed by Morrha; cannot be
 
 Every chapter has a defeat scene that plays when all player units are petrified or the lord is captured. The scene follows the standard collector inspection format (see petrification-compendium.md): approach, examination, silence, disposition.
 
-The inspector never mocks. They evaluate the new acquisition clinically. The lord is always the featured piece — the inspector's focus is the most significant capture of the chapter.
+**Tone:** The inspector does not rage or gloat. They comment on the pose, the expression, the body — then immediately assign the piece a use. The disposal decision is practical and delivered in the same breath as the appraisal: "she goes in the commander's study," "this one deploys at the south corridor — the expression helps," "put her behind the desk as a rest." The horror is in the mundanity. A person is being assigned furniture duty. The inspection ends the moment the use is decided, not when the inspector is satisfied with what they saw.
 
-Each chapter entry below includes a brief defeat scene note. Full dialogue should be written using the tone and format established in petrification-compendium.md. The lord's full inspection beat is in that document; chapter defeat scenes reference it rather than repeat it.
+The lord is always the featured piece in a defeat scene — the inspector's primary focus. Other newly captured units from the same chapter may be noted briefly before or after, but the lord receives the full four-beat treatment (approach, examination, silence, disposition).
+
+Each chapter entry below includes a brief defeat scene note specifying the inspector and the disposal beat. Full dialogue should be written using the tone and format established in petrification-compendium.md.
 
 For chapters where Eirika is the viewpoint lord: defeat = game over. The defeat scene plays as a final cutscene before the game-over screen.
 For chapters where Lyn or Lilina is the viewpoint lord: defeat triggers their respective lord defeat entries (see game-design.md) and imposes ongoing penalties.
@@ -312,7 +314,7 @@ Assumed flags: `syrene_lost_ch1`, `fleeing_west_escaped`, `fleeing_east_failed`.
 - Farina — Tier B — pre-placed (captured Side Ch2A). Combined effect with Priscilla adds STO-RES decay pressure to specific zones.
 
 **Petrifications:**
-- Vanessa — S (guaranteed if `vanessa_lost_ch1` = false) — Tier B. If `vanessa_lost_ch1` = true, this scripted slot is filled by a named NPC scout from Eirika's escort (TBD — minor character, also Tier B).
+- Vanessa — S (guaranteed if `vanessa_lost_ch1` = false) — Tier B. If `vanessa_lost_ch1` = true, this scripted slot defaults to a named NPC scout from Eirika's escort (Tier B, name TBD at Ch4 design time). If any optional named character from Ch1–Ch3 is still in the active roster at Ch4, they fill this scripted slot instead of the NPC — their loss is more meaningful than a placeholder.
 - Nino — S — Tier A. Both arms extended, full casting posture; tome burns through from inside before the Gaze even reaches her.
 - Florina — O — Tier A. Off-balance, stumbled; pegasus fled before she was hit.
 
@@ -585,7 +587,7 @@ Assumed flags: `syrene_lost_ch1`, `fleeing_west_escaped`, `fleeing_east_failed`.
 
 **Petrifications:**
 - No scripted losses this chapter. One optional slot available:
-- (Optional unnamed minor character or a surviving Act 2 Lilina group member — TBD based on final roster decisions.)
+- Optional slot: defaults to a named NPC from the convergence zone (Tier B, name TBD at Ch11 design time). If any optional named character who survived Act 1–2 is still in the active roster and has not been captured, they fill this slot instead of the NPC.
 
 **Defeat scene:** Eirika or Lyn (whichever is the primary viewpoint for this chapter — TBD). Inspector: one of Morrha's senior Collectors. Comments on the regrouped formation — "they assembled again. The collection assembled first. There is a lesson in the timing."
 
@@ -856,7 +858,7 @@ All four inconsistencies from the prior version of this document are resolved. N
 | 1 | Priscilla/Farina listed as Ch5 scripted but Side Ch2A says they fall there | Moved to Side Ch2A scripted. No PETRIFIED_SAFE in Act 1 means they cannot rejoin. Ch5 gains their statues as map installations (aura-active) rather than fresh petrification events. |
 | 2 | Cath listed as Ch7 optional AND Side Ch8A scripted | Both are correct and conditional. If Cath is petrified in Ch7, Side Ch8A is skipped entirely. If she survives Ch7, Side Ch8A fires and she is captured there. |
 | 3 | Side Ch7A must match Ch12 but neither chapter was implemented | Design constraint noted in both chapter entries. Must be implemented together. |
-| 4 | Vanessa's Ch4 scripted slot unfilled if she was already lost in Ch1 | Filled by a named NPC scout from Eirika's escort (minor character, Tier B, TBD during Ch4 design). |
+| 4 | Vanessa's Ch4 scripted slot unfilled if she was already lost in Ch1 | Defaults to a named NPC scout (Tier B, TBD at Ch4 design). If a named optional character from Ch1–Ch3 is still active in the roster, they fill the slot instead of the NPC. Same rule applies to Ch11's optional slot. |
 
 ---
 

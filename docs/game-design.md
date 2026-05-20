@@ -10,6 +10,7 @@
 - **Player side:** despair, helplessness, grief. Characters know they are outmatched. Retreat is the only option and retreat keeps failing.
 - **Enemy side:** collector's detachment. Petrified characters are *acquisitions* — objects to be appraised, arranged, and displayed. The enemy is never cruel in a rage sense; they are cruel in the way a collector is cruel: clinical, appreciative, and completely indifferent to the person inside the stone.
 - **Key rule:** the enemy never treats a petrified character as a person. They comment on pose, expression, body, placement. "She" becomes "the piece" or "this one" or "it."
+- **Disposal and use:** The inspection always ends with an immediate decision about where the piece goes and what it does. Captured characters are assigned a function — furniture, decoration, corridor installation, battlefield deployment, trophy for a specific room or officer. The decision is practical and mundane: "she goes behind the commander's desk," "this one blocks the south corridor well," "deploy her at the chokepoint — the expression helps." The horror is in the immediacy and the ordinariness of being assigned a use. Chapter defeat scenes follow this pattern: the freshly captured lord or named unit is inspected, then disposed of, within the same breath.
 
 ---
 
