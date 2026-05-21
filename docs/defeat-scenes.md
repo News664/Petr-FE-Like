@@ -108,38 +108,47 @@ small tray of receipts left by the road's previous occupants. Three new pieces.*
 
 *The road is furnished. She looks at what's been added.*
 
-*Tana. The stride again — the same frustrated mid-step, the same slight frame. The morning is
-early; the light is not yet in the east windows, but the placement is already assigned.*
+*Tana. Small frame — the pauldrons almost entirely gone this time, scorched away, the form beneath
+slight and unarmored. She was in motion when the stone took her: weight rising off one foot, the
+other planted, the body mid-turn. One arm is raised in the alerting gesture — she was calling
+back to someone behind her, the arm elevated, the mouth open in a shout that carried nowhere.
+The frustration in the small face has urgency in it now rather than just refusal.*
 
-"She knows where she goes. East gallery, facing the windows, stride toward the light. She serves
-as the passage guide between the chokepoint installation and the escape route. The stride
-indicates: this way."
+"She was warning someone. The raised arm at signal height — she was calling the approach."
+*She examines the angle of the extended arm.* "She serves as a road marker with function:
+mounted at the chokepoint approach, the raised arm holds a signal torch. Anyone coming up the
+road reads the gesture as warning. The open shout helps."
 
-*Vanessa. Still the hover, still the forward lean, still the empty grip. The grip hand is at
-consistent height.*
+*Vanessa. Lean build, the ascent posture — arms reaching overhead, the body's weight shifted
+back, the form of someone pulling for altitude. She was gaining height over the chokepoint when
+the stone found her, the dive reversed, the hands extended above the body's line toward a sky
+she almost reached.*
 
-"Entrance corridor, mounted overhead. The grip holds the lamp fixture — she's been assigned this
-function. The mounting crew knows what to do."
+"The overhead grip is the correct position for a ceiling mount." *She looks up at the angle of
+the extended hands.* "She goes above the road junction — mounted at the apex, the overhead grip
+holding the lamp fixture from above. The ascending posture makes the lamp its highest point.
+She was trying to get above all of it. She is, now."
 
 *She turns to Eirika.*
 
-*The guard posture. The empty hands. The sword has crumbled and the hands are still set for it —
-the fingers slightly curled, the wrists turned inward to the guard angle. Medium build, lord's
-frame, trained. The expression has shifted slightly from the last assessment: still disbelief,
-but something in the jaw has changed — she was closer to understanding when the stone took her
-this time.*
+*The guard posture — but the pivot interrupted it. She was turning to face something new, the
+weight transferred mid-move, the body caught between the guard position and the beginning of
+something else. The sword crumbled; the hands kept the grip shape through the pivot. Lord's
+build, medium frame, trained for both speed and presence. The jaw — something harder than
+disbelief now. Closer to refusal. She wasn't finished with the situation.*
 
-"The hands are at armrest height again." *She examines the finger position carefully.* "The
-guard-grip form is consistent — the hands have settled into the shape permanently. They hold the
-chair rest well. The expression is resolving toward something; note it."
+"The guard hands are set at an angle — the pivot gives the forward arm direction." *She examines
+the line of the extended wrist.* "She serves as a map table indicator: installed over the road
+maps, the guard arm pointing toward whatever position the pivot was aimed at. Every briefing,
+her hand identifies the problem."
 
 **Eirika:** *...*
 
-"Reception hall. The hands serve the chair. The expression faces the petitioner. She doesn't
-move."
+"Map table. The arm at working height. The expression watches whoever reads the map."
 
 *She looks at the full road. The gate guard as road post. Natasha with the tray in the open
-palms. Tana's stride pointing east. Vanessa's grip holding the lamp above the entrance.*
+palms. Tana's raised arm signaling the approach. Vanessa's grip holding the lamp above the
+junction.*
 
 "This road is finished."
 
@@ -261,60 +270,71 @@ raised wrists. Five new pieces from the group defeat, plus Neimi if captured.*
 *The village infrastructure is filling in. She notes the bystander pieces already serving their
 functions and moves to the significant acquisitions.*
 
-*Serra fell mid-engagement — assessed in the field. The mouth is open, the staff cracked in half,
-the expression mid-laugh. Well-made figure; the soft build preserves differently from a
-fighter's — rounder lines, gentler contours, the form of someone who was never meant to be in
-these conditions.*
+*Serra fell mid-engagement. The mouth is open, the staff cracked in half — one piece in each
+hand, one held higher and one lower. She was holding both halves when the stone took her, the
+expression caught between amusement and alarm. Well-made figure; the soft build preserves
+differently from a fighter's — rounder lines, gentler contours, the form of someone who was
+never meant to be in these conditions. The two halves at different heights create a natural
+tiered surface.*
 
-"She serves as the dining hall's primary fixture — the open mouth participates in the meal. Both
-staff-halves hold between them a small shelf for salt and condiments. She faces the longest
-table."
+"The two staff halves, one high and one low, make a tiered shelf. She serves as the dining
+hall's primary fixture — the open mouth participates in the meal, the split staff holds a small
+shelf for salt and condiments. She faces the longest table."
 
-*Rebecca. The draw arm extended, the form of someone who practiced consistently — the arm's
-definition visible in the stone, the stance clean. The bow is entirely gone.*
+*Rebecca. The draw arm extended — she was at point when it took her, the form clean, the arm
+fully extended at shoulder height. Moderate build, the arm's definition visible in the stone,
+the stance clean. The bow is entirely gone.*
 
-"The extended arm serves as a coat hook at the east corridor entrance. She faces outward toward
-whoever arrives."
+"The extended arm at shoulder height serves as a coat hook at the east corridor entrance. She
+faces outward toward whoever arrives."
 
-*Neimi, if captured. The draw posture is correct — she was still functioning even as she wept.
-The tears are preserved in stone on the cheeks, two small trails crystallized precisely. Small
-frame, not built for combat, but the form is correctly done. The eyes are very detailed.*
+*Neimi, if captured. The draw posture — she was still functioning even as she wept. The tears
+are preserved on the cheeks, two small trails crystallized precisely. Small frame, not built for
+combat, but the form correctly done. The eyes are very detailed.*
 
 "The tears are the detail. She serves as a desk piece — placed at writing height, the expression
-visible at close range. The draw arm can hold correspondence vertically. She sits at eye level
-for someone working."
+visible at close range. The draw arm holds correspondence vertically. She sits at eye level for
+someone working."
 
-*Florina. Off-balance, arm out, slight build, the smallest figure of the group.*
+*Florina. The body caught in mid-correction — the pegasus fled and she was adjusting, the balance
+arm extended at waist height, the weight shifted wrong. Very slight build, the smallest of the
+group, the form of someone who depends entirely on her mount for equilibrium. The outstretched
+arm has the angle of a reach for something that wasn't there.*
 
-"The balance arm at waist height. Grab-rail in the lower corridor. Same mounting as before —
-stable base, instability preserved."
+"The balance arm at waist height. Grab-rail in the lower corridor — the arm extends toward
+whoever passes. Stable base; keep the instability visible."
 
-*Nino. Both arms extended, full spread, casting posture.*
+*Nino. Both arms fully extended, fingers spread, the casting posture at its limit — the tome
+burned entirely away, both hands open and empty at shoulder height. Young build, slight, the
+frame of someone who trained young. The extension of both arms pulls the shoulders forward, the
+weight onto the front foot.*
 
-"Both arms at shoulder height. Coat rack, entry hall. Same configuration."
+"Both arms extended, palms forward. She serves as the entry coat rack — the spread fingers
+provide two hanging points on each side. She goes in the entry hall."
 
 *She turns to Lyn.*
 
-*The grip again. The guard position. The grief — the same as last time, but the expression has
-accumulated. The same strong-shouldered swordswoman's build, the same arms raised in
-protection. But the grief is layered now — she was protecting a different group of people and
-the same gesture was insufficient.*
+*The grip is empty — the Wind Sword gone, the hands curled around absence. But the body is at
+a diagonal: she was holding the crossroads, not a single corridor. The village has two approaches
+and she was positioned at the junction, the stance set to cover both directions at once.
+Strong-shouldered swordswoman's build, the arms raised in the bearing posture of someone
+protecting whatever is behind her — but here, behind her is two roads.*
 
-"The build is consistent." *She examines the grip hands.* "The arms are in the same bracket
-position. She holds the lamp standard between them again — same height, same function."
+"The intersection angle — she was covering both approaches." *She examines the grip hands at
+the diagonal.* "She serves as the junction lamp: the arms form the bracket for a lamp that
+lights both road approaches. She was protecting two directions."
 
-*She looks at the expression.*
+*She walks around to look at the expression directly.*
 
-"The grief is the same grief. She keeps failing to protect whoever is behind her, and the stone
-keeps the record. Each time, the expression adds something." *She studies it.* "The lamp is
-appropriate — she illuminates what she lost."
+"The grief is for the people on both roads. She knows she wasn't enough for either." *A pause.*
+"The lamp lights what she couldn't hold. She goes at the crossroads center."
 
 **Lyn:** *...*
 
-"Main corridor, same position. The lamp stand. She watches the route."
+"Village junction. Junction lamp. Both approaches lit."
 
 *She notes the installation map. Natasha at the chokepoint with the oil lamp in the open palms.
-Serra at the dining table. Lyn in the main passage with the lamp standard. The village bystanders
+Serra at the dining table. Lyn at the junction with the lamp standard. The village bystanders
 filling the structural gaps.*
 
 "The village is furnished."
@@ -330,53 +350,77 @@ new pieces depending on surviving roster.*
 
 ---
 
-*Aerial engagement — the postures say fall and dive and catch rather than stand and hold. She
-works across the field.*
+*Aerial engagement — the postures say fall and dive and cover and catch. She works across the
+field.*
 
-*Nino fell mid-engagement. Already assessed — the full casting output, both arms extended, full
-spread, the young build and the spent tome.*
+*Nino. Both arms raised toward the sky rather than forward — she was directing something upward,
+the casting output aimed above ground level to support the fighters overhead. The slight young
+build, the face tipped up, both arms fully extended above the body's line, the tome gone
+entirely from the raised hands.*
 
-"She serves as the entry hall coat rack, same function as before. Both arms extended. The spread
-is consistent across assessments — she goes wherever the entry space needs the rack."
+"Arms raised overhead, palms upward at ceiling height. She serves as an overhead bracket in
+the command entrance — the extended hands hold a fixture mounted above the corridor ceiling
+line. Items hang from the spread fingers at maximum height."
 
-*Florina, if captured. Still the off-balance posture, still the slight frame, still the arm out
-for balance.*
+*Florina. Without her mount she was falling rather than landing, the correction running without
+anything to correct toward. The balance arm extended at waist height, the body pitched wrong,
+the very slight build caught in the instability.*
 
-"Lower corridor grab-rail. Stable base, same configuration. She's consistent."
+"The balance arm at waist height. Lower corridor grab-rail. Stable base mounted — keep the
+instability preserved."
 
-*Tana. The stride, the slight frame, the frustrated expression.*
+*Tana. The aerial approach — she was coming down steeply, the body angled in the committed
+descent, weight thrown forward and down. The expression has changed from frustrated to determined:
+she was attacking, not retreating. Small frame, body angled in the dive.*
 
-"East gallery, morning light. The stride indicates the way east. She guides the route."
+"The committed descent gives her a ceiling installation. She goes above the tactical briefing
+room — the angled body marks the center point of the ceiling, the determined expression facing
+downward at whoever plans below. She was attacking from height; she still marks the height."
 
-*Vanessa. The forward lean, the empty grip.*
+*Vanessa. The banking turn — arms slightly spread for the direction change, the body tilted,
+the balance of the turn preserved at the moment of capture. The lean is neither dive nor ascent
+but the held moment of the rotation.*
 
-"Entrance corridor, mounted overhead. The grip holds the lamp fixture. The mounting is
-established — she doesn't need reassessment."
+"Arms spread in the bank, held horizontally. She serves as a chandelier mount — the span of
+both arms holds the lamp bar across their spread. She goes in the hall with ceiling height. The
+turn becomes the fixture."
 
-*Lyn, if present. The grip, the grief.*
+*She crosses to Lyn.*
 
-"She holds the lamp standard. Main corridor, same position. The grief is consistent and the
-function is consistent. Note any change in the expression for the record."
+*She was covering from below — the body has the overhead guard quality, arms slightly raised,
+the weight and the gaze both directed upward toward where the aerial engagement was happening
+above her. Strong-shouldered swordswoman's frame, the grip empty, carrying the load of a fight
+that wasn't hers to win from the ground.*
+
+"She was covering from below — looking up, the arms in the overhead guard." *She examines the
+upward angle.* "She serves as a field lamp post: planted in the terrain, the overhead arms
+holding the exterior lamp at the height that serves the field approach. The grief watches the
+sky the aerial fighters used."
+
+**Lyn:** *...*
+
+"Field approach. Exterior lamp post. The lamp lights the approach from below."
 
 *She crosses the field to Eirika.*
 
-*The guard posture. The empty hands. The expression has shifted again — the disbelief is thinning,
-resolving toward something harder. The build is unchanged: lord's frame, medium height,
-proportioned for both speed and durability. The hands are still set for the sword.*
+*The guard posture. The empty hands. The expression has shifted — the disbelief has thinned
+almost to nothing. What's taking its place is harder: near-recognition, the specific quality of
+someone close to arriving at an understanding she hasn't wanted to arrive at. Lord's frame,
+medium height, proportioned. The weight is on the front foot: she was going, not holding.*
 
-"The expression is resolving." *She examines the hands carefully.* "The grip form is consistent —
-every assessment, the same position, the same set of the fingers around the absent sword. The
-hands will hold that form permanently." *She looks at the face.* "She's starting to understand
-the outcome. The disbelief is almost gone."
+"The weight is forward." *She examines the stance.* "She was moving through when it took her —
+not holding the line, going past it. The guard hands are at doorpost height in the forward
+posture." *She looks at the expression.* "She's close to understanding the outcome."
 
 **Eirika:** *...*
 
-"Reception hall. The hands serve the chair rest. The expression faces the room. Note the current
-form — the progression is worth the record."
+"Threshold of the command entrance. The forward posture marks the passage — body leaning into
+the doorway, guard hands at doorpost height forming the width marker. She was going through; she
+marks where through begins."
 
-*She looks at the aerial field. Some postures require special installation for ceiling height.*
+*She looks at the aerial field. Several pieces require special mounting for the postures.*
 
-"Priority on the mounted pieces. The aerial postures need clearance."
+"Priority on the ceiling installations. Aerial postures need clearance."
 
 ---
 
@@ -409,47 +453,61 @@ center line of the corridor. She serves as a guide wire mount: ropes or signal l
 to the wrists, running the length of the hall. She was leading the way. Let the formation
 lines run through her."
 
-*He moves through the remaining roster. Each familiar figure assessed briefly:*
+*She moves through the remaining roster. Each figure assessed from what the stone preserved:*
 
-"Florina — lower corridor, grab-rail, stable base. The balance arm at waist height."
-"Nino — entry hall, coat rack. Both arms full extension."
-"Rebecca — east corridor, coat hook. The draw arm at shoulder height."
-"Tana — east gallery, morning light. Stride indicating east."
-"Vanessa — entrance corridor overhead, lamp fixture in the grip."
+*Florina — the instability again, the balance arm reaching for nothing at waist height. Lower
+corridor, grab-rail. Stable base.*
+
+*Nino — both arms at full extension, the spread fingers still carrying the casting posture
+forward even with the tome gone. Entry hall, coat rack.*
+
+*Rebecca — the draw arm at its full reach, the form that stayed clean to the end. East corridor,
+coat hook at shoulder height.*
+
+*Tana — the stride, the committed forward motion, the small frame going east. Gallery alcove,
+morning light; the stride indicates the route.*
+
+*Vanessa — the grip at the overhead angle, the ascent that became the ceiling anchor. Entrance
+junction, mounted above. The grip holds the lamp.*
 
 *She reaches Lyn.*
 
-*The grip. The grief. The scope has widened — the body was covering the entire crossing, both
-groups, everyone. The stance is broader than before. The protection gesture has expanded to
-match the load.*
+*The grip. The body wide — the stance has expanded to cover both groups, both sides of the
+crossing. The arms spread to match the scope of what she was trying to hold. The grief is the
+specific kind that comes from failing at the one thing that mattered — but the load it's
+carrying is heavier now than it was. The strong-shouldered swordswoman's frame is carrying
+more than one group.*
 
-"The scope keeps growing." *She examines the wider stance.* "The lamp standard needs a wider
-base now — the stance has changed, the weight is differently distributed. Note the new foot
-position for the base mount."
+"The stance is wider than anything I've seen her hold." *She notes the foot positions.* "She
+was covering both groups — the width is the weight of both combined. She serves as the crossing
+lamp: mounted at the border station, the arms forming the bracket for the lamp that lights both
+the approach and the retreat."
 
 *She looks at the expression.*
 
-"The grief is the same grief. It's heavier now because it's carrying more. The stone holds
-the weight."
+"The grief is carrying both groups now. The stone holds the weight of both."
 
 **Lyn:** *...*
 
-"Main corridor. Lamp standard on the wider base. The lamp lights the route for everyone who
-was behind her."
+"Border crossing lamp. Wide stance, wide base. She lights both sides of the line."
 
 *She turns to Eirika.*
 
-*The guard posture. The empty hands. The expression is almost at recognition now — the disbelief
-has nearly finished resolving. She was committed to the crossing, the weight forward, moving
-through. Lord's build, proportioned and present.*
+*The weight is fully forward — not the guard stance, something past it. She was crossing when
+the stone took her. Not retreating. Not holding ground. Going. The body is committed to the
+forward motion, the weight past the midpoint of the stride, the cross underway. The sword
+crumbled; the hands are in the guard position — but the guard position is moving forward. Lord's
+build, proportioned and present, the form not of defense but of passage.*
 
-"She was crossing when it took her. The weight is forward — she was going, not retreating."
-*She examines the hands.* "The grip form is unchanged. The hands are consistent."
+"She was crossing when it took her — not retreating, not holding. The body is committed
+forward." *She examines the lean.* "She serves as the border crossing marker: mounted at the
+threshold of the pass, the body leaning into the crossing, the guard hands at the height of the
+crossing bar. She marks where the passage begins. She was going through; she marks where
+through is."
 
 **Eirika:** *...*
 
-"Reception hall. The hands serve the chair rest. The expression is almost finished — note the
-current form carefully. She's one engagement away from arriving."
+"Border threshold. Leaning into the passage. She marks the crossing permanently."
 
 *She closes the list.*
 
@@ -606,7 +664,7 @@ forward."
 
 *She reaches Lilina.*
 
-*The fury. The open release hands. But the tone ash is finer this time — she put more in.
+*The fury. The open release hands. But the tome ash is finer this time — she put more in.
 The slight body, the Hector jaw, the fury that hasn't become desperation. The small palms
 open and upward.*
 
@@ -814,9 +872,10 @@ both."
 
 *She looks at the open upward-facing palms.*
 
-"She holds the candles. Same function." *She looks at the expression.* "She goes in the
-acquisition wing passage — everything from this campaign walks past her. The fury watches
-all of it. The candles light the route."
+"The hands hold the candles — the same upward-open release, the same shin height. But the
+expression has something new in it: she was calculating while she burned." *She looks at the
+expression.* "She goes in the acquisition wing passage — everything from this campaign walks
+past her. The fury and the calculation watch all of it. The candles light the route."
 
 **Lilina:** *...*
 
@@ -855,46 +914,53 @@ here before and the stone holds both the first time and this time at once."
 
 **Tana:** *...*
 
-"East gallery. Morning light. Stride indicating the route. Same function. The expression has
-more context now — it's worth more viewing time than before."
+"East gallery. Morning light. Stride indicating the route. The expression has more context now —
+it's worth more viewing time than before."
 
-*She moves through the combined roster. Each familiar figure confirmed in position.*
+*She moves through the combined roster.*
 
-"Florina — lower corridor, grab-rail."
-"Rebecca — east corridor, coat hook."
-"Vanessa — entrance corridor, lamp fixture in the grip."
+*Florina — the balance arm at waist height, the body in the instability of the mid-correction,
+the slight frame reaching for something that isn't there. Lower corridor, grab-rail.*
+
+*Rebecca — the draw arm extended at shoulder height, the form of consistent practice visible in
+the definition of the stone. East corridor, coat hook.*
+
+*Vanessa — the overhead grip, the ascending posture, the hands reaching toward the ceiling
+angle. Entrance corridor, lamp fixture in the grip.*
 
 *She reaches Lyn.*
 
-*The Wind Sword grip. The grief. The stance is the widest it's been — she was trying to cover
-both converged groups at once. The strong-shouldered swordswoman build, the lamp-standard arms
-now spread further to hold the wider stance.*
+*The grip. The grief. The stance is the widest it's been — she was trying to cover both
+converged groups at once, the body positioned to hold the full width of the meeting point. The
+strong-shouldered swordswoman's frame carries a scope that has grown with every engagement.*
 
-"The scope keeps expanding. The stance is wider." *She examines the new foot position.* "The
-lamp standard needs a wider base. The function is the same; the scale has grown."
+"The scope keeps expanding." *She examines the foot positions.* "She was covering both groups
+here — both directions, both approaches. The lamp standard needs a wider base now. The stance
+determines the bracket."
 
 *She looks at the expression.*
 
-"The grief is heavier. It's carrying more. The stone holds all of it."
+"The grief is heavier. The stone carries all of it."
 
 **Lyn:** *...*
 
-"Main corridor. Wider base lamp standard. She lights the route for more people now."
+"Main corridor. Wider lamp standard base. She lights the route for more people now."
 
 *She turns to Eirika.*
 
-*The guard posture. The empty hands. The expression has shifted — the disbelief is almost
-entirely gone. What remains is something quieter. She was at the convergence point, arriving
-at the meeting she'd been trying to reach.*
+*The guard posture. The weight is settled — she was standing when it took her, not moving. The
+disbelief has resolved entirely; what remains is quieter. She was at the convergence point,
+having arrived at the meeting she'd been trying to reach. She stopped moving. She was here.*
 
-"She almost arrived." *She examines the face carefully.* "The disbelief has resolved. What's
-replacing it is quieter — not grief yet, something in between. The hands are still in the guard
-position."
+"She arrived here." *She examines the settled weight, the stillness in the stone.* "The body
+stopped moving — she reached the point. The guard hands are at a resting height, the weight
+settled." *She looks at the expression carefully.* "The disbelief is gone. What's left is
+quieter. I want it documented."
 
 **Eirika:** *...*
 
-"Reception hall. The hands serve the chair rest. The expression is changing — note the current
-form for the log. The progression is the installation record."
+"The map room. The guard hands at reading table height — the documents rest between them. The
+expression watches the approach from the archives. She's holding records she can't use."
 
 *She straightens.*
 
@@ -911,46 +977,59 @@ it, at once.*
 
 *The regrouping zone. Every survivor from both campaigns, here.*
 
-*She works through them methodically. Many she has assessed many times — postures she knows
-well, expressions she has been tracking.*
+*She works through them. Each figure assessed from what the stone preserved.*
 
-"Florina — lower corridor, stable base, grab-rail, same configuration."
-"Nino — entry hall, coat rack, both arms extended, same configuration."
-"Rebecca — east corridor, coat hook, draw arm extended, same."
-"Tana — east gallery, morning light, stride east, same."
-"Vanessa — entrance corridor overhead, lamp in grip, same."
+*Florina — the balance arm at waist height, the body mid-correction, the slight frame and the
+reaching arm toward something that's gone. Lower corridor, stable base, grab-rail.*
 
-*She pauses at the optional loss, if any — a figure she hasn't assessed before. She examines
-it specifically, noting build and posture, assigning a new function.*
+*Nino — both arms at full extension, the spread of the casting posture, the young frame still
+carrying the reach forward. Entry hall, coat rack.*
+
+*Rebecca — the draw arm at its full reach, the form that stayed clean. East corridor, coat hook.*
+
+*Tana — the stride, east-facing, the motion committed into the gallery light. East gallery,
+morning light.*
+
+*Vanessa — the overhead grip, the ascending posture, the hands at the ceiling angle. Entrance
+corridor, lamp fixture.*
+
+*She pauses at any figure she hasn't assessed before — a new loss, if any. She examines the
+build and posture specifically, assigns a function.*
 
 *She reaches the lord.*
 
 *(If Eirika:)*
 
-*The guard posture. The hands. The expression is past the midpoint of its resolution — the
-disbelief is entirely gone now. What remains is quieter, harder: the specific quality of someone
-who has stopped expecting a different outcome.*
+*The guard posture. The empty hands. The expression is past the midpoint of its resolution —
+the disbelief is gone entirely. What remains is harder: the specific quality of someone who has
+stopped expecting a different outcome and is not at peace with the understanding. The body is
+still functioning — still here, still upright, the guard reflex still running — but the
+expression has accepted what the hands haven't.*
 
-"The disbelief finished here." *She examines the face.* "What's left is harder. The hands are
-still in the guard position — the body didn't receive the information the expression received.
-The guard is the last thing still running."
+"The expression received the news; the hands didn't." *She examines the face.* "The guard is
+the last thing still running in the stone — everything else resolved, the hands kept the sword
+grip past the point of resolution." *She looks at the guard hands.* "She goes into the
+collection wing — first installation in the approach to the main gallery. The guard hands at
+corridor height form the threshold marker. The expression faces everyone who enters the
+collection."
 
 **Eirika:** *...*
 
-"Reception hall. Chair rest, hands at armrest height. Expression faces the room. The progression
-is near complete — note the current form carefully."
+"Collection wing entrance. Guard hands at doorpost height. The expression faces the approach
+to everything she was trying to protect."
 
 *(If Lyn:)*
 
-*The grip. The grief. Wider scope, heavier weight, the lamp-standard arms now spread to their
-widest.*
+*The grip. The grief. The stance is the widest it's been — she was covering the full combined
+roster, everything that had made it this far.*
 
-"The scope is total now — she was covering the full combined roster. The stance is the widest
-it's been."
+"She scaled to the full load." *She notes the foot position.* "The widest base configuration
+yet. She serves as the passage lamp for the collection wing approach — the lamp covers the full
+combined corridor."
 
 **Lyn:** *...*
 
-"Main corridor. Widest base configuration. She lights the whole route."
+"Collection wing passage. Widest lamp base. She lights everyone who made it this far."
 
 *She notes the scholar's presence. The Sunstone Shard information was shared here — she makes
 a note. The shards are limited. What's here is already fixed.*
@@ -1060,13 +1139,13 @@ where the other mounted knights are installed."
 
 *(If Eirika:)*
 
-*The expression is finished. The hands are in the guard position for the last time — they haven't
-changed across the entire campaign, not once. Everything else in the expression has changed;
-the hands have stayed exactly as they were in the first engagement.*
+*The expression is finished. The hands are in the guard position — they haven't changed across
+the entire campaign, not once. Everything else in the expression has traveled and arrived; the
+hands have stayed exactly as they were.*
 
-"She came all the way here." *She examines the finished expression.* "The expression is the most
-resolved it's ever been. Every previous assessment showed her approaching this — this assessment
-shows her having arrived."
+"She came all the way here." *She examines the finished expression.* "The expression is fully
+resolved — there is nothing further to arrive at. The journey is in the stone: the disbelief,
+the refusal, the near-recognition, and the quiet at the end."
 
 *She examines the hands one more time.*
 
@@ -1318,7 +1397,7 @@ specifically."
 *(If Eirika:)*
 
 *The finished expression. The guard hands — still in the guard position, still holding the shape
-of the absent sword. Every other part of the expression arrived; the hands never did.*
+of the absent sword. Every other part of the expression has changed; the hands never did.*
 
 "The hands never stopped." *She is very close to the face.* "The expression resolved. The
 disbelief became recognition became grief became this — the last quiet thing. And the hands are
@@ -1371,81 +1450,217 @@ the throne from all sides."
 
 ### Ch18 — Inevitable Eternity
 
-*Inspector: The Queen. Setting: the throne room. She rises from the throne herself.*
+*Inspector: The Queen. Setting: the throne room in its completed form — every gallery, every
+hall, every installation from every chapter connected to this space. She rises from the throne
+herself.*
 
 ---
 
-*The throne room.*
+*The room is complete.*
 
-*She rises and walks among them.*
+*She rises from the throne and walks among them.*
 
-*Myrrh, if captured. Small — a child's scale, the human form small and still. The expression
-is neutral — completely neutral, neither fear nor peace nor effort. The dragonstone is gone
-without trace; the closed hand holds the memory of it.*
+*She knows every name. She built this one acquisition at a time.*
 
-"She looks asleep." *She touches the closed hand gently.* "The dragonstone is gone. The hand
-holds the shape of the grip — whatever she was about to do, the stone has the intent and not
-the action. The expression is exact: stopped mid-thought, and it reads as peace."
+*She begins at the Act 1 installations and moves through the room.*
 
-*She looks at the room for the placement.*
+*Syrene against the south wall — the command arm extended over the map table, the sword-hand
+still pointing. Senior officer, the bearing intact in the stone. Every briefing has happened
+with her arm indicating the objective.*
 
-"She goes last, after everything else is placed. The room arranges itself around her. She
-defines the space."
+*Vanessa's ascending form at the corridor ceiling above the entrance — the overhead grip holding
+the lamp fixture, the ascent preserved at its highest point. The reach that never completed.*
 
-*She turns to the lords.*
+*Tana in the east alcove, the stride toward the morning window, the small frame in its committed
+forward motion. The expression still urgent. It always will be.*
+
+*The Priscilla installation near the east wall — the horse's back at table height, the rider
+curved protectively over the surface, both stone. Items have rested on that back since Act 1.*
+
+*Farina above the main entrance — the dive at ceiling height, the body angled in the descent.
+Everyone who enters passes under her.*
+
+*Rebecca at the east junction, the draw arm at shoulder height, the form that stayed clean
+through everything.*
+
+*Florina at the lower corridor, the balance arm extended, the instability preserved in the
+stable mounting.*
+
+*Nino at the entry hall, both arms at full extension, the spread fingers receiving whatever
+comes in.*
+
+*Serra at the dining table — the split staff at different heights, the open mouth facing the
+meal. The soft build that was never meant for this.*
+
+*Amelia in the main corridor, the charge posture still leaning forward into the passage,
+creating the narrowing around her. The lance-grip hands serving the rail.*
+
+*Juno at the ceiling line, the compact overhead form, the signal lines running from the wrists
+the length of the hall.*
+
+*Neimi at the writing desk, the preserved tears at eye level, the draw arm holding correspondence.
+She is still weeping at writing height.*
+
+*She passes the Act 2 alcoves.*
+
+*Shanna at the entry gate, the javelin arm supporting the crossbar. She has been holding the
+gate open since the Veil's edge.*
+
+*Echidna in the outer hall, the wide planted feet forming the column base, the haft hand holding
+the lamp standard.*
+
+*Wendy in the corridor — the planted defensive stance, the shield arm creating the narrowing
+that directs traffic. She blocks the passage permanently.*
+
+*Clarine at the junction, the pointing arm indicating the route, the imperious expression
+receiving everyone who passes.*
+
+*Larum at the ceiling mount in the open hall, the reaching arms holding the hanging lamp. The
+reach became the mount.*
+
+*Sue at the floor level beside the stair, the archer's crouch at ankle height, the draw arm
+holding the ground candle. The flame comes from behind her.*
+
+*Cath at the gallery door — the sprint posture alongside the entry frame, the closed fist at
+handle height, the hand working the door she was trying to leave through.*
+
+*Dorothy as the reading chair's back support, the lean-back angle matching the reclining form.*
+
+*Thea at the chandelier — arms extended horizontally, the lamp bar spanning both hands.*
+
+*Elen at the desk — the split staff at different heights, the candles casting their spread.*
+
+*Igrene kneeling at the side table, the compact posture forming the base, the draw arm serving
+as the handle.*
+
+*Fir in the weapon room, the relaxed grip cradling whatever blade is displayed.*
+
+*Tethys in the main hall — the performance arms at ceiling height, the lamps of the whole hall
+held in the raised hands.*
+
+*Cecilia behind the commander's desk — the head-up bearing overseeing every document read in
+that office.*
+
+*Guinivere at the hall's elevated center, the composed forward gaze meeting every person who
+enters. She has been making eye contact since the stronghold.*
+
+*She passes into the Act 3 and 4 alcoves.*
+
+*Sophia at the reading room, the sidelong gaze looking over the reader's right shoulder at
+something that isn't there.*
+
+*Marisa in the weapon room, the two-handed pre-strike grip cradling whatever blade is featured.*
+
+*Isadora at the lamp post station, the knight's formal posture carrying the standard.*
+
+*Karla in the study, the near-sheathing wrist angled to cradle the decanter beside the reading
+chair.*
+
+*Louise at the hall windows, the perfect bow arm at its full reach holding each curtain open,
+the light held precisely.*
+
+*Lute at the reading desk, the extended palms forming the surface, the stone page fragments
+marking the working boundary.*
+
+*Fiora at the briefing room ceiling, the pointing arm still indicating the objective.*
+
+*L'Arachel beside the briefing room, the raised arm holding the standard she was built to carry.*
+
+*Fae on the reading shelf, the small confused expression between the volumes.*
+
+*She has walked the full room. Every name she knows is present.*
+
+*She stops in front of Ninian.*
+
+*She takes her time, as she always does.*
+
+*The dancer's arms raised to ceiling height. The form of years preserved at the moment of
+goodbye — the arms extended, the weight controlled, the sight line directed forward at whoever
+was watching. The expression is grief: not for herself, not at pain. Goodbye. The specific
+grief of the one doing the leaving.*
+
+"She was saying goodbye to whoever was in front of her." *She walks the full circle slowly.*
+"She knew. She danced anyway, and she looked at them the whole time, and the stone fixed both
+the knowing and the looking at once."
+
+*She stops at the face.*
+
+"The finest piece in this collection. I have said this before and the quality does not diminish."
+*A pause.* "The form. The expression. The goodbye chosen to face outward."
+
+**Ninian:** *...*
+
+"She holds the main lamp. Everything in this room is seen by her light. Nothing here exists
+without her presence."
+
+*She turns.*
+
+*All the surviving lords are here — whoever made it to this room.*
 
 *(If Eirika:)*
 
-*The guard hands. Still. The form that has been the same across every single engagement —
-the hands in the guard position, the fingers set for the sword that crumbled in the first
-chapter, the grip that never released.*
+*The guard hands — still in the guard position. The sword crumbled in the first engagement; the
+hands have not adjusted. Across every engagement, every crossing, every advance and retreat,
+the hands kept the shape of a weapon that no longer exists. The expression has arrived —
+traveled the full distance from disbelief through refusal through near-recognition through
+the quieter and quieter understanding — and stopped. It is what it is going to be. The hands
+didn't stop.*
 
-"The hands never stopped." *She is very close.* "The expression arrived long ago — everything
-it was going to be, it became. And the hands kept the guard past the end of the expression,
-past the end of the disbelief, past the end of everything. The hands are the last thing."
+"The expression finished." *She is very close.* "It went through everything it had — the
+disbelief, the refusal, the understanding — and arrived. And the hands are still holding the
+shape of the sword. The hands are the last thing." *She looks at the grip.* "They kept the
+guard past the end of everything else. Past the end of the disbelief. Past the end of the
+crossing. Past the end."
 
-*She steps back and looks at the full figure.*
+*She steps back and looks at the whole figure.*
 
-"She came all the way here. She was close to the throne."
+"She came all the way here. The throne she was trying to reach is behind me."
 
 **Eirika:** *...*
 
-"In front of the throne. The hands at armrest height — the guard-position grip serves the throne
-arm. She holds the throne. I sit where she was trying to reach; she holds the arm of the seat.
-Every decision made in this room, made from a throne she is holding."
+"In front of the throne. The guard hands at armrest height — the grip serves the arm of the
+throne. I sit where she was trying to reach; she holds the arm of the seat. Every decision
+made from this throne is made from a seat she is holding."
 
 *(If Lyn:)*
 
-*The Wind Sword grip. The grief — final, total, the full weight of the full scope. The arms
-wide. The lamp standard.*
+*The Wind Sword grip. The stance at its final width — she was covering whoever came with her
+to the end, the arms spread to hold the full scope of everyone still standing. The grief is
+total. The stone holds the whole record: the first group she tried to protect, and the second,
+both combined, every subsequent expansion of the scope until this — the last group, the last
+stance, the last grip around a weapon that has been gone since the beginning.*
 
-"The same gesture at the end that she made at the beginning. The stone holds the whole record
-— the first protection and the last one, all the ones between."
+"The same gesture at the end as at the beginning." *She touches the grip.* "She kept
+protecting whoever was behind her across the whole campaign. The stone holds the full record —
+every group, every expansion, the accumulated weight. It's all in the stance."
 
 **Lyn:** *...*
 
-"Beside the throne. The lamp standard lights the throne from her side. She lights what I rule."
+"Beside the throne. The lamp standard lights the throne from her side. She has always been
+trying to provide light for the people behind her. Now she does, permanently."
 
 *(If Lilina:)*
 
-*The fury — down to the last embers. The tome is almost nothing in the nearly-empty hands. She
-kept something back until the very end.*
+*The open palms — near-empty, almost nothing left in the extended hands. She kept something in
+reserve until the very end, and the stone holds the keeping. The fury is the last thing burning
+under the exhaustion — smaller than it was at the beginning, more specific, down to its last
+sustained heat.*
 
-"Hector's daughter kept something in reserve even here." *She looks at the near-empty hands.*
-"Even here."
+"Hector's daughter held something back even here." *She looks at the near-empty hands.*
+"She had almost nothing and she kept almost-nothing in reserve rather than spend it all. The
+fury is still going. Smaller. Still going."
 
 **Lilina:** *...*
 
-"Other side of the throne. The candles at shin height. The throne is lit from both sides."
+"Other side of the throne. The open palms hold the candles at shin height. The throne is lit
+from both sides — the lamp on her side, the candles on the other. They did not stop."
 
-*She looks at the room.*
+*She returns to the throne.*
 
-*Everything that was meant to come here has come here.*
+*The guard hands are at the armrest. The lamp is lit on her left. The candles burn at her right.
+The room holds every name she collected.*
 
-*She sits in the throne.*
-
-"I have been collecting for a long time." *The guard hands are at the armrest. The lamp is lit.
-The candles are burning.* "This is what it was for."
+"I have been building this for a long time." *She sits.* "This is what it was for."
 
 *The room is still.*
 
