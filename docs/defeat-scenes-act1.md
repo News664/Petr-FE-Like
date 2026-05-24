@@ -1,876 +1,496 @@
 # Inevitable Eternity — Defeat Scenes: Act 1
 
-> Act 1 covers Ch1, Ch2, Side Ch2A, Ch3, Ch4, Ch5.
-> No PETRIFIED_SAFE in Act 1 — capture is immediate on petrification.
-> Enemy takes custody the moment the stone sets. No rescue window.
->
-> Individual capture scenes play when the character falls mid-chapter.
-> Chapter final scenes play on chapter defeat (lord captured / all units petrified).
+> Act 1 — Ch1, Ch2, Side Ch2A, Ch3, Ch4, Ch5.
+> Capture is immediate. No recovery window.
 
 ---
 
 ## Ch1 — The Stone Tide
 
-*Setting: Besieged Renais stronghold — interior courtyard and main gate.*
-*Enemy: Stone Wardens at the gate, Standard Gorgons inside, The Hand (non-combat director).*
+---
+
+### Gate Guards
+
+*The Stone Wardens came through the arch before either soldier could set her footing. The eastern guard raised her shield and the Warden pressed into it — the shield didn't shatter from force. It went wrong: stone spreading through the metal and into her hands, her fingers locking around nothing, the shield already powder. She had time to turn toward her partner.*
+
+*Her partner was already stiff. Arm extended across the gap between them, reaching. Frozen in the reach.*
+
+*Two enemy soldiers wedged them into the arch posts. The courtyard had its pillars.*
 
 ---
 
-### Gate Guards ×2 — S (Opening Cinematic)
+### Syrene
 
-*Two soldiers at the gate arch. The eastern one raised her shield — it shattered on contact.
-The western one was mid-pivot, reaching toward her partner. Stone Wardens from both sides.*
+*She'd been holding the east courtyard for three passes, buying time while the escape route cleared. The second Stone Warden got inside her guard while she was engaged with the first — it put its hand on her forearm. She felt something go wrong in the contact. Not pain. Something named.*
 
-*The stone takes both at once. Neither has time to speak.*
+*Her arm locked. Still extended in the command gesture, pointing east toward the gate. She tried to pull it back and the arm didn't come. She brought her other arm across and drove the Warden back two steps but the stone was already through her right shoulder, and when she tried to pivot her whole posture stopped her — the form was wrong for fighting and exactly right for something she couldn't name.*
 
-*The Hand watches from behind the line.*
-
-"The gate posts needed weight. Now they have it. Leave them at the arch."
-
-*They remain at the arch. Their aura begins immediately — Tier B covers the gate approach.*
-
----
-
-### Syrene — O
-
-*She was holding position at the courtyard center — command posture, sword forward in the
-indicating gesture, back straight. Two Stone Wardens advanced from either side. Her STO-RES
-had been decaying from the gate aura for three turns. She did not retreat.*
-
-*The Gaze contact came from the left. The sword became ash; the hand kept its shape.*
-
-*A Stone Warden stops and looks at the extended arm.*
-
-"Senior officer. She holds ground. The pointing arm goes where the junior units will pass —
-leave her mid-courtyard, arm indicating east."
-
-*Stone completes. The command posture fixed.*
+*The first Warden stepped away. A soldier was already moving behind her.*
 
 **Syrene:** "Hold—"
 
-*Placed at the courtyard center. The pointing arm indicates the east gate. Tier B aura active.*
+*They pushed her against the east wall. A lamp came out of a pack and was wedged into her pointing hand. She was facing the gate approach and there was nothing else she could do.*
 
 ---
 
-### Vanessa — O
+### Vanessa
 
-*She was diving to reach someone — the pegasus already gone, the descent committed, fingers
-curled around the lance she'd dropped. The Standard Gorgon's Gaze came from above and met her
-mid-descent.*
+*Her pegasus took her over the main entry to clear room for Tana. She was already in the dive posture, committed downward, when the Gaze came from above. She felt it in her arms first — the extension pulling forward and away from her body, her hands reaching for a grip that wasn't there.*
 
-*The lance crumbled from the fingers. The grip remained.*
+*She pulled hard inside the turn. Her arms didn't come.*
 
-*A Stone Warden examines the dive angle.*
-
-"Good descent angle. Get her over the entry — ceiling height, the forward lean fits the mount."
-
-*Stone completes. The dive fixed, arms forward.*
+*The stone was moving along the reach line, from her extended fingers back up her forearms. She could feel the dive angle locking — the form settling into something other than flight, other than fighting. She threw her weight against it. The posture held and she was in it.*
 
 **Vanessa:** "Lady Tana—"
 
-*Hoisted and mounted above the main gate entry. Tier B aura extends downward over anyone
-passing beneath.*
+*Two soldiers caught her before she reached the ground. They mounted her above the main entry at ceiling height and left the grip empty for whatever would come next.*
 
 ---
 
-### Tana — O
+### Tana
 
-*She was mid-step — the frustrated stride of someone who had almost reached a position and
-hadn't. The Standard Gorgon came from the front. Her armor scorched badly at the pauldrons.*
+*She was going for the east corridor when the Gorgon stepped around the corner. Mid-step: weight forward, the stride committed. It looked at her.*
 
-*An enemy officer passes her without stopping.*
+*An enemy officer nearby said one word she didn't understand.*
 
-"She was moving east. Leave her facing east — that posture marks the direction. East corridor."
-
-*Stone completes. The forward-committed stride preserved.*
+*Her front foot didn't come down. The stride locked in place — she could feel it, the forward motion becoming permanent, the posture being decided for her. She threw her weight against it and the stone answered immediately. The frustration in her face was the last thing she controlled.*
 
 **Tana:** "Not yet—!"
 
-*Moved to the east corridor entrance. Tier A aura covers the east approach.*
+*They left her where she stood, pointing east. A soldier painted a directional marker on the wall beside her.*
 
 ---
 
-### Chapter Final — The Stone Tide
+### Chapter Final
 
-*The Queen. Setting: stronghold courtyard, morning. Gate guards at the arch — both at active
-aura. Three NPC figures already placed: a courtyard attendant at the water barrel in the
-carry position; a records clerk at the archive door, document still in grip; a runner
-three steps from the gate at the sprint.*
+*The Queen walked the courtyard without pausing.*
 
----
+*The attendant at the water barrel. The clerk at the archive door. The runner on the road.*
 
-*She enters from the west.*
+*"Leave them."*
 
-*The gate arch. She does not stop.*
+*She passed Syrene at the east wall. Looked at the lamp in the pointing hand.*
 
-"The carry hands go at the west-wall station. The clerk stays beside the archive door — the
-document is still in her grip, hands at writing height. The runner marks the road; the sprint
-points the direction."
+*"Good."*
 
-*She walks to Syrene. The pointing arm, the command posture.*
+*She looked up at Vanessa above the entry.*
 
-"This confirms the placement. The arm indicates east — correct. She stays mid-courtyard."
+*"Adjust the mount. Face in."*
 
-*Vanessa above the entrance. She looks up at the dive.*
+*She passed Tana at the corridor junction. Kept walking.*
 
-"The grip is still right. The position holds."
+*She stopped at Eirika. The armor had crumbled on the way down — she could see the form clearly: guard position, hands at armrest height, the sword gone.*
 
-*Tana in the east corridor. She looks at the stride.*
+*She looked at the hands for a moment.*
 
-"East-facing, forward. The expression is frustration. There is something instructive about a
-piece that's still trying to arrive — she goes where good light comes in."
+*"Chair rest. Main hall."*
 
-*She walks to Eirika.*
-
-*She stops and takes her time.*
-
-*She looks at the hands in the guard position — the height they're at. She looks at the
-expression. She already knows where this one goes.*
-
-"Chair rest. The hands are at armrest height — the guard position is exactly the right form.
-She goes at the center of the reception hall. First thing anyone sees. The petitioner faces a
-lord who is still, technically, standing guard."
-
-*The stone sets. The armor removes in sequence — collar, pauldrons, chest plate — each piece
-crumbling as the stone completes. The sword is dust. The hands kept the guard position.*
+*She walked away while the soldiers were still moving the statue.*
 
 **Eirika:** "I won't—"
 
-*The stone.*
-
-"This stronghold is furnished."
+*The stone finished while they were carrying her.*
 
 ---
 
 ## Ch2 — The Amber Wake
 
-*Setting: Riverside trading post road, dawn.*
-*Pre-placed: Gate guard (Tier B) at road chokepoint from prior conflict.*
-*Enemy: Gorgon squad — Standard Gorgons and Stone Wardens pushing from west and south.*
-
 ---
 
-### Natasha — S (Opening Sequence)
+### Natasha
 
-*She came forward when she shouldn't have. A Gorgon broke through the west road — she saw it
-before Eirika's group and moved toward it. She was raising her staff toward the wounded near
-the gate guard statue when the Gaze took her.*
+*She had come forward to reach someone near the gate guard statue. She didn't make it. The Gorgon broke through the west approach and she turned her staff toward it — the Gaze caught her mid-cast, the staff shattering, her hands keeping the shape.*
 
-*The staff shattered on contact. Crystal head vaporized. Shaft split to the grip. Her hands
-stayed in the healing carry position — palms open, slightly raised, the lift that says
-mid-cast.*
+*She was still trying to complete the cast. The healing posture locked with nothing to complete it. She couldn't lower her arms. She stood at the roadside with her palms up and the spread of stone moving from her wrists toward her elbows, and The Hand was walking the road toward her.*
 
-*The Hand was watching from the road's edge. She approaches the frozen figure.*
+*The Hand didn't stop.*
 
-"A healer. The staff is gone but the hands know their work — the carry position, the slight
-lift. She goes at eye height near the gate. The hands visible."
+*"Beside the gate. Hands facing out."*
 
-*Stone is complete. The healing posture fixed without the staff.*
+*Two soldiers moved her into position next to the stone guard. They set a small lamp across her open palms.*
 
 **Natasha:** "Wait — let me—"
 
-*Placed adjacent to the gate guard statue. Combined Tier A + Tier B aura begins immediately.
-The central road approach becomes actively costly from turn 1.*
+*She was placed and the stone completed.*
 
 ---
 
-### Chapter Final — The Amber Wake
+### Chapter Final
 
-*The Queen. Setting: riverside trading post road, dawn. Natasha pre-placed at eye height near
-the gate guard. NPC architecture already in place: a merchant frozen mid-transaction at the
-post entrance, hands at goods-exchange height; a ferrylady at the bank with the pole still in
-grip; a road traveler mid-step serves as a second road marker up the approach.*
+*The Queen walked the road. The merchant at the post entrance, the ferrylady at the bank, the traveler mid-step — she didn't look at any of them.*
 
----
+*"Leave the road as it is."*
 
-*She walks the road. The NPCs are already the architecture.*
+*She passed Natasha. Looked at the lamp in the open palms. Kept moving.*
 
-"The merchant's counter position is the post counter. The ferrylady marks the bank. The traveler
-marks the upper approach. Leave them."
+*She reached the player group.*
 
-*She turns to Natasha. She examines the hands — the slight lift, the open palms.*
+*Tana, arm raised in the warning gesture. She glanced at her.*
 
-"The hands are more interesting without the staff. The gesture is still asking for something.
-She stays here — the palms face the approach."
+*"Approach signal. Leave the arm as it is."*
 
-*She turns to the player captures.*
+*Vanessa, the ascent posture, arms overhead.*
 
-*Tana. Mid-turn, the signal arm raised — she was warning someone behind her.*
+*"Junction lamp. Someone will need to mount it."*
 
-"Approach signal — the arm holds the torch. She faces whoever comes up the road."
+*She stopped at Eirika. The guard posture. The armor was gone.*
 
-**Tana:** "I was warning—"
+*She looked at where the sword had been.*
 
-*Vanessa. The ascent posture — arms overhead, weight shifting back, the form of someone
-pulling for altitude.*
+*"Map table pointer. Forward hall."*
 
-"Ceiling lamp — junction mount. She was trying to get above all of it. She is."
-
-**Vanessa:** "Get out of here—"
-
-*She stops in front of Eirika.*
-
-*The guard posture, but interrupted — she was pivoting to face something new when it reached
-her. Weight transferred mid-move. The jaw harder than Ch1: closer to refusal now.*
-
-"Map table indicator. The pivot gives the forward arm direction. The arm is already pointing
-at the problem — the briefing is already using it."
-
-*The stone sets. The armor falls in dust.*
+*She was already moving toward the next chapter.*
 
 **Eirika:** "We're not done—"
-
-"This road is finished."
 
 ---
 
 ## Side Ch2A — The Price of a Head Start
 
-*Setting: Western Elibe village road, pre-dawn. Playable flashback — Lyn's group first escape.*
-*NPC architecture: doorway bystanders fill the door frames; two children at a fence gate serve
-as gate posts; a village elder mid-step on the road is the road marker.*
-*Enemy: Standard Gorgons, Petrification Cavaliers.*
-
 ---
 
-### Priscilla — S
+### Priscilla
 
-*Scripted: she diverted east to create a diversion, drawing Gorgon fire to cover Lyn's escape
-route. A Petrification Cavalier caught her at full gallop — lance contact while STO-RES was
-already low from the advance aura. Horse and rider caught in the same instant at the peak of
-the stride.*
+*The Petrification Cavalier came for the horse, not the rider. Priscilla pulled the reins hard to turn but the lance tip touched the horse's flank and the Brand went through both of them at once — mount and rider locked in the same stride, the gallop caught mid-extension, the horse's legs pulled into permanent motion.*
 
-*Both frozen mid-gallop, the rider slight and curled forward over the horse's neck.*
-
-*An enemy officer examines the piece.*
-
-"Horse's back is level at table height. Main hall — the horse provides the surface. Leave the
-rider where she is."
-
-*Stone completes. The saddle and tack crumble.*
+*She could feel the horse had stopped moving under her. She was still trying to ride a frozen animal, still reaching forward with the reins, but her hands had become part of the piece.*
 
 **Priscilla:** "Farina—"
 
-*Moved to the main hall. The horse's back serves as a side table. Her Tier B aura activates.*
+*An enemy officer spread a field document across the horse's flat stone back and started writing on it without looking at Priscilla.*
+
+*"Main hall. Keep the rider."*
+
+*They wheeled them inside.*
 
 ---
 
-### Farina — S
+### Farina
 
-*Scripted: she came in from above to cover the gap left by Priscilla. The Standard Gorgon's
-Gaze caught her mid-dive — she was angling down to shield whatever was below. The aerial
-fighter's lean build, arms slightly out, the long-limbed cover of someone trying to protect.*
+*She came in from above to cover the gap Priscilla's move had left. The Gorgon was already in position. Its Gaze caught her at the peak of the dive — the descent angle locked, her arms out for balance, the lean of the body committed downward.*
 
-*An enemy officer looks at the dive angle.*
-
-"She was coming down over the entry. That angle works for a ceiling fixture — above the command
-hall door. Everyone enters under the descent."
-
-*Stone completes. The dive preserved.*
+*She couldn't pull out of it. She tried to change the angle and the stone answered: the dive had her, and everything she did to escape the dive only fixed it harder.*
 
 **Farina:** "Priscilla—"
 
-*Installed above the command hall entry. Tier B aura covers the area below.*
+*They carried her inside and lashed the doorframe timbers to her outstretched arms. The entry to the command hall had its ceiling fixture.*
 
 ---
 
-### Rebecca — O
+### Rebecca
 
-*She was in drawn position — draw arm extended, form clean. She was aiming at an aerial Gorgon.
-A Gaze Hunter's bolt caught her at full draw before she could release.*
+*She had a clear shot at the aerial Gorgon and she took it. The Gaze Hunter found her in the draw — the bolt hit her extended arm and she felt the pull immediately, the draw arm locking out, the form fixed at full extension. The arrow didn't fly. The bowstring was gone with the bow.*
 
-*Enemy soldier: "East corridor, good arm for a hook. She's already reaching toward whoever
-comes in."*
-
-*Stone completes. The quiver crumbles.*
+*She tried to bring the arm back.*
 
 **Rebecca:** "Oh."
 
-*East corridor. The extended arm marks the entrance.*
+*A soldier grabbed her by the locked arm and dragged her to the east corridor. She was propped against the wall at the junction, the empty extended arm pointing toward the entrance.*
 
 ---
 
-### Florina — O
+### Florina
 
-*Without her pegasus she had nothing to push against — the balance arm out, the body
-mid-correction, very slight build. A Standard Gorgon's Gaze caught her in the stumble.*
+*Without her pegasus she had been compensating — balance arm out, trying to manage on foot, the form all wrong. A Gorgon took her in the correction. The balance arm locked at waist height. She felt the posture fixing around her and couldn't find anything to push against.*
 
-*Enemy soldier: "She's small. Lower corridor height — grab-rail."*
+**Florina:** *[nothing — she made no sound]*
 
-*Stone completes.*
-
-**Florina:** *[no words — the stone finds her silent]*
-
-*Lower corridor. Balance arm at waist height.*
+*A soldier walked by later and grabbed her balance arm to steady herself on the slope. Florina was already at the lower corridor when they placed her.*
 
 ---
 
-### Nino — O
+### Nino
 
-*Both arms fully extended, fingers spread, the full output. The tome burned away entirely.
-A Gaze Hunter's crossbow bolt caught her in the full-extension posture.*
+*She put everything she had into the cast — both arms out, fingers spread, the full output. The cast completed and did nothing. The Dark Veil swallowed it. And then the Gaze Hunter's bolt came through the moment the cast broke, and both arms locked in the extension, the fingers still spread wide, the tome burned away to nothing.*
 
-*Enemy soldier: "Both arms out — entry hall, coat rack. The hands hold whatever comes in."*
-
-*Stone completes. The tome bindings crumble.*
+*She was still trying to cast. There was nothing left to cast with and her arms were something else now.*
 
 **Nino:** "I can still—"
 
-*Entry hall. Both arms still extended.*
+*They stood her in the entry hall. The spread arms held coats.*
 
 ---
 
-### Serra — O
+### Serra
 
-*Staff cracked in half on contact — a Stone Warden's partial GAZE on melee. She was
-mid-laugh, or mid-instruction; the expression is caught between amusement and alarm.
-Mouth slightly open. Soft build, the cloth scorched at the shoulder.*
+*The Stone Warden got inside her guard while she was arguing with Rebecca about the angle of retreat — she heard it behind her and turned and it was already there, the partial Gaze on contact splitting her staff cleanly in half. She kept both pieces. She was mid-laugh at the absurdity of it, or mid-insult at the Warden, when the stone locked the expression.*
 
-*Enemy soldier looks at the two broken halves at different heights.*
-
-"Two staff pieces — different heights. Dining hall, the pieces hold things between them.
-Open mouth faces the meal."
-
-*Stone completes. The scorched hem falls.*
+*She could feel both halves of the staff in her hands. She could feel the open mouth. Neither was doing what she needed.*
 
 **Serra:** "This is completely unacceptable—"
 
-*Dining hall. The split staff forming a two-level shelf. Her Tier A aura activates.*
+*They put her in the dining area. The two staff pieces at different heights held things between them.*
 
 ---
 
-### Chapter Final — Side Ch2A (Lord Defeat)
+### Chapter Final — Lord Defeat
 
-*The Queen. Setting: western Elibe village road, pre-dawn. The village is already architecture.
-Doorway figures fill the frames. The children are the gate posts. The elder marks the road.
-Farina above the command hall entry. Priscilla in the main hall. Rebecca at the east corridor.
-Florina at the lower corridor. Nino at the entry hall. Serra at the dining table.*
+*Lyn had been the last one standing. An enemy officer stepped into her path — she recognized him from the approach, had been trying to reach him. He looked at her.*
 
----
+*He said nothing. He just looked.*
 
-*She walks the village.*
-
-"Leave the village as it is. It is furnished."
-
-*She turns to the significant pieces.*
-
-*Farina. She examines the dive — the lean build, the aerial fighter's limbs, the committed
-angle.*
-
-"The ceiling placement is correct. Threshold fixture — above the command hall entry. The descent
-covers everything that enters."
-
-*Priscilla. She looks at the horse's back, the bare surface.*
-
-"Side table. The surface is right. The rider stays — she is part of the piece."
-
-*Rebecca. The clean draw form, east-facing.*
-
-"Coat hook — east corridor. The arm extends toward whoever arrives."
-
-**Rebecca:** "Oh."
-
-*Florina. The balance arm, the slight form.*
-
-"Grab-rail — lower corridor. Confirmed."
-
-*Nino. Both arms, the full extension.*
-
-"Coat rack — entry hall. The spread fingers hold whatever comes in. The youth is visible —
-she trained hard to get this form. Let it be seen."
-
-**Nino:** "I can still—"
-
-*Serra. She examines the open mouth, the split staff.*
-
-"Dining hall fixture — the split staff holds the shelf. The open mouth faces the meal. There
-is something about that expression that makes the meal interesting."
-
-**Serra:** "This is completely unacceptable—"
-
-*She turns to Lyn.*
-
-*Lyn. The Wind Sword grip — the hands curled around nothing, the arms in the bearing posture
-of someone protecting whoever is behind her. Strong-shouldered swordswoman's build. The
-expression is grief. The kind that comes from failing at the one thing that mattered.*
-
-*She looks at her. She already sees the lamp standard — the arms the bracket, the grief the
-expression a lamp needs.*
-
-"Lamp standard — main corridor. She goes where the people she was protecting have to pass.
-The lamp is hers. The grief watches the route."
-
-*The stone sets. The Wind Sword crumbles; only the grip shape remains in the stone hands.
-The armor strips from the shoulders.*
+*She felt it immediately — the lamp-standard pull, the arms trying to bracket, the grief in her expression becoming the expression of something that holds a light rather than something that fights. She drove at him anyway. She drove and the form was already wrong, the arms not closing for the strike, opening instead, and the stone answered the opening.*
 
 **Lyn:** "...go."
 
-*The stone. The last word was not for the Queen.*
+*The stone completed. The last word was for whoever was behind her.*
 
-"The village is efficient."
+*The Queen came through an hour later. She walked the village — the doorway figures in the frames, the children at the fence gate, the elder on the road — and didn't stop.*
+
+*"Leave the village."*
+
+*She reached the main hall. She checked the Farina installation above the entry, the Priscilla side table, Rebecca at the east junction, Florina at the lower corridor, Nino at the entry hall, Serra at the dining station.*
+
+*She didn't comment on any of them.*
+
+*She found Lyn.*
+
+*She looked at the lamp-standard arms and the expression and the direction the figure faced.*
+
+*"Main corridor. Where the traffic passes."*
+
+*She walked out.*
 
 ---
 
 ## Ch3 — West by Firelight
 
-*Setting: Elibe village chain, night.*
-*Pre-placed: Natasha at road chokepoint (Tier A).*
-*Enemy: Standard Gorgons, Stone Wardens, Petrified Constructs (first appearance).*
-
 ---
 
-### Serra — S
+### Serra
 
-*She was mid-laugh when the Stone Warden closed — mid-instruction to someone, mid-something;
-the expression caught between amusement and alarm. The staff cracked in half on contact.
-Cloth scorched at the shoulder.*
+*She was mid-instruction to someone when the Stone Warden caught her from the side — she was turned away and she had time to hear the contact but not to do anything about it. The staff split in half. She kept both pieces. She was mid-laugh at something, or mid-sentence, and the expression was locked in the mid-laugh with the mouth open and she couldn't change it.*
 
-*A Stone Warden looks at the two halves in her hands.*
-
-"Two pieces at different heights. Road junction — one half low, one high, they mark both
-levels."
-
-*Stone completes. The open expression fixed.*
+*She could still think. She tried to put the two halves of the staff together. Her hands weren't cooperating.*
 
 **Serra:** "I haven't finished yet—"
 
-*Placed at the road junction. The two staff pieces at two heights. Her Tier A aura activates
-and stacks with Natasha's Tier A at the chokepoint ahead.*
+*A soldier took one half out of her hand and set it on the road marker at junction height. Another wedged the other piece lower. The junction had two markers now.*
 
 ---
 
-### Rebecca — O
+### Rebecca
 
-*Draw arm extended, the form that stayed clean even as everything else deteriorated. She was
-aiming upward — the slight elevation in the draw arm shows an aerial target. A Gaze Hunter's
-bolt caught her at full draw.*
-
-*Enemy soldier: "East-facing, arm at the right height. Corridor edge — she marks where the
-turn is."*
-
-*Stone completes. The quiver crumbles.*
+*She had a clean shot at the retreating enemy line and she knew it — draw arm fully extended, the angle perfect. The Gaze Hunter found her wrist at full draw. She felt the arm lock in the extension, the pull-back hand gone with the bowstring, and she released the arrow into nothing.*
 
 **Rebecca:** "I see."
 
-*East corridor edge. The extended arm marks the junction.*
+*They positioned her at the east corridor edge. The arm still marked the junction.*
 
 ---
 
-### Neimi — O
+### Neimi
 
-*Draw posture — still functioning as an archer even as she wept. The tears crystallized
-precisely on her face. The small frame, the compact draw, the emotion not interrupting the
-form. A Gaze Hunter found her.*
+*She was still functioning — still drawing, still shooting — while crying. The form stayed clean even while the tears ran down her face. The Gaze Hunter caught her in the draw and the tears crystallized on her cheeks at the same moment the arm locked.*
 
-*Enemy soldier: "Desk height — the arm holds correspondence. The face watches whoever sits
-there."*
+*She was aware of both: the arm that wouldn't come back and the tears that wouldn't move. She tried to call someone's name.*
 
-*Stone completes.*
+**Neimi:** *[a sound that didn't reach]*
 
-**Neimi:** *[a sound — her name for someone, cut off before it forms]*
-
-*Writing desk position.*
+*They set her at the road-side writing station, the arm holding correspondence.*
 
 ---
 
-### Florina — O
+### Florina
 
-*Without her mount she was correcting constantly — the balance arm at waist height, the very
-slight build managing a stability problem. A Standard Gorgon caught her mid-correction.*
-
-*Enemy soldier: "Lower corridor. Grab-rail height."*
-
-*Stone completes.*
+*The second time the correction failed she couldn't find anything to push against. The Standard Gorgon took her in the stumble and the balance arm locked at waist height and she was in the correction and nothing was correcting.*
 
 **Florina:** "Wait—"
 
-*Lower road approach. Balance arm at waist height.*
+*Lower corridor. Grab position.*
 
 ---
 
-### Nino — O
+### Nino
 
-*Both arms extended, palms forward, maximum extension. Young build, the extension pulling the
-slight shoulders forward. A Dark Witch's secondary GAZE caught her at the full-output moment.*
-
-*Enemy soldier: "Entry approach. Both arms out — coat rack. Holds whatever comes in."*
-
-*Stone completes. The tome bindings crumble.*
+*She was already running low — the tome almost gone, both arms still going. The Dark Witch's secondary shot caught her at maximum extension. She felt the extension becoming something else, the casting becoming a rack, and there was nothing left in the tome to fight with.*
 
 **Nino:** "Wait, I—"
 
-*Entry approach.*
+*Entry approach. Both arms still out.*
 
 ---
 
-### Chapter Final — West by Firelight
+### Chapter Final
 
-*The Queen. Setting: Elibe village road, night. Natasha pre-placed at the chokepoint, open
-palms holding a small oil lamp. Serra placed at the junction. NPC architecture: a woman by
-the well as a road marker; two children as fence gate posts; the market vendor's raised wrists
-as hooks for dried goods; a cluster frozen at the crossroads center filling the junction.*
+*The Queen walked the crossroads. She didn't comment on the NPC cluster at the junction.*
 
----
+*"Leave it."*
 
-*She walks the crossroads.*
+*She checked Natasha at the chokepoint — pre-placed from Ch2. She passed without stopping.*
 
-"Leave the crossroads cluster as they are."
+*Serra at the junction, staff pieces at two heights.*
 
-*She checks Natasha — the open palms, the eye-height placement.*
+*"Confirmed."*
 
-"Confirmed. The hands face the approach."
+*Rebecca at the east corridor.*
 
-*She turns to Serra at the junction.*
+*Neimi at the writing station. She looked at the crystallized tears. She didn't say anything about them.*
 
-"The junction placement is right — the two staff pieces at different heights, the open mouth
-facing the road. Confirmed."
+*Florina at the lower corridor. Nino at the entry approach.*
 
-**Serra:** "I haven't finished yet—"
+*She found Lyn at the crossroads center.*
 
-*Rebecca — the draw arm, east-facing.*
+*The stance covered both approaches. She looked at it.*
 
-"Coat hook — east corridor entrance. The arm extends toward whoever arrives."
-
-**Rebecca:** "I see."
-
-*Neimi — the draw posture, the tears precisely preserved.*
-
-"Desk piece — writing height. The draw arm holds correspondence. The tears watch whoever works
-at that desk."
-
-*Florina — balance arm.*
-
-"Grab-rail — lower corridor. Confirmed."
-
-*Nino — full extension.*
-
-"Coat rack — entry hall."
-
-**Nino:** "Wait, I—"
-
-*She turns to Lyn.*
-
-*Lyn at the crossroads center — not a single corridor, she was covering two roads at once.
-The stance set to hold both approaches. The grief heavier: it is carrying more now.*
-
-"Junction lamp — the arms are the bracket for the lamp that lights both approaches. She is at
-the crossroads center."
-
-*The stone sets. The armor strips.*
+*"Junction lamp. Both roads."*
 
 **Lyn:** "Get out of here—"
 
-*The stone. The lamp lights both roads.*
-
-"The village is furnished."
+*The stone finished and she was already writing the placement notes.*
 
 ---
 
 ## Ch4 — The Cost of Flight
 
-*Setting: Open terrain under aerial Gorgon attack.*
-*Pre-placed: Priscilla at approach zone (Tier B), Farina above entry (Tier B).*
-*Enemy: Aerial Gorgons (first appearance), Stone Wardens, Gaze Hunters, Petrification Cavaliers.*
-
 ---
 
-### Nino — S
+### Nino
 
-*Scripted: She was directing output upward — supporting the aerial engagement, both arms
-overhead in the full supporting cast posture, range pushed vertical. The Aerial Gorgon's Gaze
-came from above and found both arms fully raised. The tome burned through entirely from the
-inside out.*
+*She was trying to support the aerial engagement from the ground — both arms overhead, the full vertical cast, range pushed as far as she could push it. The Aerial Gorgon came from directly above. The Gaze hit both arms at once and they locked overhead in the support posture.*
 
-*An enemy officer on a platform above looks down at the form.*
+*She tried to bring her arms down to run. They stayed overhead, pointing at the sky where the engagement was still happening.*
 
-"Both arms overhead — ceiling height. Entry passage, the arms hold the fixture above the
-corridor line."
+*An officer on the ridge line looked down at her.*
 
-*Stone completes. The scorched bindings crumble. The arms remain overhead.*
+*"Entry passage. Overhead."*
 
 **Nino:** "I'm trying—"
 
-*Hoisted to command entrance ceiling. The overhead bracket. Her Tier A aura extends downward
-over anyone below.*
+*They hoisted her to the ceiling mount above the command entry. The overhead arms held the fixture. The cast that never connected was still in the shape of her hands.*
 
 ---
 
-### Florina — O
+### Florina
 
-*Pegasus fled in the aerial chaos — without it she was falling, the balance arm extended at
-waist height, catching nothing. A Standard Gorgon caught her in the mid-fall correction.*
-
-*Enemy soldier: "Lower corridor. Grab-rail. The arm's at the right height."*
-
-*Stone completes.*
+*She was on foot and already compromised when the Standard Gorgon found her. The correction never completed. The balance arm locked at waist height in the stumble.*
 
 **Florina:** *[a sound — not a word]*
 
-*Lower corridor. Balance arm at waist height.*
+*Lower corridor. Third time the arm has been at that height.*
 
 ---
 
-### Tana — O
+### Tana
 
-*She was coming in steeply — attacking, not retreating. Weight thrown forward and down, the
-expression fully determined. She found a target and went. An Aerial Gorgon above caught her
-in the committed attack posture.*
-
-*Enemy officer: "She was diving to attack. Briefing ceiling height — the expression looks down
-at whoever plans below."*
-
-*Stone completes. The scorched pauldron falls.*
+*She found her angle on an Aerial Gorgon above the command position and drove at it — committed, the dive fully committed, the expression set. The Gorgon's return Gaze hit her from above and the dive locked: weight forward and down, the attack angle preserved. She was still in the attack and couldn't pull out of it.*
 
 **Tana:** "Come on—!"
 
-*Briefing room ceiling. The determined expression faces downward.*
+*They carried her to the briefing room. The determined expression faced downward over the planning table.*
 
 ---
 
-### Vanessa — O (S if not captured in Ch1)
+### Vanessa
 
-*Banking turn — arms slightly spread, body tilted in the direction change, the momentum of
-the course correction preserved. An Aerial Gorgon caught her mid-bank.*
+*Banking hard to cover the approach — the turn committed, arms spread in the turn, the momentum of the course change frozen mid-execution. The Aerial Gorgon caught her in the bank.*
 
-*Enemy officer: "Arms spread, good span. Chandelier mount — the turn becomes the fixture."*
-
-*Stone completes. The armor falls from the banking form.*
+*She felt the spread of her arms becoming a span.*
 
 **Vanessa:** "Move—"
 
-*Chandelier position. The arm span holds the lamp bar.*
+*Chandelier mount. The arm span held the lamp bar. The banking turn had become the fixture.*
 
 ---
 
-### Chapter Final — The Cost of Flight
+### Chapter Final
 
-*The Queen. Setting: open terrain, aerial engagement aftermath. Priscilla and Farina
-pre-placed. Three field scouts frozen in scouting crouches at the perimeter serve as low
-approach markers; a courier frozen mid-run with leather case in hands marks the approach road.*
+*The Queen came through the field after the engagement. She didn't stop at the courier on the road, the scouts at the perimeter.*
 
----
+*"Leave the field."*
 
-*She walks the field.*
+*She checked the Priscilla and Farina installations — pre-placed.*
 
-"The scouts mark the perimeter. The courier marks the road. Leave them."
+*"Both confirmed."*
 
-*She checks Priscilla and Farina — already placed.*
+*She looked up at Nino at the ceiling mount.*
 
-"The horse installation is correct. The aerial ceiling fixture at the entry is confirmed."
+*"Good angle. Keep it."*
 
-*She turns to the player captures.*
+*She found the remaining captures — Florina at the corridor, Tana at the briefing ceiling, Vanessa at the chandelier mount. She didn't comment on any of them.*
 
-*Nino. Both arms raised overhead, already mounted.*
+*She found Lyn.*
 
-"The overhead bracket position is right. Command entrance ceiling — confirmed."
+*The arms were still raised toward the sky where the aerial engagement had been.*
 
-*Florina. The balance arm.*
-
-"Grab-rail — lower corridor. Confirmed."
-
-*Tana. The dive posture from above.*
-
-"Briefing room ceiling mount — the determined expression faces downward at whoever plans
-below. She was attacking from height. She marks it."
-
-**Tana:** "Come on—!"
-
-*Vanessa. The banking turn, arm span extended.*
-
-"Chandelier mount — the arm span holds the lamp bar. The turn becomes the fixture."
-
-**Vanessa:** "Move—"
-
-*She crosses to Lyn.*
-
-*Lyn. Covering from below — the overhead guard quality, arms slightly raised, gaze directed
-upward toward the aerial engagement happening above. She was protecting from the ground.*
-
-"Field lamp post — the overhead arms hold the exterior lamp at approach height. The grief
-watches the sky the aerial fighters used."
-
-*The stone sets. The armor strips.*
+*"Field post. Exterior lamp."*
 
 **Lyn:** "Run—"
 
-*The stone. She was still looking upward.*
+*She was already looking at Eirika.*
 
-*She crosses to Eirika.*
+*The guard posture. Weight on the front foot. The armor had come off in the fall.*
 
-*Eirika. The guard posture, but weight on the front foot — she was going, not holding.
-The disbelief has thinned: near-recognition now, the specific quality of someone close to
-an understanding she hasn't wanted to arrive at.*
-
-"Command entrance threshold — the guard hands mark the passage width. She was going through;
-she marks where through begins."
-
-*The stone sets. The armor falls.*
+*"Command threshold. The guard position marks the passage width."*
 
 **Eirika:** "There's still—"
 
-*The stone.*
-
-"Priority on the ceiling installations. Aerial postures need clearance."
+*She walked out.*
 
 ---
 
 ## Ch5 — Last Out
 
-*Setting: Border crossing, rearguard action. Both groups combined for the first time.*
-*Pre-placed: Priscilla on the crossing road (Tier B), Farina above the crossing entry (Tier B).*
-*Enemy: Great Gorgons (first appearance), Stone Wardens, Dark Witches, Petrified Constructs.*
-
 ---
 
-### Amelia — S
+### Amelia
 
-*Scripted: Full charge posture — weight completely forward, both hands on the lance, the tip
-long crumbled. Young build, the charge committed past the point of stopping. A Great Gorgon's
-area Gaze caught her and the unit adjacent to her.*
+*She had been charging the Great Gorgon to disrupt its positioning — full speed, both hands on the lance, the tip already gone to the Gaze contact from two turns prior. She was almost inside its range when the area effect came and she felt the charge posture lock: weight completely forward, the lean past stopping, both hands in the grip that was no longer holding anything.*
 
-*A Stone Warden examines the lean of the charge.*
-
-"She was going straight through. Corridor narrowing — the body leans into the passage, the
-lance grip hands serve as the rail mount. She is already blocking."
-
-*Stone completes. The armor removes in large fragments, the young form beneath.*
+*She was still charging. There was nowhere to go with it.*
 
 **Amelia:** "I'll do better—"
 
-*Installed in the main approach corridor, the charge posture creating a permanent narrowing.
-Her Tier B aura covers the corridor.*
+*They put her in the main corridor, the charge posture leaning into the passage. The approach lane narrowed around her.*
 
 ---
 
-### Juno — S
+### Juno
 
-*Scripted: Formation posture — arms held close, compact, the commander's streamlined form
-designed for efficient movement through a formation. A Dark Witch's GAZE found her holding
-the tight form.*
+*The Dark Witch's GAZE found her in the formation posture — the tight, streamlined form, arms close, the stance designed for efficient movement through a unit. It locked her exactly there: arms in, compact, the formation-leader's controlled silhouette.*
 
-*Enemy officer: "Guide wire mount — ceiling height. The wrists hold the signal lines. She was
-leading; let the lines run from her."*
-
-*Stone completes. The formation armor strips.*
+*She couldn't open her stance. She couldn't reach.*
 
 **Juno:** "Formation—"
 
-*Ceiling mount. The signal lines run from the wrists along the hall's length.*
+*An officer ran signal lines from her wrists down the length of the hall. The ceiling mount was already where she'd been standing.*
 
 ---
 
-### Florina — O *(if not yet captured)*
+*The rest came quickly. The border was one long lane and the Great Gorgons pushed it hard.*
 
-*Balance arm at waist height, the correction form.*
+*Florina at the lower corridor approach. Nino at the entry. Rebecca at the east hook. Tana frozen mid-stride, still east-facing, still arriving. Vanessa above, the ascending grip holding the fixture.*
 
-*Enemy soldier: "Grab-rail. Lower corridor."*
-
-**Florina:** "I'm sorry—"
+*Each one placed by whoever was closest. Practical. Fast.*
 
 ---
 
-### Nino — O *(if not yet captured)*
+### Chapter Final
 
-*Both arms extended, the full cast.*
+*The Queen walked the crossing. The border guards were already in the posts.*
 
-*Enemy soldier: "Coat rack. Entry hall."*
+*"They were. Now they are."*
 
-**Nino:** "Wait—"
+*She checked Amelia in the corridor. Juno at the ceiling.*
 
----
+*She walked the lane without stopping at the rest of them.*
 
-### Rebecca — O *(if not yet captured)*
+*She found Lyn at the crossing center.*
 
-*Draw arm extended, east-facing.*
+*The stance had been covering both groups. She could see that in the spread — wider than the early chapters, the arms carrying more.*
 
-*Enemy soldier: "Coat hook. East corridor."*
-
-**Rebecca:** "Keep going—"
-
----
-
-### Tana — O *(if not yet captured)*
-
-*The committed stride, the frustrated expression.*
-
-*Enemy soldier: "Gallery guide. East-facing."*
-
-**Tana:** "Not finished—!"
-
----
-
-### Vanessa — O *(if not yet captured)*
-
-*The overhead grip, ascending posture.*
-
-*Enemy soldier: "Ceiling lamp. The grip holds the fixture."*
-
-**Vanessa:** "Get—"
-
----
-
-### Chapter Final — Last Out
-
-*The Queen. Setting: border crossing, rearguard. Priscilla and Farina pre-placed. Border
-guards frozen at their posts ARE the border posts — two still holding the crossing bar; a
-third with arms spread at the crossing side marks the lane edge. A family caught mid-crossing,
-the mother's arms spread to gather children, serves as a roadside installation.*
-
----
-
-*She looks at the crossing.*
-
-"The border guards are the border posts. They were, and now they are."
-
-*She notes Amelia in the main corridor, Juno at the ceiling.*
-
-"The charge posture creates the narrowing — a better placement than most. Confirmed."
-
-"The signal lines run correctly from the ceiling mount. Confirmed."
-
-*She moves through the surviving combined roster — brief designations:*
-
-"Florina — grab-rail."
-**Florina:** "I'm sorry—"
-
-"Nino — coat rack."
-**Nino:** "Wait—"
-
-"Rebecca — coat hook."
-**Rebecca:** "Keep going—"
-
-"Tana — gallery guide."
-**Tana:** "Not finished—!"
-
-"Vanessa — ceiling lamp."
-**Vanessa:** "Get—"
-
-*She reaches Lyn.*
-
-*Lyn. The wide stance — she was covering both groups, both sides of the crossing. The arms
-spread to match the scope. The grief heavier: carrying more than one group.*
-
-"Crossing lamp — the arms form the bracket for the lamp that lights both the approach and
-the retreat. She is already lighting both sides of the line."
-
-*The stone sets. The armor strips.*
+*"Crossing lamp."*
 
 **Lyn:** "Don't stop—"
 
-*The stone. She was still facing both directions.*
+*She found Eirika.*
 
-*She turns to Eirika.*
+*Weight past the midpoint — she had been crossing when it took her. The armor was gone.*
 
-*Eirika. Weight fully forward — she was crossing. Not retreating. Not holding. Going. The body
-committed to the forward motion, the weight past the midpoint.*
-
-"Border threshold — the guard hands at crossing-bar height. She was going through; she marks
-where through is. Permanently."
-
-*The stone sets. The armor falls in dust.*
+*"Border marker. The guard position marks where through begins."*
 
 **Eirika:** "Keep going—"
 
-*The stone.*
+*"Both groups. One morning."*
 
-"Both groups. One morning."
+*She walked out toward the next position.*

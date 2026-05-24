@@ -1,590 +1,381 @@
 # Inevitable Eternity — Defeat Scenes: Act 4
 
-> Act 4 covers Ch14, Ch15, Ch16, Ch17, Ch18.
-> PETRIFIED_SAFE available throughout. Pedestal mechanic active — captured statues are
-> permanent architectural features of these maps, not temporary placements.
-> The combined roster is significantly smaller by Act 4.
+> Act 4 — Ch14, Ch15, Ch16, Ch17, Ch18.
+> The roster is small. Most optional characters have already been captured.
+> Captured statues are permanent architectural features of these maps.
 
 ---
 
 ## Ch14 — Through the Galleries
 
-*Setting: Enemy-held galleries and corridors. The collection lines the walls.*
-*Pre-placed: Named captures from prior chapters as permanent gallery installations.*
-*Enemy: Stone Wardens (elite), Collectors (multiple, targetable), Aerial Gorgons, Gaze Hunters.*
-
 ---
 
-### Karla — O
+### Karla
 
-*Near-sheathe posture — the grip tilted toward the scabbard, the wrist turning. The relaxed
-form of a swordswoman who trained the sheathe until it was automatic. A Stone Warden caught
-her at the near-sheathe moment — the wrist turning away, the grip loose.*
+*She was almost sheathing — the wrist turning toward the scabbard, the grip loose, the habit of years making the movement automatic. She thought the immediate threat was handled. A Stone Warden stepped in and touched the turning wrist. The near-sheathe locked: wrist at the cradle angle, grip loose.*
 
-*Enemy soldier: "Wine holder — the turned wrist cradles the bottle. Reading chair, beside it."*
-
-*Stone completes.*
+*She had been wrong about the immediate threat.*
 
 **Karla:** "Brother..."
 
-*Reading chair position. The turned wrist at decanter height.*
+*A soldier set a wine bottle in the cradle of her turned wrist. She was placed beside the reading chair.*
 
 ---
 
-### Chapter Final — Through the Galleries
+### Chapter Final
 
-*The Queen. Setting: the enemy gallery halls. The collection lines the walls. Gallery
-attendants frozen at service positions — one mid-placement at a display case is the permanent
-display assistant; two attendants mid-escort frame the gallery approach.*
+*The Queen walked the gallery corridor. The collection lined the walls — she had placed most of it herself.*
 
----
+*She checked the new addition.*
 
-*The gallery gained pieces.*
+*Karla at the reading chair. The turned wrist, the decanter.*
 
-*Karla — the near-sheathe posture.*
+*"Confirmed."*
 
-"Wine holder — the turned wrist cradles the bottle or decanter beside the reading chair. The
-sheathing angle is exactly the cradle angle. Confirmed."
-
-**Karla:** "Brother..."
-
-*She works through the combined roster:*
-
-"Florina — lower gallery alcove, grab-rail."
-**Florina:** "Not yet—"
-
-"Tana — center gallery, gallery guide."
-**Tana:** "One more—"
-
-"Nino — entry gallery, coat rack."
-**Nino:** "I wanted—"
+*She moved through the surviving roster. Brief.*
 
 *(If Eirika:)*
 
-*Eirika. The finished expression. The guard hands. The form is complete.*
+*The guard position. The expression complete. The armor had come off earlier.*
 
-"She moves now — the reception hall is for arrivals. The gallery is for what she was trying
-to protect. Central gallery, surrounded by the collection. The guard hands serve the viewing
-chair armrests. The expression faces the room."
-
-*The stone remains as it was. She is confirmed in position.*
+*"Central gallery. The guard hands serve the viewing chair armrests."*
 
 **Eirika:** "...all of them."
 
+*She was looking at the walls while she said it.*
+
 *(If Lyn:)*
 
-*Lyn. The gallery — the lamp arms hold the route through everything she was protecting.
-The grief is layered now: it contains what lines the walls.*
-
-"Gallery approach lamp — the arms hold the corridor through the collection. The light is
-hers."
-
-*The stone remains.*
+*"Gallery approach lamp."*
 
 **Lyn:** "...further—"
 
 *(If Lilina:)*
 
-*Lilina. The fury in the gallery. She sees what lines the walls. The calculation is more
-visible now — she is working out what is happening.*
-
-"Gallery floor candle holder — the open palms at shin height light the collection she is
-being added to. The fury watches the walls."
-
-*The stone remains.*
+*"Gallery floor. Candle holder."*
 
 **Lilina:** "...not yet—"
 
-"The gallery is fuller."
+*"The gallery is fuller."*
+
+*She left.*
 
 ---
 
 ## Ch15 — The Commander's Hall
 
-*Setting: Queen's outer fortress — commander-level halls.*
-*Pre-placed: Prior named captures in formal positions. Cecilia and Guinivere (if lost Ch9)
-in commanding positions appropriate to their status.*
-*Enemy: Commander-class enemies, Aerial Gorgons, veteran Stone Wardens, Dark Witches.*
-
 ---
 
-### Fiora — O
+### Fiora
 
-*Mid-air, still pointing — no mount, no weapon. Long-limbed, the build of a senior flier.
-She was directing movement even without the tools to do so. An Aerial Gorgon caught her
-in the pointing posture.*
+*She was directing movement from above — no mount, no weapon, just the pointing arm indicating where the unit below should go. An Aerial Gorgon came in from above and the Gaze caught the pointing arm. The gesture locked: arm extended, directing.*
 
-*Enemy officer: "Ceiling direction indicator — the arm points toward the objective room.
-Maps hang from the hand."*
-
-*Stone completes. The flight armor falls.*
+*She was still directing. Nothing was receiving the direction.*
 
 **Fiora:** "Keep flying—"
 
-*Ceiling direction indicator. Maps from the pointing hand. Her aura activates —
-flying enemies act twice per enemy phase.*
+*Ceiling direction indicator. Maps were hung from her pointing hand. The briefing room took its directions from her.*
 
 ---
 
-### L'Arachel — O
+### L'Arachel
 
-*Full declaration posture — head back, chin elevated, arm raised in the gesture of someone
-addressing a large audience. She believed until the instant it stopped. A Stone Warden
-caught her in the full declaration.*
-
-*Enemy officer: "Briefing room banner holder — the raised arm holds the hanging standard.
-Built for entrances and announcements."*
-
-*Stone completes.*
+*The Stone Warden caught her mid-declaration — head back, chin elevated, arm raised in the full oratory gesture, the conviction fully committed in the jaw. The Brand locked the declaration. She was still making it.*
 
 **L'Arachel:** "The Sacred Stones will prevail—"
 
-*The stone cuts off the sentence.*
+*The stone cut the rest of it.*
 
-*Banner holder position. Her aura activates — divine weapons −2 damage in radius.*
-
----
-
-### Chapter Final — The Commander's Hall
-
-*The Queen. Setting: commander's halls. NPC architecture: a duty officer frozen mid-report
-with arm extended is the junction direction indicator; two corridor guards flanking a
-doorway frozen at attention are the permanent sentinels.*
+*Banner holder. The raised arm held the hanging standard. She had been built for entrances and announcements. She was one now.*
 
 ---
 
-*She walks the hall.*
+### Chapter Final
 
-*Fiora — the pointing arm, the ceiling mount.*
+*The Queen walked the commander's hall. Two duty officers frozen at their posts — she passed them without comment.*
 
-"Ceiling direction indicator confirmed. The arm points toward the objective room. Maps from
-the hand."
+*Fiora at the ceiling. L'Arachel at the banner.*
 
-**Fiora:** "Keep flying—"
-
-*L'Arachel — the declaration posture.*
-
-"Briefing room banner holder. Confirmed. She was built for entrances."
-
-**L'Arachel:** "The Sacred Stones will prevail—"
-
-*The stone has the rest of the sentence.*
+*"Both confirmed."*
 
 *(If Eirika:)*
 
-*Eirika. The commander's bearing — she came into enemy command territory and held the
-posture. The guard hands at armrest height. The expression quieter: the understanding has
-arrived.*
+*The guard position. The understanding arrived and quiet.*
 
-"Commander's study — behind the desk, facing the door. The guard hands at armrest height.
-Every decision made in this office is made facing her authority."
-
-*The stone sets.*
+*"Commander's study. Behind the desk."*
 
 **Eirika:** "...I know."
 
 *(If Lyn:)*
 
-*Lyn. The lamp arms covering the command approach. The grief carrying less now — fewer
-people, but still covering them.*
+*The lamp arms, covering the approach.*
 
-"Commander's hall lamp standard — the arms hold the lamp at the hall's entrance. Command
-is made by her light."
-
-*The stone sets.*
+*"Commander's hall lamp standard."*
 
 **Lyn:** "...almost—"
 
 *(If Lilina:)*
 
-*Lilina. The fury in command territory — focused now, specific. The open palms, the
-reduced-ash level. She is close.*
+*The fury focused now. Specific target.*
 
-"Commander's study candle holder — the fury watches command. The open palms at shin height."
-
-*The stone sets.*
+*"Commander's study. Candle holder."*
 
 **Lilina:** "This isn't over—"
 
-"Proceed."
+*"Proceed."*
 
 ---
 
 ## Ch16 — The Long Hall
 
-*Setting: Final approach corridor to the inner sanctum — the longest single map.*
-*Pre-placed: The approach is lined with collection pieces — the enemy curated the corridor.*
-*Enemy: Mixed elite — veteran Stone Wardens, Great Gorgons, Dark Witches, Petrification
-Cavaliers, Collectors. Reinforcement waves every 2–3 turns.*
+*The longest corridor. The enemy had placed the collection along its entire length. The enemy reinforcements kept coming.*
 
 ---
 
-### Lute — O
+### Lute
 
-*Full-output cast, both palms forward — the tome detonated rather than crumbled. Scattered
-stone page fragments in a preserved blast pattern around her feet. A Stone Warden closed on
-her in the detonation moment.*
-
-*Enemy officer: "Reading desk — the extended palms form the surface. The stone page fragments
-mark the working boundary. Don't clear them."*
-
-*Stone completes. The blast pattern is fixed.*
+*She detonated the tome rather than letting it crumble — both palms forward, full output, and the stone pages scattered in a preserved blast pattern around her feet at the moment the Brand locked the extension. The detonation was the last thing she did. Both palms stayed forward.*
 
 **Lute:** "This is merely a temporary—"
 
-*The stone cuts off the argument.*
+*The stone cut the rest of the argument.*
 
-*Reading desk position. Her aura activates — enemy mages +3 magic in radius.*
+*Reading desk. The extended palms were the surface. A soldier was told not to clear the scattered stone pages — they marked the working boundary.*
 
 ---
 
-### Louise — O
+### Louise
 
-*Perfect standing draw form — everything exactly right. She held the form through the end.
-Graceful, tall. A Gaze Hunter caught her in the perfect form.*
+*She held perfect form through the end. Every line exactly right, the draw immaculate, graceful under every condition the approach had thrown at her. The Gaze Hunter found her in the perfect form.*
 
-*Enemy officer: "Curtain tieback — the extended bow arm hooks the curtain at window height.
-Precision is the function."*
-
-*Stone completes.*
+*She held the form even as it stopped being a choice.*
 
 **Louise:** "...graceful."
 
-*Window position. The perfect bow arm holds each curtain open.*
+*Curtain tieback. The extended bow arm hooked the curtain at window height. Every window in the hall let the light in through her precision.*
 
 ---
 
-### Chapter Final — The Long Hall
+### Chapter Final
 
-*The Queen. Setting: the long approach corridor. Hall guards frozen at their posts at intervals
-create the corridor rhythm; one frozen mid-patrol with a lamp in her hand is the mid-approach
-lamp.*
+*The Queen walked the hall from entry to end. She did not pause.*
 
----
+*She checked Lute at the desk. She looked at the scattered stone pages.*
 
-*She walks the full length first. The guard intervals are the corridor rhythm. She plans
-before she speaks.*
+*"Don't clear them."*
 
-*Lute — the extended palms, the blast pattern.*
+*Louise at the windows.*
 
-"Reading desk — the extended palms form the surface. Don't clear the stone fragments — they
-mark the working boundary."
+*"Confirmed."*
 
-**Lute:** "This is merely a temporary—"
-
-*The stone had the rest of the sentence.*
-
-*Louise — the perfect draw form.*
-
-"Curtain tieback — the extended bow arm holds the curtain at window height. Every window in
-the hall holds the light open through her."
-
-**Louise:** "...graceful."
-
-*She moves through the remaining roster — small now.*
-
-*She reaches the end of the hall.*
-
-"You came all the way down this hall." *A pause.* "That took everything."
+*She reached the end of the hall.*
 
 *(If Eirika:)*
 
-*Eirika. At the end of the hall. The weight complete — she carried the full approach.
-The guard hands, the finished expression, the body that came all this way.*
+*The guard position. The weight that had carried the whole approach.*
 
-"Last alcove — she is the conclusion. The guard hands at armrest height, facing the full
-length of what was walked to reach her."
-
-*The stone sets.*
+*"Last alcove. The guard hands face the length of the hall."*
 
 **Eirika:** "...I—"
 
-*The stone.*
-
 *(If Lyn:)*
 
-*Lyn. The final hall. The lamp arms at full corridor extension — still covering whatever was
-left of the approach.*
+*The lamp arms at full corridor extension.*
 
-"Hall end lamp standard — the arms hold the lamp at the corridor's end. The full length."
-
-*The stone sets.*
+*"Hall end. The full length."*
 
 **Lyn:** "...hold—"
 
-*The stone.*
-
 *(If Lilina:)*
 
-*Lilina. The very last persistence — small, sustained. The open palms, almost nothing left.
-She held the anger all the way down.*
+*The open palms. Almost nothing left. The fury still going.*
 
-"Long hall floor candle holder — the open palms at shin height, the fury at every step.
-The candles light the approach to the final door."
-
-*The stone sets.*
+*"Long hall floor. Shin height."*
 
 **Lilina:** "You haven't—"
 
-*The stone.*
+*"It's a good hall."*
 
-"It's a good hall."
+*She walked out.*
 
 ---
 
 ## Ch17 — The Trophy Room
 
-*Setting: Queen's inner sanctum — the primary collection display.*
-*Pre-placed: All significant named captures from the full game populate this room.
-The court frozen at the walls in observation postures fills the perimeter.*
-*Enemy: Queen's personal guard. Specific targeting orders for Ninian and Fae.*
+*The Queen was present during this chapter. Her personal guard had specific orders regarding Ninian and Fae.*
 
 ---
 
-### Fae — O
+### Fae
 
-*Very small — confused, arms slightly raised, head turned. She does not understand why this
-is happening. The Queen's personal guard catches her, but Fae's Very High STO-RES means a
-standard Brand cannot reach her in reasonable time. The Queen designates her personally,
-bypassing STO-RES entirely.*
+*The personal guard cornered her — Fae had been trying to find a way out of the room and there wasn't one. Very small. Confused. Arms slightly raised, not in any fighting posture, just raised in the way of someone who doesn't understand what is happening.*
 
-*The Queen, directly:*
+*The guard's Brand was too weak to take her. Fae's resistance was too high for standard methods.*
 
-"Bookend — the reading shelf, between the books. The small raised hands bracket what is
-between them. She does not belong in a large room; she would be lost."
+*The Queen came.*
 
-*The stone sets immediately. No STO-RES required. The confused expression and raised hands
-are fixed.*
+*She looked at the small raised hands, the confused expression, the size of her.*
+
+*"Bookend."*
+
+*The stone locked immediately.*
 
 **Fae:** "...scary."
 
-*Reading shelf position. Her aura activates — player dragon units cannot transform in radius.*
+*She was placed on the reading shelf between the books. The small raised hands bracketed what was between them.*
 
 ---
 
-### Ninian — S
+### Ninian
 
-*She was dancing. She knew. She danced anyway.*
+*She was dancing. She knew what was coming — she had known since she entered the room — and she danced anyway. The dragonstone was already gone. Her arms were raised and extended, one leg extended behind, the weight controlled, the form the expression of many years of trained movement.*
 
-*The dancer's posture — arms raised and extended, one leg extended behind, the weight
-controlled. The dragonstone is gone entirely: no fragment, no trace. She was looking at
-someone directly in front of her — the sight line is direct, forward, into whoever was
-there. The grief is in the expression. The grief is the expression.*
+*She was looking at someone in front of her when the Queen came to stand there.*
 
-*The Queen designates her personally. She takes her time.*
+*The Queen looked at her.*
 
-"Trophy room lamp standard — the arms hold the room's main light source. Everything in
-this room is seen by her light. Nothing here exists without her presence."
+*"Trophy room lamp standard."*
 
-*The stone sets immediately. The dragonstone crumbles to nothing.*
+*The stone locked immediately. The dragonstone crumbled to nothing — no fragments. The dancer's form at ceiling height.*
 
 **Ninian:** "I'm sorry—"
 
 *The stone.*
 
-*The Queen stops in front of the face.*
+*The Queen stood in front of the face for a moment.*
 
-"This is the finest piece in the collection. The form. The expression. The specific quality
-of the goodbye. She chose to dance and she chose to look and the stone fixed both at once."
+*"The form. The expression. The goodbye to whoever was standing here."* She looked at the sight line. *"The room is lit by this."*
 
-*Her Tier S aura activates immediately — all prior auras in the room now stack with it.*
-
----
-
-### Chapter Final — The Trophy Room
-
-*The Queen. Setting: the trophy room — the primary collection display. The court fills the
-perimeter. She enters after it is over. She walks the existing collection first — she knows
-every piece, stops briefly at each face. Then she turns to the new arrivals.*
+*She stepped back.*
 
 ---
 
-*She examines Fae — the bookend position, the small confused expression.*
+### Chapter Final
 
-"Bookend placement confirmed. The small raised hands bracket the volumes."
+*The Queen walked the trophy room. The court frozen at the perimeter had been placed before the chapter began.*
 
-**Fae:** "...scary."
+*She checked Fae on the shelf.*
 
-*She turns to Ninian.*
+*She looked at Ninian.*
 
-"This is the finest piece in this collection. The form. The expression. The goodbye chosen
-to face outward."
+*She didn't say anything further about Ninian.*
 
-*She steps back. She looks at the surviving lords.*
-
-"You came all the way here. I have been waiting for these specifically."
+*She looked at the surviving lords.*
 
 *(If Eirika:)*
 
-*Eirika. The finished expression — the guard hands still holding the shape of the absent
-sword. Everything else arrived; the hands never did.*
+*The guard position. The armor gone. The hands had not changed.*
 
-"In front of the throne — the guard hands at armrest height. The guard position serves the
-throne arm. I sit where she was trying to reach."
-
-*The stone sets.*
+*"In front of the throne. The guard hands serve the armrest."*
 
 **Eirika:** "...yes."
 
-*The stone. Arrived.*
-
 *(If Lyn:)*
 
-*Lyn. The wide stance, the lamp arms, the grief total.*
+*The wide stance, the lamp arms.*
 
-"Beside the throne — the lamp standard lights the throne from her side. She lights what
-I rule."
-
-*The stone sets.*
+*"Beside the throne. Her side."*
 
 **Lyn:** "I tried to give you light."
 
-*The stone. She was.*
-
 *(If Lilina:)*
 
-*Lilina. The fury burned down — small now, persistent. The exhaustion is the primary
-expression. The fury lives under it.*
+*The small persistent fury.*
 
-"Other side of the throne — the open palms hold the candles at shin height. Lyn lights the
-throne from her side; Lilina holds the candles on the other. Together."
-
-*The stone sets.*
+*"Other side. The candles at shin height."*
 
 **Lilina:** "You haven't won."
 
-*The stone. Smaller than before. Still burning.*
-
-"Almost everything is here."
+*"Almost everything is here."*
 
 ---
 
 ## Ch18 — Inevitable Eternity
 
-*Setting: The throne room in its completed form. Every gallery, every hall, connected.*
-*Pre-placed: All prior named captures present. Ninian is the room's centerpiece (Tier S).*
-*The Queen rises from the throne herself when the chapter's defeat condition is met.*
+---
+
+### Myrrh (if not rescued)
+
+*The Queen's guard secured the side alcove before the chapter's main engagement. The Queen came to her personally.*
+
+*Myrrh's resistance was too high for any standard method.*
+
+*"Alcove. The hands closed around nothing."*
+
+*The stone locked immediately.*
+
+**Myrrh:** *[already silent]*
+
+*The side alcove had its figure. The absent dragonstone left the hands in a shape that was protecting something that wasn't there.*
 
 ---
 
-### Myrrh — O *(if not rescued via side route)*
+### Chapter Final
 
-*If not rescued: the Queen's personal guard secured her before the chapter's main engagement.
-The Queen designated her personally in the side alcove.*
+*The chapter's defeat condition meant all of them were here.*
 
-"She goes in the alcove — the hands closed around the absent dragonstone, the expression as
-if sleeping. She was protecting something. The alcove is where protection makes sense."
+*The Queen rose from the throne and walked among them.*
 
-*The stone set on the Queen's word. No STO-RES required.*
+*She had built this one piece at a time and she knew every one of them.*
 
-**Myrrh:** *[she was already silent — the stone found her in the sleeping expression]*
+*She walked the full room without stopping.*
 
-*Side alcove. Her divine suppression aura activates.*
+*Syrene still pointing east. Vanessa at the ceiling with the grip. Tana mid-stride toward the window. The Priscilla installation — the stone horse, the bare back, the slight rider. Farina above the main entrance, everyone who entered passing under the descent.*
 
----
+*Rebecca at the east junction. Florina at the lower corridor. Nino at the entry, the spread hands. Serra at the dining table, the split staff, the open mouth. Amelia in the corridor with the narrowing. Juno at the ceiling line, the signal wires.*
 
-### Chapter Final — Inevitable Eternity
+*Neimi at the writing desk with the frozen tears. Shanna at the gate crossbar. Echidna at the column base. Wendy permanent in the corridor. Clarine still giving directions at the junction. Larum reaching at the ceiling. Sue at the floor. Cath at the gallery door.*
 
-*The Queen. Setting: the throne room, complete. She rises from the throne. The room holds
-every name she collected.*
+*Dorothy as the chair backing. Thea at the chandelier. Elen at the desk lamp. Igrene at the side table. Fir at the weapon display. Tethys in the main hall with the raised arms. Cecilia at the commander's desk. Guinivere at the hall's center making eye contact.*
 
----
+*Sophia at the reading room still watching something to her right. Marisa at the weapon display. Isadora at the lamp post. Karla at the decanter. Louise at the windows. Lute at the reading desk with the scattered pages. Fiora at the briefing ceiling. L'Arachel at the standard. Fae between the books.*
 
-*She rises from the throne and walks among them.*
+*She returned to Ninian.*
 
-*She knows every name. She built this one acquisition at a time.*
+*She stood there for a moment.*
 
-*She walks the full collection. Every piece. She stops briefly at each face.*
+*She turned.*
 
-*Syrene at the map table — the arm still pointing. Vanessa at the corridor ceiling — the grip
-holding the lamp at the apex. Tana in the east alcove — the stride toward the morning window.
-The Priscilla installation at the east wall — the horse's stone back at table height. Farina
-above the main entrance — the dive at ceiling height, everyone who enters passes under her.*
-
-*Rebecca at the east junction. Florina at the lower corridor. Nino at the entry hall, both
-arms at full extension. Serra at the dining table — the split staff, the open mouth. Amelia
-in the main corridor, the charge posture leaning into the passage. Juno at the ceiling line,
-the signal lines running from the wrists.*
-
-*Neimi at the writing desk — the preserved tears at eye level. Shanna at the entry gate —
-the javelin arm bearing the crossbar. Echidna in the outer hall — the wide feet as the column
-base. Wendy in the corridor — the blocking stance, permanent. Clarine at the junction — the
-pointing arm, the imperious expression. Larum at the ceiling mount — the reaching arms holding
-the lamp. Sue at the floor, the draw arm at ground candle level. Cath at the gallery door —
-the sprint, the closed fist working the door.*
-
-*Dorothy as the reading chair's backing. Thea at the chandelier. Elen at the desk lamp.
-Igrene at the side table base. Fir in the weapon room, the relaxed grip holding whatever blade
-is displayed. Tethys in the main hall — the performance arms at ceiling height, the hall's
-lamps in the raised hands. Cecilia behind the commander's desk. Guinivere at the hall's
-elevated center, making eye contact with everyone who enters.*
-
-*Sophia at the reading room — the sidelong gaze over the reader's shoulder. Marisa in the
-weapon room. Isadora at the lamp post station. Karla in the study — the near-sheathing wrist
-at the decanter. Louise at the hall windows — the perfect bow arm holding each curtain open.
-Lute at the reading desk. Fiora at the briefing room ceiling. L'Arachel at the standard.
-Fae on the reading shelf, the small confused expression between the volumes.*
-
-*She has walked the full room. Every name she knows is present.*
-
-*She stops in front of Ninian.*
-
-"The finest piece in this collection." *A pause.* "The form. The expression. The goodbye
-chosen to face outward."
-
-*She turns.*
-
-*All the surviving lords are here — whoever made it to this room.*
+*The surviving lords were here.*
 
 *(If Eirika:)*
 
-*Eirika. The guard hands — still in the guard position. The sword crumbled in the first
-chapter; the hands have not adjusted. The expression has arrived — traveled the full distance
-and stopped. The hands did not stop.*
+*The guard hands — still the guard position. The sword had been gone since Ch1. The hands had not adjusted.*
 
-*She looks at her. She sees what she always saw: the chair rest. The hands at armrest height.
-The guard position as the throne arm. She named this in Ch1 and the stone has been holding
-the form ever since.*
+*She had seen this in Ch1 and the stone had been holding it since.*
 
-"In front of the throne. The guard hands at armrest height — the grip serves the arm of the
-throne. I sit where she was trying to reach; she holds the arm of the seat. Every decision
-made from this throne is made from a seat she is holding."
+*"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding."*
 
-*The stone remains as it was.*
+*The stone remained as it was.*
 
-**Eirika:** *[silence — the stone reached her before the word, or she was already silent]*
+**Eirika:** *[silence — the stone had it already, or there was nothing left to say]*
 
 *(If Lyn:)*
 
-*Lyn. The stance at its final width — she was covering whoever came with her to the end. The
-grief is total. The stone holds the whole record: every group, every expansion, the accumulated
-weight.*
+*The final width. Covering whoever came with her to the end.*
 
-"Beside the throne — the lamp standard lights the throne from her side. She has always been
-trying to provide light for the people behind her. Now she does, permanently."
+*"Beside the throne. Her side."*
 
-*The stone remains.*
+*The stone remained.*
 
 **Lyn:** "...I tried."
 
 *(If Lilina:)*
 
-*Lilina. The open palms — near-empty, almost nothing left. She kept something in reserve
-until the very end. The fury is still going: smaller, more specific, down to its last
-sustained heat.*
+*Near-empty palms. The fury still going — smaller, specific, down to its last.*
 
-"Other side of the throne — the candles at shin height. The throne is lit from both sides.
-They did not stop."
+*"Other side. Both sides lit."*
 
-*The stone remains.*
+*The stone remained.*
 
 **Lilina:** "...not yet."
 
-*She returns to the throne.*
+*She returned to the throne.*
 
-*The guard hands are at the armrest. The lamp is lit on her left. The candles burn at her
-right. The room holds every name she collected.*
+*The guard hands were at the armrest. The lamp on her left. The candles on her right.*
 
-"I have been building this for a long time." *She sits.* "This is what it was for."
+*"I have been building this for a long time."*
 
-*The room is still.*
+*She sat.*
+
+*"This is what it was for."*

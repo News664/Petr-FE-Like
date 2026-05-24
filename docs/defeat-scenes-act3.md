@@ -1,404 +1,249 @@
 # Inevitable Eternity — Defeat Scenes: Act 3
 
-> Act 3 covers Ch10, Ch11, Ch12, Ch13.
-> PETRIFIED_SAFE now available — killing the Collector before it reaches a petrified ally
-> prevents capture. Collector unit appears on-map as a targetable enemy.
-> First Sunstone Shards available at Ch13 completion.
+> Act 3 — Ch10, Ch11, Ch12, Ch13.
+> Recovery window now exists — killing the Collector before it reaches a petrified unit
+> prevents capture. Some characters avoid capture this way. Those who don't are handled below.
 
 ---
 
 ## Ch10 — The Meeting That Wasn't
 
-*Setting: Elibe — convergence point.*
-*Pre-placed: Nino at entry (Tier A), Amelia at corridor (Tier B).*
-*Enemy: Standard Gorgons, Collectors (first appearance as targetable units), Stone Wardens.*
-
 ---
 
-### Tana — S (Scripted Recapture)
+### Tana
 
-*If `tana_lost_ch1` = false: she had been recovered. She came to the convergence point with
-Eirika's group — mid-step, the same frustrated forward stride as the first capture, weight
-forward, close to arriving. A Standard Gorgon's Gaze caught her before the groups could
-consolidate.*
+*She almost made it to the convergence point. A Standard Gorgon caught her mid-step — the same stride she'd been making in Ch1, the same frustrated weight-forward posture. The step locked.*
 
-*A Collector unit approaches the fallen form before the player can intervene.*
+*She had been here before. She knew what was happening.*
 
-"Mid-step, east-facing. We had her before. Same posture as the original capture. East gallery."
-
-*She's secured.*
+*A Collector unit moved to secure her before the player units could intervene.*
 
 **Tana:** "Again—?!"
 
-*East gallery position. The stone holds both the first capture and the second at once.*
+*East gallery. The stride still said she was going somewhere. Both times at once now, the stone holding two captures.*
 
 ---
 
-### Chapter Final — The Meeting That Wasn't
+### Chapter Final
 
-*The Queen. Setting: convergence point. Nino pre-placed as entry coat rack. Amelia pre-placed
-as corridor rail mount. Two messengers frozen mid-delivery mark the approach routes; a field
-guide at the junction with one arm indicating the way serves as the permanent direction marker.*
+*The Queen walked the convergence point. The messengers at the approaches, the guide at the junction — she didn't stop.*
 
----
+*"Leave the markers."*
 
-*She walks the junction.*
+*She found Tana.*
 
-"The messengers mark the approaches. The guide marks the junction. Leave them."
+*She looked at the posture. She looked at the expression underneath the frustration.*
 
-*She turns to Tana.*
+*"She was recovered once."* She noted the difference in the set of the face. *"East gallery. The expression has more in it now."*
 
-*She looks at the mid-step posture. She looks at the expression.*
+*She moved through the rest of the combined roster — brief, each one in a word.*
 
-"She was recovered once." *She examines the form.* "The stride is the same. The expression
-underneath it is not — she has been here before and the stone holds both times at once. East
-gallery. Morning light. The expression has more context now."
+*She found Lyn.*
 
-*She does not redesignate Tana — the first designation still holds. She is confirming the
-placement.*
+*The stance was wider than the early chapters. She was covering both converged groups.*
 
-**Tana:** "Again—?!"
-
-*She moves through the combined roster:*
-
-"Florina — grab-rail."
-**Florina:** "Please—"
-
-"Rebecca — coat hook."
-**Rebecca:** "Keep—"
-
-"Vanessa — ceiling lamp."
-**Vanessa:** "Move—"
-
-*She reaches Lyn.*
-
-*Lyn. The widest stance she has been in — she was covering both converged groups, both
-approaches. The scope has expanded again.*
-
-"Corridor lamp — wider base. She was covering both groups. The lamp covers both approaches."
-
-*The stone sets. The armor strips.*
+*"Corridor lamp. Wider base."*
 
 **Lyn:** "...I tried."
 
-*The stone. The grief carries both groups.*
+*She found Eirika.*
 
-*She turns to Eirika.*
+*The guard position. The weight had settled — she'd been standing still when it reached her. The disbelief gone. Something quieter.*
 
-*Eirika. Weight settled — she was standing still when it reached her. She had arrived at the
-convergence point. The disbelief entirely gone; what remains is quieter.*
-
-"Map room — the guard hands at reading table height. The documents rest between them. The
-expression watches the approach from the archives."
-
-*The stone sets.*
+*"Map room. Reading table height."*
 
 **Eirika:** "...is this it?"
 
-*The stone. The quiet, arrived expression.*
+*"The meeting point is ours."*
 
-"The meeting point is ours."
+*She left.*
 
 ---
 
 ## Ch11 — Debris
 
-*Setting: Elibe — regrouping zone. Largest combined roster assembled.*
-*Pre-placed: Varies by prior flags. Minimum one Tier A source active.*
-*Enemy: Morrha's pursuing forces — Gaze Hunters, Petrification Cavaliers. Partial fog
-occupies the northern quadrant.*
+*The largest roster assembled. The northern fog quadrant pushed them south; the enemy pursued from the west.*
 
 ---
 
-### Optional Named Character — O
+### Optional capture
 
-*If an optional named character from Acts 1–2 is still in the active roster:*
+*If any optional named character from Acts 1–2 remained active, the fog or the pursuit found her here. The Gaze Hunters worked at range and did not pause.*
 
-*She was caught in the northern fog quadrant — the secondary fog deployment found her before
-she could route south. Whatever posture she was in when STO-RES reached 0, it is fixed.*
+*Each one placed by whichever soldier was closest.*
 
-*Enemy soldier makes a rough assessment and names a placement.*
-
-*[Brief last words appropriate to the character. See character entries in act 1–2 files.]*
-
-*If no optional named characters remain active: a named NPC from the convergence zone fills
-this slot (Tier B, name TBD at Ch11 design time).*
+*If no optional named characters remained, a named fighter from the convergence zone filled the slot. She was put to the same use.*
 
 ---
 
-### Chapter Final — Debris
+### Chapter Final
 
-*The Queen. Setting: regrouping zone. Camp attendants frozen at work positions — supply
-attendant's carry position serves as a pack rack; field healer frozen kneeling is a surface
-at knee height; three soldiers in a cluster serve as tent-post grouping.*
+*The Queen walked the camp. The supply attendant, the kneeling healer, the three soldiers in the cluster.*
 
----
+*"Leave the camp."*
 
-*She walks the camp.*
-
-"The attendant is the pack rack. The healer is the knee-height surface. The three soldiers
-are the tent posts. Leave them."
-
-*She turns to the combined roster — brief designations for each captured unit.*
+*She went through the combined roster. Brief.*
 
 *(If Eirika:)*
 
-*Eirika. The guard posture. The expression is past the midpoint — the disbelief entirely
-gone. What remains is harder: the specific quality of someone who has stopped expecting a
-different outcome and is not at peace with the understanding. The guard reflex still running.*
+*The guard posture. Harder now — the expression past the midpoint, the disbelief gone and something else in its place.*
 
-"Collection wing entrance — the guard hands at doorpost height. The expression faces everyone
-who enters the collection. She is the threshold to everything she was trying to protect."
-
-*The stone sets.*
+*"Collection wing entrance. Doorpost height. She marks what she was trying to protect."*
 
 **Eirika:** "The others—"
 
-*The stone. The hands kept the guard.*
-
 *(If Lyn:)*
 
-*Lyn. The widest base yet — she was covering the full combined roster.*
+*The widest base yet.*
 
-"Collection wing passage lamp — widest base. She lights everyone who made it this far."
-
-*The stone sets.*
+*"Collection wing passage. She lights everyone who made it this far."*
 
 **Lyn:** "All of you—"
 
-*The stone. She was still facing outward.*
-
-"Record the full consolidation. The yield is complete."
+*She left.*
 
 ---
 
 ## Ch12 — The Prophet Was Right
 
-*Setting: The exact location Sophia described in Side Ch7A. Every map detail matches.*
-*Pre-placed: Varies by prior flags. At least one significant installation echoing the vision.*
-*Enemy: Morrha's forces — same composition as Sophia's vision.*
+*The map was exactly what Sophia had shown. The enemy composition was exactly what Sophia had described. The outcome was exactly what Sophia had seen.*
 
 ---
 
-### Sophia — S
+### Sophia
 
-*She was looking to the side when the Gaze reached her — not at the threat. Her sight line
-was directed at something specific, something to her right. She was watching something that
-mattered more than the enemy in front of her. She saw the outcome and still chose where to
-look.*
+*She was looking to the side when the Dark Witch's secondary shot found her. Not at the threat — at something specific, to her right. Whatever it was, she was still watching it when the stone locked the sidelong gaze.*
 
-*A Dark Witch's secondary GAZE caught her in the sidelong posture.*
+*She had seen this. She had known the sight line would be there.*
 
-*An enemy officer notes the sight line.*
+*An enemy officer saw the fixed gaze directed at nothing.*
 
-"She's looking at something that isn't there. Reading room — she goes where the sight line
-faces over the reader's right shoulder. She was looking at something specific; let her
-continue."
-
-*Stone completes. The outer robe falls.*
+*"Reading room."*
 
 **Sophia:** "I knew this would—"
 
-*Reading room position. The sight line over the reader's right shoulder. Her STO-RES decay
-aura activates immediately — player units in range lose 1 extra STO-RES/turn.*
+*They placed her where the sight line fell over the right shoulder of whoever sat to read. She was watching something that wasn't there. The reader would face the question.*
 
 ---
 
-### Chapter Final — The Prophet Was Right
+### Chapter Final
 
-*The Queen. Setting: the location Sophia described. Pilgrims who had gathered at the site
-serve as approach markers; a hermit frozen at the entrance stone with arms braced on either
-side — she is the entrance post.*
+*The Queen walked past the pilgrims and the hermit at the entrance stone.*
 
----
+*"Leave them."*
 
-*She walks past the hermit. The pilgrims mark the approach.*
+*She went through the combined roster. Brief.*
 
-"The pilgrims mark the approach. The hermit is the entrance post. Leave them."
+*She found Sophia last.*
 
-*She turns to the combined roster — brief designations for each captured unit.*
+*She looked at the sight line. She looked at what it pointed toward.*
 
-*She finds Sophia last.*
-
-*Sophia. Not looking at the threat — the sight line goes to the side. Slight build, the
-posture of finding rather than fighting.*
-
-"Reading room fixture — the sight line goes over the reader's right shoulder. She looks
-toward something specific that isn't there; the reader faces the question she was asking."
-
-**Sophia:** "I knew this would—"
-
-*She looks at the sight line direction for a moment.*
-
-"She wasn't looking at us. She was looking at something she had already seen." *A pause.*
-"I wonder if she found it."
+*"She wasn't looking at us."* A pause — not long. *"Reading room confirmed."*
 
 *(If Eirika:)*
 
-*Eirika. The expression is finished — the disbelief resolved. The quiet of someone who has
-stopped being surprised by the outcome.*
+*The expression was finished — arrived, quiet. The disbelief gone.*
 
-"Reception hall — the hands at armrest height. The expression in its final form. She's arrived."
-
-*The stone sets.*
+*"Reception hall. Armrests."*
 
 **Eirika:** "I'm sorry."
 
-*The stone.*
-
 *(If Lyn:)*
 
-*Lyn. The grief is total. The body says protection; the expression says the protection
-failed. Both in the same moment.*
+*The grief and the failed protection both visible.*
 
-"Corridor lamp — the contradiction lights the route. The body says protection; let it."
-
-*The stone sets.*
+*"Corridor lamp. The contradiction is the fixture."*
 
 **Lyn:** "I was trying—"
 
-*The stone. The contradiction is the piece.*
+*"The prophet was right."*
 
-"The prophet was right. Everything is in order."
+*She left.*
 
 ---
 
 ## Ch13 — The Stronghold Below
 
-*Setting: Morrha's base — direct raid.*
-*Pre-placed: Multiple high-tier installations from the full collection populate the base.
-Cecilia and Guinivere visible in the command room (Tier A auras stacking in the approach
-corridor).*
-*Morrha is self-petrifying in the corner during the chapter — the stone rising from her feet.*
-*The Hand present as a named on-map unit — buffs adjacent enemies, cannot be attacked.*
+*Morrha was in the corner when the chapter began, the stone already at her feet. She had arranged herself there. By the midpoint it was at her waist. The Queen worked around her.*
 
 ---
 
-### Marisa — O
+### Marisa
 
-*Low carry, both hands, pre-strike posture — the two-handed hold, relaxed grip, the form of
-someone perpetually deciding. A Stone Warden found her in the pre-strike moment.*
+*A Stone Warden found her in the pre-strike moment — the two-handed hold, relaxed grip, still deciding. The Brand locked the decision in place: the hands holding the two-handed cradle, the choice perpetually open.*
 
-*Enemy officer: "Weapon display mount — the relaxed two-handed grip cradles whatever blade
-passes through the weapon room."*
-
-*Stone completes.*
+*She didn't seem particularly troubled by this.*
 
 **Marisa:** "Mm."
 
-*Weapon display position. Her aura activates — enemy units +10 critical in radius.*
+*Weapon display. The relaxed hands held whatever was placed in them.*
 
 ---
 
-### Isadora — O
+### Isadora
 
-*Knight's stance on foot — formal upright, trained. Every line precise. No mount; the
-precision is in the posture rather than the equipment. A Dark Witch's GAZE caught her in
-the formal standing form.*
-
-*Enemy officer: "Lamp post base — formal upright at correct height. The lamp standard fits
-the rigid wrist."*
-
-*Stone completes.*
+*The Dark Witch's Gaze caught her in the formal upright — the knight's trained posture, precise. The GAZE locked each line of the form exactly. Everything was still exactly right.*
 
 **Isadora:** "The order—"
 
-*Lamp post base.*
+*Lamp post base. The formal upright at the correct height.*
 
 ---
 
-### Morrha — S (Irreversible, Cutscene)
+### Morrha
 
-*Not captured by the player or the enemy. She chose her position and petrified herself.*
+*She had chosen her position. The stone came up from her feet while the battle ran around her. By the end it had reached her chin. She was looking at something above everyone's eyeline and she didn't move her gaze for any of it.*
 
-*During the chapter: the stone rises from her feet while the battle continues. By the chapter's
-midpoint it has reached her waist. By the end, it reaches her chin. She does not look at the
-Queen, the players, or The Hand. She is looking at something above everyone's eyeline.*
+*The stone completed on its own.*
 
-*No enemy Brand. No designation. She arranged herself.*
+*Whatever she was looking at, she kept it.*
 
-*The stone completes on its own.*
-
-*Her special aura begins immediately — STO-RES decay 5/turn in 3-tile radius. It does not
-stop. It does not move. This position is permanent.*
+*The aura from her position began immediately. It did not stop. It would not move. The location was permanent.*
 
 ---
 
-### Chapter Final — The Stronghold Below
+### Chapter Final
 
-*The Queen. Setting: Morrha's base. Morrha is self-petrifying in the corner — the stone now
-at her shoulders. Research assistants frozen at specimen tables with hands in examination
-positions; one at the record shelves with arms raised to a high shelf.*
+*The stone was at Morrha's chin when the Queen came through. The Queen did not look at her.*
 
----
+*She checked Marisa at the weapon display. Isadora at the lamp post.*
 
-*The stone has reached Morrha's shoulders. She is looking at something above the Queen's
-eyeline. Whatever she sees, it is hers. The Queen works.*
+*"Both confirmed."*
 
-*Marisa — pre-strike posture, weapon room.*
+*She went through the combined survivors.*
 
-"Weapon display mount — the relaxed two-handed grip cradles the blade. Confirmed."
+*The stone in the corner completed. The room shifted — the aura from Morrha's position expanding into every surface.*
 
-**Marisa:** "Mm."
-
-*Isadora — lamp post base.*
-
-"Formal upright — the lamp standard fits. Confirmed."
-
-**Isadora:** "The order—"
-
-*She moves through the combined survivors. Brief designations.*
-
-*In the corner, the stone has reached Morrha's chin. She still doesn't look.*
+*"Limited window. Move everything that isn't Morrha."*
 
 *(If Eirika:)*
 
-*Eirika. The expression is finished. The hands in the guard position — they haven't changed
-across the entire campaign, not once. Everything else has traveled and arrived; the hands
-stayed.*
+*She found Eirika last.*
 
-*She looks at her. She sees the chair rest, as she always has. The hands are at armrest height.
-The guard position is the chair rest. It was from the first chapter.*
+*The guard position. The expression arrived and still. The hands had not changed across the whole campaign.*
 
-"Reception hall. Final placement — the expression has arrived. The hands serve the chair rest.
-The log is complete."
+*"Reception hall. Final placement."*
 
-*The stone sets.*
-
-**Eirika:** *[the stone reaches her before the word]*
+**Eirika:** *[the stone reached her before the word]*
 
 *(If Lyn:)*
 
-*Lyn. The diminished count — covering fewer now. The lamp arms in the narrowing stance, the
-grief compressing with the group.*
+*The grief compressed — covering fewer now, the count down.*
 
-"Stronghold passage lamp — the arms light the inner route. Everyone who passes through this
-stronghold on either side passes through her."
-
-*The stone sets.*
+*"Stronghold passage lamp."*
 
 **Lyn:** "...keep moving—"
 
-*The stone. The passage holds.*
-
 *(If Lilina:)*
 
-*Lilina. The fury — persistent through the full approach. The open palms, the calculation
-running constantly now alongside the anger.*
+*The fury still running. The calculation constant now.*
 
-"Stronghold approach candle holder — the fury and the calculation light the inner passage.
-The candles at shin height."
-
-*The stone sets.*
+*"Stronghold approach. Candle holder."*
 
 **Lilina:** "Not finished—"
 
-*The stone.*
+*She straightened.*
 
-*She straightens. In the corner, the stone completes. Morrha is still.*
+*"She stays where she stands. The aura continues."*
 
-"She stays where she stands. She chose the position. The aura continues."
-
-*She signals the transport team.*
-
-"Limited window before full aura expansion. Everything except Morrha moves now."
+*She signaled the transport team and walked out.*

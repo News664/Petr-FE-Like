@@ -1,610 +1,324 @@
 # Inevitable Eternity — Defeat Scenes: Act 2
 
-> Act 2 covers Ch6, Ch7, Side Ch8A, Ch8, Ch9.
-> No PETRIFIED_SAFE in Act 2 — capture is immediate on petrification.
-> Morrha's Dark Veil is active on all Act 2 maps: light and anima magic deal 0 damage.
-> Enemy deploys named captures from Act 1 as map installations throughout this act.
+> Act 2 — Ch6, Ch7, Side Ch8A, Ch8, Ch9.
+> No recovery window. Morrha's Veil suppresses light and anima magic across all maps.
 
 ---
 
 ## Ch6 — Into the Veil
 
-*Setting: Elibe Central — edge of Morrha's territory, first contact with the Dark Veil.*
-*Pre-placed: Natasha at forward installation (Tier A).*
-*Enemy: Morrha's Gorgons (heavier variant), Stone Wardens, Dark Witches.*
-
 ---
 
-### Shanna — S
+### Shanna
 
-*Scripted: Mid-pivot, half-turned, the javelin arm moving into the throw that never completed.
-She had found a target and committed to the throw — the body fully rotated, arm forward.
-Morrha's heavier Stone Warden variant made contact during the pivot.*
+*She had her target and she was committed — mid-pivot, the javelin arm moving into the throw. The heavier Stone Warden variant stepped in front of the throw and let the javelin hit it, and the impact transferred the Brand up through the shaft and into her throwing arm.*
 
-*Enemy officer examines the posture.*
-
-"Gate crossbar — the javelin arm holds the bar of the entry gate. Every time the gate opens,
-the arm bears the weight."
-
-*Stone completes. The armor crumbles from the pivoting torso.*
+*She felt the release locking. The arm kept moving into the throw and stopped there, fixed in the motion, the javelin gone, the arm still saying throw.*
 
 **Shanna:** "Still standing—"
 
-*Gate entry. The arm at crossbar height. Her Tier B aura activates.*
+*They hung her on the gate's crossbar. The javelin arm held it. Every time the gate was moved, the arm bore the weight.*
 
 ---
 
-### Echidna — O
+### Echidna
 
-*Wide stance, weight centered, both feet planted with deliberate evenness. She had been
-fighting for a long time and was not retreating — the calm expression of someone who had
-accepted the outcome without stopping. A Stone Warden closed on her.*
+*She had been fighting for three turns and she was still fighting. When the Stone Warden finally got through her guard it wasn't by force — it put both hands on her shoulders and leaned its weight against her planted stance. She felt the weight being defined. The stance hardened around the wide-base position she'd been holding: both feet planted, haft hand at lamp-standard height.*
 
-*Enemy officer: "Column base — the planted feet and the haft hand. Lamp standard mounted on
-the wrist. She holds the light."*
-
-*Stone completes. Armor removes in substantial fragments.*
+*She felt the calm come up. She'd felt it before in worse situations.*
 
 **Echidna:** "It ends here. Fine."
 
-*Column base. The broad planted feet as plinth, the haft hand as the standard mount.*
+*They fixed the lamp standard to her haft hand. The column base had its plinth.*
 
 ---
 
-### Chapter Final — Into the Veil
+### Chapter Final
 
-*The Queen. Morrha present, observing from a distance. Setting: Dark Veil territory edge.
-Natasha pre-placed, open palms holding a small lamp. Shanna at the gate crossbar. NPC
-architecture: Veil-territory residents frozen at doorways fill the frames; a traveling group
-frozen mid-road serves as a road partition.*
+*Morrha was present. The Queen walked past her.*
 
----
+*She looked at Shanna on the gate crossbar.*
 
-*Morrha notes the structural fills. The Queen goes directly to the significant pieces.*
+*"Good placement."*
 
-*Shanna — the javelin arm at crossbar height.*
+*Echidna at the column base.*
 
-"Confirmed. Gate crossbar — the arm holds the bar. Every passage opens on her effort."
+*"Lamp's set wrong. Adjust it."*
 
-*Echidna — the planted feet, the lamp standard mount.*
+*She moved through the rest of the Lilina group quickly — each one noted in a word or two, each one placed by the soldiers following her.*
 
-"Column base confirmed."
+*Sue at the step edge. Dorothy at the wall. Thea at the chandelier. Elen at the desk. Larum at the room divider. Cath at the door threshold. Clarine at the junction, the pointing arm doing what pointing arms do. Wendy in the corridor, permanent.*
 
-*She turns to the remaining Lilina group captures — brief designations for each:*
+*She stopped at Lilina.*
 
-*Sue — archer's crouch, ankle height.*
-"Step-mount — the draw arm is the step-edge guide."
-**Sue:** "The plains—"
+*The armor and robe had crumbled. The palms were up, the ash from the tome on the floor.*
 
-*Dorothy — adapted draw arm, east-facing.*
-"Wall fixture — the arm holds the map scroll."
-**Dorothy:** "Lady Rebecca—"
+*She looked at the palms. She looked at the ash.*
 
-*Thea — airborne, arms wide.*
-"Chandelier mount — the arm span holds the candelabra."
-**Thea:** "Commander—"
+*"Candle holder. Main passage floor."*
 
-*Elen — two broken staff halves, different heights.*
-"Document holder — writing height."
-**Elen:** "I haven't—"
-
-*Larum — the dancer's reaching arms.*
-"Room divider — the reach marks the space's center."
-**Larum:** "...someone—"
-
-*Cath — sprint posture, closed fist at handle height.*
-"Door threshold marker — the handle is in the grip."
-**Cath:** "I almost had it—"
-
-*Clarine — mid-command, arm fully extended, finger pointing. The imperious expression.*
-
-"Junction direction indicator — the arm points the route. The expression faces everyone who
-enters. They receive the direction and the expression together."
-
-**Clarine:** "I am absolutely not going to be—"
-
-*Wendy — defensive stance, feet planted, shield arm raised.*
-
-"Corridor block — the planted feet and raised shield arm create the narrowing. Traffic narrows
-around her. She does permanently what she was doing when the designation reached her."
-
-**Wendy:** "I'm not done—"
-
-*She stops in front of Lilina.*
-
-*Lilina. Small — genuinely small. The fire tome entirely ash: both hands in the release
-position, open, palms up, fingers spread. The expression is fury. Hector's fury — the jaw is
-the same as in the portraits.*
-
-*She looks at her. At the small upward-open palms. She already sees the candles.*
-
-"Candle holder — floor level. The open palms hold the candles at shin height. She goes where
-everyone passes to reach the objective. The fury watches everyone go and lights their way."
-
-*The stone sets. The outer robe falls in fragments.*
+*She walked away.*
 
 **Lilina:** "You—!"
-
-*The stone. The fury is the last thing.*
-
-"The Veil is working."
 
 ---
 
 ## Ch7 — The Mass Petrification
 
-*Setting: Central Elibe — Morrha's full encirclement closes. Petrifying Fog from the west.*
-*Pre-placed: Syrene at east escape corridor (Tier B); Serra at north chokepoint (Tier A) if
-`serra_lost` = true.*
-*The fog advances from the west 2 tiles/turn. NPC figures frozen in the fog path become
-terrain — they remain where they fell and are not moved.*
+*The fog came from the west. NPCs in the path went still as it reached them. The enemy used them where they fell.*
 
 ---
 
-### Wendy — S
+### Wendy
 
-*Defensive stance — feet planted perfectly, the shield arm raised, the body a complete wall.
-She was holding a corridor against pressure from three approaches simultaneously. Morrha's
-Stone Wardens from north and south brought her STO-RES to zero in the overlap.*
+*Three approaches at once — she had been holding a corridor chokepoint against pressure from north and south simultaneously when the third push came from the west. She pivoted to the third threat and the combined Gaze contact from two angles hit her at the same time. Her defensive stance locked: feet planted, shield arm raised, the wall she'd been making with her body becoming permanent.*
 
-*A Stone Warden looks at the stance.*
-
-"Corridor block. The planted feet don't move — she is already blocking the passage. Leave her
-where she stood."
-
-*Stone completes. The heavy defensive armor removes in large pieces.*
+*She couldn't move. She was still blocking the corridor and couldn't stop being a wall.*
 
 **Wendy:** "I won't let—"
 
-*She remains where she fell. The corridor narrows permanently around her. Tier B aura active.*
+*The corridor stayed narrow around her. She remained where she fell.*
 
 ---
 
-### Clarine — S
+### Clarine
 
-*Mid-command — arm fully extended, finger pointing. She was issuing an order to someone when
-a Dark Witch's secondary GAZE caught her in the pointing posture. The imperious expression
-fully committed.*
+*The Dark Witch caught her mid-command — she was pointing at the escape route, issuing a direction, the imperious expression fully committed. The secondary Gaze locked the gesture immediately. The pointing arm stayed. The expression stayed.*
 
-*Enemy officer: "Junction indicator. The pointing arm directs traffic. Put her at the corridor
-crossing."*
-
-*Stone completes. The stone garment fragments fall.*
+*She was still issuing the command and nothing was receiving it.*
 
 **Clarine:** "Absolutely not—"
 
-*Junction placement. The arm points the route.*
+*They put her at the corridor junction. The arm continued to give directions.*
 
 ---
 
-### Larum — O
+### Larum
 
-*The dancer's reach — mid-turn in a defensive position, arms in a reach toward someone who
-needed her. A Standard Gorgon found her in the reach.*
-
-*Enemy soldier: "Ceiling lamp hold — the reaching arms hold the hanging lamp. That posture's
-good for height."*
-
-*Stone completes. Dress fragments fall at the hem.*
+*She had been reaching toward Sue, trying to pull her back from the fog's edge. A Gorgon's Gaze caught her in the reach. The reaching arms locked at ceiling height — the stretch of someone trying to cross a distance that was too large.*
 
 **Larum:** "...dance—"
 
-*Ceiling position. The reaching arms at lamp height.*
+*The ceiling lamp went into her reaching arms. The reach became the fixture.*
 
 ---
 
-### Sue — O
+### Sue
 
-*Archer's crouch, low to the ground, compact draw. The fog's edge caught her before she could
-relocate — she didn't see it approaching from the side.*
-
-*Enemy soldier: "Floor level. Ground candle holder — low draw arm holds the candle behind her."*
-
-*Stone completes.*
+*The fog came in low and fast. She was in the archer's crouch tracking a Gorgon to the east when it caught her from the side. The crouch locked at ground level.*
 
 **Sue:** "The plains—"
 
-*Floor candle position.*
+*The floor candle went in behind her. The draw arm held the light at ground level.*
 
 ---
 
-### Cath — O *(if captured here, Side Ch8A is skipped)*
+### Cath (if captured)
 
-*Sprint posture — both feet off the ground at the peak of the stride, right hand closed
-around what she was carrying. A Stone Warden caught her mid-run.*
-
-*Enemy soldier: "Door threshold marker. The closed fist is at handle height."*
-
-*Stone completes.*
+*She was in full sprint — she had what she needed, she just had to reach the east edge. A Stone Warden stepped into her path and didn't attack. It just stood there and let her run into the contact. The closed fist locked around what she was carrying.*
 
 **Cath:** "I almost—"
 
-*Door threshold. The closed fist at handle height.*
+*Door threshold. The closed fist at handle height. What she was carrying crumbled.*
 
 ---
 
-### Chapter Final — The Mass Petrification
+### Chapter Final
 
-*The Queen. Morrha present. Setting: encirclement zone, fog aftermath. The fog terrain is
-architecture — frozen figures extend fence lines, partition courtyards, form walls. The NPC
-yield from the fog is structural.*
+*The Queen walked the fog terrain. The frozen figures along the fence line, in the courtyards, in the road — she walked past all of it.*
 
----
+*"Leave the terrain as it is."*
 
-*She looks across the field.*
+*She checked Wendy in the corridor. She didn't touch her.*
 
-"Leave the NPCs as they are. They are the terrain."
+*Clarine at the junction. Larum at the ceiling. Sue at the floor. Cath at the door, if she was there.*
 
-*She turns to the significant pieces.*
+*She reached Lilina.*
 
-*Wendy — the defensive stance, the planted feet.*
+*The tome ash was on the floor around the locked palms. She looked at the ash briefly.*
 
-"Corridor block confirmed — she does permanently what she was doing when it reached her."
-
-**Wendy:** "I won't let—"
-
-*Clarine — the pointing arm, the imperious expression.*
-
-"Junction indicator confirmed. The expression faces everyone who enters. They receive the
-direction and the expression together."
-
-**Clarine:** "Absolutely not—"
-
-*Larum — the dancer's posture, the reaching arms.*
-
-"Ceiling lamp hold — the reaching arms at lamp height."
-
-**Larum:** "...dance—"
-
-*Sue — the archer's crouch, low.*
-
-"Floor-level candle holder — the draw arm holds the candle at ground level. The flame comes
-from behind her."
-
-**Sue:** "The plains—"
-
-*Cath — the sprint, the closed fist. (If captured here.)*
-
-"Door threshold marker. The fist at handle height."
-
-**Cath:** "I almost—"
-
-*She reaches Lilina.*
-
-*Lilina. The fury. The release hands. The tome ash is finer — she put more in this time.
-The fury hasn't become desperation. It is chosen anger rather than fear.*
-
-"Candle holder — further into the main route. Deeper into the approach. The fury watches
-more of it now."
-
-*The stone sets.*
+*"Candle holder. Further in."*
 
 **Lilina:** "I'm not finished—"
 
-*The stone. The fury exactly where she left it.*
-
-"The fog is the most efficient tool we have."
+*She walked out.*
 
 ---
 
 ## Side Ch8A — The Collection
 
-*(Only accessible if `cath_lost` = false — Cath survived Ch7.)*
-*Setting: Morrha's gallery — the full collection arranged, lit, visible.*
-*Cath alone. No player captures possible except Cath.*
+*Cath infiltrated alone. The gallery was lit and every piece from prior chapters was displayed.*
 
 ---
 
-### Cath — S (Chapter Ending, Not Defeat Condition)
+### Cath
 
-*She was running toward the exit. Sprint posture, cloak half-torn, the right hand closed
-tight around the papers she had taken from the gallery. An ambush from the side corridor —
-a Stone Warden she didn't see.*
+*She had the papers in her closed fist and she was running. The ambush came from the side corridor — a Stone Warden she hadn't seen. The contact locked the fist around the papers.*
 
-*Both feet off the ground at the point of capture — caught at the longest part of the stride.*
-
-*An enemy officer examines the closed fist, the sprint posture, the handle height of the
-closed hand.*
-
-"Gallery entrance fixture — the sprint alongside the entry frame, the closed fist at handle
-height. She was trying to leave this room; she opens it for others."
-
-*Stone completes. The cloak crumbles where it's torn. The papers crumble in the grip.*
+*She was at the peak of the sprint when it happened — both feet off the ground, the stride at its longest.*
 
 **Cath:** "I had it—"
 
-*The stone. The hand still thinks it has something.*
+*They positioned her at the gallery entrance, the sprint alongside the entry frame. The closed fist was at handle height. The papers crumbled in her grip.*
 
-*(No chapter final scene — Cath's capture is the chapter's scripted ending.)*
+*The hand still thought it had something.*
+
+*She opened the gallery door for everyone who came after.*
 
 ---
 
 ## Ch8 — The Rout
 
-*Setting: Scattered terrain — Ch7 survivors separated and hunted.*
-*Pre-placed: Wendy at a corridor (Tier B), Clarine at a secondary route (Tier B).*
-*Enemy: Gorgon pursuit squads, Gaze Hunters picking off stragglers.*
+*The survivors of Ch7 were scattered. Gaze Hunters worked at range, finding stragglers.*
 
 ---
 
-### Dorothy — O
+### Dorothy
 
-*Close-range draw — the lean-back to compensate for reduced range, the adaptation visible
-in the torso. She had closed the distance and adjusted her form on the spot. A Gaze Hunter's
-crossbow caught her in the lean-back.*
-
-*Enemy soldier: "Reading chair backing — the lean angle matches a reclining figure. Draw arm
-at armrest height."*
-
-*Stone completes.*
+*She had adapted her form for close range — leaning back to compensate, the adjustment visible in her torso. The Gaze Hunter found the lean. The Brand hit the lean-back posture first, the angle locking before she could straighten, the adapted form becoming permanent.*
 
 **Dorothy:** "Lady Rebecca—"
 
-*Reading chair position.*
+*Reading chair backing. The lean angle matched a reclining figure. Her empty extended arm rested at armrest height.*
 
 ---
 
-### Thea — O
+### Thea
 
-*Airborne, banking, both arms extended for the turn. Long-limbed, the senior flier's build.
-An Aerial Gorgon caught her mid-bank.*
-
-*Enemy officer: "Chandelier mount — the arm span holds the candelabra. Good arm length."*
-
-*Stone completes. Flight armor falls from the banking form.*
+*She was banking hard — both arms out in the turn, wingspan extended. The Aerial Gorgon came in from above and caught both arms in the bank. The turn locked.*
 
 **Thea:** "Commander—"
 
-*Chandelier position.*
+*Chandelier mount. The arm span held the fixture. The banking motion became the frame.*
 
 ---
 
-### Elen — O
+### Elen
 
-*Both broken staff halves at different heights — she was still assessing whether the staff
-could function, still holding both pieces, still thinking through solutions. A Standard Gorgon
-closed on her.*
-
-*Enemy soldier: "Desk lamp — two candles at different heights. The spread of light is useful."*
-
-*Stone completes. The careful hands keep both halves.*
+*Both halves of her broken staff, held at different heights — she was still assessing, still trying to work out if the staff could function. A Standard Gorgon closed while she was problem-solving. She was still holding both pieces when the stone took her, her hands at the two heights, the assessment never completed.*
 
 **Elen:** "I haven't done—"
 
-*Desk position. Two-level candle heights.*
+*Desk lamp. Two candles at two heights. The light spread.*
 
 ---
 
-### Igrene — O
+### Igrene
 
-*Kneeling draw, low to the ground, scanning multiple sight lines simultaneously. A compact
-crouch — she was covering a wide area from one position. A Gaze Hunter found her in the kneel.*
-
-*Enemy soldier: "Side table base — the flat of the kneel forms the surface. The draw arm is
-the handle."*
-
-*Stone completes.*
+*She was in the tracker's scanning crouch — low, compact, covering multiple lines of sight from one position. The Gaze Hunter's bolt hit her in the crouch. The low position locked.*
 
 **Igrene:** "The Shrine—"
 
-*Side table base.*
+*Side table base. The flat of the kneel was the surface. The draw arm was the handle.*
 
 ---
 
-### Fir — O
+### Fir
 
-*Single-hand sword form — the relaxed grip, the hand loose, the form of many years with one
-weapon. Completely composed. A Stone Warden found her in the clean form.*
-
-*Enemy soldier: "Weapon display mount — the relaxed hand holds the presentation position for
-whatever blade is currently featured."*
-
-*Stone completes. The form is clean.*
+*She had just cleaned her form — single hand, the relaxed grip, the years of training making the posture automatic. The Stone Warden found her in the clean moment. The relaxed grip locked. She felt nothing particularly wrong about it.*
 
 **Fir:** "This is fine."
 
-*Weapon display position.*
+*Weapon display mount. The relaxed hand held whatever was placed in it.*
 
 ---
 
-### Chapter Final — The Rout
+### Chapter Final
 
-*The Queen. Setting: scattered terrain. Wendy in a corridor, Clarine at a secondary route —
-both pre-placed and active. NPC architecture: a battle-healer frozen mid-kneel, hands at
-treatment height; two soldiers frozen mid-flight marking the terrain edge.*
+*The Queen walked the scattered terrain. The healer frozen mid-kneel, the two soldiers marking the edge — she walked past.*
 
----
+*"Leave them."*
 
-*She enters.*
+*She went through the new pieces quickly. Dorothy as the chair backing. Thea at the chandelier. Elen at the desk. Igrene at the side table. Fir at the weapon display.*
 
-"The healer's kneel is the treatment table. The road-edge soldiers mark the boundary. Leave
-them."
+*She reached Lilina.*
 
-*She turns to the new pieces.*
+*The fury and the exhaustion were both in the expression. She looked at both.*
 
-*Dorothy — the lean-back, the adapted draw.*
-
-"Reading chair backing — the lean angle matches the reclining form. Confirmed."
-
-**Dorothy:** "Lady Rebecca—"
-
-*Thea — the long-limbed bank.*
-
-"Chandelier mount — the arm span confirmed."
-
-**Thea:** "Commander—"
-
-*Elen — two staff halves.*
-
-"Desk lamp — two heights. Confirmed."
-
-**Elen:** "I haven't done—"
-
-*Igrene — kneeling draw.*
-
-"Side table base. Confirmed."
-
-**Igrene:** "The Shrine—"
-
-*Fir — single-hand form.*
-
-"Weapon display mount. The relaxed grip holds whatever is featured. Confirmed."
-
-**Fir:** "This is fine."
-
-*She reaches Lilina.*
-
-*Lilina. The fury and the exhaustion now both visible — the specific quality of anger that has
-been burning for a long time. The stone holds both.*
-
-"Viewing room candle holder — the expression has layers now. She goes in a room where people
-stop rather than just pass. The fury and the exhaustion watch whoever stands there. The candles
-are at shin height."
-
-*The stone sets.*
+*"Viewing room. The expression has use."*
 
 **Lilina:** "Come on—"
 
-"Tier order for transport. Higher tiers first."
+*She left the soldiers to handle transport.*
 
 ---
 
 ## Ch9 — Collapse
 
-*Setting: Lilina's stronghold — final fall.*
-*Pre-placed: Multiple prior captures throughout the stronghold (flag-dependent). Minimum two
-Tier B sources active at chapter start.*
-*The Hand present on-map during the chapter — she inspects newly petrified characters in real
-time during gameplay. Non-combat, cannot be attacked.*
+*The Hand was present on the map during the chapter, moving to newly-captured pieces and placing them in real time.*
 
 ---
 
-### Cecilia — S
+### Cecilia
 
-*General's bearing — head up, weight forward, the stance of someone accustomed to being
-looked at and commanding the look. Tall, well-built. She was mid-delivery of a tome when
-Morrha's trap closed on three sides. She knew it was a capture operation, not a kill.
-She fought anyway.*
+*Morrha's elite closed from three sides. Cecilia knew it was a capture operation — she had known since the approach — and she fought it anyway. The tome fragments were still leaving her left hand when the combined pressure brought her to the locking point: general's bearing, head up, weight forward, the commanding stance fixed by the simultaneous contact.*
 
-*Tome fragments scattered in her left hand from the last release. The Hand approaches
-immediately.*
-
-"General's bearing. Complete form — the head position, the weight forward, the command
-stance. She goes behind the commander's desk. Every document reviewed in that office is
-reviewed under her oversight."
-
-*Stone completes. The general's plating removes in substantial pieces.*
+*She could still see clearly. The Hand was already walking toward her.*
 
 **Cecilia:** "Your Highness—"
 
-*Placed immediately behind the commander's desk. The Hand records the placement.
-Tier A aura activates.*
+*The Hand positioned her behind the commander's desk. Every document reviewed in that room would be reviewed under her oversight.*
 
 ---
 
-### Guinivere — S
+### Guinivere
 
-*Royalty posture — completely upright, the composure the active choice not to flinch.
-She was looking directly at the enemy when they closed in. She did not look away.
-The stone took her facing forward.*
+*She chose to look at the enemy when they closed in. She did not look away. The stone took her with her gaze forward and fixed.*
 
-*The Hand approaches. She examines the direct gaze.*
+*The Hand examined the direct eye contact.*
 
-"She wanted to look. The eye contact is functional — everyone who enters the hall receives
-it. Hall center — elevated."
-
-*Stone completes. The singed robes fall.*
+*"Hall center. Elevated."*
 
 **Guinivere:** "You won't hold this."
 
-*Placed at the hall's elevated center. The eye contact meets every entrance.
-Tier A aura activates.*
+*The Hall had her at its center. Everyone who entered received the eye contact.*
 
 ---
 
-### Tethys — S
+### Tethys
 
-*Performance posture — arms raised, one leg extended, the weight controlled. A dancer's body
-trained for performance. The form is exactly right: everything in the correct position.
-A Stone Warden caught her at the peak.*
-
-*The Hand: "Hall lamp standard — the raised arms hold the lamps of the entire hall. The
-performance is the fixture."*
-
-*Stone completes. The dancer's form at ceiling height.*
+*A Stone Warden caught her at the peak of the performance posture — arms raised, one leg extended, the form trained to exactness. She had been trying to buy time, to move, to do something useful. The stone took the performance and made it permanent.*
 
 **Tethys:** "Someone will come—"
 
-*Hall lamp position. Arms at ceiling height. Tier A aura activates.*
+*The Hall lamp standard had its fixture. Her raised arms held the lights for the whole room.*
 
 ---
 
-### Chapter Final — Collapse
+### Chapter Final
 
-*The Queen. The Hand present. Setting: Lilina's fallen stronghold. Court staff frozen at
-working positions throughout: a clerk at her desk; a steward in the corridor with arms in
-the carrying position — documents crumbled, arms form a document rack; two door attendants
-frozen mid-bow at the throne room entrance mark the threshold.*
+*The Queen walked the stronghold. The court staff frozen at their stations — the clerk at the desk, the steward in the corridor, the door attendants at the threshold.*
 
----
+*"Leave them."*
 
-*She walks through the stronghold.*
+*She went to the three significant pieces.*
 
-"The clerk is her desk. The steward is the document rack. The door attendants are the
-threshold. Leave them."
+*Cecilia at the commander's desk.*
 
-*She goes to the three significant acquisitions.*
+*"Confirmed."*
 
-*Cecilia — The Hand already placed her.*
+*Guinivere at the hall's center.*
 
-"Behind the commander's desk. Head elevated above whoever is seated. Every document reviewed
-under her oversight." *She checks the placement.* "Confirmed."
+*She met the eye contact briefly. She didn't comment on it.*
 
-**Cecilia:** "Your Highness—"
+*"Confirmed."*
 
-*The last thought was for Guinivere.*
+*Tethys with arms at ceiling height.*
 
-*Guinivere — elevated in the hall.*
+*"Confirmed."*
 
-*The Queen meets the gaze for a moment.*
+*She went through the rest quickly — the surviving Lilina group in their positions, each noted in a word.*
 
-"Hall center, elevated. The eye contact is active." *A pause.* "She looked until it was
-finished. The placement is right."
+*She reached Lilina.*
 
-**Guinivere:** "You won't hold this."
+*The robes had crumbled. The upward palms, the less ash than last time. The calculation was visible in the set of the jaw alongside the fury.*
 
-*The stone has fixed the words. She has said them.*
-
-*Tethys — arms at ceiling height.*
-
-"Hall lamp standard — the performance is the fixture. The entire hall is lit by her arms."
-
-**Tethys:** "Someone will come—"
-
-*She turns to the remaining survivors — brief designations:*
-
-"Florina — lower corridor, grab-rail."
-**Florina:** "I'm so sorry—"
-
-"Nino — entry hall, coat rack."
-**Nino:** "I wasn't—"
-
-"Rebecca — east corridor, coat hook."
-**Rebecca:** "Tell them—"
-
-*She reaches Lilina.*
-
-*Lilina. The fury. The exhaustion visible under it. She used less — the ash is less — and
-the calculation is visible alongside the fury. She was angry and managing resources at the
-same time.*
-
-"Acquisition wing passage — everything from this campaign walks past her. The fury and the
-calculation watch all of it. The candles are in the upward-open palms at shin height."
-
-*The stone sets.*
+*"Acquisition wing passage."*
 
 **Lilina:** "Father—"
 
-*The stone. The fury and the grief, in the same moment.*
+*The grief and the fury in the same moment. The stone had both.*
 
-"Record all three Tier A acquisitions with full installation specifications."
+*"Record all three Tier A acquisitions."*
+
+*She walked out.*
