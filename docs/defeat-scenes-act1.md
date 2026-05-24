@@ -11,85 +11,85 @@
 
 ### Gate Guards
 
-*The Stone Wardens came through the arch before either soldier could set her footing. The eastern guard raised her shield and the Warden pressed into it — the shield didn't shatter from force. It went wrong: stone spreading through the metal and into her hands, her fingers locking around nothing, the shield already powder. She had time to turn toward her partner.*
+A Stone Warden stopped in the middle of the courtyard. Without looking at either guard, it said to the arch: "Two posts. East arm closed around something. West arm reaching."
 
-*Her partner was already stiff. Arm extended across the gap between them, reaching. Frozen in the reach.*
+The eastern guard was already raising her shield when she heard it. Her arm kept going past where she'd aimed it, toward the angle that had been named. She pulled it down. It rose again. Beside her, her partner's arm was extending across the gap between them — reaching, because reaching had been said, and the said thing was already the ground the stone was building on.
 
-*Two enemy soldiers wedged them into the arch posts. The courtyard had its pillars.*
+She felt her fingers closing around nothing. The shield crumbled.
+
+Two enemy soldiers wedged them against the arch posts. The courtyard had its pillars.
 
 ---
 
 ### Syrene
 
-*She'd been holding the east courtyard for three passes, buying time while the escape route cleared. The second Stone Warden got inside her guard while she was engaged with the first — it put its hand on her forearm. She felt something go wrong in the contact. Not pain. Something named.*
+She had been holding the east courtyard for three passes when a soldier — one she hadn't tracked, one staying back — said, the way someone reads off a task list: "East wall. The arm points the approach. Lamp in the hand."
 
-*Her arm locked. Still extended in the command gesture, pointing east toward the gate. She tried to pull it back and the arm didn't come. She brought her other arm across and drove the Warden back two steps but the stone was already through her right shoulder, and when she tried to pivot her whole posture stopped her — the form was wrong for fighting and exactly right for something she couldn't name.*
+She was mid-command gesture. Her arm didn't come back.
 
-*The first Warden stepped away. A soldier was already moving behind her.*
+She pulled against it. The pull confirmed it — the arm was pointing east because it had been named pointing east, and the world had received the name. The Stone Warden she'd been fighting stepped back. It was waiting for the definition to finish its work.
 
-**Syrene:** "Hold—"
+**Syrene:** "...my arm—"
 
-*They pushed her against the east wall. A lamp came out of a pack and was wedged into her pointing hand. She was facing the gate approach and there was nothing else she could do.*
+A lamp was wedged into the pointing hand. The east approach had its marker. This was her function now. The world knew it.
 
 ---
 
 ### Vanessa
 
-*Her pegasus took her over the main entry to clear room for Tana. She was already in the dive posture, committed downward, when the Gaze came from above. She felt it in her arms first — the extension pulling forward and away from her body, her hands reaching for a grip that wasn't there.*
+From above the entry, the Aerial Gorgon said — at the volume of any other instruction — "Entry ceiling. The arms are the fixture mount. Keep the reach."
 
-*She pulled hard inside the turn. Her arms didn't come.*
+She was in the dive posture when she heard it. She pulled hard into the turn to break the angle and her arms pulled out instead — widening for the mount that hadn't been placed yet, the span named before the stone set it. She threw her weight against the extension. The stone answered the weight.
 
-*The stone was moving along the reach line, from her extended fingers back up her forearms. She could feel the dive angle locking — the form settling into something other than flight, other than fighting. She threw her weight against it. The posture held and she was in it.*
+**Vanessa:** "That's not — I'm not—"
 
-**Vanessa:** "Lady Tana—"
-
-*Two soldiers caught her before she reached the ground. They mounted her above the main entry at ceiling height and left the grip empty for whatever would come next.*
+Two soldiers caught her before she reached the ground. They mounted her above the main entry, the extended arms holding the fixture mount that had been named before the stone came.
 
 ---
 
 ### Tana
 
-*She was going for the east corridor when the Gorgon stepped around the corner. Mid-step: weight forward, the stride committed. It looked at her.*
+She was going for the east corridor when a nearby enemy officer — without looking at her — said to a subordinate: "She goes here. Mid-step, east-facing. Leave the expression."
 
-*An enemy officer nearby said one word she didn't understand.*
-
-*Her front foot didn't come down. The stride locked in place — she could feel it, the forward motion becoming permanent, the posture being decided for her. She threw her weight against it and the stone answered immediately. The frustration in her face was the last thing she controlled.*
+She felt the stride before the stone moved. The weight committing forward because committed had been named. She threw her weight against it. Every adjustment was being read as confirmation — the definition was already the truth, and the stone was confirming it.
 
 **Tana:** "Not yet—!"
 
-*They left her where she stood, pointing east. A soldier painted a directional marker on the wall beside her.*
+A soldier painted a directional marker beside where she stood. She had become the start of a direction system.
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the courtyard without pausing.*
+The Queen walked the courtyard without pausing.
 
-*The attendant at the water barrel. The clerk at the archive door. The runner on the road.*
+"Leave them."
 
-*"Leave them."*
+She passed the gate guards at the arch posts.
 
-*She passed Syrene at the east wall. Looked at the lamp in the pointing hand.*
+"The arch has its pillars."
 
-*"Good."*
+She looked up at Vanessa above the entry.
 
-*She looked up at Vanessa above the entry.*
+"Adjust the mount. Face in. The entry has its ceiling fixture."
 
-*"Adjust the mount. Face in."*
+A soldier adjusted the angle.
 
-*She passed Tana at the corridor junction. Kept walking.*
+She passed Tana at the junction.
 
-*She stopped at Eirika. The armor had crumbled on the way down — she could see the form clearly: guard position, hands at armrest height, the sword gone.*
+"She marks the junction east."
 
-*She looked at the hands for a moment.*
+She stopped at Eirika. The armor had crumbled. Guard position, hands at armrest height, the sword gone.
 
-*"Chair rest. Main hall."*
+She looked at the hands.
 
-*She walked away while the soldiers were still moving the statue.*
+"Chair rest. Main hall. She holds the seat."
+
+She walked away while the soldiers were still moving the statue.
 
 **Eirika:** "I won't—"
 
-*The stone finished while they were carrying her.*
+The stone finished while they were carrying her. The main hall had its chair rest. This was what she was.
 
 ---
 
@@ -99,49 +99,47 @@
 
 ### Natasha
 
-*She had come forward to reach someone near the gate guard statue. She didn't make it. The Gorgon broke through the west approach and she turned her staff toward it — the Gaze caught her mid-cast, the staff shattering, her hands keeping the shape.*
+She had come forward to reach someone near the gate guard statue. She was almost there when a Gorgon broke through the west approach and she turned her staff toward it. The Gaze caught her mid-cast. The staff shattered.
 
-*She was still trying to complete the cast. The healing posture locked with nothing to complete it. She couldn't lower her arms. She stood at the roadside with her palms up and the spread of stone moving from her wrists toward her elbows, and The Hand was walking the road toward her.*
+The Hand was walking the road toward her. It didn't stop.
 
-*The Hand didn't stop.*
+"Gate-side. The palms face out. Set a lamp across them."
 
-*"Beside the gate. Hands facing out."*
+She felt both hands opening. She tried to close them. The definition had the palms out and the definition was done — the world had the open palms now.
 
-*Two soldiers moved her into position next to the stone guard. They set a small lamp across her open palms.*
+**Natasha:** "I'm still — wait, I'm—"
 
-**Natasha:** "Wait — let me—"
-
-*She was placed and the stone completed.*
+Two soldiers positioned her beside the stone gate guard. A small lamp was laid across the open palms. The gate had its lantern-holder.
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the road. The merchant at the post entrance, the ferrylady at the bank, the traveler mid-step — she didn't look at any of them.*
+The Queen walked the road. She didn't look at the merchant at the post entrance, the ferrylady at the bank, the traveler mid-step.
 
-*"Leave the road as it is."*
+"Leave the road."
 
-*She passed Natasha. Looked at the lamp in the open palms. Kept moving.*
+She passed Natasha at the gate.
 
-*She reached the player group.*
+"The gate has its lantern-holder."
 
-*Tana, arm raised in the warning gesture. She glanced at her.*
+She reached the surviving group.
 
-*"Approach signal. Leave the arm as it is."*
+Tana, arm raised.
 
-*Vanessa, the ascent posture, arms overhead.*
+"She signals the approach."
 
-*"Junction lamp. Someone will need to mount it."*
+Vanessa, arms overhead.
 
-*She stopped at Eirika. The guard posture. The armor was gone.*
+"Junction fixture. Mount it."
 
-*She looked at where the sword had been.*
+She stopped at Eirika. The guard posture. The armor gone.
 
-*"Map table pointer. Forward hall."*
-
-*She was already moving toward the next chapter.*
+"Map table pointer. Forward hall. She indicates the direction."
 
 **Eirika:** "We're not done—"
+
+She was already moving.
 
 ---
 
@@ -151,105 +149,109 @@
 
 ### Priscilla
 
-*The Petrification Cavalier came for the horse, not the rider. Priscilla pulled the reins hard to turn but the lance tip touched the horse's flank and the Brand went through both of them at once — mount and rider locked in the same stride, the gallop caught mid-extension, the horse's legs pulled into permanent motion.*
+The Petrification Cavalier came for the horse, not the rider. An officer walking alongside the assault said — without looking up from the map he was reading — "Mount and rider. The flat back is the field table. Keep the rider on."
 
-*She could feel the horse had stopped moving under her. She was still trying to ride a frozen animal, still reaching forward with the reins, but her hands had become part of the piece.*
+Priscilla pulled the reins hard to turn. The horse was already leveling — not into any natural stride, but into the flat that had been named. She was still trying to ride a horse that was becoming a table under her. She could feel the back going level through the reins.
 
-**Priscilla:** "Farina—"
+**Priscilla:** "That's not — it's not—"
 
-*An enemy officer spread a field document across the horse's flat stone back and started writing on it without looking at Priscilla.*
-
-*"Main hall. Keep the rider."*
-
-*They wheeled them inside.*
+An enemy officer spread a field document across the level stone back and began writing without looking at her. They wheeled the piece inside. The main hall had its side table.
 
 ---
 
 ### Farina
 
-*She came in from above to cover the gap Priscilla's move had left. The Gorgon was already in position. Its Gaze caught her at the peak of the dive — the descent angle locked, her arms out for balance, the lean of the body committed downward.*
+Above, watching Priscilla's capture, Farina felt it the moment the definition landed — not the stone, but the word's weight. *Mount and rider. The flat back.* She felt a pull toward something level, something that held things, and shook it off because the definition hadn't named her.
 
-*She couldn't pull out of it. She tried to change the angle and the stone answered: the dive had her, and everything she did to escape the dive only fixed it harder.*
+She drove into the dive to cover the gap. An officer below said — the words reaching her clearly at descent height — "Entry ceiling. The arms frame the door. She lashes to the timbers."
 
-**Farina:** "Priscilla—"
+She tried to break the dive's angle. The arms pulled out for the framing instead, the span widening to the width that had been named.
 
-*They carried her inside and lashed the doorframe timbers to her outstretched arms. The entry to the command hall had its ceiling fixture.*
+**Farina:** "...I can't—"
+
+Soldiers lashed the door timbers to her outstretched arms. The entry had its ceiling frame. This was her function.
 
 ---
 
 ### Rebecca
 
-*She had a clear shot at the aerial Gorgon and she took it. The Gaze Hunter found her in the draw — the bolt hit her extended arm and she felt the pull immediately, the draw arm locking out, the form fixed at full extension. The arrow didn't fly. The bowstring was gone with the bow.*
+She had a clear shot. She took it. The Gaze Hunter found her in the draw, and the soldier beside it said, reading off a task: "East corridor junction. The arm is the marker."
 
-*She tried to bring the arm back.*
+The draw arm locked out. The bowstring was gone with the bow. The arm stayed because the arm was the marker — had been named the marker — and the world had received it.
 
-**Rebecca:** "Oh."
+**Rebecca:** "...my arm."
 
-*A soldier grabbed her by the locked arm and dragged her to the east corridor. She was propped against the wall at the junction, the empty extended arm pointing toward the entrance.*
+They propped her at the east corridor junction, the arm pointing toward the entrance. The junction was marked.
 
 ---
 
 ### Florina
 
-*Without her pegasus she had been compensating — balance arm out, trying to manage on foot, the form all wrong. A Gorgon took her in the correction. The balance arm locked at waist height. She felt the posture fixing around her and couldn't find anything to push against.*
+Without her pegasus she had been compensating on foot — balance arm out, the form all wrong. A Gorgon caught her in the stumble. A soldier said: "Lower corridor. Grab position."
 
-**Florina:** *[nothing — she made no sound]*
+The balance arm moved to the height before the stone finished setting it. She hadn't moved it.
 
-*A soldier walked by later and grabbed her balance arm to steady herself on the slope. Florina was already at the lower corridor when they placed her.*
+**Florina:** *[nothing]*
+
+Lower corridor. The arm at the height a person would reach for.
 
 ---
 
 ### Nino
 
-*She put everything she had into the cast — both arms out, fingers spread, the full output. The cast completed and did nothing. The Dark Veil swallowed it. And then the Gaze Hunter's bolt came through the moment the cast broke, and both arms locked in the extension, the fingers still spread wide, the tome burned away to nothing.*
+She put everything into the cast — both arms out, fingers spread, full output. The cast completed and did nothing. Then the Gaze Hunter's bolt came and an officer said, flat: "Entry hall. The spread holds coats."
 
-*She was still trying to cast. There was nothing left to cast with and her arms were something else now.*
+Both arms locked in the extension, fingers still spread, the tome burned to nothing. She tried to bring the arms in. The world had the open arms now — the definition was the ground truth and the ground truth had both arms out.
 
 **Nino:** "I can still—"
 
-*They stood her in the entry hall. The spread arms held coats.*
+They stood her in the entry hall. The spread arms held coats.
 
 ---
 
 ### Serra
 
-*The Stone Warden got inside her guard while she was arguing with Rebecca about the angle of retreat — she heard it behind her and turned and it was already there, the partial Gaze on contact splitting her staff cleanly in half. She kept both pieces. She was mid-laugh at the absurdity of it, or mid-insult at the Warden, when the stone locked the expression.*
+The Stone Warden got inside her guard while she was arguing with Rebecca about the angle of retreat. The staff split in half. She kept both pieces. A soldier who'd watched said — not to anyone in particular — "Dining area. Two heights. She holds between them."
 
-*She could feel both halves of the staff in her hands. She could feel the open mouth. Neither was doing what she needed.*
+Both pieces moved to their respective heights because they'd been named at those heights. The open mouth was what was left of the expression — mid-laugh, mid-insult — because the definition hadn't said anything about her face.
 
-**Serra:** "This is completely unacceptable—"
+**Serra:** "This is completely—"
 
-*They put her in the dining area. The two staff pieces at different heights held things between them.*
+The dining area had its holder. Two heights. Things between them.
 
 ---
 
 ### Chapter Final — Lord Defeat
 
-*Lyn had been the last one standing. An enemy officer stepped into her path — she recognized him from the approach, had been trying to reach him. He looked at her.*
+Lyn had been the last one standing. An enemy officer stepped into her path — the one she'd been trying to reach the whole approach. He looked at her.
 
-*He said nothing. He just looked.*
+He said: "Corridor lamp. The arms bracket the light."
 
-*She felt it immediately — the lamp-standard pull, the arms trying to bracket, the grief in her expression becoming the expression of something that holds a light rather than something that fights. She drove at him anyway. She drove and the form was already wrong, the arms not closing for the strike, opening instead, and the stone answered the opening.*
+She drove at him anyway. The arms didn't close for the strike — they opened, because the definition had them open and the world had received the definition. She drove with the arms opening and the stone answered the opening.
 
-**Lyn:** "...go."
+**Lyn:** "...no."
 
-*The stone completed. The last word was for whoever was behind her.*
+The stone completed.
 
-*The Queen came through an hour later. She walked the village — the doorway figures in the frames, the children at the fence gate, the elder on the road — and didn't stop.*
+The Queen came through an hour later. She walked the village without pausing.
 
-*"Leave the village."*
+"Leave the village."
 
-*She reached the main hall. She checked the Farina installation above the entry, the Priscilla side table, Rebecca at the east junction, Florina at the lower corridor, Nino at the entry hall, Serra at the dining station.*
+She reached the main hall. She moved through each piece — the Farina frame above the entry, the Priscilla table, Rebecca at the junction, Florina in the lower corridor, Nino at the entry, Serra at the dining station.
 
-*She didn't comment on any of them.*
+"Each is what it is."
 
-*She found Lyn.*
+She found Lyn.
 
-*She looked at the lamp-standard arms and the expression and the direction the figure faced.*
+She looked at the lamp-standard arms, the expression, the direction of the face.
 
-*"Main corridor. Where the traffic passes."*
+"Main corridor lamp. The arms bracket the light. She lights whoever passes."
 
-*She walked out.*
+A moment.
+
+"No one will look for her. There is only the lamp."
+
+She walked out.
 
 ---
 
@@ -259,85 +261,89 @@
 
 ### Serra
 
-*She was mid-instruction to someone when the Stone Warden caught her from the side — she was turned away and she had time to hear the contact but not to do anything about it. The staff split in half. She kept both pieces. She was mid-laugh at something, or mid-sentence, and the expression was locked in the mid-laugh with the mouth open and she couldn't change it.*
+She was mid-instruction when the Stone Warden caught her from behind. The staff split. She turned and it was already there. A soldier said: "Junction. Two heights. The same configuration."
 
-*She could still think. She tried to put the two halves of the staff together. Her hands weren't cooperating.*
+Both pieces moved to the named heights. She kept her grip on both. The mid-instruction expression was what was left because the definition hadn't covered her face.
 
-**Serra:** "I haven't finished yet—"
+**Serra:** "I haven't finished—"
 
-*A soldier took one half out of her hand and set it on the road marker at junction height. Another wedged the other piece lower. The junction had two markers now.*
+The junction had two markers.
 
 ---
 
 ### Rebecca
 
-*She had a clean shot at the retreating enemy line and she knew it — draw arm fully extended, the angle perfect. The Gaze Hunter found her wrist at full draw. She felt the arm lock in the extension, the pull-back hand gone with the bowstring, and she released the arrow into nothing.*
+She had a clean shot at the retreating line. The Gaze Hunter found her wrist in the draw. A soldier said, watching: "East corridor. She marks the junction."
 
-**Rebecca:** "I see."
+The arm locked. The draw-back hand was gone with the bowstring. The arm was the marker. The world had this.
 
-*They positioned her at the east corridor edge. The arm still marked the junction.*
+**Rebecca:** "..."
+
+East corridor edge. The arm marked the junction.
 
 ---
 
 ### Neimi
 
-*She was still functioning — still drawing, still shooting — while crying. The form stayed clean even while the tears ran down her face. The Gaze Hunter caught her in the draw and the tears crystallized on her cheeks at the same moment the arm locked.*
+She was still drawing, still shooting, while crying. The form stayed clean. The Gaze Hunter caught her in the draw, and a soldier said — noticing the tears on her face — "Writing station. The arm holds correspondence. The tears stay."
 
-*She was aware of both: the arm that wouldn't come back and the tears that wouldn't move. She tried to call someone's name.*
+The draw arm locked. The tears crystallized at the same moment, because the definition had included them — made them part of what she was. She tried to call someone's name.
 
 **Neimi:** *[a sound that didn't reach]*
 
-*They set her at the road-side writing station, the arm holding correspondence.*
+Road-side writing station. The arm held correspondence. The tears were part of it.
 
 ---
 
 ### Florina
 
-*The second time the correction failed she couldn't find anything to push against. The Standard Gorgon took her in the stumble and the balance arm locked at waist height and she was in the correction and nothing was correcting.*
+The Standard Gorgon took her in the stumble. A soldier said: "Lower corridor. Same grab position."
+
+The arm moved to the height before she could do anything about it.
 
 **Florina:** "Wait—"
 
-*Lower corridor. Grab position.*
+Lower corridor. The same height.
 
 ---
 
 ### Nino
 
-*She was already running low — the tome almost gone, both arms still going. The Dark Witch's secondary shot caught her at maximum extension. She felt the extension becoming something else, the casting becoming a rack, and there was nothing left in the tome to fight with.*
+Almost out of tome, both arms still going. The Dark Witch's secondary shot caught her at maximum extension. An officer said: "Entry approach. Overhead."
+
+Both arms locked overhead because overhead had been said, and the world had the overhead.
 
 **Nino:** "Wait, I—"
 
-*Entry approach. Both arms still out.*
+Entry approach. Both arms still out.
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the crossroads. She didn't comment on the NPC cluster at the junction.*
+The Queen walked the crossroads. She didn't comment on the NPC cluster at the junction.
 
-*"Leave it."*
+"Leave it."
 
-*She checked Natasha at the chokepoint — pre-placed from Ch2. She passed without stopping.*
+She confirmed the pieces.
 
-*Serra at the junction, staff pieces at two heights.*
+"The junction has two heights. Serra holds between them."
 
-*"Confirmed."*
+"Rebecca marks the east corridor."
 
-*Rebecca at the east corridor.*
+"The writing station has its arm. The tears are part of it."
 
-*Neimi at the writing station. She looked at the crystallized tears. She didn't say anything about them.*
+"The lower corridor has its grab."
 
-*Florina at the lower corridor. Nino at the entry approach.*
+"The entry approach has its overhead."
 
-*She found Lyn at the crossroads center.*
+She found Lyn at the crossroads center. The stance covered both approaches.
 
-*The stance covered both approaches. She looked at it.*
-
-*"Junction lamp. Both roads."*
+"Junction lamp. She lights both roads."
 
 **Lyn:** "Get out of here—"
 
-*The stone finished and she was already writing the placement notes.*
+The stone finished. She was already writing the placement notes. The crossroads had its lamp.
 
 ---
 
@@ -347,85 +353,79 @@
 
 ### Nino
 
-*She was trying to support the aerial engagement from the ground — both arms overhead, the full vertical cast, range pushed as far as she could push it. The Aerial Gorgon came from directly above. The Gaze hit both arms at once and they locked overhead in the support posture.*
+She was trying to support the aerial engagement from the ground — both arms overhead, range pushed as far as possible. The Aerial Gorgon came from directly above. A rider on its back said, clearly: "Entry passage ceiling. Her arms are the fixture."
 
-*She tried to bring her arms down to run. They stayed overhead, pointing at the sky where the engagement was still happening.*
+She heard it and kept casting. The arms were already at ceiling height. Pushing the cast further only confirmed the height. The angle locked. The cast never connected.
 
-*An officer on the ridge line looked down at her.*
+**Nino:** "I'm still—"
 
-*"Entry passage. Overhead."*
-
-**Nino:** "I'm trying—"
-
-*They hoisted her to the ceiling mount above the command entry. The overhead arms held the fixture. The cast that never connected was still in the shape of her hands.*
+They hoisted her to the ceiling mount above the command entry. The command passage had its lamp.
 
 ---
 
 ### Florina
 
-*She was on foot and already compromised when the Standard Gorgon found her. The correction never completed. The balance arm locked at waist height in the stumble.*
+The Standard Gorgon found her on foot, already compromised. A soldier said: "Lower corridor. Third time at that height."
 
-**Florina:** *[a sound — not a word]*
+Three words. The arm was already at the height before the stone finished.
 
-*Lower corridor. Third time the arm has been at that height.*
+**Florina:** *[a sound]*
+
+Lower corridor. Third time.
 
 ---
 
 ### Tana
 
-*She found her angle on an Aerial Gorgon above the command position and drove at it — committed, the dive fully committed, the expression set. The Gorgon's return Gaze hit her from above and the dive locked: weight forward and down, the attack angle preserved. She was still in the attack and couldn't pull out of it.*
+She drove at the Aerial Gorgon — committed, the dive fully committed, the attack angle set. The return Gaze hit from above, and an officer said: "Briefing room. The table. Face down at the working surface."
 
-**Tana:** "Come on—!"
+She was still in the attack when the stone set the angle — still committed downward, because committed downward was what had been named. The determination in her expression was what she'd been wearing when it found her.
 
-*They carried her to the briefing room. The determined expression faced downward over the planning table.*
+**Tana:** "I'm not—"
+
+They carried her to the briefing room. The determined face looked down at the working surface.
 
 ---
 
 ### Vanessa
 
-*Banking hard to cover the approach — the turn committed, arms spread in the turn, the momentum of the course change frozen mid-execution. The Aerial Gorgon caught her in the bank.*
+Banking hard to cover the approach — the turn committed, arms spread. The Aerial Gorgon said: "Chandelier. The span holds the bar."
 
-*She felt the spread of her arms becoming a span.*
+She felt the span before the stone finished — both arms pulling out to the chandelier width, the banking form becoming the chandelier frame. The width had been named and the world had it.
 
-**Vanessa:** "Move—"
+**Vanessa:** "..."
 
-*Chandelier mount. The arm span held the lamp bar. The banking turn had become the fixture.*
+Chandelier mount. She held the bar. She was the chandelier.
 
 ---
 
 ### Chapter Final
 
-*The Queen came through the field after the engagement. She didn't stop at the courier on the road, the scouts at the perimeter.*
+The Queen came through the field. She didn't stop at the courier on the road, the scouts at the perimeter.
 
-*"Leave the field."*
+"Leave the field."
 
-*She checked the Priscilla and Farina installations — pre-placed.*
+She looked up at Nino at the ceiling mount.
 
-*"Both confirmed."*
+"The command passage has its lamp."
 
-*She looked up at Nino at the ceiling mount.*
+She confirmed the rest without stopping.
 
-*"Good angle. Keep it."*
+"The briefing room has its overhead. The lower corridor has its grab. Vanessa is the chandelier."
 
-*She found the remaining captures — Florina at the corridor, Tana at the briefing ceiling, Vanessa at the chandelier mount. She didn't comment on any of them.*
+She found Lyn. The arms were still raised toward the sky.
 
-*She found Lyn.*
-
-*The arms were still raised toward the sky where the aerial engagement had been.*
-
-*"Field post. Exterior lamp."*
+"Field post. Exterior lamp. She lights the approach."
 
 **Lyn:** "Run—"
 
-*She was already looking at Eirika.*
+She looked at Eirika. The guard posture. The armor gone.
 
-*The guard posture. Weight on the front foot. The armor had come off in the fall.*
-
-*"Command threshold. The guard position marks the passage width."*
+"Command threshold. She is the passage width. Everything that comes through, comes through her."
 
 **Eirika:** "There's still—"
 
-*She walked out.*
+She walked out.
 
 ---
 
@@ -435,62 +435,64 @@
 
 ### Amelia
 
-*She had been charging the Great Gorgon to disrupt its positioning — full speed, both hands on the lance, the tip already gone to the Gaze contact from two turns prior. She was almost inside its range when the area effect came and she felt the charge posture lock: weight completely forward, the lean past stopping, both hands in the grip that was no longer holding anything.*
+She had been charging the Great Gorgon at full speed — both hands in the grip, the tip already gone, the weight completely forward. She was almost inside its range when the area effect expanded. An officer at the perimeter, watching, said: "Corridor approach. She narrows it. Leave the lean."
 
-*She was still charging. There was nowhere to go with it.*
+The charge locked — not stopped, just defined. The lean was now the corridor narrowing, and the narrowing was the charge, and both were the same thing. The stone set both at once.
 
-**Amelia:** "I'll do better—"
+**Amelia:** "I'll do—"
 
-*They put her in the main corridor, the charge posture leaning into the passage. The approach lane narrowed around her.*
+Main corridor. The lean into the passage. Arrivals would pass through her.
 
 ---
 
 ### Juno
 
-*The Dark Witch's GAZE found her in the formation posture — the tight, streamlined form, arms close, the stance designed for efficient movement through a unit. It locked her exactly there: arms in, compact, the formation-leader's controlled silhouette.*
+The Dark Witch's Gaze found her in the formation posture — arms close, the compact silhouette of a formation leader. An officer said: "Ceiling. The arms are the signal hub. Run the wires from her wrists."
 
-*She couldn't open her stance. She couldn't reach.*
+She couldn't open her stance because compact had been named, and the world had the compact stance.
 
-**Juno:** "Formation—"
+**Juno:** "I'm not a—"
 
-*An officer ran signal lines from her wrists down the length of the hall. The ceiling mount was already where she'd been standing.*
+Signal lines ran from her wrists down the length of the hall. She was the hub.
 
 ---
 
 *The rest came quickly. The border was one long lane and the Great Gorgons pushed it hard.*
 
-*Florina at the lower corridor approach. Nino at the entry. Rebecca at the east hook. Tana frozen mid-stride, still east-facing, still arriving. Vanessa above, the ascending grip holding the fixture.*
+*Florina at the lower corridor approach. Nino at the entry. Rebecca at the east hook. Tana mid-stride, east-facing. Vanessa above, the span holding the fixture.*
 
-*Each one placed by whoever was closest. Practical. Fast.*
+*Each named by whoever was closest. Practical. Fast.*
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the crossing. The border guards were already in the posts.*
+The Queen walked the crossing. The border guards were already in the posts.
 
-*"They were. Now they are."*
+"They were before they arrived. The world confirms this now."
 
-*She checked Amelia in the corridor. Juno at the ceiling.*
+She checked Amelia in the corridor.
 
-*She walked the lane without stopping at the rest of them.*
+"She is the narrowing. The approach passes through her."
 
-*She found Lyn at the crossing center.*
+Juno at the ceiling.
 
-*The stance had been covering both groups. She could see that in the spread — wider than the early chapters, the arms carrying more.*
+"The signal hub. The lines run from her."
 
-*"Crossing lamp."*
+She walked the lane without stopping at the rest of them.
+
+She found Lyn at the crossing center. The stance had been covering both groups.
+
+"Crossing lamp. She lights both groups."
 
 **Lyn:** "Don't stop—"
 
-*She found Eirika.*
+She found Eirika. Weight past the midpoint — she had been crossing when it took her. The armor gone.
 
-*Weight past the midpoint — she had been crossing when it took her. The armor was gone.*
-
-*"Border marker. The guard position marks where through begins."*
+"Border marker. She is where through begins."
 
 **Eirika:** "Keep going—"
 
-*"Both groups. One morning."*
+"Both groups. The crossing is marked. The world has this."
 
-*She walked out toward the next position.*
+She walked out toward the next position.

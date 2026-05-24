@@ -11,53 +11,53 @@
 
 ### Shanna
 
-*She had her target and she was committed — mid-pivot, the javelin arm moving into the throw. The heavier Stone Warden variant stepped in front of the throw and let the javelin hit it, and the impact transferred the Brand up through the shaft and into her throwing arm.*
+She had her target and she was committed — mid-pivot, the javelin arm moving into the throw. A heavier Stone Warden variant stepped in front of the throw and let the javelin hit it. As the impact transferred the Brand up the shaft, a soldier behind her said: "Gate crossbar. The arm holds it. The throw stays."
 
-*She felt the release locking. The arm kept moving into the throw and stopped there, fixed in the motion, the javelin gone, the arm still saying throw.*
+She felt the release locking — the arm mid-throw and staying there, the javelin gone, the arm still following through because the definition had the arm following through. She tried to complete the throw. There was nothing to throw.
 
-**Shanna:** "Still standing—"
+**Shanna:** "I'm still — my arm—"
 
-*They hung her on the gate's crossbar. The javelin arm held it. Every time the gate was moved, the arm bore the weight.*
+They hung her on the gate's crossbar. The javelin arm held it. Every time the gate moved, the arm bore the weight.
 
 ---
 
 ### Echidna
 
-*She had been fighting for three turns and she was still fighting. When the Stone Warden finally got through her guard it wasn't by force — it put both hands on her shoulders and leaned its weight against her planted stance. She felt the weight being defined. The stance hardened around the wide-base position she'd been holding: both feet planted, haft hand at lamp-standard height.*
+She had been fighting for three turns and she was still fighting when the Stone Warden finally got through her guard — not by force. It put both hands on her shoulders and leaned its weight against her planted stance. While it did this, a soldier said from the side: "Column base. The plinth. She holds the lamp at standard height."
 
-*She felt the calm come up. She'd felt it before in worse situations.*
+She felt the calm come up. She'd felt it before in worse situations.
 
 **Echidna:** "It ends here. Fine."
 
-*They fixed the lamp standard to her haft hand. The column base had its plinth.*
+They fixed the lamp standard to her haft hand. The column base had its plinth.
 
 ---
 
 ### Chapter Final
 
-*Morrha was present. The Queen walked past her.*
+Morrha was present. The Queen walked past her.
 
-*She looked at Shanna on the gate crossbar.*
+She looked at Shanna on the gate crossbar.
 
-*"Good placement."*
+"The gate has its arm. She bears the weight."
 
-*Echidna at the column base.*
+She moved to Echidna at the column base. She looked at the lamp angle.
 
-*"Lamp's set wrong. Adjust it."*
+"The lamp is set wrong. Adjust it."
 
-*She moved through the rest of the Lilina group quickly — each one noted in a word or two, each one placed by the soldiers following her.*
+A soldier adjusted the angle.
 
-*Sue at the step edge. Dorothy at the wall. Thea at the chandelier. Elen at the desk. Larum at the room divider. Cath at the door threshold. Clarine at the junction, the pointing arm doing what pointing arms do. Wendy in the corridor, permanent.*
+She moved through the Lilina group quickly — Sue at the step edge, Dorothy at the wall, Thea at the chandelier, Elen at the desk, Larum at the room divider, Cath at the door threshold, Clarine at the junction, Wendy in the corridor.
 
-*She stopped at Lilina.*
+"Each is what it is."
 
-*The armor and robe had crumbled. The palms were up, the ash from the tome on the floor.*
+She stopped at Lilina. The armor and robe had crumbled. The palms were up, the ash from the tome on the floor.
 
-*She looked at the palms. She looked at the ash.*
+She looked at the palms. She looked at the ash.
 
-*"Candle holder. Main passage floor."*
+"Candle holder. Main passage floor."
 
-*She walked away.*
+She walked away.
 
 **Lilina:** "You—!"
 
@@ -71,77 +71,87 @@
 
 ### Wendy
 
-*Three approaches at once — she had been holding a corridor chokepoint against pressure from north and south simultaneously when the third push came from the west. She pivoted to the third threat and the combined Gaze contact from two angles hit her at the same time. Her defensive stance locked: feet planted, shield arm raised, the wall she'd been making with her body becoming permanent.*
+Three approaches at once — she was holding the corridor chokepoint against pressure from north and south simultaneously when the third push came from the west. A soldier at the western approach said, looking at her: "She stays here. The corridor stays narrow."
 
-*She couldn't move. She was still blocking the corridor and couldn't stop being a wall.*
+She pivoted toward the third push and the definition landed — not a single gaze, but two simultaneous contacts from north and south confirming the wall. She felt the defensive stance become permanent not because the stone locked it but because the definition had said *stay* and the world had the stay.
 
 **Wendy:** "I won't let—"
 
-*The corridor stayed narrow around her. She remained where she fell.*
+The corridor stayed narrow around her. She remained where she fell. She was the narrowing.
 
 ---
 
 ### Clarine
 
-*The Dark Witch caught her mid-command — she was pointing at the escape route, issuing a direction, the imperious expression fully committed. The secondary Gaze locked the gesture immediately. The pointing arm stayed. The expression stayed.*
+The Dark Witch caught her mid-command — she was pointing at the escape route, issuing a direction. Before the Gaze fully locked, a soldier said: "Junction. The arm points. Leave the expression."
 
-*She was still issuing the command and nothing was receiving it.*
+The arm locked. The imperious expression stayed because the definition had left it. She was still giving the command. Nothing was receiving it.
 
 **Clarine:** "Absolutely not—"
 
-*They put her at the corridor junction. The arm continued to give directions.*
+They put her at the corridor junction. The arm continued to issue directions.
 
 ---
 
 ### Larum
 
-*She had been reaching toward Sue, trying to pull her back from the fog's edge. A Gorgon's Gaze caught her in the reach. The reaching arms locked at ceiling height — the stretch of someone trying to cross a distance that was too large.*
+She had been reaching toward Sue, trying to pull her back from the fog's edge. A Gorgon's Gaze caught her in the reach, and someone said — she couldn't tell who — "Ceiling lamp. The reach holds the light."
 
-**Larum:** "...dance—"
+She felt the reaching arms become the lamp-hold, the stretch across too much distance becoming the ceiling stretch. Sue, nearby, felt a pull toward whatever Larum was becoming — a momentary lean toward ceiling height, like the definition was asking if she was part of it too. She wasn't. The definition had named Larum.
 
-*The ceiling lamp went into her reaching arms. The reach became the fixture.*
+**Larum:** "...I'm reaching—"
+
+The ceiling lamp went into her reaching arms. The reach became the fixture.
 
 ---
 
 ### Sue
 
-*The fog came in low and fast. She was in the archer's crouch tracking a Gorgon to the east when it caught her from the side. The crouch locked at ground level.*
+The fog came in low and fast. She was in the archer's crouch tracking a Gorgon to the east when it caught her from the side. A soldier said: "Floor candle. The crouch holds it."
 
-**Sue:** "The plains—"
+The crouch locked at ground level. She felt it anchor — not the stone pulling her down, but the named height claiming her, the floor-level she was already at becoming permanent because it had been named permanent.
 
-*The floor candle went in behind her. The draw arm held the light at ground level.*
+**Sue:** "...the ground—"
+
+The floor candle went in behind her. The draw arm held the light at ground level.
 
 ---
 
 ### Cath (if captured)
 
-*She was in full sprint — she had what she needed, she just had to reach the east edge. A Stone Warden stepped into her path and didn't attack. It just stood there and let her run into the contact. The closed fist locked around what she was carrying.*
+She was in full sprint — she had what she needed, she just had to reach the east edge. A Stone Warden stepped into her path and didn't attack. It just stood there. As she ran into the contact, a soldier said: "Door threshold. The fist at handle height. What she's carrying stays."
 
-**Cath:** "I almost—"
+The closed fist locked at handle height around what she was carrying. She tried to open the hand. The definition had it closed and the world had the closed fist now.
 
-*Door threshold. The closed fist at handle height. What she was carrying crumbled.*
+**Cath:** "I'm still — I almost—"
+
+Door threshold. The closed fist at handle height. What she was carrying crumbled.
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the fog terrain. The frozen figures along the fence line, in the courtyards, in the road — she walked past all of it.*
+The Queen walked the fog terrain. The frozen figures along the fence line, in the courtyards, in the road — she walked past all of it.
 
-*"Leave the terrain as it is."*
+"Leave the terrain."
 
-*She checked Wendy in the corridor. She didn't touch her.*
+She confirmed each piece.
 
-*Clarine at the junction. Larum at the ceiling. Sue at the floor. Cath at the door, if she was there.*
+"Wendy is the corridor wall. She narrows it."
 
-*She reached Lilina.*
+"Clarine directs the junction."
 
-*The tome ash was on the floor around the locked palms. She looked at the ash briefly.*
+"Larum lights the ceiling. Sue lights the floor."
 
-*"Candle holder. Further in."*
+Cath at the door, if she was there: "The threshold has its fist."
+
+She reached Lilina. The tome ash on the floor around the locked palms.
+
+"Candle holder. Further in."
 
 **Lilina:** "I'm not finished—"
 
-*She walked out.*
+She walked out.
 
 ---
 
@@ -153,17 +163,13 @@
 
 ### Cath
 
-*She had the papers in her closed fist and she was running. The ambush came from the side corridor — a Stone Warden she hadn't seen. The contact locked the fist around the papers.*
+She had the papers in her closed fist and she was running. The ambush came from the side corridor — a Stone Warden she hadn't seen. As the contact landed, a soldier said: "Gallery entrance. The sprint alongside the entry frame. The fist at handle height."
 
-*She was at the peak of the sprint when it happened — both feet off the ground, the stride at its longest.*
+She was at the peak of the sprint when the definition took hold — both feet off the ground, the stride at its longest because the definition had the stride at its longest, and the world had this stride now.
 
 **Cath:** "I had it—"
 
-*They positioned her at the gallery entrance, the sprint alongside the entry frame. The closed fist was at handle height. The papers crumbled in her grip.*
-
-*The hand still thought it had something.*
-
-*She opened the gallery door for everyone who came after.*
+She opened the gallery door for everyone who came after. The hand still thought it had something.
 
 ---
 
@@ -175,71 +181,89 @@
 
 ### Dorothy
 
-*She had adapted her form for close range — leaning back to compensate, the adjustment visible in her torso. The Gaze Hunter found the lean. The Brand hit the lean-back posture first, the angle locking before she could straighten, the adapted form becoming permanent.*
+She had adapted her form for close range — leaning back to compensate, the adjustment visible in her torso. A Gaze Hunter found the lean-back posture and a soldier said: "Reading chair backing. The lean matches the recline. The extended arm at armrest height."
 
-**Dorothy:** "Lady Rebecca—"
+The lean locked before she could straighten. The adapted form — the one she'd been trying to correct — became permanent because it had been named. The correction had been named as the thing she was.
 
-*Reading chair backing. The lean angle matched a reclining figure. Her empty extended arm rested at armrest height.*
+**Dorothy:** "...that's not—"
+
+Reading chair backing. The lean angle matched a reclining figure. Her empty extended arm at armrest height.
 
 ---
 
 ### Thea
 
-*She was banking hard — both arms out in the turn, wingspan extended. The Aerial Gorgon came in from above and caught both arms in the bank. The turn locked.*
+She was banking hard — both arms out in the turn, wingspan extended. The Aerial Gorgon came in from above and a soldier at the perimeter said: "Chandelier mount. The span holds the fixture. Keep the banking angle."
 
-**Thea:** "Commander—"
+The turn locked. The bank became the chandelier frame, the wingspan becoming the hold, the span at the width the definition had named.
 
-*Chandelier mount. The arm span held the fixture. The banking motion became the frame.*
+**Thea:** "..."
+
+Chandelier mount. The arm span held the fixture.
 
 ---
 
 ### Elen
 
-*Both halves of her broken staff, held at different heights — she was still assessing, still trying to work out if the staff could function. A Standard Gorgon closed while she was problem-solving. She was still holding both pieces when the stone took her, her hands at the two heights, the assessment never completed.*
+Both halves of her broken staff at different heights — she was still assessing, still trying to work out if it could function. A Standard Gorgon closed while she was problem-solving, and a soldier said: "Desk lamp. Two candles at two heights."
+
+She was holding both pieces when the stone took her, her hands at the two heights. The assessment never completed. The definition had two heights and the world had two heights.
 
 **Elen:** "I haven't done—"
 
-*Desk lamp. Two candles at two heights. The light spread.*
+Desk lamp. Two candles at two heights. The light spread.
 
 ---
 
 ### Igrene
 
-*She was in the tracker's scanning crouch — low, compact, covering multiple lines of sight from one position. The Gaze Hunter's bolt hit her in the crouch. The low position locked.*
+She was in the tracker's scanning crouch — low, compact, covering multiple lines of sight. A Gaze Hunter's bolt hit her in the crouch, and a soldier said: "Side table base. The flat of the kneel. The draw arm is the handle."
 
-**Igrene:** "The Shrine—"
+The low position locked. She felt it anchor at the named height, the definition claiming the specific level she was already at.
 
-*Side table base. The flat of the kneel was the surface. The draw arm was the handle.*
+**Igrene:** "...the Shrine—"
+
+Side table base. The kneel was the surface. The draw arm was the handle.
 
 ---
 
 ### Fir
 
-*She had just cleaned her form — single hand, the relaxed grip, the years of training making the posture automatic. The Stone Warden found her in the clean moment. The relaxed grip locked. She felt nothing particularly wrong about it.*
+She had just cleaned her form — single hand, relaxed grip, the years of training making it automatic. The Stone Warden found her in the clean moment, and a soldier said, almost admiringly: "Weapon display. The relaxed hand holds whatever goes in it."
+
+She felt nothing particularly wrong about it before the stone set.
 
 **Fir:** "This is fine."
 
-*Weapon display mount. The relaxed hand held whatever was placed in it.*
+Weapon display mount. The relaxed hand held whatever was placed in it.
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the scattered terrain. The healer frozen mid-kneel, the two soldiers marking the edge — she walked past.*
+The Queen walked the scattered terrain. The healer frozen mid-kneel, the two soldiers marking the edge — she walked past.
 
-*"Leave them."*
+"Leave them."
 
-*She went through the new pieces quickly. Dorothy as the chair backing. Thea at the chandelier. Elen at the desk. Igrene at the side table. Fir at the weapon display.*
+She confirmed the new pieces.
 
-*She reached Lilina.*
+"Dorothy is the chair backing."
 
-*The fury and the exhaustion were both in the expression. She looked at both.*
+"Thea is the chandelier."
 
-*"Viewing room. The expression has use."*
+"The desk has two heights. Elen holds them."
+
+"Igrene is the side table base."
+
+"Fir holds the weapon display."
+
+She reached Lilina. The fury and the exhaustion were both in the expression. She looked at both.
+
+"Viewing room. The expression has use."
 
 **Lilina:** "Come on—"
 
-*She left the soldiers to handle transport.*
+She left the soldiers to handle transport.
 
 ---
 
@@ -251,74 +275,74 @@
 
 ### Cecilia
 
-*Morrha's elite closed from three sides. Cecilia knew it was a capture operation — she had known since the approach — and she fought it anyway. The tome fragments were still leaving her left hand when the combined pressure brought her to the locking point: general's bearing, head up, weight forward, the commanding stance fixed by the simultaneous contact.*
+Morrha's elite closed from three sides. Cecilia had known since the approach that this was a capture operation. She fought it anyway. The tome fragments were still leaving her hand when the combined pressure brought her to the locking point. The Hand came to stand in front of her.
 
-*She could still see clearly. The Hand was already walking toward her.*
+It said: "Commander's desk. Behind the desk. Her bearing is the oversight."
 
-**Cecilia:** "Your Highness—"
+The stone confirmed what had already been taking shape — the general's posture, the head up, the weight forward, the bearing that had always been in her form now becoming the form's final and only meaning.
 
-*The Hand positioned her behind the commander's desk. Every document reviewed in that room would be reviewed under her oversight.*
+**Cecilia:** "...your Highness—"
+
+The Hand positioned her behind the commander's desk. Every document reviewed in that room would be reviewed under her oversight. The room had its commander. This was established now.
 
 ---
 
 ### Guinivere
 
-*She chose to look at the enemy when they closed in. She did not look away. The stone took her with her gaze forward and fixed.*
+She chose to look at the enemy when they closed in. She did not look away. The Hand came to her.
 
-*The Hand examined the direct eye contact.*
+It looked at her direct gaze. It said: "Hall center. Elevated. The eye contact holds the room."
 
-*"Hall center. Elevated."*
+The stone took her with the gaze forward and fixed, at the height that had been named. Nearby, Tethys felt the definition land — not on her, but she felt the hall center become occupied in a way it hadn't been a moment before, the world quietly reclassifying what stood there.
 
-**Guinivere:** "You won't hold this."
+**Guinivere:** "You won't hold—"
 
-*The Hall had her at its center. Everyone who entered received the eye contact.*
+The Hall had her at its center. Everyone who entered received the eye contact.
 
 ---
 
 ### Tethys
 
-*A Stone Warden caught her at the peak of the performance posture — arms raised, one leg extended, the form trained to exactness. She had been trying to buy time, to move, to do something useful. The stone took the performance and made it permanent.*
+A Stone Warden caught her at the peak of the performance posture — arms raised, one leg extended. She had been trying to buy time, to do something useful. A soldier said: "Hall lamp standard. The raised arms hold the lights."
 
-**Tethys:** "Someone will come—"
+The performance posture was already at the named height. The arms locked there. Everything she'd been trying to do — the performance, the delay, the effort — was now the lamp hold, and the lamp hold was the truth.
 
-*The Hall lamp standard had its fixture. Her raised arms held the lights for the whole room.*
+**Tethys:** "Someone will—"
+
+The Hall lamp standard had its fixture. Her raised arms held the lights for the whole room.
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the stronghold. The court staff frozen at their stations — the clerk at the desk, the steward in the corridor, the door attendants at the threshold.*
+The Queen walked the stronghold. The court staff frozen at their stations — the clerk at the desk, the steward in the corridor, the door attendants at the threshold.
 
-*"Leave them."*
+"Leave them."
 
-*She went to the three significant pieces.*
+She went to the three significant pieces.
 
-*Cecilia at the commander's desk.*
+Cecilia at the commander's desk.
 
-*"Confirmed."*
+"She oversees the desk. This is confirmed."
 
-*Guinivere at the hall's center.*
+Guinivere at the hall's center. The Queen met the eye contact briefly. She didn't comment on it.
 
-*She met the eye contact briefly. She didn't comment on it.*
+"She holds the room."
 
-*"Confirmed."*
+Tethys with arms at ceiling height.
 
-*Tethys with arms at ceiling height.*
+"The hall is lit by her."
 
-*"Confirmed."*
+She went through the rest quickly — the surviving Lilina group in their positions.
 
-*She went through the rest quickly — the surviving Lilina group in their positions, each noted in a word.*
+She reached Lilina. The robes had crumbled. The upward palms, less ash than last time. The fury and the calculation both in the set of the jaw.
 
-*She reached Lilina.*
-
-*The robes had crumbled. The upward palms, the less ash than last time. The calculation was visible in the set of the jaw alongside the fury.*
-
-*"Acquisition wing passage."*
+"Acquisition wing passage."
 
 **Lilina:** "Father—"
 
-*The grief and the fury in the same moment. The stone had both.*
+The grief and the fury in the same moment. The stone had both.
 
-*"Record all three Tier A acquisitions."*
+"Record the three primary acquisitions. Proceed."
 
-*She walked out.*
+She walked out.
