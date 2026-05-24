@@ -1100,6 +1100,34 @@ The log is complete."
 
 **Eirika:** *[the stone reaches her before the word]*
 
+*(If Lyn:)*
+
+*Lyn. The diminished count — covering fewer now. The lamp arms in the narrowing stance, the
+grief compressing with the group.*
+
+"Stronghold passage lamp — the arms light the inner route. Everyone who passes through this
+stronghold on either side passes through her."
+
+*The stone sets. The armor strips.*
+
+**Lyn:** "...keep moving—"
+
+*The stone. The passage holds.*
+
+*(If Lilina:)*
+
+*Lilina. The fury — persistent through the full approach. The open palms, the calculation running
+constantly now alongside the anger.*
+
+"Stronghold approach candle holder — the fury and the calculation light the inner passage. The
+candles at shin height."
+
+*The stone sets. The outer robe falls.*
+
+**Lilina:** "Not finished—"
+
+*The stone.*
+
 *She straightens. In the corner, the stone completes. Morrha is still.*
 
 "She stays where she stands. She chose the position. The aura continues."
@@ -1162,6 +1190,29 @@ chair armrests. The expression faces the room."
 
 **Eirika:** "...all of them."
 
+*(If Lyn:)*
+
+*Lyn. The gallery — the lamp arms hold the route through everything she was protecting. The
+grief is layered now: it contains what lines the walls.*
+
+"Gallery approach lamp — the arms hold the corridor through the collection. The light is hers."
+
+*The stone remains as it was.*
+
+**Lyn:** "...further—"
+
+*(If Lilina:)*
+
+*Lilina. The fury in the gallery. She sees what lines the walls. The calculation is more visible
+now — she is working out what is happening.*
+
+"Gallery floor candle holder — the open palms at shin height light the collection she is being
+added to. The fury watches the walls."
+
+*The stone remains as it was.*
+
+**Lilina:** "...not yet—"
+
 "The gallery is fuller."
 
 ---
@@ -1198,15 +1249,40 @@ entrances and announcements."
 
 *She reaches the lord.*
 
-"They made it this far." *She looks at the expression.* "The route is in the posture. The
-calculation was still running at the end. The guard was up."
+*(If Eirika:)*
 
-"Commander's study — behind the desk, facing the door. Every decision made in that office,
-made facing her."
+*Eirika. The commander's bearing — she came into enemy command territory and held the posture.
+The guard hands at armrest height. The expression quieter: the understanding has arrived.*
+
+"Commander's study — behind the desk, facing the door. The guard hands at armrest height. Every
+decision made in this office is made facing her authority."
+
+*The stone sets. The armor falls.*
+
+**Eirika:** "...I know."
+
+*(If Lyn:)*
+
+*Lyn. The lamp arms covering the command approach. The grief is carrying less now: fewer, but
+still covering them.*
+
+"Commander's hall lamp standard — the arms hold the lamp at the hall's entrance. Command is made
+by her light."
+
+*The stone sets. The armor strips.*
+
+**Lyn:** "...almost—"
+
+*(If Lilina:)*
+
+*Lilina. The fury in command territory — focused now, specific. The open palms, the reduced-ash
+level. She is close.*
+
+"Commander's study candle holder — the fury watches command. The open palms at shin height."
 
 *The stone sets.*
 
-**Lord:** "Don't stop—"
+**Lilina:** "This isn't over—"
 
 "Proceed."
 
@@ -1252,11 +1328,44 @@ it."
 
 "You came all the way down this hall." *A pause.* "That took everything."
 
-"Last alcove — she is the conclusion. Everything that came before leads here."
+*(If Eirika:)*
+
+*Eirika. At the end of the hall. The weight complete — she carried the full approach. The guard
+hands, the finished expression, the body that came all this way.*
+
+"Last alcove — she is the conclusion. The guard hands at armrest height, facing the full length
+of what was walked to reach her."
 
 *The stone sets.*
 
-**Lord:** "I'm not—"
+**Eirika:** "...I—"
+
+*The stone.*
+
+*(If Lyn:)*
+
+*Lyn. The final hall. The lamp arms at full corridor extension — still covering whatever was
+left of the approach.*
+
+"Hall end lamp standard — the arms hold the lamp at the corridor's end. The full length."
+
+*The stone sets.*
+
+**Lyn:** "...hold—"
+
+*The stone.*
+
+*(If Lilina:)*
+
+*Lilina. The very last persistence — small, sustained. The open palms, almost nothing left. She
+held the anger all the way down.*
+
+"Long hall floor candle holder — the open palms at shin height, the fury at every step. The
+candles light the approach to the final door."
+
+*The stone sets.*
+
+**Lilina:** "You haven't—"
 
 *The stone.*
 
