@@ -107,13 +107,23 @@ A map-wide environmental hazard introduced in Ch7. Deployed by Morrha; cannot be
 
 ### Chapter Defeat Scenes
 
-Every chapter has a defeat scene that plays when all player units are petrified or the lord is captured. The scene follows the standard collector inspection format (see petrification-compendium.md): approach, examination, silence, disposition.
+Every chapter has a defeat scene that plays when all player units are petrified or the lord is captured.
 
-**Tone:** The inspector does not rage or gloat. They comment on the pose, the expression, the body — then immediately assign the piece a use. The disposal decision is practical and delivered in the same breath as the appraisal: "she goes in the commander's study," "this one deploys at the south corridor — the expression helps," "put her behind the desk as a rest." The horror is in the mundanity. A person is being assigned furniture duty. The inspection ends the moment the use is decided, not when the inspector is satisfied with what they saw.
+**The Queen is the primary inspector in all chapters.** She has been pursuing the protagonists since the beginning and is personally present for every acquisition. Her lieutenants (The Hand, Morrha, the Gallery Curator) may be present and act, but the Queen closes every scene.
 
-The lord is always the featured piece in a defeat scene — the inspector's primary focus. Other newly captured units from the same chapter may be noted briefly before or after, but the lord receives the full four-beat treatment (approach, examination, silence, disposition).
+**The Queen's Designation mechanics apply** (see game-design.md — "The Queen's Designation"): she sees the use before the stone sets. Her designation speech names what the character IS, not what they will be. The stone sets on her word; armor and equipment crumble in the same instant. Each captured character has a brief last line before the stone completes.
 
-Each chapter entry below includes a brief defeat scene note specifying the inspector and the disposal beat. Full dialogue should be written using the tone and format established in petrification-compendium.md.
+**Scene structure** (per character):
+1. The Queen encounters the character — still in motion, or just caught
+2. She observes them briefly and already sees the object
+3. She names the designation (her speech — short, declarative, present-tense)
+4. The stone sets; armor strips away simultaneously
+5. Character's last words (brief — a fragment, a name, a word; the stone cuts it off)
+6. The Queen moves on, or briefly confirms
+
+**NPC treatment:** Every chapter has NPC petrifications alongside the player force. NPCs are handled in bulk — noted briefly in the setting block, assigned as structural fill. They are already architecture.
+
+Each chapter entry below includes a brief defeat scene note specifying the Queen's key designation and the primary disposal beat. Full dialogue is in defeat-scenes.md.
 
 For chapters where Eirika is the viewpoint lord: defeat = game over. The defeat scene plays as a final cutscene before the game-over screen.
 For chapters where Lyn or Lilina is the viewpoint lord: defeat triggers their respective lord defeat entries (see game-design.md) and imposes ongoing penalties.

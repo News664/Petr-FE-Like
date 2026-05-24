@@ -11,6 +11,7 @@
 - **Enemy side:** collector's detachment. Petrified characters are *acquisitions* — objects to be appraised, arranged, and displayed. The enemy is never cruel in a rage sense; they are cruel in the way a collector is cruel: clinical, appreciative, and completely indifferent to the person inside the stone.
 - **Key rule:** the enemy never treats a petrified character as a person. They comment on pose, expression, body, placement. "She" becomes "the piece" or "this one" or "it."
 - **Disposal and use:** The inspection always ends with an immediate decision about where the piece goes and what it does. Captured characters are assigned a function — furniture, decoration, corridor installation, battlefield deployment, trophy for a specific room or officer. The decision is practical and mundane: "she goes behind the commander's desk," "this one blocks the south corridor well," "deploy her at the chokepoint — the expression helps." The horror is in the immediacy and the ordinariness of being assigned a use. Chapter defeat scenes follow this pattern: the freshly captured lord or named unit is inspected, then disposed of, within the same breath.
+- **The Queen's perception:** She does not assess the protagonists as opponents. She sees what they already are — a lamp mount, a chair rest, a document pointer. The designation is her naming this fact aloud; the stone is the confirmation. From her perspective, the fight was just the interval between when she saw the object and when the stone confirmed it. When she looks at a fighter, she sees the installation.
 
 ---
 
@@ -72,6 +73,37 @@ Not morale-based — magically active. Forces STO-RES decay of 3/turn in a 3-til
 
 ---
 
+## The Queen's Designation
+
+The Queen possesses a personal ability distinct from the standard Gorgon Gaze system.
+
+**Designation**: She can observe any target and instantly pronounce what it will become — a specific object, fixture, or installation. The petrification finalizes immediately in the designated form, bypassing STO-RES entirely.
+
+### Properties
+
+- **Instant**: No STO-RES decay required. No resistance check. The moment the designation is named, the stone sets.
+- **Form-specific**: The stone finalizes to the designated use. The Queen does not select a use after examining a finished form — she sees the use first, names it, and the stone confirms her perception.
+- **Irreversible**: Sunstone Shards cannot reverse a Queen's designation. The form is permanently fixed.
+- **No dragon-blood exemption**: Very High STO-RES (Ninian, Myrrh, Fae) is not a factor. The Queen's ability bypasses STO-RES entirely. Characters with innate petrification resistance have no defense against the designation.
+
+### What Designation Feels Like in Play
+
+The Queen looks at a character and has already decided what they are. The fight preceding the designation is, from her perspective, the interval between when she saw the object and when the stone confirmed it. She is not moved by combat ability, resistance, or bargaining — she is simply waiting for the correct moment to name what she already sees.
+
+In defeat scenes: the designation precedes the stone. She names the use; the stone sets to that form; armor and equipment strip away in the same instant (non-living material, as with all Gaze contact). The character may speak a last word before the stone completes. The last word is always too short.
+
+### Enemy Weaker Version
+
+All enemy unit types (Stone Wardens, Gaze Hunters, Dark Witches, Petrification Cavaliers) carry a diluted form of the same ability:
+- Operates through the standard STO-RES system — decay per turn, not instant
+- Can apply a **Brand**: a passive partial designation that accelerates STO-RES decay toward that enemy's preferred form. The final stone still sets to whatever posture the target is in when STO-RES reaches 0 — the Brand is too weak to fully specify the form
+- Cannot bypass dragon-blood resistance; still requires STO-RES to reach 0
+- Cannot define the final form with precision
+
+This is why the protagonists are fundamentally unable to win the long game: even if they resist the standard Gaze indefinitely, the Queen's personal attention ends the engagement in a single moment.
+
+---
+
 ## Equipment Damage — Lore Note
 
 The Gorgon Gaze petrifies **living tissue only**. It is surgical about the body but catastrophically violent to anything non-living in its path. Armor, weapons, staves, and bows shatter or crumble on contact. Clothing scorches or tears at the edges.
@@ -79,6 +111,8 @@ The Gorgon Gaze petrifies **living tissue only**. It is surgical about the body 
 **Result:** The body is in *perfect* stone — flawless, every feature, every strand of hair preserved exactly. The gear is destroyed, sometimes completely. What remains is often just the hands in the shape of what they were holding.
 
 Enemy inspection comments focus on: **expression, pose, body, gesture** — the things preserved. Equipment is mentioned only as context ("the hands still curl around nothing," "the grip shape remains without the weapon"). This contrast — ruined gear around a perfect form — is the defining aesthetic of the collection.
+
+Under the Queen's Designation, this effect is total and immediate: the stone sets to the body and the armor crumbles in the same instant. The designated form is always clean — the equipment removal is a side effect of the designation's precision, not something the Queen causes manually afterward.
 
 ---
 
@@ -214,11 +248,19 @@ Captured statues deployed as map installations. Pedestal mechanic active.
 
 Still game over. The retreat has failed.
 
-*"A lord. Not just by birth — by bearing. The hands are in the guard position without the sword, which crumbled on contact. The hands don't know it's gone. That expression — not fear, disbelief. The bearing of someone who expected to fight back and ran out of options before she ran out of will. She goes at the center of the great reception hall. First thing anyone sees."*
+The Queen looks at her and already sees it: the guard position, the hands set for a sword that will crumble. She names it before the stone completes.
 
-**Eirika:** *...*
+*"Chair rest. The hands go at armrest height — the guard position is exactly the right form. She goes at the center of the reception hall."*
+
+*The stone sets. Armor crumbles.*
+
+**Eirika:** "I won't—"
+
+*The stone.*
 
 *"Good."*
+
+The expression the stone fixed: disbelief that deepened to something harder across each chapter — the progression is part of the piece. See defeat-scenes.md for chapter-specific expression notes.
 
 ---
 
@@ -226,17 +268,17 @@ Still game over. The retreat has failed.
 
 Effect: Serra (if alive) takes −2 STO-RES/turn for the rest of the game. Florina (if alive) gains +10 critical but −20 avoid — she fights recklessly. Lyn's captured statue emits Tier S aura on whatever map the enemy places it. All subsequent chapters with Lyn's statue on the map have it active permanently.
 
-*She walks around the piece slowly. The Wind Sword crumbled — only the grip remains, held in a guard posture.*
+The Queen looks at her for a moment. She sees the lamp standard — the arms already in the bracket position, the grief already the expression a lamp needs.
 
-"The sword is gone. Of course. The hands are still in the guard position — she was protecting someone. That's clear from the angle of the body. She put herself between the threat and whoever was behind her."
+*"Lamp standard. She goes where her allies have to pass. The light is hers and the grief is the fixture."*
 
-*She stops in front of the face.*
+*The stone sets. The Wind Sword crumbles to dust; only the grip shape remains in the stone hands.*
 
-"That expression isn't for me. She's not looking at me, she's looking at whoever she was protecting. The grief is there — the specific grief of someone who failed at the one thing that mattered. Not the fight. The protection."
+**Lyn:** "...go."
 
-**Lyn:** *...*
+*The stone.*
 
-"She'll go somewhere her allies have to pass. I want them to see it every time they move."
+The last word was not for the Queen. It was for whoever was behind her. Each chapter, the word changes slightly — the scope growing. See defeat-scenes.md for chapter-specific notes.
 
 ---
 
@@ -244,21 +286,17 @@ Effect: Serra (if alive) takes −2 STO-RES/turn for the rest of the game. Flori
 
 Effect: Morrha's chokepoint aura expands by 2 tiles globally for the rest of the game. All enemies gain +2 stats for the next chapter. Maps with both Lilina and Morrha's statues become nearly impassable without specific routing.
 
-*She approaches. Lilina is small. The fire tome is ash in the stone hands — the binding holds nothing.*
+The Queen looks at her and already sees it: the open palms, the tome burning through, the upward-release position. She names it.
 
-"She was casting. The tome is gone — burned through from the interrupted spell — but the hands are still in the release position. She was going to burn her way out."
+*"Candle holder. Floor level — the palms face upward, the candles at shin height. She goes where everyone passes to reach the objective."*
 
-*She leans close to the face. The expression is fury.*
+*The stone sets. The tome crumbles entirely to fine ash.*
 
-"Look at that. Not afraid. Furious. She was angry at me right up until the instant she couldn't be anything anymore. That's Hector's daughter — I've seen the portraits. Same jaw. Same absolute refusal to accept the situation."
+**Lilina:** "You—!"
 
-*A pause.*
+*The stone.*
 
-"The fury will be completely helpless forever. I find that a better outcome than fear would have been."
-
-**Lilina:** *...*
-
-"She goes where everyone has to pass her to reach the objective. Let the outrage watch them go."
+The fury the stone fixed: furious at the Queen, specifically, up to the last instant. Each chapter, the fury burns alongside something else — exhaustion, calculation, grief — the accumulation visible in the stone. See defeat-scenes.md for chapter-specific notes.
 
 ---
 
