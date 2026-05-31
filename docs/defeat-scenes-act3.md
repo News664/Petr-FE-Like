@@ -14,7 +14,7 @@
 
 *The convergence point had been a known location — both groups had planned to meet here. The enemy knew it too.*
 
-*The NPCs who had gathered at the meeting point for other reasons — a grain merchant, a factor with his ledgers, a scout from a third party who had been watching the road — were frozen at their tables and posts before the player groups arrived. The meeting point was occupied, but not by anyone who could speak.*
+*The NPCs who had gathered at the meeting point for other reasons — a grain merchant, a factor with her ledgers, a scout from a third party who had been watching the road — were frozen at their tables and posts before the player groups arrived. The meeting point was occupied, but not by anyone who could speak.*
 
 *The Collector units moved through the perimeter. Each one walked to a newly petrified player unit — not running, unhurried — and touched the stone. The touch transferred the capture status. The Collector moved to the next.*
 
@@ -24,13 +24,15 @@
 
 ### Tana
 
-*A Standard Gorgon stepped around the corner and caught her mid-step — the weight-forward stride, committed, the momentum all east. An officer nearby said, not even glancing at her: "East gallery. The stride holds. The direction stays."*
+*She was driving east on foot — the recovered pegasus left at the assembly point, the lance carried at the run, the meeting point still a sprint away. She had the angle on a Standard Gorgon coming out of the side corridor and was reaching to strike.*
 
-*She felt it before the stone moved. She knew what the definition landing felt like and she pulled against it anyway.*
+*The Gorgon stepped around the corner and caught her mid-step — the weight-forward stride, committed, the momentum all east. An officer nearby said, not even glancing at her: "East gallery. The stride holds. The direction stays."*
 
-**Tana:** "Again—?!"
+*She felt it before the stone moved. She tried to bring the lance through the strike. The lance arm wouldn't fold for the cut — the stride held the body forward, the arms held the weapon at travel-angle. The strike collapsed into the held east-facing of a marker. She pulled against it. Every pull confirmed the named direction.*
 
-*The stone completed. East gallery. The stride still said she was going somewhere.*
+**Tana:** "Again — not again—!"
+
+*The stone completed. The lance crumbled. The armor surfaced and fell. East gallery. The stride still said she was going somewhere.*
 
 ---
 
@@ -52,13 +54,13 @@
 
 *"Corridor lamp. Wider base. She lights both groups."*
 
-**Lyn:** "...I tried."
+**Lyn:** *[silence]*
 
 *She found Eirika. The guard position. The weight had settled — the disbelief gone. Something quieter. Stone-clean.*
 
 *"Map room. Reading table height. She marks the table."*
 
-**Eirika:** "...is this it?"
+**Eirika:** *[silence]*
 
 *"The meeting point is ours."*
 
@@ -108,7 +110,7 @@
 
 *"Collection wing entrance. Doorpost height. She marks what she was trying to protect."*
 
-**Eirika:** "The others—"
+**Eirika:** *[silence]*
 
 *(If Lyn:)*
 
@@ -116,7 +118,7 @@
 
 *"Collection wing passage. She lights everyone who made it this far."*
 
-**Lyn:** "All of you—"
+**Lyn:** *[silence]*
 
 *She left.*
 
@@ -138,13 +140,15 @@
 
 ### Sophia
 
-*She was looking to the side — not at the threat, at something specific, to her right — when the Dark Witch's secondary shot found her. A soldier nearby said, watching her fixed gaze: "Reading room. She watches whatever is to the right of whoever sits to read."*
+*She had the tome open at a page she had read before. The cast was forming slowly — her style had always been slow — the dark magic gathering in front of her hands. She was looking to the side as she shaped it, not at the threat in front, at something specific to her right, the way she always had when she cast.*
 
-*She had already known the sight line would be there. She had known what she would be watching and from where.*
+*The Dark Witch's secondary shot found her in the held cast. A soldier nearby said, watching her fixed gaze: "Reading room. She watches whatever is to the right of whoever sits to read."*
 
-**Sophia:** "I knew this would—"
+*She had already known the sight line would be there. She had known what she would be watching and from where. She tried to release the cast that was still in her hands. The hands wouldn't close — the cast scattered into the room without going anywhere it had been aimed. She tried to turn her head to face forward. The head stayed at the named angle, fixed on the right of someone who was not yet sitting.*
 
-*The stone completed. They placed her where the sight line fell over the right shoulder of whoever sat to read. She was watching something that wasn't there. The reader would face the question.*
+**Sophia:** "I knew this would — I'm still—"
+
+*The stone completed. The tome burned away in front of the held hands. The dark robes surfaced and fell. They placed her where the sight line fell over the right shoulder of whoever sat to read. She was watching something that wasn't there. The reader would face the question.*
 
 ---
 
@@ -168,7 +172,7 @@
 
 *"Reception hall. She holds the armrests."*
 
-**Eirika:** "I'm sorry."
+**Eirika:** *[silence]*
 
 *(If Lyn:)*
 
@@ -176,7 +180,7 @@
 
 *"Corridor lamp. The contradiction is the fixture."*
 
-**Lyn:** "I was trying—"
+**Lyn:** *[silence]*
 
 *"The sight line points where it points. This room is finished."*
 
@@ -208,25 +212,27 @@
 
 ### Marisa
 
-*A Stone Warden found her in the pre-strike moment — the two-handed hold, relaxed grip, the decision not yet made. A soldier said: "Weapon display. The relaxed hands hold whatever goes in them."*
+*She was in the pre-strike moment — the two-handed hold, relaxed grip, the breath at the bottom of the exhale, the decision between three possible cuts not yet made. The Stone Warden in front of her was the next move.*
 
-*She felt the hold become permanent around the open decision.*
+*A soldier said: "Weapon display. The relaxed hands hold whatever goes in them."*
 
-**Marisa:** "...mm."
+*She felt the hold become permanent around the open decision. She tried to commit to the cut — any of the three. The hands wouldn't tighten on the hilt; the relaxed grip was now the only grip available. The decision stayed open inside a body that had been claimed.*
 
-*The stone completed. She didn't seem particularly troubled. Weapon display. The relaxed hands held whatever was placed in them.*
+**Marisa:** "...mm — fine."
+
+*The stone completed. The blade crumbled in the locked hands. The travel coat surfaced and fell. She didn't seem particularly troubled. Weapon display. The relaxed hands held whatever was placed in them.*
 
 ---
 
 ### Isadora
 
-*The Dark Witch's Gaze found her in the formal upright — the knight's trained posture, precise. A soldier said: "Lamp post base. The formal upright at the correct height."*
+*She held the formal knight's upright — sword in the correct presentation, head level, the parade-ground discipline that had outlasted three commanders. The Dark Witch's Gaze found her in the form. A soldier said: "Lamp post base. The formal upright at the correct height."*
 
-*She felt each line of the form confirm — the posture being named was the posture she was already in, and the world receiving the name meant the posture was now only that.*
+*She felt each line of the form confirm — the posture being named was the posture she was already in, and the world receiving the name meant the posture was now only that. She tried to bring the sword forward into ready. The arm wouldn't fold from the presentation; the formal upright was now the only stance available. The strike she had been holding in reserve had nowhere to go.*
 
-**Isadora:** "The order—"
+**Isadora:** "The order — for the—"
 
-*The stone completed. Lamp post base. The formal upright at the correct height.*
+*The stone completed. The sword crumbled in the presented hand. The plate armor surfaced and fell. Lamp post base. The formal upright at the correct height.*
 
 ---
 
@@ -274,15 +280,15 @@
 
 *"Stronghold passage lamp. She lights whoever is left."*
 
-**Lyn:** "...keep moving—"
+**Lyn:** *[silence]*
 
 *(If Lilina:)*
 
-*The fury still running. The calculation constant now.*
+*The fury still in the stone. The calculation in the stone with it.*
 
 *"Stronghold approach. Candle holder."*
 
-**Lilina:** "Not finished—"
+**Lilina:** *[silence]*
 
 *She straightened.*
 

@@ -30,15 +30,15 @@
 
 ### Karla
 
-*She was almost sheathing — the wrist turning toward the scabbard, the grip loose, the habit of years making the movement automatic. She thought the immediate threat was handled. A Stone Warden stepped in and touched the turning wrist.*
+*She had just finished the cut — the third one in the sequence, the one her brother had taught her decades ago. The Gorgon she had been engaging was already down. She was almost sheathing — the wrist turning toward the scabbard, the grip loose, the habit of years making the movement automatic. She thought the immediate threat was handled.*
 
-*A soldier said: "Reading chair. The wrist at the cradle angle. The hand holds the decanter."*
+*A Stone Warden stepped in and touched the turning wrist. A soldier said: "Reading chair. The wrist at the cradle angle. The hand holds the decanter."*
 
-*She felt the wrist stop turning. Not lock — stop, as if the definition had intercepted the motion mid-arc and redirected it to the named angle.*
+*She felt the wrist stop turning. Not lock — stop, as if the definition had intercepted the motion mid-arc and redirected it to the named angle. She tried to reverse the wrist back toward the hilt for one more cut. The wrist held the cradle. The sheathing motion she had begun finished at the named height with the hand open instead of closed.*
 
-**Karla:** "...my wrist—"
+**Karla:** "...my wrist — what—"
 
-*The stone completed. A soldier set a wine bottle in the cradle of her turned wrist. She was placed beside the reading chair. The chair had its service.*
+*The stone completed. The sword crumbled in the open hand. The travel coat surfaced and fell. A soldier set a wine bottle in the cradle of her turned wrist. She was placed beside the reading chair. The chair had its service.*
 
 ---
 
@@ -58,25 +58,23 @@
 
 *"Central gallery. The guard hands serve the viewing chair armrests. Every piece in this gallery is viewed from a seat she is holding."*
 
-**Eirika:** "...all of them."
-
-*She was looking at the walls while she said it.*
+**Eirika:** *[silence — the gaze still on the walls, no breath behind it]*
 
 *(If Lyn:)*
 
-*The lamp arms, covering the approach.*
+*The lamp arms, covering the approach. Stone-clean.*
 
 *"Gallery approach lamp. She covers the approach."*
 
-**Lyn:** "...further—"
+**Lyn:** *[silence]*
 
 *(If Lilina:)*
 
-*The open palms. The fury still going.*
+*The open palms. The fury held in the jaw, the jaw stone-clean.*
 
 *"Gallery floor. Candle holder."*
 
-**Lilina:** "...not yet—"
+**Lilina:** *[silence]*
 
 *"The gallery is fuller."*
 
@@ -92,13 +90,13 @@
 
 *The commander's hall had been a working space before the Queen's forces took it. The officer corps who had staffed it were still there.*
 
-*Not all of them had been captured in combat. Some had been named by the advance soldiers before the battle even began — the Hand had come through the hall an hour earlier and walked the positions, speaking as he went.*
+*Not all of them had been captured in combat. Some had been named by the advance soldiers before the battle even began — the Hand had come through the hall an hour earlier and walked the positions, speaking as she went.*
 
 *"Desk surface. Lamp post. Doorpost right, doorpost left."*
 
-*He had pointed at people who were still at their stations, still trying to continue working, still hoping the advance would pass. He had pointed at them and named the object they would become.*
+*She had pointed at people who were still at their stations, still trying to continue working, still hoping the advance would pass. She had pointed at them and named the object they would become.*
 
-*The stone had followed behind him, catching each one as the definition landed.*
+*The stone had followed behind her, catching each one as the definition landed.*
 
 *By the time the player group arrived, the hall's staff were already in their positions. The desks still had papers on them. The papers were being held in place by a stone forearm.*
 
@@ -106,25 +104,29 @@
 
 ### Fiora
 
-*She was directing movement from above — no mount, no weapon, just the pointing arm indicating where the unit below should go. An Aerial Gorgon came in from above and a rider said: "Ceiling direction indicator. The arm holds whatever points down."*
+*Her pegasus had been brought down two turns ago. She was on a balcony above the hall, no mount, the broken lance already discarded, directing the unit below with the only thing she had left — the pointing arm and the eldest sister's voice the others would obey. The lane reroute was already happening because she had named it.*
 
-*She felt the pointing arm lock — the direction she'd been giving becoming the direction the arm now permanently gave.*
+*An Aerial Gorgon came in from above and the rider said: "Ceiling direction indicator. The arm holds whatever points down."*
 
-**Fiora:** "...I'm still pointing—"
+*She felt the pointing arm lock — the direction she'd been giving becoming the direction the arm now permanently gave. She tried to lower the arm to redirect the unit through the alternate route. The arm wouldn't lower; the wrist was already at indicator-angle. The voice that had been carrying the orders went into a throat that was closing. The unit below received their last command and then no further commands.*
 
-*The stone completed. Maps were hung from her pointing hand. The briefing room took its directions from her.*
+**Fiora:** "...I'm still pointing — listen—"
+
+*The stone completed. The riding leathers surfaced and fell. Maps were hung from her pointing hand. The briefing room took its directions from her.*
 
 ---
 
 ### L'Arachel
 
-*The Stone Warden caught her mid-declaration — head back, chin elevated, arm raised in the full oratory gesture. A soldier said: "Banner holder. The raised arm holds the standard. She announces."*
+*She was mid-declaration — head back, chin elevated, the staff raised in the full oratory gesture that her sermons always ended on, the heal already discharged into the line and the announcement of what came next still on her lips. The hall had been listening, briefly.*
 
-*She felt the oratory posture become the banner-hold — the arm raising further because banners needed higher, the jaw committing because the declaration was what she was, the definition confirming everything the posture had already been reaching toward.*
+*The Stone Warden caught her in the gesture. A soldier said: "Banner holder. The raised arm holds the standard. She announces."*
 
-**L'Arachel:** "The Sacred Stones will prevail—"
+*She felt the oratory posture become the banner-hold — the arm raising further because banners needed higher, the jaw committing because the declaration was what she was. She tried to bring the staff down for one more cast. The arm wouldn't lower from the named height. The next heal that was forming dissipated above her head. The declaration she had been about to finish became the held shape of an announcement no one was reading yet.*
 
-*The stone completed. The raised arm held the hanging standard. She had been built for announcements. She was one now.*
+**L'Arachel:** "The Sacred Stones will prevail — they will—"
+
+*The stone completed. The staff crumbled in the raised hand. The robes surfaced and fell. The raised arm held the hanging standard. She had been built for announcements. She was one now.*
 
 ---
 
@@ -146,23 +148,23 @@
 
 *"Commander's study. Behind the desk. The guard hands serve the desk. Every order written here is written under her watch."*
 
-**Eirika:** "...I know."
+**Eirika:** *[silence]*
 
 *(If Lyn:)*
 
-*The lamp arms, covering the approach.*
+*The lamp arms, covering the approach. Stone-clean.*
 
 *"Commander's hall lamp standard. She lights the hall."*
 
-**Lyn:** "...almost—"
+**Lyn:** *[silence]*
 
 *(If Lilina:)*
 
-*The fury focused now. Specific target.*
+*The fury focused into the stone. Specific target inside it.*
 
 *"Commander's study. Candle holder."*
 
-**Lilina:** "This isn't over—"
+**Lilina:** *[silence]*
 
 *"Proceed."*
 
@@ -190,25 +192,29 @@
 
 ### Lute
 
-*She detonated the tome rather than letting it crumble — both palms forward, full output. An officer watching said, as the blast was still happening: "Reading desk. The palms are the surface. Leave the pages."*
+*She had calculated the optimal final output an hour ago. The tome was opened to the maximum-burn page; both palms were forward; the cast was already at the limit of what the binding could carry. She detonated the tome rather than letting it crumble — the conclusion of an analysis, not an emotion.*
 
-*The stone locked the extension at the moment of the detonation — both palms staying forward because forward had been named, the scattered stone pages staying because the definition had said leave them.*
+*An officer watching said, as the blast was still happening: "Reading desk. The palms are the surface. Leave the pages."*
 
-**Lute:** "This is merely a temporary—"
+*The stone locked the extension at the moment of the detonation — both palms staying forward because forward had been named, the scattered stone pages staying because the definition had said leave them. She tried to bring the palms together to seal a final cast from whatever residue was left. The palms held the surface-position. The detonation finished against hands that were no longer hands for casting; they were the desk now.*
 
-*The stone completed. Reading desk. The extended palms were the surface. A soldier was told not to clear the scattered stone pages — they marked the working boundary.*
+**Lute:** "This is merely a temporary — the calculation—"
+
+*The stone completed. What remained of the tome had already crumbled into the scattered pages on the floor. The robe surfaced and fell. Reading desk. The extended palms were the surface. A soldier was told not to clear the scattered stone pages — they marked the working boundary.*
 
 ---
 
 ### Louise
 
-*She held perfect form through the end — every line exactly right, the draw immaculate. The Gaze Hunter found her in the perfect form. A soldier said, almost reluctantly: "Curtain tieback. The extended bow arm hooks the curtain at window height."*
+*She held perfect form through the end — every line exactly right, the draw immaculate, the breath at the bottom of the hold the way the academy had taught and her decades had refined. The shot was on a target down the hall and the angle was exact.*
 
-*She held the form even as it stopped being a choice. The arm at window height, extended at the angle that would hook the curtain.*
+*The Gaze Hunter found her in the perfect form. A soldier said, almost reluctantly: "Curtain tieback. The extended bow arm hooks the curtain at window height."*
 
-**Louise:** "...graceful."
+*She held the form even as it stopped being a choice. The arm at window height, extended at the angle that would hook the curtain. She tried to release the shot she had been holding. The release didn't come — the wrist was already at the hook angle. The arrow stayed in the draw the room had asked the form to hold.*
 
-*The word was for herself. The stone completed. The curtain tieback had its hook. Every window in the hall let the light in through her precision.*
+**Louise:** "...graceful — even now—"
+
+*The word was for herself. The stone completed. The bowstring snapped. The bow and quiver crumbled. The hunting silks surfaced and fell. The curtain tieback had its hook. Every window in the hall let the light in through her precision.*
 
 ---
 
@@ -232,23 +238,23 @@
 
 *"Last alcove. The guard hands face the length of the hall. She guards all of it."*
 
-**Eirika:** "...I—"
+**Eirika:** *[silence]*
 
 *(If Lyn:)*
 
-*The lamp arms at full corridor extension.*
+*The lamp arms at full corridor extension. Stone-clean.*
 
 *"Hall end. She lights the full length."*
 
-**Lyn:** "...hold—"
+**Lyn:** *[silence]*
 
 *(If Lilina:)*
 
-*The open palms. Almost nothing left. The fury still going.*
+*The open palms. Almost nothing left in the ash. The fury held in the stone.*
 
 *"Long hall floor. Shin height. Candle holder."*
 
-**Lilina:** "You haven't—"
+**Lilina:** *[silence]*
 
 *"It's a good hall."*
 
@@ -282,7 +288,7 @@
 
 *The personal guard cornered her — Fae had been trying to find a way out of the room and there wasn't one. Very small. Arms slightly raised, not in any fighting posture, just raised in the way of someone who doesn't understand what is happening.*
 
-*The guard's definition was too weak to take hold. Fae's nature resisted the named form.*
+*The guard's definition was too weak to take hold. Fae's nature resisted the named form. Each soldier's word slid off her.*
 
 *The Queen came.*
 
@@ -290,29 +296,29 @@
 
 *"Bookend."*
 
-*One word. The stone locked immediately — the raised hands bracketing the space at the height the word had named, the confused expression preserved because nothing had been said about the expression.*
+*One word. The stone began to lock from the feet up — the raised hands rising to the bracket-height the word had named, the dragonstone slipping from a small grip that was opening, not closing.*
 
-**Fae:** "...scary."
+**Fae:** "...scary — I don't—"
 
-*She was placed on the reading shelf between the books. The small raised hands bracketed what was between them. The shelf had its bracket.*
+*The stone completed. The dragonstone crumbled to nothing in the small open hands. The dress surfaced and fell. She was placed on the reading shelf between the books. The small raised hands bracketed what was between them. The shelf had its bracket. The confused expression remained — nothing had been said about the expression.*
 
 ---
 
 ### Ninian
 
-*She was dancing. She had known since she entered the room what was coming. She danced anyway. The dragonstone was already gone. Her arms were raised and extended, one leg extended behind, the weight controlled, the form the expression of many years of trained movement.*
+*She was dancing. She had known since she entered the room what was coming. She danced anyway. The dragonstone she had been carrying was gone — taken from her at the door. Her arms were raised and extended, one leg extended behind, the weight controlled, the form the expression of many years of trained movement.*
 
-*She was looking at someone in front of her when the Queen came to stand there.*
+*She was looking at someone in front of her — at where someone would be — when the Queen came to stand there.*
 
 *The Queen looked at her.*
 
 *"Trophy room lamp standard."*
 
-*The stone locked immediately. The dragonstone crumbled to nothing — no fragments. The dancer's form at ceiling height.*
+*The stone began to lock from the extended foot upward. The dance was almost complete; she tried to bring it through to the close. The arms wouldn't lower from the named ceiling-height. The step that should have followed didn't follow.*
 
-**Ninian:** "I'm sorry—"
+**Ninian:** "I'm sorry — I—"
 
-*The stone.*
+*The stone completed. The dancer's robes surfaced and fell. The dancer's form held at ceiling height. There were no fragments — the dragonstone had been gone before the lock.*
 
 *The Queen stood in front of the face for a moment.*
 
@@ -342,23 +348,23 @@
 
 *"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding."*
 
-**Eirika:** "...yes."
+**Eirika:** *[silence]*
 
 *(If Lyn:)*
 
-*The wide stance, the lamp arms.*
+*The wide stance, the lamp arms. Stone-clean.*
 
 *"Beside the throne. Her side. She lights the throne."*
 
-**Lyn:** "I tried to give you light."
+**Lyn:** *[silence — the light is the only word she has now]*
 
 *(If Lilina:)*
 
-*The small persistent fury.*
+*The small persistent fury held in the stone.*
 
 *"Other side. The candles at shin height."*
 
-**Lilina:** "You haven't won."
+**Lilina:** *[silence]*
 
 *"Almost everything is here."*
 
@@ -384,17 +390,19 @@
 
 ### Myrrh (if not rescued)
 
-*The Queen's guard secured the side alcove before the chapter's main engagement. The Queen came to her personally.*
+*The Queen's guard secured the side alcove before the chapter's main engagement. Myrrh stood in it, very small, the dragonstone gone from her hands hours ago — the hands were still holding the shape of it. She had been trying not to move. The trying had become her whole posture.*
+
+*The Queen came to her personally.*
 
 *She looked at Myrrh's hands — the shape of holding something that wasn't there.*
 
 *"Alcove. The hands closed around what's absent."*
 
-*The stone locked immediately.*
+*The stone began to lock from the small feet up. She tried to bring the hands down to her sides — the absence in them was no longer something she wanted to hold. The hands stayed closed around the absent shape. The trying-not-to-move that had been her posture was now her form.*
 
-**Myrrh:** *[already silent]*
+**Myrrh:** *[already silent — she had stopped speaking when they took the stone]*
 
-*The side alcove had its figure. The absent dragonstone left the hands in the shape of protection around nothing. The alcove had always had this.*
+*The stone completed. The dress surfaced and fell. The side alcove had its figure. The absent dragonstone left the hands in the shape of protection around nothing. The alcove had always had this.*
 
 ---
 
@@ -434,23 +442,23 @@
 
 *(If Lyn:)*
 
-*The final width. Covering whoever came with her to the end.*
+*The final width. Covering whoever came with her to the end. Stone-clean.*
 
 *"Beside the throne. Her side. She lights what remains."*
 
 *The stone remained.*
 
-**Lyn:** "...I tried."
+**Lyn:** *[silence — the trying had been the whole life and the stone held that]*
 
 *(If Lilina:)*
 
-*Near-empty palms. The fury still going — smaller, specific, down to its last.*
+*Near-empty palms. The fury held in the jaw, the jaw stone-clean.*
 
 *"Other side. Both sides lit."*
 
 *The stone remained.*
 
-**Lilina:** "...not yet."
+**Lilina:** *[silence]*
 
 *She returned to the throne.*
 
