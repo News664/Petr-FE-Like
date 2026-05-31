@@ -56,25 +56,29 @@
 
 *The guard position. The expression complete. The armor gone.*
 
-*"Central gallery. The guard hands serve the viewing chair armrests. Every piece in this gallery is viewed from a seat she is holding."*
+*(If Eirika survived prior chapters:)*
 
-**Eirika:** *[silence — the gaze still on the walls, no breath behind it]*
+*The guard position. The expression complete — past the resolve, past the disbelief, into a stillness that had recognized the gallery for what it was. The armor gone. The hands at viewing-chair height. Eirika had walked the gallery looking at every fixture and naming them silently as she went. She had reached the central viewing room and taken the guard position at the seat in front of the wall display because the seat in front of the wall display had been waiting for her.*
 
-*(If Lyn:)*
+*"Central gallery. The guard hands serve the viewing chair armrests. Every piece in this gallery is viewed from a seat she is holding. The viewer sits between her hands. The pieces she has been recognizing are now the pieces she presents to the next viewer."*
 
-*The lamp arms, covering the approach. Stone-clean.*
+**Eirika:** *[silence — the gaze still on the walls, no breath behind it, the named faces continuing to be named inside a head that no longer named anything]*
 
-*"Gallery approach lamp. She covers the approach."*
+*(If Lyn survived prior chapters:)*
 
-**Lyn:** *[silence]*
+*The lamp arms, covering the approach. Stone-clean. Lyn had taken the position at the gallery's approach corridor because the approach was where allies would come through if any were coming. None had been coming. She had held the position anyway. The light her arms now held lit a corridor down which no one would arrive.*
 
-*(If Lilina:)*
+*"Gallery approach lamp. She covers the approach. The approach is empty. The light is for whoever might still come, and for no one, because no one is coming."*
 
-*The open palms. The fury held in the jaw, the jaw stone-clean.*
+**Lyn:** *[silence — the approach was the only thing left to cover, and covering it had been the only thing left to do, and the only thing was now permanent]*
 
-*"Gallery floor. Candle holder."*
+*(If Lilina survived prior chapters:)*
 
-**Lilina:** *[silence]*
+*The open palms. The fury held in the jaw, the jaw stone-clean. Lilina had stopped trying to cast two corridors ago — the residue was gone, the inheritance had nothing left to draw on. She had crouched at the gallery floor at shin height because the candle position was the only position she could still take that was hers to choose.*
+
+*"Gallery floor. Candle holder. The gallery has its low light."*
+
+**Lilina:** *[silence — the choosing had been hers, and the choosing had been the room's plan all along]*
 
 *"The gallery is fuller."*
 
@@ -146,25 +150,29 @@
 
 *The guard position. The understanding arrived and quiet.*
 
-*"Commander's study. Behind the desk. The guard hands serve the desk. Every order written here is written under her watch."*
+*(If Eirika survived prior chapters:)*
 
-**Eirika:** *[silence]*
+*The guard position. The understanding arrived and quiet. Stone-clean. Eirika had walked into the commander's study expecting to find a person to fight and had found instead the chair where Cecilia was already sitting at the desk. She had stopped in the doorway. She had taken the guard position behind the desk because the desk was where the orders would be issued from and she had decided that no order issued from this desk should pass without her watching it.*
 
-*(If Lyn:)*
+*"Commander's study. Behind the desk. The guard hands serve the desk. Every order written here is written under her watch. The Renais lord oversees the room from which the orders against Renais are now issued."*
 
-*The lamp arms, covering the approach. Stone-clean.*
+**Eirika:** *[silence — the orders against her own country would be written above her hands for the rest of the war, and the war would be long]*
 
-*"Commander's hall lamp standard. She lights the hall."*
+*(If Lyn survived prior chapters:)*
 
-**Lyn:** *[silence]*
+*The lamp arms, covering the approach. Stone-clean. Lyn had taken the position in the commander's hall — the long corridor leading to the study — because the corridor was where reinforcements would come down. The reinforcements had not come. The corridor was empty. The arms held the lamp anyway.*
 
-*(If Lilina:)*
+*"Commander's hall lamp standard. She lights the hall. The reinforcements who would have walked this corridor are corridor lamps in other corridors. The corridor stays lit."*
 
-*The fury focused into the stone. Specific target inside it.*
+**Lyn:** *[silence — the corridor was the last corridor she had been able to hold; the holding was permanent and the corridor was empty]*
 
-*"Commander's study. Candle holder."*
+*(If Lilina survived prior chapters:)*
 
-**Lilina:** *[silence]*
+*The fury focused into the stone. Specific target inside it — the desk Cecilia sat behind, the orders Cecilia was now signing under Eirika's hands. Lilina had taken the candle position in the corner of the study itself because she had wanted to be in the same room as the desk that wrote against her country. The Queen had received the placement and approved it.*
+
+*"Commander's study. Candle holder. The candle is at shin height in the corner that the desk reads from in low light. The House of Ostia lights the orders against the House of Ostia."*
+
+**Lilina:** *[silence — the fury was permanent, and the permanence was the room's wall sconce]*
 
 *"Proceed."*
 
@@ -236,25 +244,29 @@
 
 *The guard position. The weight that had carried the whole approach.*
 
-*"Last alcove. The guard hands face the length of the hall. She guards all of it."*
+*(If Eirika survived prior chapters:)*
 
-**Eirika:** *[silence]*
+*The guard position. The weight that had carried the whole approach to the long hall — the chapters of cumulative loss, the corridors of recognized fixtures, the friends she had walked past without being able to mourn — all of it had settled into the posture. Stone-clean. Eirika had reached the last alcove of the long hall and turned to face the length of the room because the length of the room was what she had been walking past for two chapters and she had decided to be the figure at the end who watched all of it at once.*
 
-*(If Lyn:)*
+*"Last alcove. The guard hands face the length of the hall. She guards all of it. Every piece in the long hall is watched by her. The watching is permanent and the watching changes nothing."*
 
-*The lamp arms at full corridor extension. Stone-clean.*
+**Eirika:** *[silence — the length of the hall held every face she had known by name; she would watch all of them, forever, and none of them would notice]*
 
-*"Hall end. She lights the full length."*
+*(If Lyn survived prior chapters:)*
 
-**Lyn:** *[silence]*
+*The lamp arms at full corridor extension — wider than any prior chapter, wider than the convergence point, wider than the collection wing. The arms had been adapting their bracket to the corridor's width since the village in Side Ch2A, and the long hall's width was the widest the body could be asked for. Stone-clean.*
 
-*(If Lilina:)*
+*"Hall end. She lights the full length. The full length of the long hall — entry to terminal alcove — runs through her bracket. The light reaches every fixture."*
 
-*The open palms. Almost nothing left in the ash. The fury held in the stone.*
+**Lyn:** *[silence — every fixture she now lit had been an ally; the lighting was the closest thing to keeping watch over them that the stone could offer]*
 
-*"Long hall floor. Shin height. Candle holder."*
+*(If Lilina survived prior chapters:)*
 
-**Lilina:** *[silence]*
+*The open palms. Almost nothing left in the ash on the floor — the inheritance had been spent across four chapters and the last residue was a handful of grey at her boots. The fury held in the stone the way a coal holds heat after the fire is out.*
+
+*"Long hall floor. Shin height. Candle holder. The candle is the lowest light in the hall. The room reads by it at the last hour of every day."*
+
+**Lilina:** *[silence — the hour at which the candle would be needed had not yet arrived; the candle would be lit every evening for the rest of time]*
 
 *"It's a good hall."*
 
@@ -306,25 +318,45 @@
 
 ### Ninian
 
-*She was dancing. She had known since she entered the room what was coming. She danced anyway. The dragonstone she had been carrying was gone — taken from her at the door. Her arms were raised and extended, one leg extended behind, the weight controlled, the form the expression of many years of trained movement.*
+*She was dancing.*
 
-*She was looking at someone in front of her — at where someone would be — when the Queen came to stand there.*
+*She had known what would happen the moment she entered the trophy room. She had walked into it with both eyes open because she had understood that there was no door out of this room that did not pass through what was about to happen. The dragonstone had been taken from her at the threshold — by a guard with gloved hands who had not looked at her face. The dragon-blood inheritance that had carried her through every prior definition was still in her; the stone had been the focusing piece, not the source. Without the stone she could not transform. With or without the stone she could still resist the named form, the way the line of Arcadia had always resisted it.*
 
-*The Queen looked at her.*
+*So she danced. The dance was the inheritance taking the shape the body had been given. The dance was the answer to everything the room contained.*
+
+*The arms were raised and extended. One leg was extended behind her in the long final arc her brother had taught her, in a country that no longer existed, on a stage that had been ash for a thousand years. The weight was controlled. The form was every year of trained movement she had ever put into her body, called up at once, offered to a room that had not asked for it.*
+
+*She was looking at where someone would be standing — the dance always had a recipient in its sight line, even if the recipient was no one — when the Queen came to stand in that place.*
+
+*The Queen looked at her for a long moment. The personal guard's prior definitions had slid off Ninian like water; everyone in the room had watched them fail. The Queen had watched them fail. The Queen was not a guard.*
 
 *"Trophy room lamp standard."*
 
-*The stone began to lock from the extended foot upward. The dance was almost complete; she tried to bring it through to the close. The arms wouldn't lower from the named ceiling-height. The step that should have followed didn't follow.*
+*Two words.*
 
-**Ninian:** "I'm sorry — I—"
+*The inheritance, which had not bent for a soldier or an officer or the Hand, bent for the Queen. It did not break — it did not have the option to break — it simply received the naming as if the naming were older than the inheritance, and accepted that it was. The stone began to lock from the extended foot upward, at a speed the dance could not outrun.*
 
-*The stone completed. The dancer's robes surfaced and fell. The dancer's form held at ceiling height. There were no fragments — the dragonstone had been gone before the lock.*
+*Ninian felt it. She had felt every prior definition try and fail and pass through her, the way the river passes through fingers. This one did not pass. This one took the fingers and made them part of the riverbed.*
 
-*The Queen stood in front of the face for a moment.*
+*She tried to bring the dance through to the close. The arms would not lower from the named ceiling-height. She tried to step forward into the next phrase. The extended foot was already stone. She tried to look at the Queen — to look at the face of the person who had finally been able to do this, to memorize that face, to keep something of the moment that was happening to her inside the part of her that was still her. The head stayed at the dance's angle. The eyes stayed on the empty space the dance had been performed for.*
 
-*"The form. The expression. The goodbye to whoever was standing here." She looked at the sight line. "The room is lit by this."*
+*She tried to call her brother's name. Her brother had been ash for a thousand years and she had been carrying his name through every century since. The throat closed around the name. The name stayed inside her chest, where it had always been, and would now stay there permanently.*
 
-*She stepped back.*
+*She tried, at the last instant, to apologize — to Eliwood, to Roy, to everyone who had loved her into believing she was something other than what this room was about to make her.*
+
+**Ninian:** "I'm sorry — I'm sorry — Eliwood—"
+
+*The stone completed at the apex of the dance.*
+
+*The dancer's robes surfaced and fell — the layered silks the village seamstresses had stitched for her in three different countries, the embroidery her brother had drawn for her on the inside of the collar, all of it surfaced and fell to the floor and turned to dust as the stone closed. There were no other fragments. The dragonstone had been taken before the lock. The inheritance had been the body itself, and the body was now the lamp.*
+
+*The dance held at ceiling height. The leg arc. The extended arms. The expression that had been about to finish a sentence, the eyes still on the empty space the dance had named.*
+
+*The Queen stood in front of the face for a long moment.*
+
+*"The form. The expression. The goodbye to whoever was standing here." She looked at the sight line. "The room is lit by this. The dancer of the dragon-line is the trophy room lamp standard. The dance is the angle. The angle is the room."*
+
+*She stepped back. The trophy room had its centerpiece. The line of Arcadia ended at ceiling height, holding the dance that had been every year of her life, lighting a room that would never need another lamp.*
 
 ---
 
@@ -342,29 +374,31 @@
 
 *She looked at the surviving lords. Equipment had crumbled across all of them.*
 
-*(If Eirika:)*
+*(If Eirika survived prior chapters:)*
 
-*The guard position. The armor gone. The hands at armrest height, stone-clean.*
+*The guard position. The armor gone. The hands at armrest height, stone-clean. Eirika had reached the trophy room and seen the court already in place at the perimeter and known what kind of room she had walked into. She had walked through it anyway. She had crossed the floor to the foot of the throne. She had stopped two paces in front of the throne and turned to face the entrance, putting herself between the door and the chair, sword up. She had held that position for the full length of the chapter.*
 
-*"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding."*
+*Stone-clean. The Renais sword had crumbled at her boots. The plate had crumbled. The crown clip her father had given her at her coming-of-age had crumbled with the hair-tie. What remained was the guard at the height of the throne's armrest — the exact angle she had been holding, now permanent, now part of the throne.*
 
-**Eirika:** *[silence]*
+*"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding. The first lord of Renais is the throne's right hand."*
 
-*(If Lyn:)*
+**Eirika:** *[silence — the door she had been guarding had opened behind her, and the throne had filled the doorway with her own back]*
 
-*The wide stance, the lamp arms. Stone-clean.*
+*(If Lyn survived prior chapters:)*
 
-*"Beside the throne. Her side. She lights the throne."*
+*The wide stance, the lamp arms. Stone-clean. Lyn had taken the position to the right of the throne — the side that faced the court perimeter, the side she had calculated would let her cover the most allies if the room broke into a fight. The room had not broken into a fight. She had spread her arms anyway, because the gesture was what was left to her, and the gesture had been received as the lamp the throne had been waiting for.*
 
-**Lyn:** *[silence — the light is the only word she has now]*
+*"Beside the throne. Her side. She lights the throne. The plains-rider who came to Lycia is the throne's right-side standard."*
 
-*(If Lilina:)*
+**Lyn:** *[silence — the light is the only word she has now, and the throne will use it for the rest of its existence]*
 
-*The small persistent fury held in the stone.*
+*(If Lilina survived prior chapters:)*
 
-*"Other side. The candles at shin height."*
+*The small persistent fury held in the stone. Lilina had taken the other side of the throne — opposite Lyn, deliberately, because she had refused to give the throne a symmetrical pair. She had crouched at shin height to take the candle-holder position before the Queen could name her into something taller. The defiance of choosing her own posture before being defined had been received by the Queen as the room's correct placement. The Queen had not bothered to adjust it.*
 
-**Lilina:** *[silence]*
+*"Other side. The candles at shin height. The House of Ostia is the throne's left-side fixture."*
+
+**Lilina:** *[silence — the choice she had made had been the room's choice for her, and the room had thanked her for choosing it]*
 
 *"Almost everything is here."*
 
@@ -410,64 +444,100 @@
 
 *The chapter's defeat condition meant all of them were here.*
 
+*The hall was full. Every figure she had named across the campaign — every soldier's word, every officer's casual aside, every one of her own designations — was somewhere in this room or in the corridors that led to it. The room had been built last, after the collection was complete enough to know what the room needed to contain. The doors stood open. The court was at the perimeter, already in its arranged positions. The aura from each fixture met every other fixture's aura in the air over the throne, and the throne sat at the focal point.*
+
 *The Queen rose from the throne and walked among them.*
 
-*She had built this one piece at a time and she knew every one of them.*
+*She had built this one piece at a time. She had known every name before the names had become rooms. She had known the rooms before the rooms had been built. She walked the full hall without stopping at any single figure, because she did not need to — she had stopped at each of them once already, in their chapters, and the stopping she had done then was the stopping the world had received.*
 
-*She walked the full room without stopping.*
+*She spoke quietly. The hall carried her voice to the walls.*
 
-*"Syrene lights the east approach. Vanessa holds the entry ceiling. Tana marks the junction east. Natasha holds the gate lamp. Priscilla serves the side table. Farina frames the command entry. Rebecca marks the east junction. Florina is the lower corridor grab. Nino holds the entry overhead. Serra holds between two heights. Neimi holds the writing station, tears and all. Amelia narrows the approach. Juno runs the signal lines."*
+*"Syrene lights the east approach. The wing she commanded does not exist; the approach she lights is permanent. Vanessa holds the entry ceiling. Her sister did not reach her in time; her sister is the entry ceiling's twin alcove and reaches her now from across the door. Tana marks the junction east. The pegasus she rode is dust at the assembly point of a corridor in a country that no longer files reports. Natasha holds the gate lamp. The refugees she crossed the border to serve walk through her light to enter the country that took her. Priscilla serves the side table. Every document signed at her back is signed against the House of Caerleon, and her brother who survived her does not know she has been writing on her own back for half a year."*
 
-*"Shanna bears the gate weight. Echidna is the column base. Wendy is the corridor wall. Clarine directs the junction. Larum lights the ceiling. Sue lights the floor. Cath opens the gallery. Dorothy is the chair backing. Thea is the chandelier. Elen holds two heights at the desk. Igrene is the side table base. Fir holds the weapon display. Tethys lights the hall. Cecilia oversees the commander's desk. Guinivere holds the hall center."*
+*She walked on.*
 
-*"Sophia watches the reader's right. Marisa holds the weapon display. Isadora is the lamp post base. Karla holds the decanter. Louise hooks the curtains. Lute is the reading desk. Fiora directs the briefing ceiling. L'Arachel announces the standard. Fae brackets the shelf."*
+*"Farina frames the command entry. Her sisters are the entry's eastern wall and the entry's western buttress. The three of them are now the entry. Rebecca marks the east junction. The village she came from has forgotten her name; the junction has not. Florina is the lower corridor grab. The pegasus she lost will not be replaced; the corridor has its handle. Nino holds the entry overhead. The mother she was looking for is two corridors away and holds her own entry, and they will never reach each other. Serra holds between two heights. The boy she was supposed to grow old beside married someone else and is still alive in a country that does not know her. Neimi holds the writing station, tears and all. The correspondence she holds is correspondence to no one, because the people she would have written to have all become other writing stations."*
+
+*She walked on.*
+
+*"Amelia narrows the approach. The lance her recruit-master used to laugh at her for over-committing is dust at her boots. Juno runs the signal lines. The wing she led for thirty years is dust in eleven separate corridors. Shanna bears the gate weight. The gate she bears has been opened a thousand times since her placement and the arm has not cracked. Echidna is the column base. Wendy is the corridor wall. Clarine directs the junction. Larum lights the ceiling. Sue lights the floor. Cath opens the gallery — the gallery whose records she was carrying out are inside her fist as dust, and the towns those records named have all become galleries themselves."*
+
+*She walked on.*
+
+*"Dorothy is the chair backing. Thea is the chandelier; her sister Farina is the entry frame three corridors east, and the two of them will never see each other across the corridors. Elen holds two heights at the desk. Igrene is the side table base — the Shrine she protected is rubble and the rubble is sorted into furniture too. Fir holds the weapon display; her father's blade crumbled in her relaxed hand. Tethys lights the hall. Her brother is in the same room — fourth column from the door — holding the column's weight in the dancer's stance she taught him. They will not look at each other again."*
+
+*She walked on.*
+
+*"Cecilia oversees the commander's desk. The cadets she trained are all furniture in the corridors that lead to her desk. Guinivere holds the hall center. Her brother's army does not know she is dead; she is not dead. Sophia watches the reader's right. The prophecy she gave was correct in every detail. Marisa holds the weapon display in the lower stronghold; her sister is the matched display across the room. Isadora is the lamp post base. Karla holds the decanter. Louise hooks the curtains. Lute is the reading desk; the calculation she finished detonating with is recorded nowhere. Fiora directs the briefing ceiling — her two sisters are in this room with her; the three of them point at different ceilings and will never lower their arms. L'Arachel announces the standard. Fae brackets the shelf — the shelf holds the books no one will read."*
 
 *She returned to Ninian.*
 
-*She stood there for a moment.*
+*She stood there for a long moment. The dance arc held at ceiling height. The eyes of the line of Arcadia were still on the empty space the dance had been performed for.*
 
-*She turned.*
+*She turned away.*
 
-*The surviving lords were here.*
+*The surviving lords were here. They had reached the throne room. They had reached the throne. They were standing in front of the chair, beside the chair, at the foot of the chair — each one at the position she had walked to under her own power, each one having chosen exactly the angle the throne had been waiting for her to choose.*
 
 *(If Eirika:)*
 
-*The guard hands — still the guard position. No sword, no armor. The hands at armrest height, stone-clean.*
+*The guard hands — still the guard position. No sword, no armor. The hands at armrest height, stone-clean. Eirika had walked the length of the throne room to reach this position. She had passed every fixture and not stopped at any of them. She had reached the throne and turned and stood. She had refused to look at the figure beside her — Lyn — because looking would have asked something of her that she could not give. She had refused to look at the figure on the other side — Lilina — for the same reason. She had stood facing the entrance, sword up, until the Queen had risen from the throne and walked past her without acknowledging she was there.*
 
-*"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding."*
+*"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding. The first lord of Renais has been holding the seat since the courtyard of the first chapter; the body has only now caught up to the holding."*
 
-*The stone remained as it was.*
+*The stone remained as it was. The guard position had become the throne's right hand a long time ago and the world had only now finished agreeing.*
 
-**Eirika:** *[silence — the stone had it already, or there was nothing left to say]*
+**Eirika:** *[silence — the brother she had been holding the seat for did not arrive, would never arrive, and was not coming]*
 
 *(If Lyn:)*
 
-*The final width. Covering whoever came with her to the end. Stone-clean.*
+*The final width. Covering whoever had come with her to the end. Stone-clean. Lyn had been carrying the count of the people behind her since the first village; the count had reached zero in the corridor outside this room, when the last figure she had been covering had become a corridor lamp. She had walked the final stretch alone. She had taken her position to the right of the throne because the right was the side Eirika had not taken. She had raised her arms to the lamp-bracket the throne required without being asked.*
 
-*"Beside the throne. Her side. She lights what remains."*
+*"Beside the throne. Her side. She lights what remains. The plains-rider has been the throne's right-side standard since the village of the second chapter; the body has only now finished arriving."*
 
 *The stone remained.*
 
-**Lyn:** *[silence — the trying had been the whole life and the stone held that]*
+**Lyn:** *[silence — the count was zero, the trying had been the whole life, and the stone held the trying without asking it to mean anything]*
 
 *(If Lilina:)*
 
-*Near-empty palms. The fury held in the jaw, the jaw stone-clean.*
+*Near-empty palms. The fury held in the jaw, the jaw stone-clean. Lilina had refused symmetry. She had refused the throne's invitation to mirror Lyn. She had crouched at shin height — not because the throne had asked her to, because she had decided before the throne could ask her. The decision had been received. The throne had thanked her for choosing it.*
 
-*"Other side. Both sides lit."*
+*"Other side. Both sides lit. The House of Ostia is the throne's left-side fixture; the inheritance has been the cup-shape since the corridor of the sixth chapter, and the room has only now finished receiving the inheritance."*
 
 *The stone remained.*
 
-**Lilina:** *[silence]*
+**Lilina:** *[silence — the count she had been adding was complete and the last figure on the count was the figure that lit the throne's left side]*
 
 *She returned to the throne.*
 
-*The guard hands were at the armrest. The lamp on her left. The candles on her right.*
+*The guard hands were at the right armrest. The lamp on her left. The candles on her right. The lights had been lit before she reached the chair. The dance arc held above the room. The court was in position at the perimeter. Every aura met every other aura in the air over the chair and the air over the chair was the air of a finished room.*
 
-*"Each one is what she is. The world has this now. No one will question it. No one will look for what isn't here — there is only what is here."*
+*She looked across the hall. From the throne, every corridor entrance was visible. From every corridor entrance, the throne was visible. Each figure that lined the corridors looked toward the throne, or away from it, at the angle the corridor had been built to require. The architecture had been completed. The architecture had been a person, in pieces, for a long time, and the pieces had been assembled, and now the architecture was the room.*
+
+*"Each one is what she is. The world has this now. The villages from which they came have been receiving reports for months that they fell honorably in distant battles, and the reports have been believed, and the families have been mourning, and the mourning will subside, and within a year no one will remember to look for any of them. The mourning is the goodbye. The goodbye is permanent. The permanence is the gift I have given them; without it they would have been told they were missing, and missing is a thing that asks the family to keep looking. They will not have to keep looking. The world will not look. No one will question it. No one will look for what is not here — there is only what is here."*
+
+*She lowered herself toward the seat. Her right hand touched Eirika's stone fingers at the armrest. The fingers did not move. The fingers had been waiting for this hand for a long time.*
 
 *She sat.*
 
-*"I have been building this for a long time."*
+*Across the hall, the candles to her left burned at shin height, in cupped palms that had once held the inheritance of a great house. The lamp to her right held steady, the arms at the bracket-width that had once carried a sword across plains. Above her, the dance arc held the line of Arcadia, the goodbye still on its face. In front of her, the door she had taken this country through was guarded by the woman who had been the door before either of them had known the door existed.*
+
+*"I have been building this for a long time. I have been naming this for longer than that. I knew the room before the room was a room. I knew the chair before the chair was a chair. I knew which hands would be at the armrest. I knew which face would hold the goodbye. I knew which corridor would be lit by which house's inheritance. The naming was not the building — the naming was the recognizing. The world has always had this configuration. I have only now finished agreeing with it."*
+
+*A pause. The hall did not answer. The hall had no answers left to give.*
 
 *"This is what it was for."*
+
+*She closed her eyes. The throne settled under her weight. The country that had become this room continued, in every direction, around the chair she was now sitting in. Outside the hall, in the towns and the villages and the keeps and the fields, the families of the women in this room were finishing their mourning, and putting away the small things, and learning to live in houses that no longer held a daughter or a sister or a wife. They would learn. They would stop expecting the door. They would forget, in pieces, the way the women in this room had been forgotten by their own bodies in pieces, until the forgetting was complete and the world was the world the Queen had named.*
+
+*Inside the hall, the silence was the silence of a finished thing.*
+
+*Outside the hall, the world that had not yet finished forgetting was beginning to forget.*
+
+*The chair held its hands at the armrest. The lamp held its light. The candles held their shin-height. The dance held its ceiling. The court held its perimeter. Every corridor in every direction held its fixture. The room was the room. The Queen was on the throne. The country was the country. The inevitable eternity had been arrived at; it had always been here; it had only been waiting for someone to name it correctly.*
+
+*The names had been spoken.*
+
+*The room was complete.*
+
+*The world was the room.*
