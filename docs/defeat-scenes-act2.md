@@ -15,7 +15,7 @@
 
 *The NPCs at the Veil edge had been frozen in place for what looked like days. A border warden at his post. A merchant who had been turning back when it reached him, caught mid-turn. A pair of horses at a hitching post, both in the standing rest.*
 
-*The difference between this and Act 1's captures was scale. Those had been an advance force, selective, named. This was the Veil's default state: everything at the edge went still and stayed still, because the definition of this territory included them going still.*
+*The Veil didn't require soldiers to name each figure individually. Everything at its edge went still because going still was the territory's definition — the Veil had named the whole border at once, and the stone had received it.*
 
 *An enemy officer walked past the frozen border warden.*
 
@@ -77,17 +77,17 @@
 
 *Morrha was present. The Queen walked past her.*
 
-*She looked at Shanna on the gate crossbar.*
+*She looked at Shanna on the gate crossbar. The armor had come off with the stone's finalization. The javelin arm held the bar, stone-clean.*
 
 *"The gate has its arm. She bears the weight."*
 
-*She moved to Echidna at the column base. She looked at the lamp angle.*
+*She moved to Echidna at the column base. She looked at the lamp angle. The haft and equipment had crumbled — what remained was the plinth posture.*
 
 *"The lamp is set wrong. Adjust it."*
 
 *A soldier adjusted the angle.*
 
-*She moved through the Lilina group quickly, confirming each.*
+*She moved through the captured group quickly, confirming each. Equipment had crumbled across all of them — stone remained. Function remained.*
 
 *"Each is what it is."*
 
@@ -189,7 +189,7 @@
 
 *"Leave the terrain."*
 
-*She confirmed each piece.*
+*She confirmed each piece. Equipment had crumbled across all of them. Stone and posture remained.*
 
 *"Wendy is the corridor wall. She narrows it."*
 
@@ -217,11 +217,11 @@
 
 *The gallery was lit. Every piece from prior chapters was displayed and labeled.*
 
-*Cath moved through it alone. She found Priscilla first — the stone horse, the level back, the rider sitting still on the level back. She found Farina above the gallery entry, the arms framing the door she'd come through. She found Rebecca at the east junction, the arm pointing toward the place she'd been standing when she came in.*
+*Cath moved through it alone. She passed the stone horse near the entrance — a flat-backed mount, rider still seated on the level back. Above the gallery entry, a figure with spread arms framing the door she'd come through. At the east junction, an arm pointing toward the place she'd been standing when she came in.*
 
-*Each label was brief. Object type. Placement date. Tier designation.*
+*Each label was brief. Object type. Placement date. Functional designation.*
 
-*Cath read Lyn's label. She stood there for a moment.*
+*She stopped at one of the lamp figures in the central passage. She read the label. She stood there for a moment.*
 
 *She kept moving. She had what she came for. She needed to get out.*
 
@@ -245,11 +245,11 @@
 
 ### Mid-Chapter
 
-*The fog terrain was still visible on the west side of the chapter's map — the village from Ch7, the road, the fields. All of it still. All those figures still where the fog had left them.*
+*The fog had moved on but the figures it left were still there — field hands, a wagon driver, a guard at a perimeter post, all of them standing or crouching in the postures the fog had found them in.*
 
-*The enemy was still working through the aftermath. A soldier moved through the frozen field hands, examining each one. She named two of them out loud — the postures that worked for something. The rest she marked with a stone chalk and kept moving.*
+*An enemy soldier moved through the frozen field, examining each figure. She named two of them out loud — the postures that worked for something. The rest she marked with a stone chalk and kept moving.*
 
-*The player group was on the east side of this same terrain, trying to consolidate from scattered positions. They could see the soldiers moving through the frozen field on the far side.*
+*The player group approached from the far side of the field, trying to consolidate from scattered positions. They could see the soldiers moving through the frozen figures.*
 
 *The gap between "that" and "this" was getting smaller.*
 
@@ -321,7 +321,7 @@
 
 *"Leave them."*
 
-*She confirmed the new pieces.*
+*She confirmed the new pieces. Equipment had crumbled across all of them. Stone and posture remained.*
 
 *"Dorothy is the chair backing."*
 
@@ -409,15 +409,15 @@
 
 *She went to the three significant pieces.*
 
-*Cecilia at the commander's desk.*
+*Cecilia at the commander's desk. The tome and armor had crumbled. The bearing posture remained, stone-clean.*
 
 *"She oversees the desk. This is confirmed."*
 
-*Guinivere at the hall's center. The Queen met the eye contact briefly. She didn't comment on it.*
+*Guinivere at the hall's center. The Queen met the eye contact briefly. She didn't comment on it. The court robes had come off with the finalization.*
 
 *"She holds the room."*
 
-*Tethys with arms at ceiling height.*
+*Tethys with arms at ceiling height. The performance garments had crumbled.*
 
 *"The hall is lit by her."*
 

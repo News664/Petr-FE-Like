@@ -12,15 +12,15 @@
 
 ### Mid-Chapter
 
-*The galleries had been built around the collection. Not retrofitted — built. The alcoves were the correct depth for a standing figure. The lighting came from arms. The corridor width accounted for the narrowing effect of Wendy's posture at the far end.*
+*The galleries had been built around the collection. Not retrofitted — built. The alcoves were the correct depth for a standing figure. The lighting came from arms. The corridor width at the far end accounted for the figure positioned there.*
 
-*The player group moved through the first gallery room and recognized faces. Florina at the lower corridor grab position. Nino at the ceiling of the command passage. Serra holding the junction markers.*
+*The player group moved through the first gallery room and recognized faces — a grab position at the lower corridor, a ceiling mount above the command passage, a junction marker in the hall between. Postures. Forms. Equipment gone.*
 
 *A player unit stopped at one of them.*
 
 *An enemy soldier said, from the side: "Keep moving. They're fixtures."*
 
-*The label on the wall beneath the figure confirmed: Object type. Placement chapter. Functional designation.*
+*The label on the wall beneath the figure confirmed: Object type. Functional designation.*
 
 *The gallery's architecture was built around the assumption that these figures had always been here. The lighting worked because of their positions. The corridors were wide where they were wide and narrow where they were narrow because of the figures in them.*
 
@@ -46,11 +46,11 @@
 
 *The Queen walked the gallery corridor. The collection lined the walls.*
 
-*She checked Karla at the reading chair.*
+*She checked Karla at the reading chair. The sword and armor had crumbled. The wrist held the decanter, stone-clean.*
 
 *"The chair has its service. The wrist holds the decanter."*
 
-*She moved through the surviving roster. Brief.*
+*She moved through the surviving roster. Equipment had crumbled across all of them.*
 
 *(If Eirika:)*
 
@@ -132,11 +132,11 @@
 
 *The Queen walked the commander's hall. Two duty officers frozen at their posts — she passed them without comment.*
 
-*Fiora at the ceiling.*
+*Fiora at the ceiling. The lance and armor had crumbled. The pointing arm remained, stone-clean.*
 
 *"The briefing ceiling has its direction arm. Maps hang from her."*
 
-*L'Arachel at the banner.*
+*L'Arachel at the banner. The robes had crumbled. The raised arm held the standard, stone-clean.*
 
 *"The standard has its holder. She announces the hall."*
 
@@ -180,7 +180,7 @@
 
 *The enemy hadn't placed the collection in the hall. The hall had been built around the collection's eventual placement.*
 
-*A player unit stopped to look at one of the figures lining the walls — Cecilia at the commander's desk visible through an archway, Guinivere's eye contact across the full length of the room.*
+*A player unit stopped to look at one of the figures lining the walls — a figure at a commander's desk visible through an archway, another with its gaze fixed across the full length of the room.*
 
 *The hall already looked like it had always been this way. The figures looked like they had always been here.*
 
@@ -216,11 +216,11 @@
 
 *The Queen walked the hall from entry to end. She did not pause.*
 
-*She checked Lute at the desk. She looked at the scattered stone pages.*
+*She checked Lute at the desk. The tome had detonated and crumbled entirely. The extended palms remained, stone-clean, the scattered stone pages around them.*
 
 *"Don't clear them. She is the desk. The pages are part of it."*
 
-*Louise at the windows.*
+*Louise at the windows. The bow and armor had crumbled. The form remained, stone-clean.*
 
 *"She hooks each curtain. The hall is lit through her."*
 
@@ -326,19 +326,19 @@
 
 *The Queen walked the trophy room. The court frozen at the perimeter had been placed before the chapter began.*
 
-*She checked Fae on the shelf.*
+*She checked Fae on the shelf. Stone-clean — small raised hands, the confused expression, nothing else.*
 
 *"The shelf has its bookend."*
 
-*She looked at Ninian.*
+*She looked at Ninian. The dragonstone had left no fragments. The dancer's form remained, stone-clean.*
 
 *She didn't say anything further about Ninian.*
 
-*She looked at the surviving lords.*
+*She looked at the surviving lords. Equipment had crumbled across all of them.*
 
 *(If Eirika:)*
 
-*The guard position. The armor gone. The hands had not changed.*
+*The guard position. The armor gone. The hands at armrest height, stone-clean.*
 
 *"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding."*
 
@@ -374,7 +374,7 @@
 
 *Every aura source placed in the chapter's approach corridors served a routing function — they were not obstacles to navigate. They were the map. The queen's fortress was a building whose architecture was contingent on the collection inside it.*
 
-*The player group entering the throne room would feel this: the familiar STO-RES pressure from all directions simultaneously, from figures they recognized, from faces they had last seen still moving. The pressure was not incidental. It was the room's function.*
+*The player group entering the throne room would feel this: the aura pressure from all directions simultaneously, from figures they recognized, from faces they had last seen still moving. The pressure was not incidental. It was the room's function.*
 
 *A player unit, entering, looked at the collection lining the walls.*
 
@@ -424,9 +424,7 @@
 
 *(If Eirika:)*
 
-*The guard hands — still the guard position. The sword had been gone since Ch1. The hands had not adjusted.*
-
-*She had seen this in Ch1 and the stone had been holding it since.*
+*The guard hands — still the guard position. No sword, no armor. The hands at armrest height, stone-clean.*
 
 *"In front of the throne. The guard hands serve the armrest. Every decision from this throne is made from a seat she is holding."*
 

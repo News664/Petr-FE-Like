@@ -24,9 +24,9 @@
 
 ### Tana
 
-*A Standard Gorgon stepped around the corner and caught her mid-step — the same forward stride she'd been making since Ch1, the same weight-forward posture. An officer nearby said, not even glancing at her: "East gallery. The same stride, same direction."*
+*A Standard Gorgon stepped around the corner and caught her mid-step — the weight-forward stride, committed, the momentum all east. An officer nearby said, not even glancing at her: "East gallery. The stride holds. The direction stays."*
 
-*She felt it before the stone moved. She'd felt this before. She knew what the definition landing felt like and she pulled against it anyway.*
+*She felt it before the stone moved. She knew what the definition landing felt like and she pulled against it anyway.*
 
 **Tana:** "Again—?!"
 
@@ -44,17 +44,17 @@
 
 *She looked at the posture. She looked at the expression underneath the frustration.*
 
-*"She was recovered once." She noted the difference in the set of the face. "The expression has more in it now. East gallery confirmed."*
+*"The posture is committed and the expression has more in it than frustration alone. East gallery confirmed."*
 
-*She moved through the combined roster. Brief.*
+*She moved through the combined roster. Equipment had crumbled across all of them — weapons, armor, staves. Stone remained.*
 
-*She found Lyn. The stance was wider than the early chapters. She was covering both converged groups.*
+*She found Lyn. The stance was wide, covering both converged groups. Stone-clean.*
 
 *"Corridor lamp. Wider base. She lights both groups."*
 
 **Lyn:** "...I tried."
 
-*She found Eirika. The guard position. The weight had settled — the disbelief gone. Something quieter.*
+*She found Eirika. The guard position. The weight had settled — the disbelief gone. Something quieter. Stone-clean.*
 
 *"Map room. Reading table height. She marks the table."*
 
@@ -72,9 +72,9 @@
 
 ### Mid-Chapter
 
-*The northern fog quadrant was a remnant of Ch7's deployment — Morrha had moved on, but the Veil didn't fully lift where it had been. The fog sat at the northern edge of the map and didn't advance further. It was already done with the north.*
+*The northern fog quadrant had been active for long enough that the figures inside it had gone hard — not frozen mid-motion but settled, the stone deepened. The fog sat at the northern edge of the map and didn't advance further. It was already done with the north.*
 
-*The enemy had placed constructs in the fog perimeter: animated figures, former NPCs from the Ch7 sweep, pushed south and positioned as the chapter's frontline flankers. They walked through the fog without difficulty. Player units in the fog decayed fast.*
+*The enemy had placed constructs in the fog perimeter: animated figures, petrified forms repurposed and pushed south as the chapter's frontline flankers. They walked through the fog without difficulty. Player units in the fog decayed fast.*
 
 *At the fog's south edge, a construct was pushed through the boundary. It stepped out of the fog and kept walking south — toward the player's position. It didn't have a face the player could recognize. But it was wearing something that might have been a shop apron. It was the right height for someone who had stood behind a counter.*
 
@@ -100,11 +100,11 @@
 
 *"Leave the camp."*
 
-*She went through the combined roster.*
+*She went through the combined roster. Equipment had crumbled across all of them. Stone and posture remained.*
 
 *(If Eirika:)*
 
-*The guard posture. Harder now — past the midpoint, the disbelief gone.*
+*The guard posture. Harder now — past the midpoint, the disbelief gone. Stone-clean.*
 
 *"Collection wing entrance. Doorpost height. She marks what she was trying to protect."*
 
@@ -112,7 +112,7 @@
 
 *(If Lyn:)*
 
-*The widest base yet.*
+*The widest base yet. Stone-clean.*
 
 *"Collection wing passage. She lights everyone who made it this far."*
 
@@ -128,15 +128,11 @@
 
 ### Mid-Chapter
 
-*The chapter's map was exactly what Sophia had shown in the vision. The pilgrims at the entrance stone were exactly where she'd described them. The hermit at the eastern lean-to was in the position she'd indicated.*
-
-*The player group arrived already knowing what was coming. They moved through it anyway.*
-
-*The enemy had been here before the player. Not in force — a forward unit, advance positioning. They had already placed three NPCs in the positions Sophia's vision had showed them in. Placed, not captured: the enemy had named these positions weeks ago and arranged them at leisure.*
+*The enemy had been here before the player. Not in force — a forward unit, advance positioning. They had already placed three NPCs at the entrance stone and the eastern lean-to. Placed, not captured: the enemy had named these positions ahead of time and arranged the figures at leisure.*
 
 *A player unit examined the three frozen figures. They were still in ordinary postures — a seated figure, a standing figure, a figure in mid-gesture. But they had been arranged, not caught. The difference was in the quality of the stillness.*
 
-*Sophia, moving past them, didn't look.*
+*The player group moved past them. They had known this encounter was coming. They moved through it anyway.*
 
 ---
 
@@ -158,9 +154,9 @@
 
 *"Leave them."*
 
-*She went through the combined roster. Brief.*
+*She went through the combined roster. Equipment had crumbled across all of them — weapons, staves, robes. Stone and posture remained.*
 
-*She found Sophia last.*
+*She found Sophia last. Stone-clean.*
 
 *She looked at the sight line. She looked at what it pointed toward.*
 
@@ -168,7 +164,7 @@
 
 *(If Eirika:)*
 
-*The expression arrived and still.*
+*The expression arrived and still. Stone-clean.*
 
 *"Reception hall. She holds the armrests."*
 
@@ -176,13 +172,13 @@
 
 *(If Lyn:)*
 
-*The grief and the failed protection both visible.*
+*The grief and the failed protection both visible. Stone-clean.*
 
 *"Corridor lamp. The contradiction is the fixture."*
 
 **Lyn:** "I was trying—"
 
-*"The prophet was right."*
+*"The sight line points where it points. This room is finished."*
 
 *She left.*
 
@@ -258,7 +254,7 @@
 
 *"The post has its base."*
 
-*She went through the combined survivors.*
+*She went through the combined survivors. Equipment had crumbled across all of them — weapons, armor, staves. Stone remained.*
 
 *The stone in the corner completed. The room shifted — Morrha's aura expanding into every surface.*
 
@@ -266,7 +262,7 @@
 
 *(If Eirika:)*
 
-*She found Eirika last. The guard position. The expression arrived and still. The hands had not changed across the whole campaign.*
+*She found Eirika last. The guard position. The expression arrived and still. Stone-clean — no sword, no armor, only the posture and the hands.*
 
 *"Reception hall. Final placement. She holds what she was always holding."*
 
@@ -274,7 +270,7 @@
 
 *(If Lyn:)*
 
-*The grief compressed — covering fewer now, the count down.*
+*The grief compressed — covering fewer now. Stone-clean.*
 
 *"Stronghold passage lamp. She lights whoever is left."*
 
