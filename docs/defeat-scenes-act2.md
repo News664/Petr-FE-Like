@@ -79,33 +79,55 @@
 
 ### Chapter Final
 
-*Morrha was present. The Queen walked past her.*
+*Morrha was present. The Queen walked past her without acknowledging her — past the Veil and the figure who anchored it, the way one walks past a load-bearing wall.*
 
-*She looked at Shanna on the gate crossbar. The armor had come off with the stone's finalization. The javelin arm held the bar, stone-clean.*
+*She looked at Shanna on the gate crossbar. The armor had come off with the stone's finalization. The javelin arm held the bar, stone-clean. The forward-lean of a figure that bore weight.*
 
-*"The gate has its arm. She bears the weight."*
+*"The gate has its arm. She bears the weight. Test the gate."*
 
-*She moved to Echidna at the column base. She looked at the lamp angle. The haft and equipment had crumbled — what remained was the plinth posture.*
+*A soldier swung the gate open and closed. The arm took it. The arm did not crack. The gate had its hinge.*
+
+*She moved to Echidna at the column base. She looked at the lamp angle. The axe-haft and the plate had crumbled — what remained was the plinth posture and the standard the soldiers had fitted into the hand.*
 
 *"The lamp is set wrong. Adjust it."*
 
-*A soldier adjusted the angle.*
+*A soldier adjusted the angle by half a finger's width. The lamp now caught the corridor at the right angle.*
 
-*She moved through the captured group quickly, confirming each. Equipment had crumbled across all of them — stone remained. Function remained.*
+*"Better. The column has its base."*
+
+*She moved through the captured group, confirming each in a word. The bracket. The arch. The wall. The wedge. The catch. Equipment had crumbled across all of them — stone remained, function remained, no piece of any prior life was left attached to any of them.*
 
 *"Each is what it is."*
 
-*She stopped at Lilina. The armor and robe had crumbled. The palms were up, the ash from the tome on the floor.*
+*She stopped at Lilina last.*
 
-*She looked at the palms. She looked at the ash.*
+*Lilina had been the last to fall in the Veil corridor. She had stood at the wall when the tome ran dry and she had kept casting from the residue — the Fire spell drawing on the inheritance, the blood-magic of House Ostia coming up through her palms because the binding was gone but the source was not. Her father had told her once that the magic in the line could not be taken away from her. She had been finding out whether that was true. The answer had been: it could be defined.*
+
+*The plate and the heavy mage robe had crumbled. The palms were up. The ash from the burned-through tome was on the floor around her boots, in a circle her hands had made. The face had not stopped being angry.*
+
+*The Queen looked at the palms. She looked at the ash.*
 
 *"Candle holder. Main passage floor."*
 
-*The naming closed what was left. The fury stayed in the set of the jaw — but the jaw was the only thing it had now.*
+*The naming landed and the last of the inheritance left through the palms — not as fire, as a slow exhale that the world received and discarded. The palms held the angle a candleholder holds, at shin height, the open cup of two hands waiting for wax. The blood-magic that her father had said no one could take from her was now the holding-shape for a candle that had not yet been placed.*
 
-**Lilina:** *[silence — the stone had the breath]*
+*She tried to bring the palms together to close one more cast. The palms held the cup-shape. She tried to call the word for the Fire spell — the one syllable that had always brought the heat. The throat closed around the syllable. She tried to picture her father's face. The picture stayed inside a head that had stopped being a head that pictured things. The fury stayed in the set of the jaw — but the jaw was the only thing it had now, and the jaw was about to be stone too.*
+
+**Lilina:** "...father, the line — the line wasn't—"
+
+*The stone completed at the cup-shape. The remaining ash settled into the cup. The boots crumbled. The Ostia ring on her finger crumbled. The medallion her father had given her when she was nine crumbled, the chain crumbling after it. What remained was a young woman crouched at shin height with both palms cupped open, the angry expression preserved, the inheritance gone.*
+
+*The Queen turned to a soldier with a basket of candles.*
+
+*"Set the first one tonight. Use the long taper for the first lighting. The Veil moves past this corridor at dawn and the corridor will need the light by then."*
+
+*She looked back at Lilina once.*
+
+*"The line ends in the holding-shape. The House of Ostia is the floor of a corridor. Her father will be told she was lost in the Veil and the message will not name the corridor she now lights. By the morning after tomorrow, no one will remember the corridor was unlit before. By the year after this one, no one will remember the House of Ostia at all — only that the corridor has always been lit by a candle at shin height, in cupped hands, the angry face preserved because the cupping needed the face the way it was."*
 
 *She walked away.*
+
+*Behind her, the soldier with the basket knelt at Lilina's palms and set the first candle in the cup. The wick caught. The corridor began to be lit by the last of House Ostia, at shin height, for the rest of time.*
 
 ---
 
@@ -209,13 +231,19 @@
 
 *Cath at the door, if she was there: "The threshold has its fist."*
 
-*She reached Lilina. The tome ash on the floor around the locked palms. Stone-clean — robe, armor, all gone.*
+*(If Lilina survived Ch6:)*
 
-*"Candle holder. Further in."*
+*She reached Lilina in the fog camp — past the supply attendant, past the kneeling healer, past the cluster of three soldiers in the rest position. Lilina had been holding the camp's east edge against the fog's slow advance. The fog had not reached her. The constructs in the fog perimeter had — three at once, the cast running out partway through the second one, the third one coming through the smoke while she was still trying to remember the chant.*
 
-**Lilina:** *[silence — the stone had her already]*
+*Stone-clean. The tome ash on the floor around the locked palms. Robe, armor, the Ostia ring, all already crumbled — the constructs had walked the petrification up her body and the camp had finished the work before the Queen arrived. The palms were at the same cup-shape they would have taken in any chapter. The Veil had decided the cup-shape was what House Ostia was for.*
 
-*She walked out.*
+*The Queen looked at the palms. She did not need to adjust the angle.*
+
+*"Candle holder. Further in. Take her to the central passage and set the first wax tonight."*
+
+**Lilina:** *[silence — the fog had taken the voice before the camp had taken the body]*
+
+*She walked out. The candle would be lit by midnight; the central passage would be lit by Lilina by morning.*
 
 ---
 
@@ -239,15 +267,43 @@
 
 ### Cath
 
-*She had the papers in her closed fist and she was running — through the long gallery, past every fixture, toward the exit she had mapped on the way in. The stride was at its longest. The other hand was already at the door bar.*
+*She had been in this gallery for forty minutes longer than the plan said she should be. The plan had said: in, the records room, the manifest, out. The plan had not said: read the label under the corridor lamp. Read it again. Stand there for a minute and a half. The plan had not accounted for the fact that the corridor lamp was someone she had drunk wine with last month in a different country.*
 
-*The ambush came from the side corridor — a Stone Warden she hadn't seen. As the contact landed, a soldier said: "Gallery entrance. The sprint alongside the entry frame. The fist at handle height."*
+*She had moved on. She had reached the records room. She had taken the manifest — the chain of shipments, the placement schedule, the names of the towns that were next. She had folded the papers small and closed her fist around them. She had come back out through the long gallery.*
 
-*She was at the peak of the sprint when the definition took hold — both feet off the ground, the stride at its longest. She tried to break the run sideways, tried to slip past the Warden's grip. The body wouldn't fold. The sprint locked into the held stride a fixture takes when it has always been there. The papers stayed in the fist; then the fist closed harder; then there was nothing inside the fist to hold.*
+*Now she was running — the stride at its longest, the cloak streaming behind her, the other hand already reaching for the door bar of the gallery's east exit. The exit was eight paces away. She had walked through this door an hour ago and she remembered exactly where the handle sat.*
 
-**Cath:** "I had it — I almost—"
+*The ambush came from the side corridor — a Stone Warden she had not seen, posted in the alcove between two fixtures she had walked past without checking. The corridor lamp had been one of them. The lamp had been the distraction.*
 
-*The stone completed. The papers crumbled into nothing. The dagger crumbled. The cloak surfaced and fell. She opened the gallery door for everyone who came after. The hand still thought it had something.*
+*As the Warden's contact landed at her shoulder, a soldier from the alcove said, reading the position the body had taken: "Gallery entrance. The sprint alongside the entry frame. The fist at handle height. The papers stay."*
+
+*She was at the peak of the sprint when the definition took hold — both feet off the ground, the stride at its longest, the cloak still moving. She tried to break the run sideways, tried to slip past the Warden's grip the way she had slipped past three of them in the corridor outside the records room. The body would not fold. The shoulder did not roll. The cloak did not catch the redirect. The sprint locked into the held stride a fixture takes when it has always been there.*
+
+*The fist closed harder around the papers — the closing not her closing, the named handle-grip taking the hand. Then the papers inside the fist crumbled to grey dust because the definition had said the papers stay, and what stays in a fixture's grip is the absence of what it held. The dust ran out between the stone fingers in a thin line that no one would notice when the dust hit the gallery floor.*
+
+*She tried to call back to the lamp she had recognized — the one whose label she had stopped to read. The throat closed around the call. She tried to look back at the records room door — at the route she would not now take. The neck stayed forward, looking at the door handle. The door handle was three paces away and would never close.*
+
+*She felt the hand still thinking it had papers. It would keep thinking that for the rest of the gallery's existence.*
+
+**Cath:** "I had it — I almost — the records, the towns next, they need to know—"
+
+*The stone completed at the peak of the stride. The papers were already dust in a closed fist. The dagger at her hip crumbled. The cloak surfaced and fell across the gallery floor in a long shape behind her. The lockpick set she had carried since she was eleven crumbled, each pick going to dust in its loop on her belt. The coin pouch crumbled. The small folding knife her sister had given her crumbled.*
+
+*What remained was a thief at peak sprint, frozen alongside the entry frame, one hand at handle height around an absence and the other reaching for a door bar she would never lift.*
+
+*The Queen came through the gallery an hour later. She walked past the lamp Cath had stopped at without stopping there herself.*
+
+*"Leave the gallery."*
+
+*She reached Cath at the entry frame. She looked at the angle of the sprint, the height of the fist, the shape of the hand that thought it held something.*
+
+*"Gallery door. The opening sprint. The hand at the bar." She looked at the dust at the figure's feet — a thin line of it, the manifest's last residue. "Sweep that. The fixture is the gesture, not what was in it."*
+
+*A soldier swept the dust away.*
+
+*"By tomorrow, the gallery has always had a sprinting figure at the east door, with one hand at the handle height. Anyone reading the gallery's design will say: that is the kinetic piece, the one that gives the corridor its motion. No one will look for the thief. No one knows there was a thief. The records the thief was carrying never reached the towns the records named. The towns will receive the placement schedule by the schedule itself; the placement schedule is the thief now."*
+
+*She walked out. The gallery's east door stayed closed. The sprinting figure beside it stayed at peak stride, holding a door bar that would not lift, for the rest of the gallery's existence.*
 
 ---
 
@@ -355,13 +411,17 @@
 
 *"Fir holds the weapon display."*
 
-*She reached Lilina. Stone-clean. The fury and the exhaustion were both in the expression and nothing else.*
+*(If Lilina survived prior chapters:)*
 
-*"Viewing room. The expression has use."*
+*She reached Lilina in the rout's last position — the chair she had been sitting in to recover from the third cast, the chair the chapter's pressure had pinned her against. She had stood up to take the fourth cast and had not made it back to standing. Stone-clean. The fury and the exhaustion were both in the expression and nothing else — no robe, no tome, no ring, no medallion. The chair beside her was empty.*
 
-**Lilina:** *[silence]*
+*The Queen looked at the expression. She looked at the way the eyes had set — the disgust at being seated, the refusal that had failed to lift her out of the chair, both held in the same face.*
 
-*She left the soldiers to handle transport.*
+*"Viewing room. The expression has use. Set her at the corner of the long bench, facing the entrance — every guest who enters meets that face first. The disgust is the room's tone. The refusal is the room's invitation."*
+
+**Lilina:** *[silence — the expression said everything the throat would no longer say, and the room would borrow it]*
+
+*She left the soldiers to handle transport. The viewing room had its tone.*
 
 ---
 
@@ -449,14 +509,18 @@
 
 *She went through the rest quickly.*
 
-*She reached Lilina. Stone-clean — robes crumbled, palms upward, the ash less than last time. The fury and the calculation both in the set of the jaw.*
+*(If Lilina survived prior chapters:)*
 
-*"Acquisition wing passage."*
+*She reached Lilina in the acquisition wing passage. Stone-clean — robes crumbled, palms upward, the ash less than last time because she had been running on residue alone for three chapters and there had been very little left to burn. The fury and the calculation both in the set of the jaw: she had stopped raging at the loss and started counting it. She had been counting since the third room, when she had seen Cecilia behind the commander's desk.*
 
-**Lilina:** *[silence — the grief had nowhere left to land]*
+*The Queen looked at the count in the jaw. She looked at the figures the count had been adding up: Eirika, Lyn, Cecilia, Guinivere, Tethys, every captured face Lilina had walked past on the way to this passage. The count had reached three figures in House Ostia's debt-language. The count would not reach a fourth.*
 
-*The fury and the calculation both stayed in the stone. The stone had both.*
+*"Acquisition wing passage. The passage takes its tally from her. The figure that adds is the figure that lights."*
 
-*"Record the three primary acquisitions. Proceed."*
+**Lilina:** *[silence — the count was inside the stone; the count would not move, but the count was permanent]*
 
-*She walked out.*
+*The fury and the calculation both stayed in the stone. The stone had both. The passage would have a candle holder whose face was the face of an unfinished sum.*
+
+*"Record the three primary acquisitions in the wing manifest. Note the candle holder as the chapter's terminal piece. Proceed."*
+
+*She walked out. Behind her, the passage now had a figure at its mid-point whose hands would hold the lights and whose face would hold the count.*
