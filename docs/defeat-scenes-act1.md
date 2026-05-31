@@ -23,93 +23,119 @@
 
 ### Gate Guards
 
-*Both guards were planted at the arch — shields up, lances braced for the breach. They had drilled this stance for years; their feet found the marks without thought. The eastern guard was tracking the approach, the western guard covering the inside lane.*
+*Both guards had been on this gate for nine years between them. The drill at the breach point was the first thing a Renais gate-guard learned and the last thing she stopped practicing: east arm closes, west arm reaches, lances braced inside the line of the shields. Their feet found the marks without thought. The eastern guard was tracking the approach. The western guard was covering the inside lane.*
 
 *A Stone Warden stopped in the middle of the courtyard and addressed the arch without looking at them: "Two posts. East arm closed. West arm reaching."*
 
-*The eastern guard's shield arm kept rising past the block angle, toward the height the definition had named. She tried to bring it down and drive the lance forward. The lance went with the arm — pointed at nothing, locked at post-height, the strike she'd intended evaporating into a held pose. The western guard's reaching arm froze fully extended; the lance fell out of the grip that had no hand left to close around it. The shields crumbled.*
+*The eastern guard heard her own posture spoken aloud. The shield arm kept rising past the block angle toward the height the definition had named. She tried to wrench it back down and drive the lance forward into the Warden's chest. The lance went with the arm — pointed at nothing, locked at post-height, the strike she had intended evaporating into a held pose. She tried to turn her head to call her partner's name. The jaw stayed level. The call became a held breath.*
 
-**Eastern guard:** "...my arm won't—"
+*The western guard, three paces away, felt the reach across the gap claim her — the named extension overriding the brace. Her lance slipped out of a hand that was no longer closing. She tried to fold the arm back to cover her partner. The arm widened further. The two of them stood facing the arch they had defended together, no longer able to look at each other.*
 
-*The stone completed. Both lances had crumbled with the armor. Two enemy soldiers wedged them against the arch posts. The courtyard had its pillars.*
+**Eastern guard:** "...my arm won't — Mella, get out—"
+
+**Western guard:** "I can't — Brann, I—"
+
+*The stone completed. Both lances had crumbled with the armor. Two enemy soldiers wedged them against the arch posts. The names they had been about to use died inside the closed throats. The courtyard had its pillars; the pillars had each other's names, and no one would ever say them.*
 
 ---
 
 ### Syrene
 
-*She had her wing-knights in formation and the lance leveled — the assault wave had broken on the courtyard wall, and she was driving the counter from above the east approach. Her commands were carrying; the formation was holding.*
+*She had her wing-knights in three-line formation and the lance leveled at command angle — the assault wave had broken on the courtyard wall, the dive line was holding, the second pass was already shaping behind her. Twenty years of wing-discipline ran through her arm without her thinking about it. Her commands were carrying. The formation was holding.*
 
-*A soldier on the perimeter already had a lamp in her pack. She had been waiting since the wing came over — waiting for the arm to settle at marker height, waiting for the moment when the definition would land and the hand would be ready to hold what she'd been carrying.*
+*A soldier on the perimeter already had a brass courtyard lamp in her pack. She had been waiting since the wing came over — not waiting for the right moment to throw, waiting for the right moment to set. She had noted the wall, the arm, the angle. The lamp was the kind that wedged into a fist held at directional height. She was holding it loosely and watching the eastern arm.*
 
-*An officer above the east wall said it: "East wall. The arm points the approach. Lamp in the hand."*
+*An officer above the east wall said it at the volume of any other instruction: "East wall. The arm points the approach. Lamp in the hand."*
 
-*Syrene felt the command gesture not come back. She tried to drive the lance forward — the lance arm kept pointing east, the named direction overriding the angle of the strike. The pegasus pulled into the dive and the rider's arm wouldn't fold to the attack. Every command she tried to give came out as the pointing motion the world had already accepted.*
+*Syrene felt the command gesture not come back. The lance arm kept pointing east, the named direction overriding the strike. She tried to bring the pegasus around for the second pass — the pegasus answered the rider's body, not the rider's intent, and the dive collapsed into a held forward-lean. She tried to call the wing back; the call came out as the same pointing motion the world had already accepted. Behind her she felt the wing's discipline waver — they had taken every command she had ever given and they were watching her give one that meant nothing.*
 
-**Syrene:** "...it won't — my arm—"
+**Syrene:** "...it won't — wing, break — break formation—"
 
-*The stone completed. The lance crumbled in the locked grip. The armor surfaced and fell. The soldier crossed the courtyard with the lamp in hand and wedged it into the pointing palm. The east approach had its marker.*
+*The stone completed. The lance crumbled in the locked grip. The wing-commander's plate surfaced and fell in fragments across the courtyard stones. The soldier crossed the courtyard with the lamp in hand and wedged it into the pointing palm. The east approach had its marker. Behind her, leaderless, the wing tried to break and could not remember the formation that wasn't a held arm pointing east.*
 
 ---
 
 ### Vanessa
 
-*She had committed to the strike — the dive line set, the javelin reversed for the downward thrust, the pegasus folded for speed. The Aerial Gorgon below her was the target and she had the angle.*
+*She had committed to the strike — the dive line set, the javelin reversed for the downward thrust, the pegasus folded tight against her thighs for speed. The Aerial Gorgon below her was the target. She had the angle. She had run this dive a thousand times in training and a dozen times in the air and her sister had taught her every adjustment in the wrist.*
 
-*From above the entry, another Aerial Gorgon said — at the volume of any other instruction — "Entry ceiling. The arms are the fixture mount. Keep the reach."*
+*From above the entry, a second Aerial Gorgon she had not seen said — at the volume of any other instruction — "Entry ceiling. The arms are the fixture mount. Keep the reach."*
 
-*She pulled hard into the turn to break the trap. The arms pulled out instead, widening for the mount that hadn't been placed yet, the javelin slipping from a grip that was opening, not closing. She tried to drive the strike home with the off hand — the off hand opened too, both arms spreading to the span the definition had named. The pegasus answered the rider's body, not the rider's intent.*
+*She pulled hard into the turn to break the trap. The arms pulled out instead, widening for the mount that had not been placed yet, the javelin slipping from a grip that was opening rather than closing. She tried to drive the strike home with the off hand — to make the dive worth something, even half a strike, even an interruption. The off hand opened too. Both arms spread to the span the definition had named. The pegasus, trained to follow the rider's body, banked into the spread because the rider's body had become the shape of a fixture approaching its mount. She felt the dive she had been so sure of opening into something she could not stop. Her sister was somewhere above and she could not turn her head to find out where.*
 
-**Vanessa:** "That's not — I'm not—"
+**Vanessa:** "That's not — I'm not — sister, where—"
 
-*The stone completed. The javelin had crumbled before it touched the ground. The armor came off in fragments — not slowly, all at once, the surface claiming her. Two soldiers caught the figure and mounted her above the main entry, the extended arms at the spread the definition had named.*
+*The stone completed at the apex of the spread. The javelin crumbled before it touched the courtyard floor. The armor came off in fragments — not slowly, all at once, the surface claiming her. Two soldiers caught the petrified figure as the pegasus crumbled out from under her and mounted her above the main entry, the extended arms at exactly the spread the definition had named. The entry had its ceiling fixture. The wing's youngest looked down at every soul who crossed the threshold she had been about to defend.*
 
 ---
 
 ### Tana
 
-*She was at full charge — the lance leveled, the pegasus committed, the corridor opening ahead of her. She had the angle on the breach and the momentum to clear it.*
+*She was at full charge — the lance leveled at low angle, the pegasus committed, the east corridor opening ahead of her, the breach two pegasus-lengths away and closing. She had been arguing with her brother an hour ago and she had told him she would prove she could hold her own line in the field. She had the angle on the breach. She had the momentum to clear it. The pegasus knew the corridor and was running for the cleared end.*
 
-*A nearby enemy officer — without looking at her — said to a subordinate: "She goes here. Mid-step, east-facing. Leave the expression."*
+*A nearby enemy officer — without looking at her, the way someone notes a piece of furniture being delivered — said to a subordinate: "She goes here. Mid-step, east-facing. Leave the expression."*
 
-*She felt the stride before the stone moved. The weight committed forward because committed had been named. She tried to wrench the lance up to strike, to break the charge into anything other than a marker — the lance arm wouldn't fold; the pegasus wouldn't rear. The forward stride became all of her, the strike she'd intended hollowed out by the named pose. She threw her weight against it. Every adjustment confirmed it.*
+*She felt the stride before the stone moved. The weight had committed forward because committed had been named. She tried to wrench the lance up out of the strike-line, to break the charge into anything other than a marker. The lance arm would not fold. The pegasus would not rear. The forward stride became all of her — the strike she had been about to deliver hollowed out by the named pose, the breach she had been about to clear becoming the open mouth of a corridor that now contained her. She threw her weight against it. Every adjustment confirmed it. The expression the officer had left in was the angry one she had been about to hit the breach with; that anger was now the thing the corridor pointed with.*
 
-**Tana:** "Not yet — I'm still—!"
+**Tana:** "Not yet — Innes — I'm still—!"
 
-*The stone completed. The lance crumbled. The armor surfaced and fell. A soldier painted a directional marker on the wall beside her. She had become the start of a direction system.*
+*The stone completed mid-stride. The lance crumbled along the strike-line. The armor surfaced and fell across the corridor floor. The pegasus crumbled too — there was no rider to hold it together. A soldier crossed the corridor with a brush and painted a directional marker on the wall beside her. The expression looked east; the lance arm looked east; the corridor turned east through her. She had become the start of a direction system. The argument she had been carrying with her stayed exactly where she had been carrying it, with nowhere to land.*
 
 ---
 
 ### Chapter Final
 
-*The Queen walked the courtyard without pausing.*
+*The Queen walked the courtyard without pausing. The kitchen runner at the well, the archive clerk at the low desk, the servant whose arm was still extended toward a shelf — she did not stop at any of them.*
 
 *"Leave them."*
 
-*She passed the gate guards at the arch posts. Their equipment had crumbled. What remained was the stone of the posture.*
+*She passed the gate guards at the arch posts. The plate had crumbled; the lances had crumbled; what remained was the stone of the posture and two names that had been spoken into stone throats and would not surface again.*
 
 *"The arch has its pillars."*
 
-*She looked up at Vanessa above the entry.*
+*She looked up at Vanessa above the entry. The armor fragments had been swept out of the way; the figure was the only thing in the alcove.*
 
 *"Adjust the mount. Face in. The entry has its ceiling fixture."*
 
-*A soldier adjusted the angle.*
+*A soldier on a ladder adjusted the angle. The wing's youngest now faced inward at everyone who came through.*
 
-*She passed Tana at the junction.*
+*She passed Syrene at the east wall, lamp wedged in the pointing hand. The wing was scattered behind her — leaderless, the line of pegasi already being cut down piecemeal where they could not remember the formation that did not begin with that arm.*
 
-*"She marks the junction east."*
+*"The wall has its directional. The wing falls without her."*
 
-*She stopped at Eirika. She was still standing — the guard position held, the sword still in the hand, the body fighting the lock for the last span of seconds before the stone closed.*
+*She passed Tana at the junction. The expression Tana had been wearing into the breach was now the expression the corridor pointed with.*
 
-*She looked at the hands.*
+*"She marks the junction east. Leave the anger in the face — it is what the corridor does."*
+
+*She reached the throne hall last.*
+
+*Eirika was still standing. She had refused to fall back through three rooms and she had refused to fall back through the fourth. The sword was in her hand at guard. The plate of Renais was scored in a dozen places. Her sister had not arrived. Her brother was not coming. The hall was empty of allies and full of soldiers who were not moving to attack her — they were standing back, waiting for the figure walking toward her down the long carpet to finish what she was here to finish.*
+
+*The Queen stopped at six paces. She looked at Eirika the way someone looks at a chair that has been sitting in a corner of a room she has owned for a very long time, finally noticing the chair is there.*
+
+*Eirika brought the sword up to ready.*
+
+*The Queen did not draw a weapon. She looked at the guard position. She looked at the hands. She looked at the way Eirika's weight settled forward through the front foot — the way a Renais lord is trained to stand, the way every painting of every Renais lord stands, the posture this dynasty had hammered into its bloodline for four generations.*
 
 *"Chair rest. Main hall. She holds the seat."*
 
-*The naming landed and Eirika's hands moved to the named height without her — the sword falling out of fingers that were no longer making a fist, the guard becoming the holding. She tried to speak; the jaw was already at the locked angle and the words would not form.*
+*The naming landed at the volume of a quiet voice in a quiet room, and the world received it. Eirika felt the guard position not be the guard position anymore. The sword arm did not lower; the hand did not open; the hand simply stopped being a hand that was holding a sword and became a hand that was at the height of an armrest. The fingers stayed closed around the hilt for half a breath while the hilt stopped being a hilt. The sword crumbled out of the grip. The grip remained, at exactly the height a person resting her wrist on the arm of a chair would hold her hand.*
 
-**Eirika:** *[no sound — the stone had the throat before the breath]*
+*She tried to step forward. The front foot did not move; it was already at the placement angle. She tried to turn her head — to look for Ephraim, to look for the door, to look anywhere except at the figure who had named her. The jaw stayed level. The eyes stayed forward.*
 
-*The stone completed. The sword crumbled where it fell. The armor surfaced and fell with it. The soldiers carried the figure out. The main hall had its chair rest.*
+*She tried to speak. The breath was already inside a closed throat. The word that had been forming — it might have been her brother's name, it might have been the word for refusal she had been carrying since the bell at the gate — never reached the mouth that was no longer hers to open.*
+
+**Eirika:** *[no sound — the throat closed around the unspoken word, and the word stayed inside the stone forever]*
+
+*The stone completed from the front foot up. The plate of Renais surfaced and fell in a circle around her boots, the gold of the inlay running into the dust and going dull. The crown clip in her hair crumbled. The bracelet her mother had given her crumbled. What remained was the guard posture at chair-rest height: a young woman with both hands placed where the arms of a chair would be, her weight forward, looking at a person who was no longer there to be looked at.*
+
+*Two soldiers lifted the figure and carried her toward the main hall.*
+
+*The Queen watched them go.*
+
+*"No one will look for her. The chair has its rest. The hall has its seat. The world that wakes up tomorrow will know that the seat has always been held by exactly the shape that is now holding it." She turned toward the courtyard. "Begin transport. Lord Eirika is a piece of furniture in the main hall. Reissue the maps."*
+
+*By morning every map of the stronghold would show the main hall with a fixture at the corner of the seat. By the second morning no one would remember that the fixture had ever been anything else. The first lord of Renais had been added to the room as a chair rest, and the room had accepted her, and the world had received the addition, and the silence inside the stone was already as old as the room itself.*
 
 ---
 
@@ -201,15 +227,25 @@
 
 *"Each one is its function. What they wore came off. What they are remains."*
 
-*She stopped at Eirika. The guard posture was still in motion — the sword still in the hand, the body holding the lock at bay for the few seconds remaining.*
+*(If Eirika survived Ch1:)*
+
+*She stopped at Eirika in the road. The hedge along the ferry path was behind her; the river behind that. She had taken the road instead of the courtyard, and the road had emptied as she had moved along it, and now the road was a long line of merchants and ferrylady and horse and traveler all gone still in their work, and at the end of the line was Eirika still walking.*
+
+*She was holding the sword across her body at low guard. She had not slept. She had reached the ferry only because the road was clear of anyone who could stop her.*
+
+*The Queen stopped six paces ahead of her.*
 
 *"Map table pointer. Forward hall. She indicates the direction."*
 
-*The sword arm rotated to the pointing height of its own accord. Whatever Eirika had been trying to say arrived as the throat closed.*
+*Eirika tried to bring the sword up. The sword arm rotated instead to pointing-height — at the angle a hand indicates a road on a flat surface, at the height a finger holds when it shows someone the way. The road behind her had become the map she was pointing at and she was now part of the map. She tried to step backward toward the ferry. The foot stayed planted. The other foot adjusted to the pointing stance. Her hair settled around a face that had become the face of a guide. Whatever she had been about to say to the Queen arrived inside a throat that was already a stone throat, and the word stayed inside it.*
 
-**Eirika:** *[no sound — the breath stopped before the word]*
+**Eirika:** *[no sound — the breath stopped before the word, the road took it]*
 
-*The sword crumbled out of the hand. The armor surfaced and fell. The Queen was already moving.*
+*The sword crumbled out of the pointing hand. The armor surfaced and fell across the road dust. The crown clip crumbled. The Renais cloak surfaced and fell. What remained was a figure at the side of a road, pointing the way forward for anyone who came after. The Queen looked at the angle of the arm.*
+
+*"Adjust by two degrees toward the inner road. It is a forward hall pointer. The forward hall begins from her."*
+
+*A soldier adjusted the angle. The map was complete. The Queen was already moving.*
 
 ---
 
@@ -317,15 +353,51 @@
 
 ### Chapter Final — Lord Defeat
 
-*Lyn had been the last one standing. An enemy officer stepped into her path — the one she'd been trying to reach. She looked at Lyn the way someone looks at a sketch she has been carrying for weeks and is finally setting down.*
+*Lyn had been the last one standing in a village of statues that had been people three hours ago.*
+
+*She had pulled six wounded out of doorways and dragged them into the inn cellar and barred the door from the inside. She had killed three Stone Wardens by getting close enough to drive the Mani Katti up under the rib-plate, and she had broken the fourth's helm and run, because the fifth was already on her flank. Serra and Florina and Nino and Rebecca and Farina and Priscilla were behind her in the village, each one a figure now, each one in a posture the village had asked for. She had heard each definition land. She had felt each definition pull at her own body for the half-second after, asking if she was part of it too, until the named person took the weight.*
+
+*She came out of the alley into the main square with the Mani Katti reversed in her grip and blood — not all of it hers — running down the inside of her arm. The square was empty of moving things. The lamps that had been on the corners were already lit.*
+
+*An enemy officer stepped into her path — the one she had been trying to reach. The one she had spent the whole village chasing toward. The officer looked at Lyn the way someone looks at a sketch she has been carrying in a pocket for weeks and is finally setting down on a table.*
 
 *She said: "Corridor lamp. The arms bracket the light."*
 
-*Lyn drove at her anyway — the sword reversed, the swing already begun, every line of the strike that had carried her through the village now committed to the cut. The arms didn't close for the strike. They opened, because the definition had them open and the world had received it. The Mani Katti slipped from a grip that was no longer making a grip. She tried to close the off-hand on something. The off-hand spread to the bracket-width the room had asked for. The strike that should have gone home went past the officer's shoulder and met nothing.*
+*Lyn drove at her anyway. Every line of the strike was the strike Hassar's daughter had learned on the plains and every angle was the angle Lord Hausen had paid a sword-master to refine, and the cut was already past the point where stopping was a thing the body knew how to do. The arms did not close for the strike. They opened — because the definition had them open and the world had received the opening as the truth of what her arms were. The Mani Katti slipped from a grip that was no longer making a grip. She tried to close the off-hand on the officer's collar, on her hair, on anything. The off-hand spread to the bracket-width the corridor had asked for. The strike that should have gone home went past the officer's shoulder and met nothing.*
 
-**Lyn:** "...no — not like—"
+*The officer did not move. She had not needed to move. She watched the strike fail the way someone watches a piece of furniture settle into the position the room had been waiting for it to settle into.*
 
-*The stone completed. The Mani Katti crumbled where it fell. The riding coat surfaced and fell. The arms held what would soon hold the light.*
+*Lyn felt her feet plant. Felt the stride she had been carrying since she left Sacae stop being a stride and become the standing of something that did not stride. Felt her braid stop being a braid and become a fixed shape behind a fixed head. The wind from the open village door touched the side of her face and the side of her face did not turn into the wind. She had spent her whole life turning into wind. The wind kept moving and she did not.*
+
+*She tried to call the names of the ones in the cellar. She tried to call her grandfather's name. She tried to call her own name — to put it into the air where someone might hear it and look for the person it belonged to. The breath went into a throat that was already closing around the air. Nothing left her mouth except the shape of the word she had been about to say.*
+
+**Lyn:** "...no — not like — Grandfather—"
+
+*The stone completed at the bracket-width. The Mani Katti crumbled where it fell, the blade going to dust between one breath and the next; the hilt crumbled after it. The riding coat surfaced and fell. The boots surfaced and fell. The earring her mother had been wearing the day she died and had given to Lyn the morning before crumbled and fell. The braid crumbled with the leather tie that had held it. What remained was a figure in the village square with both arms held at the bracket-width of a corridor lamp, the face level, the expression the expression of a person who had been about to say a name she would not now say.*
+
+*The Queen came through the village an hour later. She walked the village without pausing.*
+
+*"Leave the village."*
+
+*She reached the main hall — a chapel converted to a sorting room — and moved through each piece. The entry frame above the door. The side table. The junction marker. The lower corridor grab. The entry coatstand. The dining station. Everything had crumbled of equipment. What remained was function.*
+
+*"Each is what it is."*
+
+*She found Lyn at the center of the square. The arms held their bracket-width. The stone was clean — coat, blade, earring, braid, all gone. What remained was the woman from the plains, made into the lamp the corridor needed.*
+
+*She walked around the figure once, looking at the angle of the arms from each side.*
+
+*"Main corridor lamp. The arms bracket the light. She lights whoever passes."*
+
+*A long pause. The Queen looked at the face — at the unspoken name still inside the mouth.*
+
+*"No one will look for her. There is only the lamp. The cellar door is barred from the inside; in three days the people in it will starve, and no one will know they are there, because there will be no one looking for the person who barred the door. The plains will not look for her — the plains do not look. Caelin will be told she fell on the road and no one will check, because there will be no one in Caelin asking. The braid is already gone. The earring is already gone. The grandfather she was about to call is alone in a hall a long way from here, and his last granddaughter is the corridor lamp."*
+
+*She turned. The lamp-lighters were already on their way down the corridor with the wicks.*
+
+*"By tomorrow morning every map of this hall will show a lamp at this position. By the morning after, no one will remember the lamp was anything else. The plains-rider who came to Lycia is the corridor lamp now. The corridor is lit. The hall begins from her."*
+
+*She walked out into the night. Behind her, in the dark, the first wick caught.*
 
 *The Queen came through an hour later. She walked the village without pausing.*
 
@@ -445,13 +517,21 @@
 
 *"The entry approach has its overhead."*
 
-*She found Lyn at the crossroads center. Stone clean.*
+*(If Lyn survived Side Ch2A:)*
+
+*She found Lyn at the crossroads center. The Mani Katti was already broken — she had thrown the hilt at a Stone Warden two turns ago and the blade had gone with it. She was holding two short knives she had taken from a dead enemy soldier. The wider stance was a stance she had adapted to in the past hour, when she realized the swordmaster's grip would not save anyone here.*
+
+*The Queen stopped four paces from her.*
 
 *"Junction lamp. She lights both roads."*
 
-**Lyn:** "Get out of here—"
+*Lyn felt both arms come up — not in a strike, not in defense, in the bracket of a lamp that lit a crossroads. The knives slipped from hands that were no longer hands for holding knives. She tried to scream the name of someone behind her in the chain — anyone she could warn back from the road. The throat closed around the breath she had been gathering. She heard her own warning end inside her chest.*
 
-*The stone completed. She was already writing the placement notes. The crossroads had its lamp.*
+**Lyn:** "Get — get out of—"
+
+*The stone completed at the lamp-bracket. The knives crumbled where they fell. The riding leathers surfaced and fell across the crossroads stones. The crossroads now had a lamp at its center — a young woman with both arms raised and the unfinished warning still inside her mouth. The two roads ran in either direction from her feet. She was the thing that lit both of them.*
+
+*The Queen was already writing the placement notes. The crossroads had its lamp. By tomorrow no map would show the crossroads without it.*
 
 ---
 
@@ -545,19 +625,29 @@
 
 *"The briefing room has its overhead. Rebecca marks the east hook. Florina is the lower corridor grab. Vanessa is the chandelier."*
 
-*She found Lyn. Stone clean, the arms raised. Whatever sound the throat had been making had stopped.*
+*(If Lyn survived prior chapters:)*
+
+*She found Lyn in the open field — wider stance than yesterday, arms already at lamp-height before the Queen had spoken, as if the body had been preparing the position on its own. The aerial pass had broken her cover three turns ago and she had stood her ground in the open because there was nowhere to run to. Stone clean — armor, weapon, the leathers, all gone before the Queen even arrived. The petrification had moved up her body during the dive she had not survived.*
 
 *"Field post. Exterior lamp. She lights the approach."*
 
-**Lyn:** *[silence — the stone had her before the word]*
+*The naming closed what the dive had begun. The arms locked at the field-post bracket. Whatever sound the throat had been making had stopped before the Queen finished the word.*
 
-*She looked at Eirika. Stone clean. The guard posture.*
+**Lyn:** *[silence — the dive had taken the voice; the lamp was the only thing left]*
+
+*(If Eirika survived prior chapters:)*
+
+*She looked at Eirika at the command threshold — the doorway that the assault command had used as their forward post. Eirika had reached the threshold and stopped there, sword up, refusing to let any soldier pass behind her into the field where the wounded were. She had held the threshold for two turns alone. The aerial pass had passed over her without touching her — the definition had landed from the rider above, not the bolt.*
+
+*Stone clean. The guard posture at exactly threshold-width. The sword had already crumbled at her boots. The crown clip had crumbled. What remained was the posture and the width.*
 
 *"Command threshold. She is the passage width. Everything that comes through, comes through her."*
 
-**Eirika:** *[silence]*
+*The Queen looked at the width — at the way the figure exactly filled the door — and noted that the width was right without adjustment.*
 
-*She walked out.*
+**Eirika:** *[silence — the wounded behind her were still there; she had become the door that would not open for them either]*
+
+*She walked out. The wounded behind the threshold had stopped calling. The door that had been Lord Eirika did not open for them.*
 
 ---
 
@@ -627,18 +717,28 @@
 
 *She walked the lane without stopping at the rest. Each one stone-clean, equipment gone, function remaining.*
 
-*She found Lyn at the crossing center. Stone clean — sword, coat, all gone.*
+*(If Lyn survived prior chapters:)*
+
+*She found Lyn at the crossing center. Stone clean — sword, coat, the wide stance she had grown into, all locked at the position the crossing had been waiting for. The Great Gorgon's burst had taken her in the last turn of the chapter; the definition had landed from a lieutenant on the perimeter, almost casually, the word said while watching the line of refugees who would never finish crossing. The arms were raised at full corridor extension. The face still held the line of someone trying to wave a column through.*
 
 *"Crossing lamp. She lights both groups."*
 
-**Lyn:** *[silence]*
+*The Queen looked at the angle of the arms — at the way they covered both the eastern group still in the road and the western group whose feet had already gone still in the queue.*
 
-*She found Eirika. Stone clean. Weight past the midpoint.*
+**Lyn:** *[silence — the column she had been waving through had stopped where it was; the lamp lit nothing that could move]*
+
+*(If Eirika survived prior chapters:)*
+
+*She found Eirika at the marker post. Stone clean. The weight had passed the midpoint — past the disbelief of Ch1, past the fight of Ch2, past whatever resolve had carried her through the last three chapters. The face was very quiet. The Renais plate had crumbled. The sword had crumbled. What remained was a posture that said here, this is where through begins.*
 
 *"Border marker. She is where through begins."*
 
-**Eirika:** *[silence]*
+*The Queen walked around the figure once. The figure was standing exactly on the line.*
+
+*The marker did not need adjustment.*
+
+**Eirika:** *[silence — she had become the threshold between the country that had been hers and the country that now contained her]*
 
 *"Both groups. The crossing is marked. The world has this."*
 
-*She walked out toward the next position.*
+*She walked out toward the next position. Behind her, the column did not resume. The marker held the line. The country on either side of it became one country, and the country was the Queen's.*
