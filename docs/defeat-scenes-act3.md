@@ -24,15 +24,21 @@
 
 ### Tana
 
-*She was driving east on foot — the recovered pegasus left at the assembly point, the lance carried at the run, the meeting point still a sprint away. She had the angle on a Standard Gorgon coming out of the side corridor and was reaching to strike.*
+*She had been recovered once. The first capture, in the courtyard at the beginning of all this, had been undone by a window of seconds — her allies had cleared the Collector before the touch could confirm. She had spent the days since trying not to think about what the wall and the corridor and the lance had felt like in the half-minute when the named pose had owned her body. She had not been able to stop thinking about it.*
 
-*The Gorgon stepped around the corner and caught her mid-step — the weight-forward stride, committed, the momentum all east. An officer nearby said, not even glancing at her: "East gallery. The stride holds. The direction stays."*
+*She was driving east on foot — the recovered pegasus left at the assembly point because the convergence corridor was too narrow for it, the lance carried at the run, the meeting point still a sprint away. She had the angle on a Standard Gorgon coming out of the side corridor and she was reaching to strike. She had drilled this strike every morning for a week, alone, before the others woke up. She had drilled it because she knew this was a country where the second capture would not be undone.*
 
-*She felt it before the stone moved. She tried to bring the lance through the strike. The lance arm wouldn't fold for the cut — the stride held the body forward, the arms held the weapon at travel-angle. The strike collapsed into the held east-facing of a marker. She pulled against it. Every pull confirmed the named direction.*
+*The Gorgon stepped around the corner and caught her mid-step — the weight-forward stride, committed, the momentum all east. The body remembered the angle the first time had taken; the body had been here before. An officer nearby said, not even glancing at her — already noting the placement in a ledger she was carrying open in her free hand: "East gallery. The stride holds. The direction stays. Same posture as the courtyard piece; this one converts cleanly."*
 
-**Tana:** "Again — not again—!"
+*She felt the definition land and she felt her body recognize it. Every pull she made was a pull she had already made once. Every adjustment was an adjustment she had tried in the courtyard and learned would not work. She tried to bring the lance through the strike. The lance arm would not fold for the cut — the stride held the body forward, the arms held the weapon at travel-angle. The strike collapsed into the held east-facing of a marker. She tried to break the pose by going limp the way no one had taught her and she had figured out for herself in the days since the first time. Going limp did nothing. The pose did not need her body to be tense; the pose only needed her body to be hers, and her body was already not hers, and going limp inside a not-her body was just a different shape of being there.*
 
-*The stone completed. The lance crumbled. The armor surfaced and fell. East gallery. The stride still said she was going somewhere.*
+*She felt the pegasus, four corridors away at the assembly point, lift her head and look toward this corridor — the rider-bond pulling once at the rider it was about to lose for the second time, then loosening because the bond on the other end had become a thing that did not return calls.*
+
+*She pulled against it. Every pull confirmed the named direction. The expression set into the frustration of someone who had been here before and could not believe she had been brought here twice.*
+
+**Tana:** "Again — not again — I was — I came back, I—!"
+
+*The stone completed at the second stride of her life. The lance crumbled. The wing-knight plate surfaced and fell — the same plate, the same crumble, the dust pattern on the corridor floor identical to the dust pattern that had been on the courtyard floor a country and a month ago. The pegasus at the assembly point turned in a slow circle three times and then settled, head down, because there was no rider to come back to. East gallery. The stride still said she was going somewhere. The face said she had been going somewhere before and had been wrong about it both times.*
 
 ---
 
@@ -48,23 +54,29 @@
 
 *"The posture is committed and the expression has more in it than frustration alone. East gallery confirmed."*
 
-*She moved through the combined roster. Equipment had crumbled across all of them — weapons, armor, staves. Stone remained.*
+*She moved through the combined roster. Equipment had crumbled across all of them — weapons, armor, staves, the small possessions each one had been carrying when the convergence point closed around them. Stone remained.*
 
-*She found Lyn. The stance was wide, covering both converged groups. Stone-clean.*
+*(If Lyn survived prior chapters:)*
 
-*"Corridor lamp. Wider base. She lights both groups."*
+*She found Lyn at the center of the converged formation. The stance was wider than any previous chapter — Lyn had been standing in a position that covered both groups at once, the one she had been with and the one she had been moving toward. The body had widened to hold both. She had been holding both when the Collector closed and the definition landed. Stone-clean.*
 
-**Lyn:** *[silence]*
+*"Corridor lamp. Wider base. She lights both groups. The convergence is the radius of her light."*
 
-*She found Eirika. The guard position. The weight had settled — the disbelief gone. Something quieter. Stone-clean.*
+**Lyn:** *[silence — the two groups she had been about to bring together were now both inside her shadow]*
 
-*"Map room. Reading table height. She marks the table."*
+*(If Eirika survived prior chapters:)*
 
-**Eirika:** *[silence]*
+*She found Eirika at the map table the convergence had set up — the table the groups had been about to meet over, the table that had been waiting for both leaders to arrive. Eirika had reached the table. She had set her hands on it. She had said one sentence about the route. Then the definition had landed.*
 
-*"The meeting point is ours."*
+*Stone-clean. The guard position had settled into reading-table height — the hands at the table-rim angle, the weight balanced over the table, the disbelief gone from the face. Something quieter had replaced it: the look of a person who has accepted that she will be the table the meeting happens on, not the leader who reads it.*
 
-*She left.*
+*"Map room. Reading table height. She marks the table. Every map opened in this room is opened on her hands. Every decision is made over her bearing."*
+
+**Eirika:** *[silence — the route she had been about to name was inside the stone of the table, and the table would never open the route to anyone who needed it]*
+
+*"The meeting point is ours. The map is on the table. The leader is the table. Proceed."*
+
+*She left. Behind her, the two groups that had been about to meet were both already inside the room, both already fixtures, both already part of what the room was for.*
 
 ---
 
@@ -104,23 +116,23 @@
 
 *She went through the combined roster. Equipment had crumbled across all of them. Stone and posture remained.*
 
-*(If Eirika:)*
+*(If Eirika survived prior chapters:)*
 
-*The guard posture. Harder now — past the midpoint, the disbelief gone. Stone-clean.*
+*The guard posture. Harder now — past the midpoint, the disbelief gone, the resolve worn smooth into something that had stopped expecting to be saved. Stone-clean. She had been holding the doorpost of the collection wing — the gallery's main entrance — when the construct push reached her. She had been holding it specifically: head up, both hands on the frame at shoulder height, as if she could refuse to let anyone past her into the room behind.*
 
-*"Collection wing entrance. Doorpost height. She marks what she was trying to protect."*
+*"Collection wing entrance. Doorpost height. She marks what she was trying to protect. The doorpost has the hands of someone who knew exactly what was on the other side."*
 
-**Eirika:** *[silence]*
+**Eirika:** *[silence — the room she had been refusing to let anyone enter was already full; she was the door it would now never close]*
 
-*(If Lyn:)*
+*(If Lyn survived prior chapters:)*
 
-*The widest base yet. Stone-clean.*
+*The widest base yet — wider than the convergence chapter, wider than any chapter before that. She had spent the chapter chasing constructs into the fog perimeter and pulling allies out of it, and the stance she had ended in was the stance of a person who had been covering a corridor full of people. Stone-clean.*
 
-*"Collection wing passage. She lights everyone who made it this far."*
+*"Collection wing passage. She lights everyone who made it this far. The light reaches both walls. The corridor is hers."*
 
-**Lyn:** *[silence]*
+**Lyn:** *[silence — every ally she had pulled out of the fog was now part of the corridor she was lighting]*
 
-*She left.*
+*She left. The collection wing now had its doorpost and its corridor lamp. By morning the wing's blueprint would be redrawn around both.*
 
 ---
 
@@ -166,23 +178,23 @@
 
 *"She wasn't looking at us." A pause — not long. "Reading room. She watches the reader's right. This is confirmed."*
 
-*(If Eirika:)*
+*(If Eirika survived prior chapters:)*
 
-*The expression arrived and still. Stone-clean.*
+*The expression had arrived at something quieter than resolve and held there. Stone-clean. Eirika had spent the chapter watching the vision come true. Every figure they had walked past at the entrance stone, every position Sophia had described in the vision an act ago — Eirika had seen each one and known what was coming and walked past anyway. The expression that had set into her face was the expression of a person who had accepted that walking forward into a thing she had seen the end of was the only thing she still had.*
 
-*"Reception hall. She holds the armrests."*
+*"Reception hall. She holds the armrests. The seats on either side of her face the entrance. The guests at this reception will be greeted by the woman who already knew."*
 
-**Eirika:** *[silence]*
+**Eirika:** *[silence — the foreknowledge was inside the stone, and the stone would keep it without ever sharing it]*
 
-*(If Lyn:)*
+*(If Lyn survived prior chapters:)*
 
-*The grief and the failed protection both visible. Stone-clean.*
+*The grief and the failed protection both visible — Lyn had been with Sophia at the end. Sophia had warned them. Sophia had been right. Lyn had failed to keep Sophia from being right anyway. Stone-clean. The arms had spread to the lamp-bracket at the angle of a person who had been trying to protect someone who could not be protected from a future she had already seen.*
 
-*"Corridor lamp. The contradiction is the fixture."*
+*"Corridor lamp. The contradiction is the fixture. The lamp lights the corridor where she failed; the corridor is the corridor she walked anyway."*
 
-**Lyn:** *[silence]*
+**Lyn:** *[silence — Sophia was inside this same room, watching the reader's right, and Lyn would never reach her again]*
 
-*"The sight line points where it points. This room is finished."*
+*"The sight line points where it points. The lamp lights what it lights. This room is finished. The prophet's reception hall has its reader, its observer, its lamp, and its woman who tried."*
 
 *She left.*
 
@@ -266,29 +278,29 @@
 
 *"Limited window. Move everything that isn't Morrha."*
 
-*(If Eirika:)*
+*(If Eirika survived prior chapters:)*
 
-*She found Eirika last. The guard position. The expression arrived and still. Stone-clean — no sword, no armor, only the posture and the hands.*
+*She found Eirika last. The guard position. The expression arrived and still. Stone-clean — no sword, no armor, only the posture and the hands. Eirika had been at the threshold of the lower stronghold when Morrha's expansion had begun; she had held the threshold for the full last turn of the chapter to give the survivors time to clear the radius. The threshold she had held was already inside the aura when the petrification took her.*
 
-*"Reception hall. Final placement. She holds what she was always holding."*
+*"Reception hall. Final placement. She holds what she was always holding. The chair rest of the first chapter, the threshold of the last — both are the same posture. The world has always had this seat."*
 
-**Eirika:** *[the stone reached her before the word]*
+**Eirika:** *[the stone reached her before the word — the breath she had been about to spend on a name died inside the threshold she was now]*
 
-*(If Lyn:)*
+*(If Lyn survived prior chapters:)*
 
-*The grief compressed — covering fewer now. Stone-clean.*
+*The grief compressed — covering fewer now, the radius narrower because the people left to cover were fewer. Stone-clean. The arms had taken the lamp-bracket at the angle of someone who knew she was lighting the last of her own group out.*
 
-*"Stronghold passage lamp. She lights whoever is left."*
+*"Stronghold passage lamp. She lights whoever is left. The passage is short. The light is enough."*
 
-**Lyn:** *[silence]*
+**Lyn:** *[silence — whoever was left was already past her, and the passage behind her would never see another ally come through]*
 
-*(If Lilina:)*
+*(If Lilina survived prior chapters:)*
 
-*The fury still in the stone. The calculation in the stone with it.*
+*The fury still in the stone. The calculation in the stone with it. She had been counting again — the count had reached the number that meant only she and Eirika and Lyn were left, and the count had stopped because the count had nowhere left to go. The palms were up. The ash was almost nothing.*
 
-*"Stronghold approach. Candle holder."*
+*"Stronghold approach. Candle holder. The candle is the last one before the passage closes."*
 
-**Lilina:** *[silence]*
+**Lilina:** *[silence — the count was complete, and the last figure on the count was herself]*
 
 *She straightened.*
 
