@@ -38,7 +38,7 @@
 
 **Tana:** "Again — not again — I was — I came back, I—!"
 
-*The stone completed at the second stride of her life. The lance crumbled. The wing-knight plate surfaced and fell — the same plate, the same crumble, the dust pattern on the corridor floor identical to the dust pattern that had been on the courtyard floor a country and a month ago. The pegasus at the assembly point turned in a slow circle three times and then settled, head down, because there was no rider to come back to. East gallery. The stride still said she was going somewhere. The face said she had been going somewhere before and had been wrong about it both times.*
+*The stone completed at the second stride of her life. The lance crumbled. The wing-knight plate surfaced and fell — the same plate, the same crumble, the dust pattern on the corridor floor identical to the dust pattern that had been on the courtyard floor a country and a month ago. The pegasus at the assembly point turned in a slow circle three times and then settled, head down, because there was no rider to come back to. What stood in the east gallery, bare, was a young woman caught in full forward motion a second time — one leg driving ahead, the trailing foot barely down, the whole body pitched east, one arm thrust along the direction it was committed to. The stride still said she was going somewhere. They would run a wall of placards down the gallery beside the thrust-out arm, and her motion would point the visitors along it. The face, though, no longer matched the courtyard figure she'd once been: it had stopped being the bright affront of a girl who couldn't believe her arm had betrayed her, and become the worn, hollow recognition of a woman who had been brought to exactly this place once before, gotten away, and been brought back — and understood, in the last instant, that there would not be a third return.*
 
 ---
 
@@ -160,7 +160,7 @@
 
 **Sophia:** "I knew this would — I'm still—"
 
-*The stone completed. The tome burned away in front of the held hands. The dark robes surfaced and fell. They placed her where the sight line fell over the right shoulder of whoever sat to read. She was watching something that wasn't there. The reader would face the question.*
+*The tome burned away in front of the held hands; the heavy dark robes and the deep hood surfaced and fell. The figure left behind was slight and a little stooped, head bowed and turned to one side, both hands open in front of her around the cooling shape of a spell that never closed, the eyes lifted and fixed on a point off to the right of no one. They set her at the reading room so that the sight line fell over the right shoulder of whoever would sit there. Stripped of the robes she was just a small stone woman looking quietly past you at something she had clearly seen coming — and would go on watching for, beside every reader, never saying what it was, having already known the whole shape of it before the Gaze ever found her.*
 
 ---
 
@@ -232,7 +232,7 @@
 
 **Marisa:** "...mm — fine."
 
-*The stone completed. The blade crumbled in the locked hands. The travel coat surfaced and fell. She didn't seem particularly troubled. Weapon display. The relaxed hands held whatever was placed in them.*
+*The blade crumbled out of the locked hands; the travel coat surfaced and fell. The stone kept the pre-strike hold exactly — a lean, quiet swordswoman with both hands turned up and open at waist height, the relaxed two-handed cradle of a fighter who had not yet chosen which of three cuts to make. They mounted her as a weapon-display, the open stone hands waiting to bear whatever blade was laid across them. The decision never resolved; it sat in the stilled body forever, unbothered, the same faint unconcern on her face that had been there at the end. She would hold the museum's swords now, in hands that had been a breath from choosing, and the choosing would stay open for as long as the display stood.*
 
 ---
 
@@ -244,7 +244,7 @@
 
 **Isadora:** "The order — for the—"
 
-*The stone completed. The sword crumbled in the presented hand. The plate armor surfaced and fell. Lamp post base. The formal upright at the correct height.*
+*The sword crumbled in the presented hand; the plate armor surfaced and fell piece by formal piece. The stone kept the parade-ground upright entire — a tall knight standing dead straight, chin level, one arm bent to present a blade that was no longer there, every line of the form correct to the regulation she had held through three commanders. They sank her base into the floor as a lamp-post: the rigid vertical body the post, the presenting arm the bracket. The discipline that had survived everything became the one virtue a lamp-post needs, which is to stand perfectly straight and not move, and she would do that — correct, formal, at the proper height — for as long as the corridor wanted light.*
 
 ---
 
