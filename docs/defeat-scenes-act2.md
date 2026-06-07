@@ -25,137 +25,139 @@
 
 ### Shanna
 
-*She had her target and she was committed — mid-pivot, the javelin arm moving into the throw, the pegasus folded for the dive that would follow. The Veil thinned around her into something harder to see through, but the throw line was clear.*
+*She had her target and she was committed — mid-pivot, the javelin arm coming forward into the throw, the pegasus folded under her for the dive that was supposed to follow. Twenty feet and closing. The Veil thinned around her into something the eye slid off of, but the throw line was still clean and she had thrown through worse than this.*
 
-*A heavier Stone Warden variant stepped in front of the throw and let the javelin hit it. As the impact transferred the Brand up the shaft, a soldier behind her said: "Gate crossbar. The arm holds it. The throw stays."*
+*The heavier Warden didn't dodge. It stepped into the lane and took the javelin in its shoulder-plate, and as the iron bit and the Brand ran backward up the haft into her hand, the soldier walking behind it spoke without hurry — the way a carpenter reads a measurement off a wall: "Gate crossbar. The arm carries the beam. The throw stays where it is."*
 
-*She felt the release locking — the arm mid-throw and staying there, the javelin gone, the arm still following through because the definition had the arm following through. She tried to bring the off-hand to the secondary javelin. The off-hand wouldn't leave the rein; the rein wouldn't slip from the grip. The pegasus answered the rider's locked body, the dive collapsing into the held forward-lean of something that bore weight.*
+*The follow-through stopped being a follow-through. Her arm hung out along the line of the cast, not snapping back the way a thrown arm snaps back — just suspended at the height a crossbar hangs, because the height had been spoken and the world preferred the spoken height to hers. Her off-hand groped for the spare javelin at her knee and never arrived; the rein had already become a thing her fingers were set around rather than holding. Under her the pegasus reached for the dive and found no rider in the saddle to answer it, only a body going level and heavy and weight-bearing, a body learning in the space of a breath that it was a beam.*
 
-**Shanna:** "I'm still — my arm—"
+**Shanna:** "Wait — my arm's still — I can still—"
 
-*The stone completed. The remaining javelins crumbled in the quiver; the armor surfaced and fell. They hung her on the gate's crossbar. The javelin arm held it. Every time the gate moved, the arm bore the weight.*
+*The grey came up over her mouth and kept the rest.*
+
+*The javelins crumbled in the quiver at her back, the quiver crumbled after them, and the wing-plate lifted off her in flakes and was gone before it touched the ground. What the gate received, when the dust thinned, was a slight young woman turned to pale stone with her near arm run straight out from the shoulder, the wrist still cocked at the top of a throw, the small muscles of that thin forearm tensed forever for a release the stone would hold and never finish. They seated the gate's crossbeam into the crook of the outstretched arm. Her hair had set mid-motion in a hard fan across one cheek and did not stir when the gate moved. The first time the doors swung, the whole slight figure took the load through that one thin arm and did not tremble. An hour ago she had wanted to be useful in the dive. The dive was gone. The use was kept.*
 
 ---
 
 ### Echidna
 
-*She had been fighting for three turns — axe-haft in both hands, the wide stance she had refined over a long history of holding more ground than she should be able to. The Veil pulled at her sight but did not move her feet. She was still fighting when the Stone Warden finally got through her guard — not by force. It put both hands on her shoulders and leaned its weight against her planted stance.*
+*Three turns she had held the line — both hands choked up on the axe-haft, the wide flat-footed stance she had spent a hard life refining, the one that let her hold more ground than a woman her size had any business holding. The Veil dragged at her eyes and left her legs alone, and her legs were the whole of her argument. The Warden didn't try to out-fight that. It walked into her, set both hands flat against her breastplate, and leaned, putting its weight where her weight already was — asking a planted stance to become something that held weight for a living.*
 
-*While it did this, a soldier said from the side: "Column base. The plinth. She holds the lamp at standard height."*
+*From the side, level and unbothered: "Column base. The plinth carries the lamp. Standard height, the left hand."*
 
-*She tried to drive the axe up through the Warden's grip — the swing that had ended a hundred encounters. The axe arm moved to the lamp-height instead, the haft turning vertical, the cut collapsing into a hold. She felt the calm come up. She'd felt it before in worse situations. The fight was done before her body finished agreeing.*
+*She brought the axe up off her shoulder to split the thing's grip, the same upward cut that had ended more fights than she had bothered to count. The cut never landed. The haft turned vertical between her fists, the blade-edge rolling away from the Warden and toward the ceiling, the whole violent motion folding itself into a tall still offering of a height. The old calm came up and she sat with it; she had felt it in worse rooms than this and it had never once been wrong about what it meant.*
 
-**Echidna:** "It ends here — fine—"
+**Echidna:** "So it's here, then. All right."
 
-*The stone completed. The axe-head crumbled off the haft, then the haft crumbled too. The armor surfaced and fell. They fixed the lamp standard to the locked hand. The column base had its plinth.*
+*The axe-head sheared off the haft and powdered, the haft chasing it down; the resistance-leathers and the battered breastplate sloughed off in grey sheets. What stood when the air cleared was a broad, deep-chested woman in unrelieved stone, feet planted wide and sunk, shoulders squared, the whole mass of her settled down into the floor as though she had grown up out of it — a base, a thing meant to be stood on and built from. Her left arm was crooked upward to its full reach, the hand open and flat at exactly the height a tall woman carries a lamp. The soldiers fitted the standard into that open palm. The light sat where the axe had been a moment before. Her broad, weathered face looked out over the corridor it would light from now on, wearing the expression of someone who had decided long ago that there were worse ways to be spent.*
 
 ---
 
 ### Wendy (if captured Ch6)
 
-*She had planted herself at the gate approach — shield up, lance leveled, the armored stance that could hold a chokepoint against three opponents at once. Morrha's heavier Warden variant got through the formation on the third push. It put both hands on her shield and leaned. A soldier beside it said, watching the locked shoulders: "Corridor wall. She stays here. The corridor stays narrow."*
+*She had wedged herself into the throat of the gate approach — shield up, lance braced, the whole small armored bulk of her filling a gap that should have needed someone twice her size. Two enemies had already broken on her and gone around. The third was the heavier Warden, and it did not try to push her aside; it walked square into the shield and pressed, settling its weight down through her as if testing whether she would hold a roof. A soldier behind it spoke around a yawn: "Corridor wall. She narrows it. The width is hers."*
 
-*She felt the plant become the permanence — the feet that had been choosing to hold now holding because holding had been named. She tried to swing the lance around the Warden's guard. The lance arm answered the wall, not the swing; the angle that would have been the strike became the angle the corridor had asked for. She tried to step back to break the press. The back foot was already at wall-depth.*
+*The bracing changed under her without moving. Her feet had been choosing the floor; now the floor had her. She hauled the lance across to take the Warden under the arm and the lance went nowhere her strike wanted — the arm settling instead to a flat against-the-wall angle, a thing that defined an edge rather than a thing that killed. The shield stopped being something she held in front of her and became something the corridor was built against.*
 
-**Wendy:** "I won't let them — I'm still—"
+**Wendy:** "I won't — you're not getting — I won't—"
 
-*The stone completed. The lance and shield crumbled. The armor surfaced and fell across the gate approach stones. The corridor stayed narrow around her. She was the narrowing.*
+*The lance and shield crumbled together, then the armor that had always been a size too large for her went off in plates, and what was left in the gap was startlingly small: a stone girl barely past childhood, shoulders squared, jaw set, both arms drawn in tight against her sides, pressed flat into the narrowest point of the passage as though she were holding the two walls apart by being between them. Anyone walking the corridor afterward had to turn sideways to pass the place where she stood. That was the point of her. The smallness was the function — she made the gap exactly as wide as a child with her arms in, and no wider, forever.*
 
 ---
 
 ### Clarine (if captured Ch6)
 
-*She was managing two things at once — one arm pointing south to redirect the formation, the other holding the staff extended toward a wounded soldier in the north lane. The Dark Witch's secondary shot found her in the split attention. A soldier said: "Junction arm. She points the way. Leave the expression."*
+*She had a hand for everything — one arm flung out to send the formation south, the staff in the other extended toward a soldier bleeding in the north lane, her voice running both errands at once in the carrying, faintly outraged tone she used for all of them. The Dark Witch's bolt found her in the middle of the sentence. A soldier read her posture aloud, almost lazily: "Junction marker. The arm gives the directions. Keep the face exactly as it is."*
 
-*The pointing arm locked at the angle the junction wanted. She tried to bring the staff around to finish the cast she had been carrying. The staff arm went to the complementary holding-height instead, the heal draining back into the staff without reaching anyone. The commands she had been issuing arrived in a throat already going still.*
+*The flung-out arm set where it pointed. The staff-arm she swung back to finish her heal — and it did not finish; it drifted up to a matching presenting height, the magic sliding off the end of the rod and dissipating before it ever reached the wounded man, who would now bleed in the lane she had been pointing away from.*
 
-**Clarine:** "Absolutely not — I'm still in the middle of—"
+**Clarine:** "How — how dare you, I was not — I was not finished—"
 
-*The stone completed. The staff crumbled. The robes surfaced and fell. Junction arm. The imperious expression remained. Every soldier who came through that junction received it as an instruction.*
+*The staff crumbled out of the lifted hand; the layered noble robes and the fine traveling cloak surfaced and powdered away. The figure left at the junction was slender and precise, chin tilted up, fine ringlets set hard around a face caught in the exact instant of giving an order it expected to be obeyed. One stone arm extended in a clean line down the eastern passage, fingers together, pointing. Soldiers passing the junction glanced at the indicated direction and took it. The pointing was correct. The outrage on the face had become, to anyone reading the corridor, merely the firmness a good waymarker ought to have.*
 
 ---
 
 ### Larum (if captured Ch6)
 
-*She was mid-dance to refresh the unit to her west — the steps already forming, both arms opening into the wide reach that carried the energy outward. A Gorgon's Gaze caught her in the extension. A rider nearby said: "Ceiling reach. She holds the lamp at height."*
+*She was already dancing — the quick light footwork that woke a tired ally up, both arms opening into the long outward sweep that threw the energy across the gap to the unit on her west. A Gorgon's Gaze caught the sweep at its widest. Somebody she couldn't see said: "Ceiling lamp. The reach goes to the rafters."*
 
-*The arms locked at ceiling height instead of outward reach — the dance's energy redirected upward, the refreshment going nowhere. She tried to pull the arms back down into the dance's next movement. The arms went wider at the named ceiling height. The unit she had been about to refresh did not receive the dance.*
+*The outward throw turned upward. Her arms, which had been giving the dance away to someone else, lifted past the dance into a vertical stretch they had not chosen, the energy that should have crossed the gap pouring uselessly toward the ceiling instead. Her west-side ally felt the refresh that had been coming stop coming. The music of her own movement ran out under her.*
 
-**Larum:** "...I was reaching — I'm still—"
+**Larum:** "I had it — it was almost across — almost—"
 
-*The stone completed. The performance ribbons crumbled. The robe surfaced and fell. Ceiling reach. The lamp placed into the extended arms held the height.*
+*The dance-ribbons crumbled off her wrists, the light performance silks went after them, and the figure that set was long and thin and stretched fully upward, weight balanced high on the balls of both stone feet, arms reaching to their absolute limit overhead with the hands open and angled to cradle a light. They hung the ceiling lamp in the offered hands. The whole lithe body had become a single upward line, a reach with no recipient, holding a glow at the height of the rafters for a room full of people who would never know the reach had once been meant for one specific tired friend across a gap.*
 
 ---
 
 ### Sue (if captured Ch6)
 
-*She was in the archer's low crouch — the slow-pull tension her plains training had put in her draw arm, the lead set on an enemy officer she had been tracking for two turns. The angle was right. A Gorgon closed from her blind side while her attention was forward. A soldier said: "Floor fixture. The crouch holds the lamp at ground level."*
+*Low and quiet in the archer's crouch — the slow even draw of the plains, breath sitting at the bottom of the lungs, the lead already laid on an officer two turns away from being worth the arrow. She had gone still the way the steppe taught its children to go still. A Gorgon found the stillness from the side. A soldier said: "Floor candle. The low hold keeps the light at boot height."*
 
-*The crouch locked before she could rise for the shot. She tried to release the draw she had been holding. The draw arm wouldn't loosen — the wrist was already at floor-lamp angle, not firing angle. She tried to come up out of the crouch. The kneel deepened instead.*
+*The crouch took root. The draw she had been holding for the long shot would not release — the bow-hand had settled to a ground-level cradle, not a firing line, and the arrow stayed nocked into a thing that was no longer a bow. She tried to rise; the knees only folded her lower, closer to the floor she was now meant to light.*
 
-**Sue:** "...the shot — I almost—"
+**Sue:** "...so low — grandfather, the ground's so—"
 
-*The stone completed. The bowstring snapped. The bow and quiver crumbled. The riding leathers surfaced and fell. Floor lamp. The draw arm held the light at ground level.*
+*The bowstring snapped, the bow and quiver crumbled, the riding leathers came away in grey flakes. What remained, crouched at the base of the wall, was a compact, self-contained figure folded down close to the floor, knees tucked, one arm extended forward and low with the hand cupped open at the height of a person's ankle. They set the floor-candle into the cupped hand. The quiet that had been her discipline was now simply the quiet of a thing at floor level that did not move. She lit the corridor from below, at the height boots passed, where no one ever looks.*
 
 ---
 
 ### Dorothy (if captured Ch6)
 
-*She had adapted her form for the Veil's compressed distances — the lean-back compensation for shortened draws, the bow held lower than standard, her torso angled against the tighter range. The Veil made everything a close fight. A Gaze Hunter's bolt found her in the lean. A soldier noted the angle: "Reading chair support. The lean backs the seat. The arm rests at the correct height."*
+*The Veil had made every shot a close one, and she had adapted the way good archers adapt — leaned her torso back to buy space against the shortened distances, dropped the bow lower, angled her whole upper body into the compensation. She was mid-correction, halfway back to true, when the Gaze Hunter's bolt caught her. A soldier studied the recline: "Chair-back. The lean is the support. The arm rests where the armrest goes."*
 
-*The lean locked before she could correct it back to proper form. She tried to bring the bow up into the full firing line. The torso wouldn't return to vertical; the adaptation she had been about to undo became her permanent position. The bow arm went to armrest height.*
+*The lean stopped halfway and stayed there. The torso that had been on its way back to vertical was now simply reclined, fixed at the comfortable backward angle of a thing made to be leaned against. Her bow-arm, reaching for the firing line, drifted instead out to one side and settled flat at the height of an armrest. The form she had been about to fix was the form she would keep.*
 
-**Dorothy:** "...that's not — wait—"
+**Dorothy:** "...wait, I was straightening — I was about to—"
 
-*The stone completed. The bow crumbled. The quiver crumbled. The travel leathers surfaced and fell. Reading chair support. The lean backed the seat, stone-clean.*
+*The bow and quiver crumbled; the travel leathers fell away in dust. The figure left behind was tilted backward from the hips in a long easy recline, spine curved to receive a sitter's weight, one stone arm laid out level to the side as a rest for someone else's elbow. She had become the back and arm of a reading chair. The seat would be set against her angled spine. Whoever sat in it would lean into the place where she had been leaning, and find it exactly the right slope, and never know the slope had been a correction she never got to finish.*
 
 ---
 
 ### Thea (if captured Ch6)
 
-*She was banking into a precision turn above the Veil's edge — lance angled across the curve, the wing span at the exact radius formation work had made instinct. The Aerial Gorgon above came in from the same direction she was turning into. Its rider said: "Chandelier span. The arms frame the bar. Keep the banking angle."*
+*A precision turn above the Veil-line — lance laid across the curve, wings stretched to the exact radius that formation flying had drilled into her until it was instinct, the whole maneuver clean and tight and hers. The Aerial Gorgon dropped in along the same arc she was carving. Its rider spoke down at her: "Chandelier. The span holds the ring. Hold the bank."*
 
-*She tried to break the bank into a combat approach. The arms pulled wide to chandelier width instead — the precision banking angle becoming the fixture's span, not a weapon's arc. The lance arm wouldn't close for the strike. The turn that had been an attack became a frame.*
+*The banked arms widened. The disciplined turn-radius opened past anything a turn needed, both arms drawn out to a symmetrical span, the lance-arm refusing to come in for the cut the curve had been setting up. The pegasus answered a body that had stopped being a rider's body and become a level horizontal frame. The strike never closed.*
 
-**Thea:** *[silence — the throat closed in the turn's locked moment]*
+**Thea:** *[silence — the breath had gone out of her in the bank and the stone took the empty throat before she could draw another]*
 
-*The stone completed. The lance crumbled. The armor surfaced and fell. Chandelier span. The arms held the bar at the width that had been named.*
+*The lance crumbled, the armor sheeted away. What hung in the air-mount, when the soldiers had rigged it, was a figure held perfectly horizontal, both arms extended to full matched span, wrists turned up, the body a taut level beam from one stone fingertip to the other. They suspended the chandelier-ring from the spread arms. She held it dead level — the same precision she had flown with, now spent on keeping a ring of candles from tilting, the formation-rider's exactness become the one virtue a chandelier truly needs.*
 
 ---
 
 ### Elen (if captured Ch6)
 
-*Both halves of a staff broken two casts ago — she was still holding them, still assessing whether the magic would carry through one piece alone, still trying to solve it. The Veil had been pulling at her healing since the chapter began. A Stone Warden stepped over the ally she had been trying to reach. A soldier said: "Two-candle lamp. The hands hold both heights."*
+*Her staff had broken two casts back and she had kept both halves, because she was still working the problem — would the magic chain through the short piece, could she bridge the gap between them, the wounded man at the wall needed the answer in the next breath and she was a breath from having it. The Veil had been fighting her healing all chapter. A Warden stepped over the man she was trying to reach. A soldier said: "Twin lamp. Two flames, two heights. The hands hold both."*
 
-*She tried to bring the pieces together for a joined cast. The hands stayed at the two heights the lamp had named — longer piece raised, shorter piece at mid-height. The join she had been about to attempt came apart before it formed.*
+*Her hands had been about to come together over the break. They did not come together. They held apart — the longer half lifted high, the shorter half at her waist, the exact two heights the lamp wanted — and the cast she had almost solved dissolved in the gap between them, the gap that was now permanent, the gap that was the whole design.*
 
-**Elen:** "I haven't — please, just one more—"
+**Elen:** "No — I nearly had it — I only needed to—"
 
-*The stone completed. Both pieces crumbled. The robes surfaced and fell. Two heights. The passage had its lamp.*
+*Both staff-halves crumbled out of the open hands; the gentle healer's robes fell away in dust. The figure that set was soft-shouldered and upright, both arms raised in front of her at two different levels, palms open and cupped, one near the head and one near the hip. They fitted a small flame into each cup. She had become a standing lamp of two lights, and the unsolved problem — how to bridge the distance between her two hands — was now the fixed and useful distance between her two flames, lighting the wall where the man she could not reach had been.*
 
 ---
 
 ### Cath (if captured Ch6)
 
-*She was running — the papers from the enemy courier's bag folded tight in her closed fist, the gate exit eight paces ahead. She had done the hard part already. A Stone Warden stepped from a side alcove she hadn't checked. As the contact landed at her shoulder, a soldier said, reading off the position her body had taken: "Sprint threshold. The closed fist at handle height. What she's carrying stays."*
+*Flat-out running — the courier's papers crushed into her closed fist, the gate eight paces off, the hard part already behind her. She had not checked the side alcove because there had been no time and the math had said she was clear. A Stone Warden came out of the alcove the math had skipped. As its hand closed on her shoulder, a soldier read the shape she was frozen into: "Door sprint. The fist at the latch. Whatever she's carrying stays."*
 
-*She tried to break sideways past the Warden's grip, the way she had broken out of tighter situations. The shoulder didn't roll. The sprint locked at peak stride — both feet briefly off the ground at the moment the definition had found her. The papers crumbled inside the closed fist.*
+*She threw her weight sideways to roll out of the grip the way she had rolled out of a dozen grips, and her weight had nowhere to go — the stride locked at its peak, both feet off the ground, the lean fully committed forward at a door she would never reach. The fist clenched harder of its own accord, and the papers inside it crushed to grey powder that sifted out between the stone knuckles.*
 
-**Cath:** "I'm still — I almost—"
+**Cath:** "No — I had it, I had the names, I almost—"
 
-*The stone completed. The dagger crumbled in her belt. The cloak surfaced and fell. Sprint threshold. The closed fist held an absence at handle height. The gate stayed eight paces away.*
+*The dagger crumbled at her belt, the lockpicks in their loops crumbled one after another, the cloak surfaced and streamed off behind her and was gone. The figure left at the gate was caught at the absolute top of a run — body pitched forward, one leg trailing, the other barely touching down, one arm flung back for balance and the other thrust ahead with the fist closed at the height of a latch. The hand held nothing; the run went nowhere. She had become the gallery's motion-piece, the kinetic flourish beside a door, a sprint with no finish and a grip on an absence, eight paces short of out for the rest of time.*
 
 ---
 
 ### Sophia (if captured Ch6)
 
-*She was casting — slowly, the way she always cast, the dark magic shaping in front of her open hands. She was looking to the side as the spell formed. Not at the Veil's edge. Not at the enemy. At something to her right, the way her attention always drifted when the casting was coming right. The Dark Witch's secondary shot caught her in the held shaping. A soldier said, watching the fixed gaze: "Reading station. The sight line holds to the right."*
+*She cast the way she did everything — slowly, the dark gathering in front of her open hands at its own unhurried pace, her eyes drifting off to the right the way they always drifted when the magic was coming in true. She was not looking at the Veil or the Warden or the bolt. She was looking, as ever, slightly away. The Dark Witch's second shot took her in the unhurried shaping. A soldier watched where her gaze had gone and named it: "Reading-room watcher. The eyes hold to the right of the chair."*
 
-*She tried to release the cast. The hands wouldn't close into the release gesture — they held the shaping position. She tried to look forward to aim the spell where it was needed. The sight line wouldn't turn.*
+*The half-formed spell would not finish — the hands stayed open around magic that thinned and scattered without ever going where she had not quite aimed it. She tried to turn her face forward, to look at the thing that was killing her instead of the thing off to the side, and her head would not come around; the sight line had been named and the sight line held.*
 
-**Sophia:** "I know what comes — I'm still—"
+**Sophia:** "I saw this one too — I always — I'm still here, I'm still—"
 
-*The stone completed. The tome burned in front of the held hands. The dark robes surfaced and fell. Reading station. The sight line fixed to the right of whoever would come to stand beside her.*
+*The tome burned away between the open hands; the heavy dark robes and the deep hood fell to dust. The figure that set was slight and stooped, head bowed a little and turned to one side, eyes lifted and fixed on a point off the right shoulder of a chair that wasn't there yet. They would build the reading nook around her. Whoever came to sit and read would feel, always, that the small stone watcher beside them was looking at something just past their shoulder — something she seemed to have been waiting a long time to see, and would go on watching for, without ever telling the reader what it was.*
 
 ---
 
@@ -197,7 +199,7 @@
 
 **Lilina:** "...father, the line — the line wasn't—"
 
-*The stone completed at the cup-shape. The remaining ash settled into the cup. The boots crumbled. The Ostia ring on her finger crumbled. The medallion her father had given her when she was nine crumbled, the chain crumbling after it. What remained was a young woman crouched at shin height with both palms cupped open, the angry expression preserved, the inheritance gone.*
+*The stone completed at the cup-shape. The last of the ash settled into the bowl of her hands. The boots crumbled off her feet; the Ostia ring crumbled off her finger; the medallion her father had given her when she was nine crumbled, and the fine chain that held it ran to dust a link at a time down the front of a chest that was already stone. What was left crouched against the corridor floor was a young woman folded down onto her heels, knees together, back curved forward, both arms brought in to the center of her body with the hands cupped open at shin height — a low, compact, kneeling shape whose whole architecture funneled down and inward to the small bowl her two palms made. The fury was still on the face, fixed: the drawn brows, the set jaw, the eyes that had been about to say something to a father a hundred miles away. From the chest up she was a furious girl interrupted. From the wrists down she was already a candle-stand, the open hands waiting at exactly the height a kneeling servant would set a light. The two readings did not contradict each other. The room had use for both.*
 
 *The Queen turned to a soldier with a basket of candles.*
 
