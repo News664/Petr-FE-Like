@@ -38,7 +38,7 @@
 
 **Karla:** "...my wrist — what—"
 
-*The stone completed. The sword crumbled in the open hand. The travel coat surfaced and fell. A soldier set a wine bottle in the cradle of her turned wrist. She was placed beside the reading chair. The chair had its service.*
+*The sword crumbled out of the open hand; the travel coat surfaced and fell. The stone kept the interrupted sheathe — a poised, fine-boned swordswoman with the near arm drawn across her body and the wrist turned and cocked at a soft cradling angle, the most elegant gesture of her craft frozen halfway through. A soldier laid a wine bottle into the cradle of the turned wrist; it sat there as if she had always meant to hold it. They placed her at the side of the reading chair. The cut her brother taught her decades ago had become a serving-pose: the deadly economy of a master swordswoman repurposed to hold a decanter at exactly the right tilt beside someone else's seat, her composed face turned toward a chair she would attend for the rest of time.*
 
 ---
 
@@ -116,7 +116,7 @@
 
 **Fiora:** "...I'm still pointing — listen—"
 
-*The stone completed. The riding leathers surfaced and fell. Maps were hung from her pointing hand. The briefing room took its directions from her.*
+*The riding leathers surfaced and fell. The stone kept the directing arm thrust out and down at its full reach, the index finger extended, the eldest sister's whole upright bearing organized around the line of that one commanding gesture. They hung the briefing maps from the pointing hand. Stripped of the mount and the weapon she was nothing but the command now — a stone woman caught forever in the act of telling a unit where to go, her firm responsible face still set on subordinates who had received their last order from her and would receive no more. The briefing room read its directions off her arm. The map hung where she pointed, and she pointed at it, and the loop closed: she now indicated only the thing that hung from her own hand.*
 
 ---
 
@@ -130,7 +130,7 @@
 
 **L'Arachel:** "The Sacred Stones will prevail — they will—"
 
-*The stone completed. The staff crumbled in the raised hand. The robes surfaced and fell. The raised arm held the hanging standard. She had been built for announcements. She was one now.*
+*The staff crumbled in the raised hand; the ornate robes surfaced and fell. The stone caught the full oratory posture — head back, chin high, one arm flung up to its peak, the whole body thrown into the grand declaratory pose that had ended every sermon of her life. They fixed the hall's standard into the raised hand. The figure left was a young woman frozen in the middle of an announcement, radiant certainty still on the upturned face, the arm aloft holding a banner instead of a heal. She had always performed for a room. Now the room performed her: the proclamation that never finished became the permanent flourish that holds the standard up, her conviction intact, addressed to no one, lifted forever.*
 
 ---
 
@@ -208,7 +208,7 @@
 
 **Lute:** "This is merely a temporary — the calculation—"
 
-*The stone completed. What remained of the tome had already crumbled into the scattered pages on the floor. The robe surfaced and fell. Reading desk. The extended palms were the surface. A soldier was told not to clear the scattered stone pages — they marked the working boundary.*
+*What remained of the detonated tome crumbled into the scatter of stone pages already settling on the floor; the robe surfaced and fell. The stone kept both palms thrust forward and flat at the height of a working surface — a precise, composed young woman with her arms extended and her hands turned down, the casting-frame become a desktop. They left the stone pages where they had fallen around her base, a radius of them, the frozen blast-pattern of her last calculation. She had become a reading desk: the level palms the surface, the scattered pages the boundary of her work, the analytical certainty on her face fixed as she presided over a desktop made of her own hands. The calculation she'd called temporary was permanent now, and it had concluded in furniture.*
 
 ---
 
@@ -222,7 +222,7 @@
 
 **Louise:** "...graceful — even now—"
 
-*The word was for herself. The stone completed. The bowstring snapped. The bow and quiver crumbled. The hunting silks surfaced and fell. The curtain tieback had its hook. Every window in the hall let the light in through her precision.*
+*The word was for herself. The bowstring snapped; the bow and quiver crumbled; the hunting silks surfaced and fell. The stone kept the immaculate form whole — a poised, elegant woman with the bow-arm extended at window height, the wrist turned to exactly the hook-angle a curtain-tie needs, every line of the draw still correct though there was no longer anything to draw. They looped the curtain over the extended arm. The flawless technique she had held until the last possible instant became the one office a tieback performs: holding the drape aside, gracefully, so the window can let in the light. Every window down the hall was dressed by a different captured archer's perfect form; hers held its curtain with a precision none of the others could match, her composed face turned to a view she would never look at.*
 
 ---
 
@@ -312,7 +312,7 @@
 
 **Fae:** "...scary — I don't—"
 
-*The stone completed. The dragonstone crumbled to nothing in the small open hands. The dress surfaced and fell. She was placed on the reading shelf between the books. The small raised hands bracketed what was between them. The shelf had its bracket. The confused expression remained — nothing had been said about the expression.*
+*The dragonstone crumbled to nothing in the small open hands; the simple dress surfaced and fell. What was left was tiny — a child-sized stone figure, both little arms raised and held a set distance apart, palms turned inward, the not-understanding posture become a precise bracketing shape. They stood her on the reading shelf and slid the books in against her hands. Her small arms held the row of volumes upright between them; she was a bookend now, the exact width of a frightened child with her hands up. The confusion stayed on the little face, because no one had bothered to name it away, and so she went on not understanding — forever, between the books, holding them up with the gesture of someone who had only wanted to know why this was happening to her.*
 
 ---
 
@@ -436,7 +436,7 @@
 
 **Myrrh:** *[already silent — she had stopped speaking when they took the stone]*
 
-*The stone completed. The dress surfaced and fell. The side alcove had its figure. The absent dragonstone left the hands in the shape of protection around nothing. The alcove had always had this.*
+*The dress surfaced and fell. What the alcove received was very small and very still — a child-sized stone figure standing with both hands closed in front of her chest around an empty space, the fingers curled protectively over a dragonstone that had been gone for hours. The trying-not-to-move that had been her whole posture was now simply her form: a quiet figure in a niche, hands cupped around an absence, the unreadable sleeping calm fixed on the small face. She held nothing, with great care, in a side alcove the throne room would treat as though it had always contained exactly this — a little guardian keeping watch over the shape of something no one would ever put back into her hands.*
 
 ---
 
