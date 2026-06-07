@@ -399,24 +399,6 @@
 
 *She walked out into the night. Behind her, in the dark, the first wick caught.*
 
-*The Queen came through an hour later. She walked the village without pausing.*
-
-*"Leave the village."*
-
-*She reached the main hall. She moved through each piece — the entry frame above the door, the side table, the junction marker, the lower corridor grab, the entry coatstand, the dining station. Everything crumbled of equipment. What remained was function.*
-
-*"Each is what it is."*
-
-*She found Lyn. The arms held their bracket. The stone was clean — armor, weapons, all gone.*
-
-*"Main corridor lamp. The arms bracket the light. She lights whoever passes."*
-
-*A moment.*
-
-*"No one will look for her. There is only the lamp."*
-
-*She walked out.*
-
 ---
 
 ## Ch3 — West by Firelight

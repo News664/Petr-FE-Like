@@ -51,29 +51,111 @@
 
 ---
 
-### Optional Captures (Ch6)
+### Wendy (if captured Ch6)
 
-*Morrha's forces covered all approaches. Characters captured here before their canonical chapter have brief definitions — the stone set to whatever posture the moment named.*
+*She had planted herself at the gate approach — shield up, lance leveled, the armored stance that could hold a chokepoint against three opponents at once. Morrha's heavier Warden variant got through the formation on the third push. It put both hands on her shield and leaned. A soldier beside it said, watching the locked shoulders: "Corridor wall. She stays here. The corridor stays narrow."*
 
-*Wendy, if captured: A soldier said "Corridor wall." Her shield arm was already up. The stone confirmed it.*
+*She felt the plant become the permanence — the feet that had been choosing to hold now holding because holding had been named. She tried to swing the lance around the Warden's guard. The lance arm answered the wall, not the swing; the angle that would have been the strike became the angle the corridor had asked for. She tried to step back to break the press. The back foot was already at wall-depth.*
 
-*Clarine, if captured: "Junction arm." She was still pointing. The stone had the point.*
+**Wendy:** "I won't let them — I'm still—"
 
-*Larum, if captured: "Ceiling reach." She was already reaching. The stone confirmed the height.*
+*The stone completed. The lance and shield crumbled. The armor surfaced and fell across the gate approach stones. The corridor stayed narrow around her. She was the narrowing.*
 
-*Sue, if captured: A soldier said "Floor fixture." She was in the crouch. The stone confirmed the crouch.*
+---
 
-*Dorothy, if captured: "Lean-back position." The adapted form became permanent.*
+### Clarine (if captured Ch6)
 
-*Thea, if captured: "Bank span." The chandelier width, named early.*
+*She was managing two things at once — one arm pointing south to redirect the formation, the other holding the staff extended toward a wounded soldier in the north lane. The Dark Witch's secondary shot found her in the split attention. A soldier said: "Junction arm. She points the way. Leave the expression."*
 
-*Elen, if captured: "Two heights." The broken staff at the two heights the definition named.*
+*The pointing arm locked at the angle the junction wanted. She tried to bring the staff around to finish the cast she had been carrying. The staff arm went to the complementary holding-height instead, the heal draining back into the staff without reaching anyone. The commands she had been issuing arrived in a throat already going still.*
 
-*Cath, if captured: "Sprint threshold." The sprint at its longest. The hand closed on what it thought it had.*
+**Clarine:** "Absolutely not — I'm still in the middle of—"
 
-*Sophia, if captured: "Reader's right." The sidelong gaze locked on something to the right.*
+*The stone completed. The staff crumbled. The robes surfaced and fell. Junction arm. The imperious expression remained. Every soldier who came through that junction received it as an instruction.*
 
-*Each one placed where the soldier's word said. Practical. Brief. The Veil didn't require ceremony.*
+---
+
+### Larum (if captured Ch6)
+
+*She was mid-dance to refresh the unit to her west — the steps already forming, both arms opening into the wide reach that carried the energy outward. A Gorgon's Gaze caught her in the extension. A rider nearby said: "Ceiling reach. She holds the lamp at height."*
+
+*The arms locked at ceiling height instead of outward reach — the dance's energy redirected upward, the refreshment going nowhere. She tried to pull the arms back down into the dance's next movement. The arms went wider at the named ceiling height. The unit she had been about to refresh did not receive the dance.*
+
+**Larum:** "...I was reaching — I'm still—"
+
+*The stone completed. The performance ribbons crumbled. The robe surfaced and fell. Ceiling reach. The lamp placed into the extended arms held the height.*
+
+---
+
+### Sue (if captured Ch6)
+
+*She was in the archer's low crouch — the slow-pull tension her plains training had put in her draw arm, the lead set on an enemy officer she had been tracking for two turns. The angle was right. A Gorgon closed from her blind side while her attention was forward. A soldier said: "Floor fixture. The crouch holds the lamp at ground level."*
+
+*The crouch locked before she could rise for the shot. She tried to release the draw she had been holding. The draw arm wouldn't loosen — the wrist was already at floor-lamp angle, not firing angle. She tried to come up out of the crouch. The kneel deepened instead.*
+
+**Sue:** "...the shot — I almost—"
+
+*The stone completed. The bowstring snapped. The bow and quiver crumbled. The riding leathers surfaced and fell. Floor lamp. The draw arm held the light at ground level.*
+
+---
+
+### Dorothy (if captured Ch6)
+
+*She had adapted her form for the Veil's compressed distances — the lean-back compensation for shortened draws, the bow held lower than standard, her torso angled against the tighter range. The Veil made everything a close fight. A Gaze Hunter's bolt found her in the lean. A soldier noted the angle: "Reading chair support. The lean backs the seat. The arm rests at the correct height."*
+
+*The lean locked before she could correct it back to proper form. She tried to bring the bow up into the full firing line. The torso wouldn't return to vertical; the adaptation she had been about to undo became her permanent position. The bow arm went to armrest height.*
+
+**Dorothy:** "...that's not — wait—"
+
+*The stone completed. The bow crumbled. The quiver crumbled. The travel leathers surfaced and fell. Reading chair support. The lean backed the seat, stone-clean.*
+
+---
+
+### Thea (if captured Ch6)
+
+*She was banking into a precision turn above the Veil's edge — lance angled across the curve, the wing span at the exact radius formation work had made instinct. The Aerial Gorgon above came in from the same direction she was turning into. Its rider said: "Chandelier span. The arms frame the bar. Keep the banking angle."*
+
+*She tried to break the bank into a combat approach. The arms pulled wide to chandelier width instead — the precision banking angle becoming the fixture's span, not a weapon's arc. The lance arm wouldn't close for the strike. The turn that had been an attack became a frame.*
+
+**Thea:** *[silence — the throat closed in the turn's locked moment]*
+
+*The stone completed. The lance crumbled. The armor surfaced and fell. Chandelier span. The arms held the bar at the width that had been named.*
+
+---
+
+### Elen (if captured Ch6)
+
+*Both halves of a staff broken two casts ago — she was still holding them, still assessing whether the magic would carry through one piece alone, still trying to solve it. The Veil had been pulling at her healing since the chapter began. A Stone Warden stepped over the ally she had been trying to reach. A soldier said: "Two-candle lamp. The hands hold both heights."*
+
+*She tried to bring the pieces together for a joined cast. The hands stayed at the two heights the lamp had named — longer piece raised, shorter piece at mid-height. The join she had been about to attempt came apart before it formed.*
+
+**Elen:** "I haven't — please, just one more—"
+
+*The stone completed. Both pieces crumbled. The robes surfaced and fell. Two heights. The passage had its lamp.*
+
+---
+
+### Cath (if captured Ch6)
+
+*She was running — the papers from the enemy courier's bag folded tight in her closed fist, the gate exit eight paces ahead. She had done the hard part already. A Stone Warden stepped from a side alcove she hadn't checked. As the contact landed at her shoulder, a soldier said, reading off the position her body had taken: "Sprint threshold. The closed fist at handle height. What she's carrying stays."*
+
+*She tried to break sideways past the Warden's grip, the way she had broken out of tighter situations. The shoulder didn't roll. The sprint locked at peak stride — both feet briefly off the ground at the moment the definition had found her. The papers crumbled inside the closed fist.*
+
+**Cath:** "I'm still — I almost—"
+
+*The stone completed. The dagger crumbled in her belt. The cloak surfaced and fell. Sprint threshold. The closed fist held an absence at handle height. The gate stayed eight paces away.*
+
+---
+
+### Sophia (if captured Ch6)
+
+*She was casting — slowly, the way she always cast, the dark magic shaping in front of her open hands. She was looking to the side as the spell formed. Not at the Veil's edge. Not at the enemy. At something to her right, the way her attention always drifted when the casting was coming right. The Dark Witch's secondary shot caught her in the held shaping. A soldier said, watching the fixed gaze: "Reading station. The sight line holds to the right."*
+
+*She tried to release the cast. The hands wouldn't close into the release gesture — they held the shaping position. She tried to look forward to aim the spell where it was needed. The sight line wouldn't turn.*
+
+**Sophia:** "I know what comes — I'm still—"
+
+*The stone completed. The tome burned in front of the held hands. The dark robes surfaced and fell. Reading station. The sight line fixed to the right of whoever would come to stand beside her.*
 
 ---
 
