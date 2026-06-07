@@ -243,7 +243,7 @@
 
 **Wendy:** "I won't let — please—"
 
-*The stone completed. The lance and shield crumbled. The armor surfaced and fell. The corridor stayed narrow around her. She was the narrowing.*
+*The lance and shield crumbled and the oversized armor sheeted away. What was left wedged in the throat of the passage was very small — a stone girl barely grown, both arms pulled in tight to her sides, shoulders set square, planted dead in the narrowest point with her chin up. The corridor closed down to the width of a child holding her ground. Anyone who wanted past had to turn sideways at the place where she stood, and the place where she stood was the place she had sworn nothing would get through. Nothing got through easily. She was the narrowing, and the narrowing held.*
 
 ---
 
@@ -255,7 +255,7 @@
 
 **Clarine:** "Absolutely not — how dare—"
 
-*The stone completed. The staff crumbled. The robes surfaced and fell. They put her at the corridor junction. The arm continued to issue directions.*
+*The staff crumbled and the layered robes surfaced and fell. The figure that set at the junction was slim and poised, chin lifted, fine ringlets fixed hard around the face, one stone arm extended in a clean imperious line down the passage. Stripped of the staff and the silks she was nothing but the gesture now — a young noblewoman caught forever in the act of telling someone which way to go and expecting to be obeyed. The junction took her at her word. Every soldier who reached the corner read the pointing arm and went where it sent them, and the haughty certainty frozen on her face had become exactly the authority a good waymarker needs.*
 
 ---
 
@@ -267,7 +267,7 @@
 
 **Larum:** "...I'm reaching — Sue—"
 
-*The stone completed. The dance ribbon crumbled. The performance robe surfaced and fell. The ceiling lamp went into her reaching arms. The reach became the fixture.*
+*The dance-ribbon crumbled off her wrist and the performance robe surfaced and fell. The stone set her long and stretched fully upward, weight high on the balls of both feet, arms reaching their absolute limit overhead with the hands turned to cradle a light — a single tall vertical line of a body, every inch of the dancer pulled toward the ceiling. They hung the lamp in the offered hands. The reach that had been meant to pull Sue back from the fog's edge held a glow at the rafters now, for a corridor full of strangers, and her upturned face wore the open warmth she had danced with, spending it forever on no one.*
 
 ---
 
@@ -281,7 +281,7 @@
 
 **Sue:** "...the ground — Larum—"
 
-*The stone completed. The bowstring snapped, the bow crumbled. The quiver crumbled. The riding leathers surfaced and fell. The floor candle went in behind her. The draw arm held the light at ground level.*
+*The bowstring snapped, the bow crumbled, the quiver powdered, the riding leathers surfaced and fell. The stone kept her folded low to the floor — a compact, self-contained figure crouched down close against the ground, knees tucked, one arm reaching forward and low with the hand cupped open at boot height. They set the floor-candle into the cupped palm. The plains-stillness she had drawn her shot through was simply the stillness of a thing at floor level now. She lit the corridor from below, where the light catches passing feet and nothing else, her quiet steppe-bred face turned down toward a flame held at the height no eye ever drops to.*
 
 ---
 
@@ -295,7 +295,7 @@
 
 **Cath:** "I'm still — I almost—"
 
-*The stone completed. The dagger crumbled in the belt. The cloak surfaced and fell. Door threshold. The closed fist. What she had been carrying was already gone.*
+*The papers crushed to grey powder inside the closing fist and sifted out between the stone knuckles. The dagger crumbled at her belt; the lockpicks crumbled one by one in their loops; the cloak surfaced and streamed off behind her. What stood at the door was a figure pitched forward in a halted run, weight committed toward a threshold, one arm flung back for balance and the other thrust ahead with the fist shut at the height of a handle. The hand held nothing. The run reached nothing. She had become the doorway's frozen approach — a thief at the peak of an escape, gripping a latch-height absence forever, the records she had nearly carried out already dust between her fingers.*
 
 ---
 
@@ -417,7 +417,7 @@
 
 **Dorothy:** "...that's not — wait—"
 
-*The stone completed. The bow crumbled. The quiver crumbled. The leathers surfaced and fell. Reading chair backing. The lean angle matched a reclining figure. Her empty extended arm at armrest height.*
+*The bow crumbled, the quiver crumbled, the leathers surfaced and fell. The stone kept the half-finished correction: a sturdy figure tilted backward from the hips, spine curved into a long easy recline, one arm laid out level to the side at the height of an armrest. They built the reading chair against her angled back. Whoever sat would settle into the slope of her stone spine and find it exactly right, would rest an elbow on the level stone arm and find it exactly the right height — never knowing the comfortable recline had been an archer's compensation she was caught halfway out of, the lean she'd been about to straighten now the permanent shape of somewhere to sit.*
 
 ---
 
@@ -431,7 +431,7 @@
 
 **Thea:** *[silence — the throat closed in the turn]*
 
-*The stone completed. The lance crumbled. The armor surfaced and fell. Chandelier mount. The arm span held the fixture.*
+*The lance crumbled and the armor surfaced and fell. They rigged the bare stone figure to the chandelier mount: a body held perfectly horizontal in the air, both arms drawn out to a matched, exact span, wrists turned up, the whole disciplined frame a taut level beam from one fingertip to the other. The precision that had carved her banking turn to the inch now did the one thing a chandelier truly requires — it held the ring of candles dead level, without the smallest tilt, the veteran rider's exactness spent forever on keeping a light from leaning.*
 
 ---
 
@@ -445,7 +445,7 @@
 
 **Elen:** "I haven't done — please—"
 
-*The stone completed. Both pieces of the staff crumbled. The robes surfaced and fell. Desk lamp. Two candles at two heights. The light spread.*
+*Both halves of the staff crumbled out of the open hands and the gentle robes surfaced and fell. The stone set her upright with both arms raised in front of her at two different levels, palms cupped, one near the shoulder and one at the waist — the unsolved problem of how to bridge the gap between her hands made permanent as the fixed, useful distance between two flames. They fitted a candle into each cup. She had become a desk-lamp of two lights, soft-faced and patient, the heal she had almost completed dissolved into the steady spread of light across the surface she would now stand on.*
 
 ---
 
@@ -459,7 +459,7 @@
 
 **Igrene:** "...the Shrine — I won't—"
 
-*The stone completed. The bowstring snapped. The bow and quiver crumbled. The desert robes surfaced and fell. Side table base. The kneel was the surface. The draw arm was the handle.*
+*The bowstring snapped, the bow and quiver crumbled, the desert robes surfaced and fell. The stone folded her down into the tracker's kneel and would not let her rise — a lean, weathered woman settled onto one knee, the flat of her braced thigh leveled into a low surface, the draw-arm she'd held the shot in now extended out and turned to a handle's angle. They set things on the flat of her. She had become a side table: the kneel the surface, the bent arm the pull, the scanning vigilance of a desert guardian reduced to the patient stillness of a thing that holds a cup at the right height beside a chair. Her sharp eyes still tracked the targets she had logged, fixed on three points across a room that would never need them again.*
 
 ---
 
@@ -473,7 +473,7 @@
 
 **Fir:** "This is fine — this is—"
 
-*The stone completed. The blade crumbled in the relaxed hand. The travel clothes surfaced and fell. Weapon display mount. The relaxed hand held whatever was placed in it.*
+*The blade crumbled out of the loose grip and the travel clothes surfaced and fell. The stone kept the clean end-of-exchange form exactly — a slender swordswoman standing easy and balanced, one hand turned palm-up and open in a relaxed presenting hold, the calm of a finished bout settled over the whole figure. They mounted her on the wall as a weapon-rest. The open stone hand would hold whatever blade was laid across it for display; the relaxed readiness that had been the prelude to her next strike was now only the graceful pose a wall uses to show off a sword. Her composed young face looked out over the room, untroubled, as if the clean form really had been the natural end of things.*
 
 ---
 
@@ -539,7 +539,7 @@
 
 **Cecilia:** "...your Highness — I—"
 
-*The stone completed. The tome burned to nothing. The robes and armor surfaced and fell. The Hand positioned her behind the commander's desk. Every document reviewed in that room would be reviewed under her oversight.*
+*The tome burned to nothing in her hand; the mage-general's robes and the light armor surfaced and fell. The stone kept the bearing whole — a tall, straight-spined woman, head up, weight forward, the command in her carriage so complete that without a single piece of rank left on her she still read as the senior officer in any room. The Hand set her upright behind the commander's desk. The instructor who had drilled a generation of cadets in exactly this posture now held it permanently, presiding over a desk that was no longer hers, her clear steady gaze passing over every document the enemy would draft beneath it. The oversight was real. It simply served the wrong side now, and would forever.*
 
 ---
 
@@ -553,7 +553,7 @@
 
 **Guinivere:** "You won't hold — this isn't—"
 
-*The stone completed. The court robes surfaced and fell. The Hall had her at its center. Everyone who entered received the eye contact.*
+*The court robes surfaced and fell, the circlet at her brow crumbling with them. The stone kept the royal composure entire — a young woman standing level and open-handed, shoulders back, head unbowed, the gaze leveled directly forward and fixed. They raised her on a low dais at the hall's center. Stripped of every mark of rank she was still, unmistakably, a queen: the bearing was the rank, and the stone had kept the bearing. Everyone who entered the hall met her eyes first, set at exactly the height that commands a room, and could not tell that the steady regard was a stare she had been unable to break — the last refusal of a princess who had chosen not to look away, now the centerpiece a whole hall was arranged to be watched by.*
 
 ---
 
@@ -567,7 +567,7 @@
 
 **Tethys:** "Someone will — wait—"
 
-*The stone completed. The performance silks surfaced and fell. The Hall lamp standard had its fixture. Her raised arms held the lights for the whole room.*
+*The performance silks surfaced and fell. The stone caught the dance at its upbeat — a graceful figure poised on one extended leg, both arms raised high and turned out, the whole body lifted into the open shape that had been about to send a refresh across the whole front line. They fitted lamps into the raised hands and stood her as the hall's lamp-standard. The motion that should have given everyone another turn at once never came down; it froze at the top, arms aloft, holding light instead of giving aid. The warmth she danced with stayed on her face, lifted toward a room of strangers, her last generous gesture spent on illuminating the people who had taken her.*
 
 ---
 
