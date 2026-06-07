@@ -35,7 +35,7 @@
 
 **Western guard:** "I can't — Brann, I—"
 
-*The stone completed. Both lances had crumbled with the armor. Two enemy soldiers wedged them against the arch posts. The names they had been about to use died inside the closed throats. The courtyard had its pillars; the pillars had each other's names, and no one would ever say them.*
+*The stone took them both within a breath of each other. The lances crumbled out of the closing hands; the gate-guard armor lifted away in scales and was gone. What stood at the arch when the dust cleared were two bare stone women, each turned a quarter toward the other and unable to finish the turn — the eastern one with her shield-arm raised high and bent, the western one with both arms spread wide to cover a partner she could no longer see. The soldiers stood them upright against the arch posts and let the stone do the rest. Their proportions had become the proportions of supports: the raised arm a bracket, the spread arms a span, the planted legs a load path down into the threshold stone. They had each been about to say a name. The throats had closed around both. The courtyard had its matched pair of pillars now, and the pillars held each other's names inside them, and no mouth in the world would ever open to say either one.*
 
 ---
 
@@ -51,7 +51,7 @@
 
 **Syrene:** "...it won't — wing, break — break formation—"
 
-*The stone completed. The lance crumbled in the locked grip. The wing-commander's plate surfaced and fell in fragments across the courtyard stones. The soldier crossed the courtyard with the lamp in hand and wedged it into the pointing palm. The east approach had its marker. Behind her, leaderless, the wing tried to break and could not remember the formation that wasn't a held arm pointing east.*
+*The lance crumbled out of the locked grip; the wing-commander's plate surfaced and fell in heavy fragments across the courtyard stones, the rank-braid going to dust with it. What was left, with the pegasus gone from under her, stood firmly on both feet with one long arm run out straight to the east — a tall, upright stone woman, spine still carrying twenty years of command, the whole figure organized around that single pointing arm. The soldier crossed the courtyard and pressed the brass lamp into the open pointing palm. It sat at exactly the height the marker wanted. The face above the arm still wore the focus of someone calling a formation, but the formation was the only thing the arm could mean now: a direction, east, held forever. Behind her the wing came apart in the air, leaderless, unable to remember a maneuver that did not begin with that arm — and the arm would never again begin anything but the approach it was now pointing the way down.*
 
 ---
 
@@ -65,7 +65,7 @@
 
 **Vanessa:** "That's not — I'm not — sister, where—"
 
-*The stone completed at the apex of the spread. The javelin crumbled before it touched the courtyard floor. The armor came off in fragments — not slowly, all at once, the surface claiming her. Two soldiers caught the petrified figure as the pegasus crumbled out from under her and mounted her above the main entry, the extended arms at exactly the spread the definition had named. The entry had its ceiling fixture. The wing's youngest looked down at every soul who crossed the threshold she had been about to defend.*
+*The stone closed at the apex of the spread, all at once, the surface racing across her faster than fear could keep up. The javelin crumbled before it reached the floor; the light flight-armor came off in a single sheet of fragments. Two soldiers caught the bare stone figure as the pegasus powdered out from under her. She was young — the youngest of the wing — and the stone had not softened any of it: a slender body stretched into a wide horizontal cross, both arms run out to their full reach, wrists turned up, the small frame holding a span far wider than its height. They raised her over the main entry and seated the door-timbers into the outstretched arms. She had become a ceiling fixture, a spreader-bar across the top of the doorway, her whole light body strung taut between two mount-points. Her face, tipped slightly down, looked at everyone who passed beneath into the stronghold she had dived to defend — and the spread arms that had been reaching to break a trap were now only the frame the entry hung from.*
 
 ---
 
@@ -79,7 +79,7 @@
 
 **Tana:** "Not yet — Innes — I'm still—!"
 
-*The stone completed mid-stride. The lance crumbled along the strike-line. The armor surfaced and fell across the corridor floor. The pegasus crumbled too — there was no rider to hold it together. A soldier crossed the corridor with a brush and painted a directional marker on the wall beside her. The expression looked east; the lance arm looked east; the corridor turned east through her. She had become the start of a direction system. The argument she had been carrying with her stayed exactly where she had been carrying it, with nowhere to land.*
+*The stone caught her mid-stride and kept the stride. The lance crumbled along the line of the strike; the armor surfaced and fell across the corridor floor; the pegasus crumbled away beneath her with no rider left to hold it together. What stood in the corridor was a young woman frozen in full forward motion — one leg driving ahead, the trailing foot barely down, the whole weight pitched east, one arm thrust out along the path it had been about to clear. The stone had kept the angry set of her face exactly, the jaw she had carried out of an argument with her brother. A soldier crossed the corridor with a brush and painted a directional mark on the wall beside the thrust-out arm. Now the arm pointed and the face glared and both of them said the same single word, east, and the corridor bent that way through her body. She was the start of a direction system. The fight she'd been carrying toward her brother stayed locked in the stone jaw with nowhere left to land, pointing the way for everyone who would walk past it without ever knowing it had once been an argument.*
 
 ---
 
@@ -169,11 +169,11 @@
 
 *"Gate-side. The palms face out. Set a lamp across them."*
 
-*Natasha felt both hands opening — the cradle for the broken staff opening past the cradle, the palms turning out and up. She tried to close them, tried to make the gesture for a second cast with whatever magic she had left. The hands kept opening. The exhale that was meant to carry the heal carried nothing.*
+*Both her hands opened — the cradle she had held the broken staff in spreading past any cradle, the palms turning out and up and lifting, presenting themselves to a height. Whatever heal she had left she tried to pour into one more gesture; the gesture had already become a different one. The exhale meant to carry the magic went out empty.*
 
 **Natasha:** "I'm still — wait, I'm—"
 
-*The stone completed. The robe surfaced and fell. Two soldiers positioned her beside the stone gate guard. A small lamp was laid across the open palms. The gate had its lantern-holder.*
+*The priestess robes surfaced and fell, the prayer-cord at her waist crumbling with them. What the soldiers stood beside the gate-guard statue was a slight, fair stone woman with both arms raised in front of her and slightly apart, palms up and open, the wrists turned to bear a weight from below — the exact attitude of a healer offering, kept and emptied. They laid a lantern across the upturned palms. Her face, gentle and a little startled, was tipped down toward the light as though watching over someone she was tending. The gate had its lantern-holder. Everyone who came through it would pass under a soft, downturned stone face and a steady flame held in two open hands that had spent her whole life learning to give, and were now permitted to give only this.*
 
 ---
 
@@ -185,7 +185,7 @@
 
 **Tana:** "My arm — that's not the—"
 
-*The stone completed. The pegasus crumbled out from under her; the armor surfaced and fell. She was placed at the east corridor entrance, the arm indicating the approach.*
+*The pegasus crumbled out from under her and the armor surfaced and fell, the wing-knight braid going to dust. What stood at the east corridor mouth was a stone girl half-turned and reaching, one arm lifted and angled out to indicate the way in, the body still carrying the lean of a sprint that had become a gesture. The throw had wanted to be a kill; the stone had made it a signal. She pointed travelers into the corridor with a hand that had been a half-second from a javelin, and her face kept the bright, affronted surprise of someone who could not believe her own arm had betrayed her this completely.*
 
 ---
 
@@ -197,7 +197,7 @@
 
 **Vanessa:** "I'm not — that's not—"
 
-*The stone completed. The javelin crumbled mid-fall; the armor came off in fragments. The river crossing had its lamp.*
+*The javelin crumbled mid-fall; the armor came off in fragments over the water. The bare stone figure they fished up and mounted was stretched into a long horizontal span above the river crossing, both arms reaching to their limit, the slender body strung level from fingertip to fingertip exactly the width the crossing needed a lamp-beam to be. Her face, tipped down toward the water, watched the ford she had been banking to cover. The reach that had been control of a turn was now the reach that held the light over everyone who waded across beneath her.*
 
 ---
 
@@ -209,7 +209,7 @@
 
 **Syrene:** "...it's happening — not again—"
 
-*The stone completed. The lance crumbled. The armor surfaced and fell. The approach had its lamp.*
+*The lance crumbled and the wing-commander's plate surfaced and fell across the road. What was left was a tall, straight-backed stone woman with one arm extended out along the line of the wall, the hand open and angled to hold a light, the command still legible in the set of her shoulders and nowhere else. They set the approach-lamp into the offered hand. She lit the road she had been covering the withdrawal down, and the formation she had been protecting fell apart behind her, leaderless, the way it had nearly done once before.*
 
 ---
 
@@ -279,7 +279,7 @@
 
 **Priscilla:** "That's not — it's not—"
 
-*The stone completed. The staff crumbled across the horse's stone neck. The rider's robes surfaced and fell. An enemy officer spread the field document across the level stone back and began writing. They wheeled the piece inside. The main hall had its side table.*
+*The staff crumbled across the horse's stone neck; the rider's robes surfaced and fell. The two of them set as one piece. The horse had gone to a low broad table — legs squared, the long back leveled into a flat writing surface at exactly desk height. And Priscilla had stayed where the word kept her: seated upright on the table that had been her mount, a slim stone noblewoman with her spine straight and her hands come to rest in her lap, the fine breeding of her posture turned into the decorative figure that sits atop an expensive piece of furniture. An officer spread a field document across the level back beside her knees and began to write on it. She watched the writing with a face caught between two unfinished words. The main hall had its side table, and the table had a well-bred ornament seated on it who would oversee every order drafted across her horse's back without ever reading one.*
 
 ---
 
@@ -293,7 +293,7 @@
 
 **Farina:** "...I can't — they won't—"
 
-*The stone completed. The javelin had crumbled before it landed; the armor surfaced and fell. Soldiers lashed the door timbers to her outstretched arms. The entry had its ceiling frame.*
+*The javelin crumbled before it landed; the mercenary's hard-earned armor surfaced and fell, the coin-purse at her belt going to dust with it — even that, gone, the one thing she'd always fought for. The bare stone figure was stretched wide overhead, a lean hard-trained body held in a full horizontal span, both arms run out and turned to take a load, the muscle of a woman who flew for pay set forever into a structural shape. Soldiers lashed the door-timbers to the outstretched arms. She framed the entry from above, a spreader carrying the weight of the doorway, her sharp face tipped down at the threshold below — the highest-paid pegasus knight in three countries, now working the longest contract of her life for nothing at all.*
 
 ---
 
@@ -307,7 +307,7 @@
 
 **Rebecca:** "...my arm — I can't—"
 
-*The stone completed. The bow crumbled. The quiver crumbled. They propped her at the east corridor junction, the arm pointing toward the entrance.*
+*The bow crumbled, the string going first and the stave after; the quiver crumbled at her shoulder, every arrow in it powdering in its slot. The figure left at the junction stood with the draw frozen open — one arm extended forward, the other drawn fully back to the cheek, the whole compact archer's body locked in the held instant before a loose. The stone had kept the shot and taken the bow, so that both arms now framed an empty line of sight that ran straight down the eastern passage. They stood her at the corner. Her arms made an arrow of her, aimed forever at the entrance, pointing the junction's traffic the way her vanished shot had been going.*
 
 ---
 
@@ -319,7 +319,7 @@
 
 **Florina:** *[nothing — the breath had stopped before the word formed]*
 
-*The lance crumbled. The flight cape surfaced and fell. Lower corridor. The arm at the height a person would reach for.*
+*The lance crumbled; the flight cape surfaced and fell from her shoulders. Without it she looked smaller than ever — a shy, slight stone woman crouched low against the corridor wall, one arm reaching out and down with the hand open at grab-height, the timid stoop she had carried her whole life now fixed into the posture of a thing that waits at the bottom of a wall to be reached for. She had never wanted to be looked at. The lower corridor would not look at her either; it would only reach for the handle her open hand had become, low down where hands grope without raising the eyes.*
 
 ---
 
@@ -333,7 +333,7 @@
 
 **Nino:** "I can still — I'm still—"
 
-*The stone completed. The tome burned away to nothing. The robe surfaced and fell. They stood her in the entry hall. The spread arms held coats.*
+*The tome burned away to nothing between her hands; the small mage's robe surfaced and fell. What stood in the entry hall was a young stone girl with both arms held out wide and a little forward, fingers spread, the casting-shape kept and emptied — the widest she could make herself, which was not very wide at all. They hung coats from the spread arms and the open fingers. Her face stayed lifted and earnest, still trying to begin a chant, while strangers' cloaks accumulated on the small outstretched limbs. The spell she had been shaping never came; the entry hall just had somewhere to hang its coats now, on a child holding her arms out for a spell nobody let her finish.*
 
 ---
 
@@ -347,7 +347,7 @@
 
 **Serra:** "This is completely — I haven't—"
 
-*The stone completed. Both pieces of the staff crumbled in the locked hands. The robes surfaced and fell. The dining area had its holder. Two heights.*
+*Both halves of the staff crumbled in the locked hands; the bright cleric's robes surfaced and fell. The stone figure stood with its arms held at two deliberate heights — one hand raised near the shoulder, the other out at the waist, palms turned to bear small weights, the whole upright body arranged into a serving-stand for a dining room. They would set a dish in each hand. Her face kept the indignant, mid-protest expression exactly, mouth parted on a complaint that no longer had anywhere to go. She had always insisted on being noticed. Now she would be — endlessly, by everyone at the table, as the pretty stone stand that held the courses, her two hands kept forever at the two heights the meal required.*
 
 ---
 
@@ -425,7 +425,7 @@
 
 **Serra:** "I haven't finished — wait—"
 
-*The stone completed. Both pieces of the staff crumbled. The robe surface fell. The junction had two markers.*
+*Both pieces of the staff crumbled out of the held hands; the robe surfaced and fell. The figure that set at the junction had its arms apart and angled — one lifted, one lowered, each hand turned to mark a height against the corner of the two passages. Stripped of the staff and the robes, she was just a slim stone woman pinned at a crossroads with both arms making a sign, her face still mid-objection. The junction took two readings off her body at once: the high hand and the low. She had wanted to be the center of attention. The junction obliged; every traveler who reached the corner had to read her to know which way the corridors ran.*
 
 ---
 
@@ -439,7 +439,7 @@
 
 **Rebecca:** "...no—"
 
-*The stone completed. The bowstring snapped. The bow crumbled. The quiver crumbled. East corridor edge. The arm marked the junction.*
+*The bowstring snapped, the bow crumbled, the quiver powdered out arrow by arrow at her back. The stone held the full-drawn pose with nothing left to draw — one arm forward, one hauled back to the cheek, the whole lean compact body strung taut along a line of fire that ran clean down the east corridor. Without the bow she was just a young woman making the shape of a shot at an empty passage, her arms an arrow with no arrow in them. The corridor took the aim as its waymark. Her vanished shot pointed the junction forever, and her face kept the small final refusal it had set into.*
 
 ---
 
@@ -453,7 +453,7 @@
 
 **Neimi:** "My arm — why won't it—"
 
-*The stone completed. The bow crumbled. The quiver crumbled. Road-side writing station. The arm held correspondence. The tears were part of it.*
+*The bow crumbled, the quiver crumbled, the travel-worn clothes surfaced and fell. The stone set with the tears still on her face — the definition had named them in, so they stayed, two hard bright tracks down a young stone cheek that would never dry. Her draw-arm had come to rest at writing height, the hand turned and open to hold a page; the other curled below it as if to steady a sheet. She had become a writing-station, a stand to hold letters at the roadside, and her permanent weeping was simply part of the fixture's character. People would set their correspondence in the open hand and remark, in passing, on how affectingly the little figure had been carved to look as though it were crying — never knowing she was, still, over the same loss she had been drawing and shooting through when the word found her.*
 
 ---
 
@@ -465,7 +465,7 @@
 
 **Florina:** "Wait — please—"
 
-*The stone completed. The lance crumbled. The flight cape surfaced and fell. Lower corridor. The arm at the height a person would reach for.*
+*The lance crumbled, the flight cape slipped off her shoulders and fell to dust. What was left against the lower wall was the smallest, most folded-in figure imaginable — a slight stone woman half-crouched, shoulders rounded, one arm put out and down with the hand open at the height hands grope when no one is looking up. She had spent her life trying to take up no room. The corridor granted the wish exactly: it would never raise its eyes to her face, only reach down for the low handle her hand had become, in the dark at the bottom of the wall.*
 
 ---
 
@@ -477,7 +477,7 @@
 
 **Nino:** "Wait, I — I'm not—"
 
-*The stone completed. The tome burned away. The robe surfaced and fell. Entry approach. Both arms still out.*
+*The thinning tome burned through to ash in her hands; the small robe surfaced and fell. The stone kept both arms flung up overhead at the entry approach — a young girl's slight body reaching to its full height and a little beyond, hands open at the top of the stretch where the spell had been. Emptied of the magic, the raised arms became a thing the entry hung from above the approach. Her upturned face still strained toward a cast that would not come. The approach had its overhead fixture, made from a child holding the sky up with both hands.*
 
 ---
 
@@ -541,7 +541,7 @@
 
 **Nino:** "I'm still — I can—"
 
-*The stone completed. The tome burned through to ash. The robe surfaced and fell. They hoisted her to the ceiling mount above the command entry. The command passage had its lamp.*
+*The tome burned through to ash and the robe surfaced and fell. They hoisted the small bare stone figure up to the mount above the command entry — a child stretched to her limit overhead, both arms raised and open, the whole light body become a single upward reach near the ceiling. They fixed a lamp into the lifted hands. She hung above the command passage holding the light, her earnest little face tipped down toward the soldiers passing below, the reach that had wanted to push a spell farther now spending itself, forever, on keeping a flame at the top of a doorway.*
 
 ---
 
@@ -553,7 +553,7 @@
 
 **Florina:** "Wait — my arm—"
 
-*The stone completed. The lance crumbled. The cape surfaced and fell. Lower corridor. The arm at reach height.*
+*The lance crumbled and the cape surfaced and fell. The bare stone left in the lower corridor was a small hunched shape pressed close to the wall, one arm extended outward with the hand open and turned, set at the exact low height a passing hand expects to find a grip. The shyness she had never grown out of had become structural: a fixture that lives down where no one looks, reached for and never regarded, the open stone hand waiting in the half-dark for the next palm that would close on it without a glance.*
 
 ---
 
@@ -565,7 +565,7 @@
 
 **Rebecca:** "My arm — that's not—"
 
-*The stone completed. The bowstring snapped. The bow and quiver crumbled. The east hook had its marker.*
+*The bowstring snapped and the bow and quiver crumbled away. The stone kept the draw fully extended but wrenched to the wrong angle — one arm out, one drawn back, the line of the shot bent hard toward the corridor's bend instead of toward anything she had aimed at. What stood at the east hook was a young woman frozen in the shape of an aim she did not mean, her whole archer's frame pointing the way the wall turned. The marker the hook needed was the lie the stone had made of her last shot: an arrow of a body, aimed forever down a direction she would never have chosen.*
 
 ---
 
@@ -577,7 +577,7 @@
 
 **Tana:** "I'm not — I can—"
 
-*The stone completed. The lance crumbled mid-fall. The armor surfaced and fell. They carried her to the briefing room. The determined face looked down at the working surface.*
+*The lance crumbled mid-fall and the armor surfaced and fell. The stone had caught her pitched forward and down — the committed dive kept, the body bent over from the waist, both arms come to rest ahead of her on a level surface that was not yet there. They carried her to the briefing room and slid a table under the lean so the angle made sense: a young stone woman bowed over the working surface, hands flat on it, her determined fighter's face turned down to study a map she could not read. The attack that had been aimed at a rider's throat was now a permanent posture of attention, hunched over the plans the enemy would draw on the table beneath her.*
 
 ---
 
@@ -589,7 +589,7 @@
 
 **Vanessa:** *[silence — the throat closed before the breath]*
 
-*The stone completed. The javelin crumbled. The armor came off in fragments. Chandelier mount. She held the bar.*
+*The javelin crumbled and the armor came off in fragments. They raised the bare stone figure to the chandelier mount — a slender body held wide and level in the air, both arms drawn out to a matched span, wrists turned up to carry the weight of the ring. She hung face-down over the room, the youngest of the wing, her reach turned into the frame that keeps a circle of candles from tilting. The strike she had committed to was a span now, and the span held the light dead level above everyone who entered.*
 
 ---
 
@@ -663,7 +663,7 @@
 
 **Amelia:** "I'll do — I can still—"
 
-*The stone completed. The lance crumbled. The armor fell away. Main corridor. The lean into the passage.*
+*The lance crumbled along its haft and the borrowed-looking recruit's armor fell away. The stone kept the over-committed charge exactly — a young woman pitched far forward over her front foot, body leaned hard into the line of a strike, the green eagerness her training hadn't yet smoothed out now fixed into a permanent forward angle. They set her into the throat of the main corridor and the lean became the narrowing: her thrust-forward body reduced the passage to the width that would fit around it. She had wanted so badly to prove she could hold a line. She held one now — by being the thing that made the corridor too narrow to pass easily, her determined young face aimed down a passage at an enemy who had already walked past her.*
 
 ---
 
@@ -675,7 +675,7 @@
 
 **Juno:** "I'm not a — wait—"
 
-*The stone completed. The lance crumbled. The pegasus crumbled out from under her. Signal lines ran from her wrists down the length of the hall.*
+*The lance crumbled and the pegasus crumbled out from under her. The stone kept the veteran's compact silhouette — a trim, controlled figure, arms held in close and folded tight, the economical posture of thirty years' formation flying. They strung the hall's signal-wires from her wrists, and the closed efficient stance became a hub: lines ran out from both her arms and down the length of the hall in either direction. Her seasoned face stayed level, mid-command, giving an order the wing would never receive. The discipline that had once launched a hundred fliers at a word now only held a tangle of wires taut, the compactness she had been so proud of repurposed into the neat central knot a signal system is run from.*
 
 ---
 
