@@ -50,9 +50,9 @@
 
 *She found Tana at the east gallery.*
 
-*She looked at the posture. She looked at the expression underneath the frustration.*
+*She looked at the stride — the whole weight pitched forward, the arm thrust out along the gallery wall. She looked at the expression under the frustration: the hollow recognition of a second return, the worn certainty that the third would not come. Two soldiers were already setting up the gallery placards along the wall beside the outstretched arm, numbering the pieces in sequence. One of them brushed past the stone shoulder to reach the far bracket. The arm pointed the visitors in order along the wall. The placards followed the direction she pointed.*
 
-*"The posture is committed and the expression has more in it than frustration alone. East gallery confirmed."*
+*"The posture is committed and the expression has more in it than frustration alone. East gallery confirmed. The placard sequence follows the direction of the arm."*
 
 *She moved through the combined roster. Equipment had crumbled across all of them — weapons, armor, staves, the small possessions each one had been carrying when the convergence point closed around them. Stone remained.*
 
@@ -114,7 +114,9 @@
 
 *"Leave the camp."*
 
-*She went through the combined roster. Equipment had crumbled across all of them. Stone and posture remained.*
+*She moved to the collection wing. Each piece had been placed since the prior chapter's sweep — the wing was already in use. A soldier passing the corridor lamp raised a hand to her superior as she came through the doorway, and the gesture crossed through the light that fell from the stone arms above. She did not look up. The corridor lamp lit the corridor. The corridor lamp was the corridor lamp.*
+
+*She noted each position. The ones who had narrowed a passage. The ones who had marked a junction. The ones mid-motion when the fog found them, now set into the rest position that motion had become. Equipment had crumbled across all of them. Stone and posture remained.*
 
 *(If Eirika survived prior chapters:)*
 
@@ -172,9 +174,11 @@
 
 *She went through the combined roster. Equipment had crumbled across all of them — weapons, staves, robes. Stone and posture remained.*
 
-*She found Sophia last. Stone-clean.*
+*She found Sophia last. Stone-clean — robes gone, the slight stooped figure with the head turned and the eyes fixed on the point off the right shoulder of an empty chair.*
 
-*She looked at the sight line. She looked at what it pointed toward.*
+*She looked at the sight line. She looked at what it pointed toward. She pulled the reading chair out from the desk and sat in it, settling into the angle. The stone eyes came to rest just past her right shoulder, watching something in the middle distance behind her. She sat with it for a moment. The regard was patient and had been there well before she arrived.*
+
+*She stood.*
 
 *"She wasn't looking at us." A pause — not long. "Reading room. She watches the reader's right. This is confirmed."*
 
@@ -264,13 +268,13 @@
 
 *The stone was at Morrha's chin when the Queen arrived. The Queen did not look at her.*
 
-*She checked Marisa at the weapon display.*
+*She checked Marisa at the weapon display. The open stone hands held a blade that someone had laid across them — the lean swordswoman's two-handed cradle becoming the museum mount, the unresolved three-way choice of her last second now simply the clean and neutral pose of a thing that displays another's sword. A soldier adjusted the angle of the laid blade by a few degrees. Better. The display was good.*
 
 *"She holds what's placed in her. The display is confirmed."*
 
-*Isadora at the lamp post.*
+*Isadora at the lamp post. The plate armor had surfaced and fallen piece by formal piece; what remained was the parade-ground upright, dead straight, stone-clean. The lamp fitted into the presenting arm cast its light in a clean column down the corridor. The Queen looked at the line of the light against the wall.*
 
-*"The post has its base."*
+*"The post has its base. The corridor line is correct."*
 
 *She went through the combined survivors. Equipment had crumbled across all of them — weapons, armor, staves. Stone remained.*
 
@@ -280,7 +284,7 @@
 
 *(If Eirika survived prior chapters:)*
 
-*She found Eirika last. The guard position. The expression arrived and still. Stone-clean — no sword, no armor, only the posture and the hands. Eirika had been at the threshold of the lower stronghold when Morrha's expansion had begun; she had held the threshold for the full last turn of the chapter to give the survivors time to clear the radius. The threshold she had held was already inside the aura when the petrification took her.*
+*She found Eirika last. The guard position. The expression arrived and still. Stone-clean — no sword, no armor, only the posture and the hands. Eirika had been at the threshold of the lower stronghold when Morrha's expansion had begun; she had held the threshold to the last possible moment to give the survivors time to clear the radius. The threshold she had held was already inside the aura when the petrification took her.*
 
 *"Reception hall. Final placement. She holds what she was always holding. The chair rest of the first chapter, the threshold of the last — both are the same posture. The world has always had this seat."*
 

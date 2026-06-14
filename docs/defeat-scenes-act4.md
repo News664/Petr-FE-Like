@@ -46,7 +46,7 @@
 
 *The Queen walked the gallery corridor. The collection lined the walls.*
 
-*She checked Karla at the reading chair. The sword and armor had crumbled. The wrist held the decanter, stone-clean.*
+*She stopped at Karla at the reading chair. The sword and armor had crumbled — stone-clean, the wrist still turned at the cradling angle, the decanter settled in it. She picked up the decanter and poured a measure into a waiting glass. She set the glass on the side table. She set the decanter back into the turned stone wrist. The wrist angle held it at exactly the right tilt for a refill. The cut her brother had taught was the most efficient serving posture in the room.*
 
 *"The chair has its service. The wrist holds the decanter."*
 
@@ -138,11 +138,11 @@
 
 *The Queen walked the commander's hall. Two duty officers frozen at their posts — she passed them without comment.*
 
-*Fiora at the ceiling. The lance and armor had crumbled. The pointing arm remained, stone-clean.*
+*She looked up at Fiora. The lance and armor had crumbled; the pointing arm remained, stone-clean — the whole bearing organized around the line of that one commanding downward gesture. The briefing maps had been hung from the pointing hand: a rolled chart tied at the wrist, unrolling to show the approach lanes below. Three officers stood at the briefing table under the pointing figure. One of them looked up to check the map's orientation against the arm's direction. The direction was correct. She looked back down.*
 
 *"The briefing ceiling has its direction arm. Maps hang from her."*
 
-*L'Arachel at the banner. The robes had crumbled. The raised arm held the standard, stone-clean.*
+*L'Arachel at the banner. The ornate robes had surfaced and fallen; the raised arm held the standard, stone-clean. The hall standard hung from the lifted hand, the announcement-posture holding it at exactly the height a proclamation needs — high enough to be seen above the heads of anyone in the room. An officer entering the hall looked at the standard, read the emblem, and proceeded to her station. She had not looked at the figure holding it.*
 
 *"The standard has its holder. She announces the hall."*
 
@@ -230,11 +230,11 @@
 
 *The Queen walked the hall from entry to end. She did not pause.*
 
-*She checked Lute at the desk. The tome had detonated and crumbled entirely. The extended palms remained, stone-clean, the scattered stone pages around them.*
+*She stopped at Lute at the desk. The tome had detonated and crumbled entirely; the extended palms remained, stone-clean, the scattered stone pages around the base. A secretary had already set a working document across the flat stone palms — the desk surface was the correct height, the pages resting steady. She wrote on it. The analytical certainty on the stone face presided over her pen. The scattered blast-pages were being used as reference markers at the edges.*
 
 *"Don't clear them. She is the desk. The pages are part of it."*
 
-*Louise at the windows. The bow and armor had crumbled. The form remained, stone-clean.*
+*She moved down the hall to Louise at the windows. The bow and armor had crumbled; the form remained, stone-clean — the bow-arm at full window height, the wrist at the hook angle. The curtain was looped over the extended arm, held aside to let the afternoon light enter. She looked down the hall. Every window was dressed by an arm in the same perfect hook; hers was the cleanest angle, the technique visible in the line of the wrist.*
 
 *"She hooks each curtain. The hall is lit through her."*
 

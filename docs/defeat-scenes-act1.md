@@ -459,13 +459,13 @@
 
 ### Florina
 
-*She was on foot again — the lance held wrong, the balance arm out, trying to hold the lane with a weapon she could not use the way she had trained to use it. The Standard Gorgon took her in the stumble. A soldier said: "Lower corridor. Grab position."*
+*She was on foot again — the lance held wrong, the balance arm out, trying to hold the lane with a weapon she could not use the way she had trained to use it. The Standard Gorgon took her in the stumble. A soldier said: "Stair foot. The arm is the low rail."*
 
-*The balance arm moved to the height before the stone finished setting it. She hadn't moved it. She tried to bring the lance forward to push the Gorgon back. The lance arm answered the grab-height instead — the tip falling, the strike collapsing into the reach.*
+*The balance arm moved to the railing angle before the stone finished setting it. She hadn't moved it. She tried to bring the lance forward to push the Gorgon back. The lance arm answered the low-rail height instead — the tip dropping, the strike folding into the brace.*
 
 **Florina:** "Wait — please—"
 
-*The lance crumbled, the flight cape slipped off her shoulders and fell to dust. What was left against the lower wall was the smallest, most folded-in figure imaginable — a slight stone woman half-crouched, shoulders rounded, one arm put out and down with the hand open at the height hands grope when no one is looking up. She had spent her life trying to take up no room. The corridor granted the wish exactly: it would never raise its eyes to her face, only reach down for the low handle her hand had become, in the dark at the bottom of the wall.*
+*The lance crumbled, the flight cape slipped off her shoulders and fell to dust. What was left at the stair foot was the smallest, most folded-in figure imaginable — a slight stone woman half-crouched, shoulders rounded, one arm extending downward and outward with the wrist turned and the hand open at the height a person's grip falls naturally when they reach for a rail in the dark. She had spent her life trying to take up no room. The stair's base obliged: a thing no one looks at, only reaches for in the half-second of needing something to catch. The open stone hand waited at the bottom of the last step, for the next passing grip that would close on it and feel, briefly, steadied — and never look down to see what it had found.*
 
 ---
 
@@ -489,19 +489,23 @@
 
 *She confirmed the pieces. Equipment had crumbled across all of them — weapons, staves, bows, armor. Stone remained.*
 
+*She stopped at Serra at the junction crossroads. Both staff pieces were gone — stone-clean, both hands held apart at their two heights, palms turned up and open. A supply soldier came through while the Queen was standing there; she placed a tin cup in the lower stone hand without pausing or looking at the face above it. The junction served from both heights now.*
+
 *"The junction has two heights. Serra holds between them."*
 
-*"Rebecca marks the east corridor."*
+*She looked at Neimi at the writing station. The bow and quiver were gone. The draw arm held at desk height, the hand open to bear paper; the other curled below it as a steadying position. An officer had already folded a field dispatch and set it in the open palm, the paper resting there while she continued reading, her wrist at the height the stone hand provided. She had not looked at the face above the arm.*
 
 *"The writing station has its arm. The tears are part of it."*
 
-*"The lower corridor has its grab."*
+*"Rebecca marks the east corridor."*
+
+*"The stair foot has its rail."*
 
 *"The entry approach has its overhead."*
 
 *(If Lyn survived Side Ch2A:)*
 
-*She found Lyn at the crossroads center. The Mani Katti was already broken — she had thrown the hilt at a Stone Warden two turns ago and the blade had gone with it. She was holding two short knives she had taken from a dead enemy soldier. The wider stance was a stance she had adapted to in the past hour, when she realized the swordmaster's grip would not save anyone here.*
+*She found Lyn at the crossroads center. The Mani Katti was already broken — she had thrown the hilt at a Stone Warden earlier in the fight and the blade had gone with it. She was holding two short knives she had taken from a dead enemy soldier. The wider stance was a stance she had adapted to in the past hour, when she realized the swordmaster's grip would not save anyone here.*
 
 *The Queen stopped four paces from her.*
 
@@ -535,25 +539,25 @@
 
 ### Nino
 
-*She was trying to support the aerial engagement from the ground — both arms overhead, range pushed as far as possible, the tome at its widest output. The Aerial Gorgon came from directly above. The rider on its back said, clearly: "Entry passage ceiling. Her arms are the fixture."*
+*She was trying to support the aerial engagement from the ground — both arms overhead, range pushed as far as possible, the tome at its widest output. The Aerial Gorgon came from directly above. The rider on its back said, clearly: "Command post lamp standard. The arms are the cross-bar."*
 
-*She heard it and kept casting. The arms were already at ceiling height — every push of the cast confirmed the height. She tried to bring the arms down to redirect. The arms wouldn't lower. The cast that should have rerouted scattered against the ceiling she had become.*
+*She heard it and kept casting. The arms were already high — every push of the cast confirmed the height. She tried to bring them down to redirect. They wouldn't lower past the cross-bar level: not ceiling-high, but the level a lamp post's outstretched bracket holds. The cast that should have rerouted scattered against the horizontal hold the definition had named.*
 
 **Nino:** "I'm still — I can—"
 
-*The tome burned through to ash and the robe surfaced and fell. They hoisted the small bare stone figure up to the mount above the command entry — a child stretched to her limit overhead, both arms raised and open, the whole light body become a single upward reach near the ceiling. They fixed a lamp into the lifted hands. She hung above the command passage holding the light, her earnest little face tipped down toward the soldiers passing below, the reach that had wanted to push a spell farther now spending itself, forever, on keeping a flame at the top of a doorway.*
+*The tome burned through to ash and the robe surfaced and fell. They stood the small bare stone figure at the foot of the command post — a child stretched fully upward with both arms run out to their widest horizontal extension, the casting-stretch held at the angle of a lamp post's bracket-arms. They fitted lamp globes to each outstretched hand. She stood on the corridor floor and lit the passage from where she stood, the earnest little face tipped up toward the ceiling she had been reaching for, her reach now sending light sideways from both small arms in two bright bands across the passage rather than down from above — the command post had its floor-standing lamp standard, and the child who had wanted to push a spell farther was now only the shape that held the light at the height the passage needed.*
 
 ---
 
 ### Florina
 
-*The Standard Gorgon found her on foot, already compromised — the lance held wrong, the balance still ruined. A soldier said: "Lower corridor. Grab position."*
+*The Standard Gorgon found her on foot, already compromised — the lance held wrong, the balance still ruined. A soldier said: "Bench edge. The arm guards the front."*
 
-*The balance arm moved to the height before the stone finished. She hadn't moved it. She tried to swing the lance up to meet the Gorgon's reach. The lance arm dropped to the grab-height. The push she'd intended folded into the reach.*
+*The balance arm moved before the stone finished. She hadn't moved it. She tried to swing the lance up to meet the Gorgon's reach. The lance arm curved forward and down to the bench-front angle instead — the palm turning outward, the tip falling, the push she'd intended folding into a hold along the edge.*
 
 **Florina:** "Wait — my arm—"
 
-*The lance crumbled and the cape surfaced and fell. The bare stone left in the lower corridor was a small hunched shape pressed close to the wall, one arm extended outward with the hand open and turned, set at the exact low height a passing hand expects to find a grip. The shyness she had never grown out of had become structural: a fixture that lives down where no one looks, reached for and never regarded, the open stone hand waiting in the half-dark for the next palm that would close on it without a glance.*
+*The lance crumbled and the cape surfaced and fell. The bare stone left in the passage was a small hunched shape compressed close and low, one arm curved forward with the hand open and turned outward at the exact height of a bench edge's front guard — the bar a person's hand closes on when sitting down or pushing up, the thing that stops a seat from tipping. She had always taken up only the room she was given and no more. The passage bench asked for the same: a stone arm at the leading edge, just high enough to catch the reaching hand. The open stone palm waited there, in the half-dark, at the height where a hand finds a bench edge without thinking, closes around it, and uses it without a glance.*
 
 ---
 
@@ -599,17 +603,21 @@
 
 *"Leave the field."*
 
-*She looked up at Nino at the ceiling mount. Stone clean. No tome, no armor — only the posture.*
+*She looked at Nino at the command post. Stone clean. No tome, no armor — only the small figure with both arms run out horizontally at lamp-standard height, the globes already seated in the outstretched hands. The two bands of light fell across the passage floor at a diagonal from the position she stood in.*
 
-*"The command passage has its lamp."*
+*"The command post has its lamp standard."*
 
-*She confirmed the rest without stopping.*
+*She moved to the briefing room. Tana's figure was bowed over the table, both stone hands flat on the surface. Three officers stood around it, their dispatches spread across the stone back and shoulders. One pointed at a route; her finger rested briefly on the stone elbow to mark a coordinate. She moved the finger along the map without taking her eyes from it.*
 
-*"The briefing room has its overhead. Rebecca marks the east hook. Florina is the lower corridor grab. Vanessa is the chandelier."*
+*"The briefing room has its overhead."*
+
+*She looked up at Vanessa above the room. Two soldiers on a gantry were fitting the chandelier ring to the outstretched arms. One of them hung a plumb line from the center of the ring and waited while it settled. The bubble sat in the center. Not adjusted — simply correct. The youngest of the wing was dead level.*
+
+*"Rebecca marks the east hook. Florina is the passage bench edge. Vanessa is the chandelier. The ring is level — leave it."*
 
 *(If Lyn survived prior chapters:)*
 
-*She found Lyn in the open field — wider stance than yesterday, arms already at lamp-height before the Queen had spoken, as if the body had been preparing the position on its own. The aerial pass had broken her cover three turns ago and she had stood her ground in the open because there was nowhere to run to. Stone clean — armor, weapon, the leathers, all gone before the Queen even arrived. The petrification had moved up her body during the dive she had not survived.*
+*She found Lyn in the open field — wider stance than yesterday, arms already at lamp-height before the Queen had spoken, as if the body had been preparing the position on its own. The aerial pass had broken her cover and she had stood her ground in the open because there was nowhere to run to. Stone clean — armor, weapon, the leathers, all gone before the Queen even arrived. The petrification had moved up her body during the dive she had not survived.*
 
 *"Field post. Exterior lamp. She lights the approach."*
 
@@ -619,7 +627,7 @@
 
 *(If Eirika survived prior chapters:)*
 
-*She looked at Eirika at the command threshold — the doorway that the assault command had used as their forward post. Eirika had reached the threshold and stopped there, sword up, refusing to let any soldier pass behind her into the field where the wounded were. She had held the threshold for two turns alone. The aerial pass had passed over her without touching her — the definition had landed from the rider above, not the bolt.*
+*She looked at Eirika at the command threshold — the doorway that the assault command had used as their forward post. Eirika had reached the threshold and stopped there, sword up, refusing to let any soldier pass behind her into the field where the wounded were. She had held the threshold alone through the full length of the aerial pass. The definition had landed from the rider above, not the bolt.*
 
 *Stone clean. The guard posture at exactly threshold-width. The sword had already crumbled at her boots. The crown clip had crumbled. What remained was the posture and the width.*
 
@@ -689,11 +697,11 @@
 
 *"They were before they arrived. The world confirms this now."*
 
-*She checked Amelia in the corridor. Stone clean — lance, armor, all gone.*
+*She checked Amelia in the corridor. Stone clean — lance, armor, all gone. A soldier ahead of her reached the narrowed point in the corridor and turned sideways to pass. She did not remark on it. The passage was the correct width for one person at a time, which was how a controlled crossing worked.*
 
 *"She is the narrowing. The approach passes through her."*
 
-*Juno at the ceiling.*
+*Juno at the ceiling. The signal-wires had been run from both stone wrists and stretched the length of the hall — a web of lines running in either direction from the compact central figure. A signal-runner at the far end of the hall sent a flag-pull through the wire. The motion ran the full length and arrived at the stone wrist and stopped there, as wire-motion stops at its anchor. The anchor did not move.*
 
 *"The signal hub. The lines run from her."*
 
@@ -701,7 +709,7 @@
 
 *(If Lyn survived prior chapters:)*
 
-*She found Lyn at the crossing center. Stone clean — sword, coat, the wide stance she had grown into, all locked at the position the crossing had been waiting for. The Great Gorgon's burst had taken her in the last turn of the chapter; the definition had landed from a lieutenant on the perimeter, almost casually, the word said while watching the line of refugees who would never finish crossing. The arms were raised at full corridor extension. The face still held the line of someone trying to wave a column through.*
+*She found Lyn at the crossing center. Stone clean — sword, coat, the wide stance she had grown into, all locked at the position the crossing had been waiting for. The Great Gorgon's burst had taken her in the final moments of the crossing; the definition had landed from a lieutenant on the perimeter, almost casually, the word said while watching the line of refugees who would never finish crossing. The arms were raised at full corridor extension. The face still held the line of someone trying to wave a column through.*
 
 *"Crossing lamp. She lights both groups."*
 

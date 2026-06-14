@@ -221,13 +221,13 @@
 
 ### Mid-Chapter
 
-*The fog came from the west. It moved at a specific pace — two tiles per turn, roughly — and nothing slowed it. The enemy had not deployed it to fight. They had deployed it to herd.*
+*The fog came from the west. It moved at a specific pace — unhurried, deliberate — and nothing slowed it. The enemy had not deployed it to fight. They had deployed it to herd.*
 
-*The village to the west of the player position went still in sequence as the fog front passed through it. A field hand at the far edge. Then the row of houses — light in the windows, then no movement behind the windows. Then the road through the village center: two figures frozen mid-walk, one frozen mid-run.*
+*The village to the west went still in sequence as the fog front passed through it. A field hand at the far edge. Then the row of houses — light in the windows, then no movement behind the windows. Then the road through the village center: two figures frozen mid-walk, one frozen mid-run.*
 
-*It took four turns.*
+*The village went quiet over the space of minutes.*
 
-*By the time the fog reached the village's east edge, the village was entirely still. The fog didn't stop there — it kept moving east, toward the player's position, at the same pace. Patient. Mechanical.*
+*By the time the fog reached the village's east edge, the village was entirely still. The fog didn't stop there — it kept moving east, at the same unhurried pace. Patient. Mechanical.*
 
 *On the far side of the village, now behind the fog, enemy soldiers were already moving through the frozen figures.*
 
@@ -305,15 +305,23 @@
 
 *"Leave the terrain."*
 
-*She confirmed each piece. Equipment had crumbled across all of them. Stone and posture remained.*
+*She walked the corridor. Where Wendy stood, two soldiers ahead of her moved to pass abreast and found they could not. The gap required them to turn sideways, one behind the other, to get through. Neither commented. The narrowing was correct.*
 
 *"Wendy is the corridor wall. She narrows it."*
 
+*She reached the junction. Clarine's arm extended down the east passage, stone-clean — ringlets set hard, chin up, the pointing imperious and exact. A soldier coming in from the south hesitated at the split. She glanced at the arm and took the east passage without breaking stride. She did not look at the face.*
+
 *"Clarine directs the junction."*
 
-*"Larum lights the ceiling. Sue lights the floor."*
+*The lamp-lighters had come through ahead of her. Larum's raised hands held the ceiling lamp, lit. Sue's cupped palm held the floor candle, lit. The corridor now had two planes of light — one above eyeline and one below — and the combination filled the space without shadow pockets at the base of the wall. The Queen checked both angles.*
 
-*Cath at the door, if she was there: "The threshold has its fist."*
+*"Larum lights the ceiling. Sue lights the floor. The two heights are correct."*
+
+*Cath at the door, if she was there:*
+
+*She looked at the fist. Handle height. An officer passing through the doorway reached without thinking for the grip her hand expected at that height — her fingers closed on the stone fist, found nothing to turn, corrected, found the actual handle. She went through without looking back.*
+
+*"The threshold has its fist."*
 
 *(If Lilina survived Ch6:)*
 
@@ -483,17 +491,27 @@
 
 *"Leave them."*
 
-*She confirmed the new pieces. Equipment had crumbled across all of them. Stone and posture remained.*
+*She confirmed the new pieces.*
+
+*She stopped at Dorothy. The reading chair had been built against the angled stone spine — the seat frame tucked into the gap between the hip and the reclined back. An officer dropped into it, settling her weight into the slope. She opened a document across her knees. The stone arm lay at exactly the right height for her elbow to rest on between paragraphs; she rested it there without looking down. Stone. The recline was correct. She read.*
 
 *"Dorothy is the chair backing."*
 
-*"Thea is the chandelier."*
+*She looked up at Thea. The chandelier ring hung from both spread stone arms, suspended and motionless. A soldier climbed a ladder with a carpenter's level and held it to the ring. The bubble sat in the center. The veteran's arc — the formation bank she had held to the exact degree — spent on keeping a ring of candles from tilting, and it held the ring perfectly.*
+
+*"Thea is the chandelier. The level is correct. Do not adjust."*
+
+*Elen at the desk. Both candle cups lit — one near the shoulder, one at the waist. The surface between the two flames was evenly lit from both angles. A secretary at the desk shifted her paper slightly, chasing the better reading light from the lower candle. She did not look up from her work.*
 
 *"The desk has two heights. Elen holds them."*
 
+*She moved to Igrene. A tray of rolled dispatches had been laid on the flat of the braced thigh — the level surface holding them at exactly the height a side table serves. A soldier crouching to pick one up rested her hand briefly on the stone knee to push back upright. She felt stone and stood.*
+
 *"Igrene is the side table base."*
 
-*"Fir holds the weapon display."*
+*She looked at Fir. The open stone hands held a presentation sword someone had laid across them before she arrived — hilt to the right, blade to the left, the angle displaying clean. The relaxed two-handed cradle made the sword look offered rather than stored. The composure of the finished-exchange posture had become the composure of display. It was a good angle.*
+
+*"Fir holds the weapon display. The angle is good."*
 
 *(If Lilina survived prior chapters:)*
 
@@ -515,7 +533,7 @@
 
 ### Mid-Chapter
 
-*The Hand was on the map before the chapter began. She moved during the player's turns — not to engage, but to evaluate. She walked toward newly petrified characters and crouched beside them. She made notes.*
+*The Hand was on the map before the chapter began. She moved while the battle was active — not to engage, but to evaluate. She walked toward newly petrified characters and crouched beside them. She made notes.*
 
 *The court staff were captured in the chapter's first ten minutes. The clerk at the desk. The steward in the corridor. The door attendants. None of them had been fighting. The Hand's soldiers had swept through the residential sections of the stronghold while the main assault held the player's attention.*
 
@@ -559,7 +577,7 @@
 
 ### Tethys
 
-*A Stone Warden caught her at the peak of the performance posture — arms raised, one leg extended, the refresh-dance shaped for the whole front line. She had been trying to buy time by giving everyone another turn at once. The arms were exactly where they needed to be for the dance.*
+*A Stone Warden caught her at the peak of the performance posture — arms raised, one leg extended, the refresh-dance shaped for the whole front line. She had been trying to buy time by refreshing the whole front line at once. The arms were exactly where they needed to be for the dance.*
 
 *A soldier said: "Hall lamp standard. The raised arms hold the lights."*
 
@@ -567,7 +585,7 @@
 
 **Tethys:** "Someone will — wait—"
 
-*The performance silks surfaced and fell. The stone caught the dance at its upbeat — a graceful figure poised on one extended leg, both arms raised high and turned out, the whole body lifted into the open shape that had been about to send a refresh across the whole front line. They fitted lamps into the raised hands and stood her as the hall's lamp-standard. The motion that should have given everyone another turn at once never came down; it froze at the top, arms aloft, holding light instead of giving aid. The warmth she danced with stayed on her face, lifted toward a room of strangers, her last generous gesture spent on illuminating the people who had taken her.*
+*The performance silks surfaced and fell. The stone caught the dance at its upbeat — a graceful figure poised on one extended leg, both arms raised high and turned out, the whole body lifted into the open shape that had been about to send a refresh across the whole front line. They fitted lamps into the raised hands and stood her as the hall's lamp-standard. The motion that should have refreshed the whole line at once never came down; it froze at the top, arms aloft, holding light instead of giving aid. The warmth she danced with stayed on her face, lifted toward a room of strangers, her last generous gesture spent on illuminating the people who had taken her.*
 
 ---
 
@@ -579,17 +597,19 @@
 
 *She went to the three significant pieces.*
 
-*Cecilia at the commander's desk. The tome and armor had crumbled. The bearing posture remained, stone-clean.*
+*Cecilia at the commander's desk. The tome and armor had crumbled; the bearing posture remained, stone-clean — the tall straight spine, the head level, the weight forward. An aide was already at the desk when the Queen arrived. She had been writing for some time, seated under the oversight of the most respected military instructor in the country, and she had not remarked on this. She wrote. The bearing above her was real whether or not she acknowledged it. The Queen looked at the aide and at the desk and at the stone figure presiding over both.*
 
 *"She oversees the desk. This is confirmed."*
 
-*Guinivere at the hall's center. The Queen met the eye contact briefly. She didn't comment on it. The court robes had come off with the finalization.*
+*She moved to Guinivere at the hall's center. The court robes had crumbled; the dais raised her at exactly the height that commands a room. The Queen walked to the front of the dais and stood in the path of the fixed gaze — the eye contact Guinivere had chosen not to break, now the gaze she was incapable of breaking. The Queen stood in it for a moment. The gaze did not adjust, did not soften, did not look away. It was the most direct eye contact in the room and it would remain so.*
 
-*"She holds the room."*
+*She turned away first.*
 
-*Tethys with arms at ceiling height. The performance garments had crumbled.*
+*"She holds the room." A pause. "The dais height is correct. She meets everyone who enters."*
 
-*"The hall is lit by her."*
+*Tethys at lamp height. The performance garments had crumbled; the raised arms were stone-clean, both hands turned out and open. A lamp-lighter descended the small ladder she had used to reach the raised hands. Both globes lit. The hall brightened in two columns from the dancer's arms — the warmth that had been the whole of her performance now given as light instead, the same generous offer to the same room, from something that had once been her.*
+
+*"The hall is lit by her. The warmth is the same."*
 
 *She went through the rest quickly.*
 
